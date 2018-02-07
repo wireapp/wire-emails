@@ -1,0 +1,20 @@
+---
+subject: Your Wire Account
+---
+
+{{> en/header}}
+<container>
+  <row>
+    <columns small="12">
+      <h1>Your new account on Wire</h1>
+      <p>A new Wire team was created with <strong>${email}</strong>. Please, verify your email.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Verify</button></center>
+      <spacer size="24"></spacer>
+      <p>Click the button above to verify your address. You won’t be able to use Wire until you do.</p>
+      {{> en/link-button}}
+      {{> en/ignore}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

@@ -1,0 +1,63 @@
+.header {
+  margin-bottom: 16px;
+  p {
+    padding-top: 15px;
+    font-size: $small-font-size;
+  }
+
+  a {
+    text-transform: uppercase;
+    color: $global-font-color;
+    font-weight: 400;
+
+    &:visited {
+      color: $global-font-color;
+    }
+
+    &:hover,
+    &:active {
+      color: $black;
+    }
+  }
+
+  .logo {
+    width: 57px;
+    height: 18px;
+  }
+
+  .columns {
+    padding-bottom: 0;
+  }
+
+  .wrapper-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  p {
+    padding-left: $global-gutter;
+    padding-right: $global-gutter;
+  }
+}
+
+.footer {
+  margin-top: 32px;
+  a {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $medium-gray;
+    &:visited {
+      color: $medium-gray;
+    }
+
+    &:hover,
+    &:active {
+      color: $dark-gray;
+    }
+  }
+
+  p {
+    font-size: $small-font-size;
+    text-align: center;
+    font-weight: 400;
+  }
+}

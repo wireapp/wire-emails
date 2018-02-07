@@ -1,0 +1,10 @@
+.awspublish*
+.DS_Store
+.sass-cache
+bower_components
+config.json
+keys
+node_modules
+npm-debug.log
+package-lock.json
+yarn-error.log

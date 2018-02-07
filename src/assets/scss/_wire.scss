@@ -1,0 +1,59 @@
+// Body Styles
+body,
+html,
+.body {
+  background: $white !important;
+}
+
+hr {
+  max-width: 100%;
+  margin: $hr-margin;
+  border: $hr-border;
+  border-bottom: 0;
+}
+
+.signature {
+  border-top: $hr-border;
+  p {
+    padding-top: 32px;
+  }
+  .signature-img {
+    width: 86px !important;
+    height: 84px !important;
+  }
+}
+
+.code {
+  color: $blue;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.img-responsive {
+  max-width: 100% !important;
+}
+
+.img-small {
+  width: 224px;
+  max-width: 224px;
+  margin: 0 auto;
+}
+
+.index {
+  h5 {
+    margin-bottom: 4px;
+  }
+
+  th.menu-item {
+    padding: 0 !important;
+  }
+}
+
+table.button {
+  min-width: 192px;
+  table td {
+    text-align: center;
+  }
+}

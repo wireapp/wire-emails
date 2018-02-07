@@ -1,0 +1,15 @@
+project_identifier: wirecom
+base_path: .
+
+files:
+  -
+    source: '/src/pages/en/**/*.html'
+    translation: '/src/pages/%two_letters_code%/**/%original_file_name%'
+    type: 'html'
+    update_option: 'update_as_unapproved'
+
+  -
+    source: '/src/partials/en/**/*.html'
+    translation: '/src/partials/%two_letters_code%/**/%original_file_name%'
+    type: 'html'
+    update_option: 'update_as_unapproved'

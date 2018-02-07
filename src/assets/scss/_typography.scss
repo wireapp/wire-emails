@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: $dark-gray;
+}
+
+table.button table td a {
+  text-transform: uppercase;
+}
+
+.small {
+  font-size: $small-font-size;
+  line-height: $small-line-height;
+  margin-bottom: $small-paragraph-margin-bottom;
+}
+
+ul {
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+.text-muted {
+  color: $medium-gray;
+}
