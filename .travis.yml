@@ -8,6 +8,7 @@ notifications:
   - email: false
 
 before_script:
+  - openssl aes-256-cbc -K $encrypted_acc47f91f2ed_key -iv $encrypted_acc47f91f2ed_iv -in github_rsa.enc -out ~\/.ssh/github_rsa -d
   - yarn global add gulp-cli
 
 deploy:
@@ -15,4 +16,4 @@ deploy:
   script: yarn deploy
   skip_cleanup: true
   on:
-    branch: master
+    branch: gh-pages
