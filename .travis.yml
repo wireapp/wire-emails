@@ -8,7 +8,12 @@ notifications:
   - email: false
 
 before_script:
-  - openssl aes-256-cbc -K $encrypted_acc47f91f2ed_key -iv $encrypted_acc47f91f2ed_iv -in github_rsa.enc -out ~\/.ssh/github_rsa -d
+  - mkdir -p temp
+  - openssl aes-256-cbc -K $encrypted_acc47f91f2ed_key -iv $encrypted_acc47f91f2ed_iv -in deploy.enc -out temp/deploy -d
+  - chmod 600 temp/deploy
+  - eval `ssh-agent -s`
+  - ssh-add temp/deploy
+  - rm -rf temp
   - yarn global add gulp-cli
 
 deploy:
