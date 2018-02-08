@@ -1,6 +1,6 @@
 {
   "name": "wire-emails",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
@@ -57,6 +57,9 @@
     "yargs": "11.0.0"
   },
   "lint-staged": {
-    "*.{js,scss,md}": ["prettier --write", "git add"]
+    "*.{js,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
