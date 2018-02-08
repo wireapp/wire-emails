@@ -6,7 +6,7 @@ Templates for sending emails, based on [Foundation for Emails](https://foundatio
 
 This repository provides a local preview, so you can see what the final messages will look like.
 
-✨ [**Live Preview**](dist/) ✨
+✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
 
 ## For Designers
 
