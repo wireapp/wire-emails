@@ -4,9 +4,7 @@
 
 Templates for sending emails, based on [Foundation for Emails](https://foundation.zurb.com/emails.html).
 
-This repository provides a local preview, so you can see what the final messages will look like.
-
-✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
+Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails/dist/) for the latest ✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
 
 ## For Designers
 
@@ -16,8 +14,6 @@ This repository provides a local preview, so you can see what the final messages
 If the files are not updated automatically with the `Auto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
 To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](https://github.com/wireapp/wire-emails/tree/master/src/partials) folder.
-
-**Coming soon:** Instant preview of the templates inside the browser!
 
 ## For Engineers
 
@@ -30,9 +26,11 @@ yarn
 
 ### Start the local preview
 
-Run `yarn start` and check the results at [`localhost:3000`](http://localhost:3000).
+This repository provides a local preview, so you can see what the final messages will look like.
 
-A table of contents appears with links to each message. Click a link to display the message preview in a new tab.
+To start the preview, run `yarn start` and check the results at [`localhost:3000`](http://localhost:3000).
+
+A table of contents appears with links to each message. Click a link to display the rendered message content.
 
 ### Update
 
