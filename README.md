@@ -10,12 +10,12 @@ This repository provides a local preview, so you can see what the final messages
 
 ## For Designers
 
-* Find and edit the template in [`src/pages`](https://github.com/wireapp/wire-emails/src/pages) and commit your changes to `master`.
-* After 2-3 minutes, the files in the [`dist`](https://github.com/wireapp/wire-emails/dist) folder will be automatically re-built.
+* Find and edit the template in [`src/pages`](https://github.com/wireapp/wire-emails/tree/master/src/pages) and commit your changes to `master`.
+* After 2-3 minutes, the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder will be automatically re-built.
 
 If the files are not updated automatically with the `Auto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
-To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](https://github.com/wireapp/wire-emails/src/partials) folder.
+To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](https://github.com/wireapp/wire-emails/tree/master/src/partials) folder.
 
 **Coming soon:** Instant preview of the templates inside the browser!
 
