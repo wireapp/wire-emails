@@ -1,8 +1,12 @@
 # wire-emails
 
+[![Build Status](https://travis-ci.org/wireapp/wire-emails.svg?branch=master)](https://travis-ci.org/wireapp/wire-emails)
+
 Templates for sending emails, based on [Foundation for Emails](https://foundation.zurb.com/emails.html).
 
 This repository provides a local preview, so you can see what the final messages will look like.
+
+✨ [**Live Preview**](dist/) ✨
 
 ## For Designers
 
