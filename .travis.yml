@@ -8,6 +8,8 @@ notifications:
   - email: false
 
 before_script:
+  - git config --global user.email webapp+travis@wire.com
+  - git config --global user.name "Wire Travis CI"
   - mkdir -p temp
   - openssl aes-256-cbc -K $encrypted_acc47f91f2ed_key -iv $encrypted_acc47f91f2ed_iv -in deploy.enc -out temp/deploy -d
   - chmod 600 temp/deploy
