@@ -10,12 +10,12 @@ This repository provides a local preview, so you can see what the final messages
 
 ## For Designers
 
-* Find and edit the template in [`src/pages`](/src/pages) and commit your changes to `master`.
-* After 2-3 minutes, the files in the [`dist`](dist) folder will be automatically re-built.
+* Find and edit the template in [`src/pages`](https://github.com/wireapp/wire-emails/src/pages) and commit your changes to `master`.
+* After 2-3 minutes, the files in the [`dist`](https://github.com/wireapp/wire-emails/dist) folder will be automatically re-built.
 
-If the files are not updated automatically with the `Auto build` commit message, check the [commit list](/../../commits/master) for possible errors.
+If the files are not updated automatically with the `Auto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
-To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](/src/partials) folder.
+To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](https://github.com/wireapp/wire-emails/src/partials) folder.
 
 **Coming soon:** Instant preview of the templates inside the browser!
 
@@ -52,4 +52,4 @@ Run `yarn translate` to sync the translations with Crowdin.
 
 When commiting to `master` emails will be generated automatically via Travis CI and visible after a few minutes with the `Auto build` message in the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Auto build` will indicate an error as seen from the sreenshot below:
 
-<img width="317" alt="screen shot 2018-01-26 at 12 11 06" src="https://user-images.githubusercontent.com/125676/35437305-0d16b15c-0292-11e8-802a-e09242472bf8.png">
+<img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/125676/35437305-0d16b15c-0292-11e8-802a-e09242472bf8.png">

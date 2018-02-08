@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "gulp build --production && yarn text",
-    "deploy": "git checkout master && yarn build && (git add . && git commit -m 'Auto build' && npm version patch && git push git@github.com:wireapp/wire-emails.git master || true)",
+    "deploy": "bin/deploy.sh",
     "precommit": "lint-staged",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,json}\"",
     "start": "gulp",
@@ -57,9 +57,6 @@
     "yargs": "11.0.0"
   },
   "lint-staged": {
-    "*.{js,scss,md}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,scss,md}": ["prettier --write", "git add"]
   }
 }
