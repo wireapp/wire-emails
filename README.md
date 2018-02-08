@@ -9,9 +9,9 @@ Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails
 ## For Designers
 
 * Find and edit the template in [`src/pages`](https://github.com/wireapp/wire-emails/tree/master/src/pages) and commit your changes to `master`.
-* After 2-3 minutes, the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder will be automatically re-built.
+* After 2-3 minutes, Otto will re-build the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder.
 
-If the files are not updated automatically with the `Auto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
+If the files are not updated Otto-matically with the `Otto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
 To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials`](https://github.com/wireapp/wire-emails/tree/master/src/partials) folder.
 
@@ -46,8 +46,8 @@ Run `yarn build` to inline your CSS into your HTML along with the rest of the bu
 
 Run `yarn translate` to sync the translations with Crowdin.
 
-### Auto builds
+### Otto builds
 
-When commiting to `master` emails will be generated automatically via Travis CI and visible after a few minutes with the `Auto build` message in the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Auto build` will indicate an error as seen from the sreenshot below:
+When you commit to `master`, Otto will tell Travis to generate the new email templates and add an `Otto build` message to the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Otto build` will indicate an error as seen in the sreenshot below:
 
 <img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/125676/35437305-0d16b15c-0292-11e8-802a-e09242472bf8.png">
