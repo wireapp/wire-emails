@@ -233,18 +233,6 @@ a {
   a:visited {
     color: #2391d3; }
 
-span.preheader {
-  display: none !important;
-  visibility: hidden;
-  mso-hide: all !important;
-  font-size: 1px;
-  color: #e9edf0;
-  line-height: 1px;
-  max-height: 0px;
-  max-width: 0px;
-  opacity: 0;
-  overflow: hidden; }
-
 table.button {
   width: auto;
   margin: 0 0 16px 0;
