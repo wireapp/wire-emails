@@ -22,7 +22,7 @@ const EMAIL = yargs.argv.to;
 let paniniInstance;
 
 // Build the "dist" folder by running all of the below tasks
-gulp.task('build', gulp.series(clean, pages, sass, images, inline));
+gulp.task('build', gulp.series(clean, pages, sass, inline));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default', gulp.series('build', server, watch));
@@ -65,14 +65,6 @@ function sass() {
     .pipe(gulp.dest('dist/css'));
 }
 
-// Copy and compress images
-function images() {
-  return gulp
-    .src(['src/assets/img/**/*', '!src/assets/img/archive/**/*'])
-    .pipe($.imagemin())
-    .pipe(gulp.dest('./dist/assets/img'));
-}
-
 // Inline CSS and minify HTML
 function inline() {
   return gulp
@@ -97,7 +89,6 @@ function watch() {
   gulp
     .watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'])
     .on('all', gulp.series(sass, pages, inline, browser.reload));
-  gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
 }
 
 // Inlines CSS into HTML, adds media query CSS into the <style> tag of the email, and compresses the HTML
