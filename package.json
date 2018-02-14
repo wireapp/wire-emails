@@ -11,7 +11,9 @@
     "start": "gulp",
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
-    "translate": "python trans.py && yarn build"
+    "translate:download": "node bin/translations-download.js && yarn build",
+    "translate:upload": "node bin/translations-upload.js",
+    "translate": "yarn translate:upload && yarn translate:download"
   },
   "dependencies": {
     "foundation-cli": "2.2.5",
