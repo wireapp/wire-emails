@@ -78,7 +78,7 @@ def process_dir(directory, filename):
   return True
 
 
-def dirGenerator():
+def dir_generator():
   for filename in os.listdir(pages_dir):
     yield (pages_dir, filename)
 
@@ -86,6 +86,6 @@ def dirGenerator():
     yield (partials_dir, filename)
 
 
-for directory, filename in dirGenerator():
+for directory, filename in dir_generator():
   if process_dir(directory, filename):
     apply_mapping(directory, filename)
