@@ -48,36 +48,45 @@ crowdin_yaml = os.path.join(root, 'keys', 'crowdin.yaml')
 pages_dir = os.path.join(root, 'src', 'pages')
 partials_dir = os.path.join(root, 'src', 'partials')
 os.chdir(root)
-# os.system('crowdin --identity=%s upload sources' % crowdin_yaml)
+os.system('crowdin --identity=%s upload sources' % crowdin_yaml)
 os.system('crowdin --identity=%s download' % crowdin_yaml)
 
 
 def apply_mapping(directory, filename):
+  if filename in LANGUAGE_MAPPINGS and filename == LANGUAGE_MAPPINGS[filename]:
+    return
+
   if filename in LANGUAGE_MAPPINGS:
     source = os.path.join(directory, filename)
     dest = os.path.join(directory, LANGUAGE_MAPPINGS[filename])
-    print 'apply', source, dest
+    if not os.path.exists(source):
+      return
+
     if os.path.exists(dest):
-      print 'rmtree', dest
       shutil.rmtree(dest)
+
     shutil.move(source, dest)
 
 
 def process_dir(directory, filename):
   full_path = os.path.join(directory, filename)
   if filename not in IGNORE:
-    if not os.path.isfile(full_path):
-      print 'Removing unsupported locale "{}{}"'.format(directory, filename)
+    if os.path.exists(full_path) and os.path.isdir(full_path):
+      print 'Removing unsupported locale', directory, filename
       shutil.rmtree(full_path)
-    return False
+      return False
   return True
 
 
-# Main
-# for filename in os.listdir(pages_dir):
-#   if process_dir(pages_dir, filename):
-#     apply_mapping(pages_dir, filename)
+def dirGenerator():
+  for filename in os.listdir(pages_dir):
+    yield (pages_dir, filename)
 
-for filename in os.listdir(partials_dir):
-  if process_dir(partials_dir, filename):
-    apply_mapping(partials_dir, filename)
+  for filename in os.listdir(partials_dir):
+    print 'yield', partials_dir, filename
+    yield (partials_dir, filename)
+
+
+for directory, filename in dirGenerator():
+  if process_dir(directory, filename):
+    apply_mapping(directory, filename)

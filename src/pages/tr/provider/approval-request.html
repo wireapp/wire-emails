@@ -1,0 +1,25 @@
+---
+subject: "Approval Request: Wire Service Provider"
+---
+
+{{> en/header}}
+<container>
+  <row>
+    <columns small="12">
+      <h1>Approval request</h1>
+      <p>Yeni bir Wire servis sağlayıcısı kayıt oldu ve onay bekliyor. Lütfen aşağıda verilen bilgileri inceleyin.</p>
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>E-mail:</strong> ${email}</p>
+      <p><strong>Website:</strong> ${url}</p>
+      <p><strong>Description:</strong> ${description}</p>
+      <p>Eğer istek gerçek gibi görünüyorsa sağlayıcı aşağıdaki butona tıklayarak onaylayabilirsiniz. Once approved, the provider will be able to sign in and start registering services that Wire users can add to their conversations.</p>
+      <p>İstek şüpheli görünüyorsa, devam etmeden önce lütfen açıklamalar için sağlayıcıyla temasa geçin.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Approve</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
