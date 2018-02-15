@@ -83,7 +83,6 @@ def dirGenerator():
     yield (pages_dir, filename)
 
   for filename in os.listdir(partials_dir):
-    print 'yield', partials_dir, filename
     yield (partials_dir, filename)
 
 
