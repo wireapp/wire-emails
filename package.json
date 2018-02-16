@@ -11,7 +11,10 @@
     "start": "gulp",
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
-    "translate": "python bin/translate.py"
+    "translate": "yarn translate:upload && translate:download && python bin/translate.py",
+    "translate:download": "crowdin --identity=keys/crowdin.yaml download",
+    "translate:process": "python bin/translate.py",
+    "translate:upload": "crowdin --identity=keys/crowdin.yaml upload sources"
   },
   "dependencies": {
     "foundation-cli": "2.2.5",

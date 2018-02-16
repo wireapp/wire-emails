@@ -44,12 +44,9 @@ LANGUAGE_MAPPINGS = {
 IGNORE = list(set([k for k in LANGUAGE_MAPPINGS] + [LANGUAGE_MAPPINGS[k] for k in LANGUAGE_MAPPINGS]))
 
 root = os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir)
-crowdin_yaml = os.path.join(root, 'keys', 'crowdin.yaml')
 pages_dir = os.path.join(root, 'src', 'pages')
 partials_dir = os.path.join(root, 'src', 'partials')
 os.chdir(root)
-os.system('crowdin --identity=%s upload sources' % crowdin_yaml)
-os.system('crowdin --identity=%s download' % crowdin_yaml)
 
 
 def apply_mapping(directory, filename):
