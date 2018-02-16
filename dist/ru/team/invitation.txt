@@ -1,0 +1,18 @@
+TEAM INVITATION
+${inviter} has invited you to join a team on Wire. Click the button below to
+accept the invitation.
+
+Принять приглашение [${url}]If you can’t click the button, copy and paste this
+link to your browser:
+
+${url}
+
+If you have any questions, please contact us
+[https://support.wire.com/hc/en-us/requests/new].
+
+
+--------------------------------------------------------------------------------
+
+Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
+[misuse@wire.com]
+© WIRE SWISS GmbH. ALL RIGHTS RESERVED.

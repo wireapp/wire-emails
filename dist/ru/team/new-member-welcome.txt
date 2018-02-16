@@ -1,0 +1,21 @@
+ДОБРО ПОЖАЛОВАТЬ В ${TEAM_NAME}
+You have just joined a team called ${team_name} on Wire with ${email}.
+
+
+--------------------------------------------------------------------------------
+
+Wire сочетает в себе надежное шифрование, богатый набор функций и простоту
+использования в одном приложении, как никогда раньше. Поддерживает все
+популярные платформы.
+
+Загрузить Wire [https://wire.com/download/]If you have any questions, please contact us
+[https://support.wire.com/hc/en-us/requests/new].
+
+Team ID: ${teamid}
+
+
+--------------------------------------------------------------------------------
+
+Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
+[misuse@wire.com]
+© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
