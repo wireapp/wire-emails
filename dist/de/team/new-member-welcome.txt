@@ -4,8 +4,9 @@ You have just joined a team called ${team_name} on Wire with ${email}.
 
 --------------------------------------------------------------------------------
 
-Wire combines strong encryption, a rich feature set and ease-of-use in one app
-like never before. Works on all popular platforms.
+Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
+einfacher Bedienung in einer einzigen App. Funktioniert auf allen gängigen
+Plattformen.
 
 Download Wire [https://wire.com/download/]If you have any questions, please contact us
 [https://support.wire.com/hc/en-us/requests/new].

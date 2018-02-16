@@ -1,4 +1,4 @@
-TEAM INVITATION
+TEAM EINLADUNG
 ${inviter} has invited you to join a team on Wire. Click the button below to
 accept the invitation.
 

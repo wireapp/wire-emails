@@ -1,13 +1,14 @@
-VERIFY YOUR EMAIL
-Your email address ${email} was used to register as a Wire service provider.
+BESTÄTIGE DEINE E-MAIL-ADRESSE
+Deine E-Mail-Adresse ${email} wurde benutzt, um sich als Wire Serviceanbieter zu
+registrieren.
 
 To complete the registration, it is necessary that you verify your e-mail
 address by clicking on the button below.
 
-Bitte beachte, dass das Service-Provider-Konto nach der Bestätigung der
-E-Mail-Adresse noch durch uns freigeschaltet werden muss. Dies erfolgt
-üblicherweise innerhalb von 24 Stunden. Über die Freischaltung wirst du per
-E-Mail informiert.
+Please note that upon successful verification of your e-mail, your Wire service
+provider account is still subject to approval through our staff, which usually
+happens within 24 hours. You will be informed of the approval via a separate
+e-mail.
 
 Verify [${url}]If you can’t click the button, copy and paste this link to your
 browser:
