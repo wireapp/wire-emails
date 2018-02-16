@@ -1,14 +1,13 @@
-УДАЛИТЬ АККАУНТ
-Мы получили запрос на удаление вашего аккаунта в Wire. Нажмите кнопку ниже в
-течение 10 минут, чтобы удалить все ваши разговоры с их содержанием и ваши
-соединения.
+DELETE YOUR ACCOUNT
+We’ve received a request to delete your Wire account. Click the button below
+within 10 minutes to delete all your conversations, content and connections.
 
-Удалить аккаунт [${url}]Если вы не можете нажать кнопку, скопируйте и вставьте
-эту ссылку в свой браузер:
+Delete account [${url}]If you can’t click the button, copy and paste this link
+to your browser:
 
 ${url}
 
-Если вы не запрашивали это, сбросьте ваш пароль
+If you didn’t request this, reset your password
 [https://account.wire.com/forgot/].
 
 If you have any questions, please contact us
@@ -17,6 +16,5 @@ If you have any questions, please contact us
 
 --------------------------------------------------------------------------------
 
-Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
-[misuse@wire.com]
+Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
 © WIRE SWISS GmbH. ALL RIGHTS RESERVED.
