@@ -1,27 +1,16 @@
-VERIFY YOUR EMAIL
-Your email address ${email} was used to register as a Wire service provider.
+PANINI ERROR
+src/pages/et/provider/activation.html
 
-To complete the registration, it is necessary that you verify your e-mail
-address by clicking on the button below.
+The partial en/header could not be found
 
-Please note that upon successful verification of your e-mail, your Wire service
-provider account is still subject to approval through our staff, which usually
-happens within 24 hours. You will be informed of the approval via a separate
-e-mail.
-
-Verify [${url}]If you can’t click the button, copy and paste this link to your
-browser:
-
-${url}
-
-If you didn’t register for a Wire service provider account using this e-mail
-address, you can safely ignore this message. If you want to report abuse of your
-e-mail address, please contact us. [https://support.wire.com/hc/requests/new]
-
-Please don’t reply to this message.
-
-
---------------------------------------------------------------------------------
-
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+STACK TRACE:
+Object.invokePartial (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:281:11)
+Object.invokePartialWrapper [as invokePartial] (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:68:39)
+Object.eval [as main] (eval at createFunctionContext (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:12:28)
+main (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:175:32)
+ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:178:12)
+ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:526:21)
+HandlebarsEngine.render (/home/travis/build/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:95:14)
+pages.map.page (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:176:19)
+Array.map (<anonymous>)
+Panini.build (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:169:23)
