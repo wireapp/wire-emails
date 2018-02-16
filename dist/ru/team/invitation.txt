@@ -2,7 +2,7 @@ TEAM INVITATION
 ${inviter} has invited you to join a team on Wire. Click the button below to
 accept the invitation.
 
-Accept invitation [${url}]If you can’t click the button, copy and paste this
+Принять приглашение [${url}]If you can’t click the button, copy and paste this
 link to your browser:
 
 ${url}

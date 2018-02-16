@@ -1,9 +1,9 @@
 ПОДТВЕРДИТЕ ВАШ EMAIL
-${email} was registered as your new email address on Wire. Click the button
-below to verify your address.
+${email} был зарегистрирован в качестве нового адреса электронной почты Wire.
+Нажмите кнопку ниже, чтобы подтвердить свой адрес.
 
-Verify [${url}]If you can’t click the button, copy and paste this link to your
-browser:
+Подтвердить [${url}]If you can’t click the button, copy and paste this link to
+your browser:
 
 ${url}
 
