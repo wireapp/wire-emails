@@ -38,7 +38,7 @@ LANGUAGE_MAPPINGS = {
   'sv-SE': 'sv',
   'tr-TR': 'tr',
   'uk-UA': 'uk',
-  'zh-TW': 'zh',
+  'zh-TW': 'zh-TW',
 }
 
 IGNORE = list(set([k for k in LANGUAGE_MAPPINGS] + [LANGUAGE_MAPPINGS[k] for k in LANGUAGE_MAPPINGS]))
