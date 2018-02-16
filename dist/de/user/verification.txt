@@ -1,4 +1,4 @@
-VERIFY YOUR EMAIL
+BESTÄTIGE DEINE E-MAIL-ADRESSE
 ${email} was used to register on Wire.
 Enter this code to verify your email and create your account.
 

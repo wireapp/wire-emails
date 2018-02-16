@@ -1,13 +1,13 @@
-YOUR NEW TEAM
+DEIN NEUES TEAM
 You have just created a team called ${team_name} on Wire with ${email}.
 
-Your 30–day free trial starts today.
+Deine 30-tägige Testversion beginnt heute.
 
 
 --------------------------------------------------------------------------------
 
-Wire combines strong encryption, a rich feature set and ease-of-use in one app
-like never before.
+Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
+einfacher Bedienung in einer einzigen App.
 
 Invite Your Teammates [https://teams.wire.com/login/]If you have any questions,
 please contact us [https://support.wire.com/hc/en-us/requests/new].

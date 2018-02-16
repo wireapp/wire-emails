@@ -11,9 +11,10 @@
     "start": "gulp",
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
-    "translate:download": "node bin/translations-download.js && yarn build",
-    "translate:upload": "node bin/translations-upload.js",
-    "translate": "yarn translate:upload && yarn translate:download"
+    "translate": "yarn translate:upload && translate:download && python bin/translate.py",
+    "translate:download": "crowdin --identity=keys/crowdin.yaml download",
+    "translate:process": "python bin/translate.py",
+    "translate:upload": "crowdin --identity=keys/crowdin.yaml upload sources"
   },
   "dependencies": {
     "foundation-cli": "2.2.5",
@@ -59,9 +60,6 @@
     "yargs": "11.0.0"
   },
   "lint-staged": {
-    "*.{js,scss,md}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,scss,md}": ["prettier --write", "git add"]
   }
 }

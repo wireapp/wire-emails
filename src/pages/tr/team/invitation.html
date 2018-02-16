@@ -1,0 +1,19 @@
+---
+subject: You have been invited to join a team on Wire
+---
+
+{{> en/header}}
+<container>
+  <row>
+    <columns small="12">
+      <h1>Takım daveti</h1>
+      <p><strong>${inviter}</strong> has invited you to join a team on Wire. Click the button below to accept the invitation.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Accept invitation</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
