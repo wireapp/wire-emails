@@ -1,16 +1,31 @@
-PANINI ERROR
-src/pages/it/provider/approval-request.html
+APPROVAL REQUEST
+A new Wire service provider has registered and is awaiting approval. Please
+review the information provided below.
 
-The partial en/header could not be found
+Name: ${name}
 
-STACK TRACE:
-Object.invokePartial (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:281:11)
-Object.invokePartialWrapper [as invokePartial] (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:68:39)
-Object.eval [as main] (eval at createFunctionContext (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:12:28)
-main (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:175:32)
-ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:178:12)
-ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:526:21)
-HandlebarsEngine.render (/home/travis/build/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:95:14)
-pages.map.page (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:176:19)
-Array.map (<anonymous>)
-Panini.build (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:169:23)
+E-mail: ${email}
+
+Website: ${url}
+
+Description: ${description}
+
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that Wire users can add to their conversations.
+
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
+
+Approve [${url}]If you can’t click the button, copy and paste this link to your
+browser:
+
+${url}
+
+Please don’t reply to this message.
+
+
+--------------------------------------------------------------------------------
+
+Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
+© WIRE SWISS GmbH. ALL RIGHTS RESERVED.

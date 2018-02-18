@@ -1,16 +1,19 @@
-PANINI ERROR
-src/pages/tr/user/new-device.html
+YENI CIHAZ
+Wire hesabınız daha önce şurada kullanılmış:
 
-The partial en/header could not be found
+${date}
 
-STACK TRACE:
-Object.invokePartial (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:281:11)
-Object.invokePartialWrapper [as invokePartial] (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:68:39)
-Object.eval [as main] (eval at createFunctionContext (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:254:23), <anonymous>:12:28)
-main (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:175:32)
-ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:178:12)
-ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:526:21)
-HandlebarsEngine.render (/home/travis/build/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:95:14)
-pages.map.page (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:176:19)
-Array.map (<anonymous>)
-Panini.build (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:169:23)
+${model}
+
+Wire'ı yeni bir cihaz üzerine yüklemiş olabilir ya da mevcut cihazınıza tekrar
+yüklemiş olabilirsiniz. If that was not the case, go to Wire Settings, remove
+the device and reset your password [https://account.wire.com/forgot/].
+
+If you have any questions, please contact us
+[https://support.wire.com/hc/en-us/requests/new].
+
+
+--------------------------------------------------------------------------------
+
+Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
+© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
