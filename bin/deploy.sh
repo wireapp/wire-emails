@@ -1,4 +1,5 @@
 git checkout master \
+&& yarn translate:download \
 && yarn build \
 && ( \
   git add . \

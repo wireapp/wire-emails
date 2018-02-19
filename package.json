@@ -12,7 +12,7 @@
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
     "translate": "yarn translate:upload && yarn translate:download",
-    "translate:download": "crowdin --identity=keys/crowdin.yaml download && yarn translate:process",
+    "translate:download": "crowdin download && yarn translate:process",
     "translate:process": "python bin/translate.py",
     "translate:upload": "crowdin --identity=keys/crowdin.yaml upload sources"
   },
