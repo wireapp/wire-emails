@@ -41,7 +41,7 @@ LANGUAGE_MAPPINGS = {
   'zh-TW': 'zh-TW',
 }
 
-IGNORE = list(set([k for k in LANGUAGE_MAPPINGS] + [LANGUAGE_MAPPINGS[k] for k in LANGUAGE_MAPPINGS]))
+IGNORE = list(set(LANGUAGE_MAPPINGS.keys() + LANGUAGE_MAPPINGS.values()))
 
 root = os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir)
 pages_dir = os.path.join(root, 'src', 'pages')
