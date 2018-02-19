@@ -2,12 +2,12 @@
 ${email} был зарегистрирован в качестве нового адреса электронной почты Wire.
 Нажмите кнопку ниже, чтобы подтвердить свой адрес.
 
-Подтвердить [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Подтвердить [${url}]Если вы не можете нажать кнопку, скопируйте и вставьте эту
+ссылку в свой браузер:
 
 ${url}
 
-If you have any questions, please contact us
+Если у вас есть вопросы, пожалуйста, свяжитесь с нами
 [https://support.wire.com/hc/en-us/requests/new].
 
 

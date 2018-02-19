@@ -22,7 +22,7 @@ browser:
 
 ${url}
 
-Please don’t reply to this message.
+Bitte antworte nicht auf diese E-Mail.
 
 
 --------------------------------------------------------------------------------
