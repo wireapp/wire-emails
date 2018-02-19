@@ -17,7 +17,8 @@ before_script:
   - ssh-add temp/deploy
   - rm -rf temp
   - yarn global add gulp-cli
-  - gem install crowdin-cli
+  - wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
+  - sudo dpkg -i crowdin.deb
 
 deploy:
   provider: script
@@ -28,4 +29,5 @@ deploy:
 
 env:
   global:
+    # CROWDIN_API_KEY
     secure: JBrH0XRXPek+cGDs3mPcT5kmheL7hcvWaRgoZpyhGckJfvqCyrMLVTe6Cvvo1p/gAHsso4orDlH99z5V9lxrRRqJuZy5+6Z0OokrHpU/1Wa+qxjbrHvsc2+vVAe5vFHb0GkqJM1RTxs6MAtx/2P7+ILd0tuWPuGLN1ngRn9Snrn/BvqHvFUitAhShO3Fl4zrW4HPoNvHLTcJ93o36sGFftOtk0699DAZfgUGwcKLKKIO51gWYBCRREK3O8ciLQhbjWO0OcIGWpdrIH0w9fzxq8rPdPqG2NS7LvjSZccyP18gCsPWsZ8uYUjzzndwuALzSgCOXhu2rxtyKKUJQjfLWbnhllftziFuQBbE1tDzXnzoKZVuOoJrO8Kmk2TPw+N+lI4f3FXLU+WOpJxpv6pmZJiXy8tog7NP3O8e1crLvQ0PsMC6qvKAsB/QZIPmCM9ND5PZmzWZ3DY0ly7ax5pQyg8uMW3x9puOs0B+qLdCLvf6e4nri35uqBXOilN39/gj1gQq4F6l1ZX4rFN4hUJtMQf8bYocZVYOqpMPRK/qJQK8hxHsnVy+zmFWaJ70gfoygLeYUtEfPrD560Wpui6zO7gHnNdbazp8Fc0WfGSJ2sDc3RFWLVnB1EKm5+Chb+OiccE14BJVOdLdbSn8drPHoC38xqS1Ef6KAAlfRpfLG14=
