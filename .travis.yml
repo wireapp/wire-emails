@@ -20,6 +20,9 @@ before_script:
   - wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
   - sudo dpkg -i crowdin.deb
 
+script:
+   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then yarn translate:upload; fi'
+
 deploy:
   provider: script
   script: yarn deploy
