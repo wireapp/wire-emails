@@ -9,8 +9,8 @@ provider account is still subject to approval through our staff, which usually
 happens within 24 hours. You will be informed of the approval via a separate
 e-mail.
 
-Verify [${url}]If you can’t click the button, copy and paste this link to your
-browser:
+Verify [${url}]Если вы не можете нажать кнопку, скопируйте и вставьте эту ссылку
+в свой браузер:
 
 ${url}
 
@@ -18,10 +18,11 @@ If you didn’t register for a Wire service provider account using this e-mail
 address, you can safely ignore this message. If you want to report abuse of your
 e-mail address, please contact us. [https://support.wire.com/hc/requests/new]
 
-Please don’t reply to this message.
+Пожалуйста, не отвечайте на это сообщение.
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
+Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
+[misuse@wire.com]
 © WIRE SWISS GmbH. ALL RIGHTS RESERVED.
