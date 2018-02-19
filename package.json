@@ -14,7 +14,7 @@
     "translate": "yarn translate:upload && yarn translate:download",
     "translate:download": "crowdin download && yarn translate:process",
     "translate:process": "python bin/translate.py",
-    "translate:upload": "crowdin --identity=keys/crowdin.yaml upload sources"
+    "translate:upload": "crowdin upload sources"
   },
   "dependencies": {
     "foundation-cli": "2.2.5",
