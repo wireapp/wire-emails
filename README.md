@@ -19,6 +19,8 @@ To update shared text modules like headers, footers or signatures, edit the corr
 
 ### Installation
 
+Install [Yarn](https://yarnpkg.com/lang/en/docs/install/), clone this repo and do the following from the root:
+
 ```bash
 yarn add global foundation-cli
 yarn
