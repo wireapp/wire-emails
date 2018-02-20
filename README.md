@@ -42,9 +42,9 @@ If not, make sure the local preview server is running or check the console for e
 
 Run `yarn build` to inline your CSS into your HTML along with the rest of the build process.
 
-### Translate
+### Translations
 
-Run `yarn translate` to sync the translations with Crowdin.
+All the translations are located in [Crowdin](https://crowdin.com/project/wire-launch). On every pull request the new sources are uploaded to Crowdin and once they are merged to `master` the translations are downloaded automatically into the project.
 
 ### Otto builds
 
