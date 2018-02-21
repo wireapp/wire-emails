@@ -1,15 +1,15 @@
 ВАША КОМАНДА БЫЛА ЗАБЛОКИРОВАНА
-Your account for the ${teamName} team has been suspended.
+Учетная запись вашей команды ${teamName} была приостановлена.
 
-Reason: ${reason}.
+Причина: ${reason}.
 
 ${caption} [${url}]Если вы не можете нажать кнопку, скопируйте и вставьте эту
 ссылку в свой браузер:
 
 ${url}
 
-If you don’t reactivate your account, conversation history for the team and all
-its members will be deleted.
+Если вы повторно не активируете свою учетную запись, история разговоров команды
+и всех ее участников будет удалена.
 
 Если у вас есть вопросы, пожалуйста, свяжитесь с нами
 [https://support.wire.com/hc/en-us/requests/new].
