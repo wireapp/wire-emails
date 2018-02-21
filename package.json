@@ -12,9 +12,9 @@
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
     "translate": "yarn translate:upload && yarn translate:download",
-    "translate:download": "crowdin download && yarn translate:process",
-    "translate:process": "python bin/translate.py",
-    "translate:upload": "crowdin upload sources"
+    "translate:download": "crowdin-cli download && yarn translate:process",
+    "translate:process": "node bin/translate.js",
+    "translate:upload": "crowdin-cli upload sources"
   },
   "dependencies": {
     "foundation-cli": "2.2.5",
