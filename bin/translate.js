@@ -81,9 +81,7 @@ function renameLocaleDirectory(directory, filename) {
   }
 }
 
-const allDirectories = getDirectories(pagesDir).concat(getDirectories(partialsDir));
-
-for ([directory, filename] of allDirectories) {
+for ([directory, filename] of getDirectories(pagesDir).concat(getDirectories(partialsDir))) {
   if (checkLocaleDirectory(directory, filename)) {
     renameLocaleDirectory(directory, filename);
   }
