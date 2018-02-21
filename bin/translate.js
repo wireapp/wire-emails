@@ -54,8 +54,6 @@ function getDirectories(directory) {
   return result;
 }
 
-const allDirectories = getDirectories(pagesDir).concat(getDirectories(partialsDir));
-
 function checkLocaleDirectory(directory, filename) {
   fullPath = path.join(directory, filename);
   if (!IGNORE.includes(filename)) {
@@ -72,21 +70,20 @@ function renameLocaleDirectory(directory, filename) {
   if (filename in LANGUAGE_MAPPINGS && filename == LANGUAGE_MAPPINGS[filename]) {
     return;
   }
-
   if (filename in LANGUAGE_MAPPINGS) {
     source = path.join(directory, filename);
     dest = path.join(directory, LANGUAGE_MAPPINGS[filename]);
     if (!fs.existsSync(source)) {
       return;
     }
-
     if (fs.existsSync(dest)) {
       fs.removeSync(dest);
     }
-
     fs.moveSync(source, dest);
   }
 }
+
+const allDirectories = getDirectories(pagesDir).concat(getDirectories(partialsDir));
 
 for ([directory, filename] of allDirectories) {
   if (checkLocaleDirectory(directory, filename)) {
