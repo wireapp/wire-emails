@@ -56,7 +56,7 @@ function getDirectories(directory) {
 
 const allDirectories = getDirectories(pagesDir).concat(getDirectories(partialsDir));
 
-function processDir(directory, filename) {
+function checkLocaleDirectory(directory, filename) {
   fullPath = path.join(directory, filename);
   if (!IGNORE.includes(filename)) {
     if (fs.lstatSync(fullPath).isDirectory()) {
@@ -68,7 +68,7 @@ function processDir(directory, filename) {
   return true;
 }
 
-function applyMapping(directory, filename) {
+function renameLocaleDirectory(directory, filename) {
   if (filename in LANGUAGE_MAPPINGS && filename == LANGUAGE_MAPPINGS[filename]) {
     return;
   }
@@ -89,7 +89,7 @@ function applyMapping(directory, filename) {
 }
 
 for ([directory, filename] of allDirectories) {
-  if (processDir(directory, filename)) {
-    applyMapping(directory, filename);
+  if (checkLocaleDirectory(directory, filename)) {
+    renameLocaleDirectory(directory, filename);
   }
 }
