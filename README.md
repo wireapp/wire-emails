@@ -17,12 +17,24 @@ To update shared text modules like headers, footers or signatures, edit the corr
 
 ## For Engineers
 
+We recommend you set up the `wire-emails` repo to run locally on your computer so you can verify your changes before pushing them to the live site.
+
+The instructions below assume you're on a Mac with [Homebrew](http://brew.sh) installed.
+
 ### Installation
 
-```bash
-yarn add global foundation-cli
-yarn
-```
+1. Install the [yarn](https://yarnpkg.com) JavaScript package manager via Homebrew:
+
+   ```sh
+   brew install yarn
+   ```
+
+2. Clone this repository and run `yarn` from the root directory of your clone to install the necessary dependencies:
+
+   ```sh
+   yarn add global foundation-cli
+   yarn
+   ```
 
 ### Start the local preview
 
@@ -50,4 +62,4 @@ Run `yarn translate` to sync the translations with Crowdin.
 
 When you commit to `master`, Otto will tell Travis to generate the new email templates and add an `Otto build` message to the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Otto build` will indicate an error as seen in the sreenshot below:
 
-<img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/125676/35437305-0d16b15c-0292-11e8-802a-e09242472bf8.png">
+<img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/129995/36435445-ff5e85a6-1661-11e8-9e22-b1d2420e78f1.png">
