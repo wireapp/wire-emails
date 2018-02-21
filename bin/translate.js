@@ -56,12 +56,10 @@ function getDirectories(directory) {
 
 function checkLocaleDirectory(directory, filename) {
   fullPath = path.join(directory, filename);
-  if (!IGNORE.includes(filename)) {
-    if (fs.lstatSync(fullPath).isDirectory()) {
-      console.log('Removing unsupported locale', directory, filename);
-      fs.removeSync(fullPath);
-      return false;
-    }
+  if (!IGNORE.includes(filename) && fs.lstatSync(fullPath).isDirectory()) {
+    console.log('Removing unsupported locale', directory, filename);
+    fs.removeSync(fullPath);
+    return false;
   }
   return true;
 }
