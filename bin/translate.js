@@ -22,19 +22,7 @@ const path = require('path');
 
 const LANGUAGE_MAPPINGS = {
   en: 'en',
-  'ar-SA': 'ar',
   'de-DE': 'de',
-  'es-ES': 'es-ES',
-  'et-EE': 'et',
-  'fa-IR': 'fa',
-  'fr-FR': 'fr',
-  'it-IT': 'it',
-  'pt-BR': 'pt-BR',
-  'ru-RU': 'ru',
-  'sv-SE': 'sv',
-  'tr-TR': 'tr',
-  'uk-UA': 'uk',
-  'zh-TW': 'zh-TW',
 };
 
 const IGNORE = [...new Set(Object.keys(LANGUAGE_MAPPINGS).concat(Object.values(LANGUAGE_MAPPINGS)))];
