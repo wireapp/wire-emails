@@ -6,7 +6,7 @@ Templates for sending emails, based on [Foundation for Emails](https://foundatio
 
 Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails/dist/) for the latest ✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
 
-Help translating our emails by visiting the [Crowdin project](https://crowdin.com/project/wire-launch).
+Help translating our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
 ## For Designers
 
