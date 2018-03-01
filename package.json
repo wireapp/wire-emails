@@ -1,6 +1,6 @@
 {
   "name": "wire-emails",
-  "version": "0.0.20",
+  "version": "1.0.1",
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "text": "node bin/generate-text-emails.js",
     "translate": "yarn translate:upload && yarn translate:download",
     "translate:download": "crowdin download && yarn translate:process",
-    "translate:process": "python bin/translate.py",
+    "translate:process": "node bin/translate.js",
     "translate:upload": "crowdin upload sources"
   },
   "dependencies": {
