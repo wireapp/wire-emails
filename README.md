@@ -6,7 +6,7 @@ Templates for sending emails, based on [Foundation for Emails](https://foundatio
 
 Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails/dist/) for the latest ✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
 
-Help translating our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
+Help translate our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
 ## For Designers
 
@@ -58,7 +58,13 @@ Run `yarn build` to inline your CSS into your HTML along with the rest of the bu
 
 ### Translations
 
-All the translations are located in [Crowdin](https://crowdin.com/project/wire-launch). On every pull request the new sources are uploaded to Crowdin and once they are merged to `master` the translations are downloaded automatically into the project.
+All translations are located in the [Crowdin project](https://crowdin.com/project/wire-launch).
+
+When the original (English) email copy is changed via the GitHub UI or in a local clone and submitted via a pull request, the modified source text is uploaded to Crowdin for translation.
+
+Translators use the [Crowdin UI](https://crowdin.com/project/wire-launch) to update the localized text strings.
+
+Once the pull request is merged to `master`, the new translations are fetched from Crowdin and automatically downloaded into the project.
 
 ### Otto builds
 
