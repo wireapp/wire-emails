@@ -16,9 +16,9 @@ und füge ihn in deinem Browser ein:
 ${url}
 
 Solltest du dich nicht für eine Wire Service-Provider-Konto mit dieser
-E-Mail-Adresse registriert haben, kannst du diese Meldung ignorieren. If you
-want to report abuse of your e-mail address, please contact us.
-[https://support.wire.com/hc/requests/new]
+E-Mail-Adresse registriert haben, kannst du diese Meldung ignorieren. Falls du
+einen Missbrauch deiner E-Mail-Adresse melden möchtest kontaktiere uns bitte.
+[https://support.wire.com/hc/de/requests/new]
 
 Bitte antworte nicht auf diese E-Mail.
 
