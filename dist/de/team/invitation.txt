@@ -1,0 +1,17 @@
+TEAM EINLADUNG
+${inviter} hat dich zu einem Team auf Wire eingeladen. Klicke auf den folgenden
+Button um die Einladung anzunehmen.
+
+Einladung akzeptieren [${url}]Falls du nicht auf den Button klicken kannst,
+kopiere den Link und füge ihn in deinem Browser ein:
+
+${url}
+
+Wenn Du Fragen hast, bitte kontaktiere uns
+[https://support.wire.com/hc/de/requests/new].
+
+
+--------------------------------------------------------------------------------
+
+Datenschutz [https://wire.com/legal/] · Missbrauch melden [misuse@wire.com]
+© WIRE SWISS GmbH. ALLE RECHTE VORBEHALTEN.

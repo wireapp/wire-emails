@@ -1,5 +1,5 @@
 ---
-subject: Dein Wire Your Wire Service-Provider-Konto
+subject: Dein Wire Service-Provider-Konto
 ---
 
 <container>
@@ -7,13 +7,13 @@ subject: Dein Wire Your Wire Service-Provider-Konto
     <columns small="12">
       <h1>Bestätige deine E-Mail-Adresse</h1>
       <p>Deine E-Mail-Adresse ${email} wurde benutzt, um sich als Wire Serviceanbieter zu registrieren.</p>
-      <p>Um die Registrierung abzuschließen, bestätige bitte deine E-Mail-Adresse, indem du auf den unteren Button clickst.</p>
-      <p>Please note that upon successful verification of your e-mail, your Wire service provider account is still subject to approval through our staff, which usually happens within 24 hours. You will be informed of the approval via a separate e-mail.</p>
+      <p>Um die Registrierung abzuschließen, bestätige bitte deine E-Mail-Adresse, indem du auf den unteren Button klickst.</p>
+      <p>Bitte beachte, dass das Service-Provider-Konto nach der Bestätigung der E-Mail-Adresse noch durch uns freigeschaltet werden muss. Dies erfolgt üblicherweise innerhalb von 24 Stunden. Über die Freischaltung wirst du per E-Mail informiert.</p>
       <spacer size="24"></spacer>
-      <center><button class="radius" href="${url}">Verify</button></center>
+      <center><button class="radius" href="${url}">Überprüfe</button></center>
       <spacer size="24"></spacer>
       {{> de/link-button}}
-      <p class="small">If you didn’t register for a Wire service provider account using this e-mail address, you can safely ignore this message. If you want to report abuse of your e-mail address, please <a href="https://support.wire.com/hc/requests/new">contact us.</a></p>
+      {{> de/ignore}}
       {{> de/do-not-reply}}
     </columns>
   </row>
