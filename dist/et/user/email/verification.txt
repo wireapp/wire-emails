@@ -4,11 +4,11 @@ see kood brauseriaknas.
 
 ${code}
 
-If you have any questions, please contact us
-[https://support.wire.com/hc/en-us/requests/new].
+Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
+.
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.

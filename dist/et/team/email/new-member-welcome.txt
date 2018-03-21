@@ -5,18 +5,18 @@ Wire ühendab endas maksimaalse turvalisuse, mugavad suhtlusfunktsioonid ning
 lihtsa kasutajaliidese. See töötab nii arvutis (Windows, macOS, Linux, otse
 veebibrauseris) kui ka telefonis (Android ja iOS).
 
-Laadi Wire arvutisse ja telefoni [${url}]If you can’t click the button, copy and
-paste this link to your browser:
+Laadi Wire arvutisse ja telefoni [${url}]Kui sul pole võimalik nuppu klikkida,
+siis kopeeri allolev aadress veebibrauserisse:
 
 ${url}
 
-If you have any questions, please contact us
-[https://support.wire.com/hc/en-us/requests/new].
+Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
+.
 
-Team ID: ${team_id}
+Tiimi ID: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.

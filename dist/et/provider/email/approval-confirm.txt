@@ -2,7 +2,7 @@ Tere,
 
 We are happy to inform you that you are now an approved Wire service provider.
 
-Please don’t reply to this message.
+Palun ära sellele kirjale vasta.
 
 If you didn’t register for a Wire service provider account using this e-mail
 address, please contact us [https://support.wire.com/hc/requests/new].
@@ -10,5 +10,5 @@ address, please contact us [https://support.wire.com/hc/requests/new].
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.
