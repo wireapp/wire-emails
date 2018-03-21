@@ -28,10 +28,12 @@ const LANGUAGE_MAPPINGS = {
 
 const IGNORE = [...new Set(Object.keys(LANGUAGE_MAPPINGS).concat(Object.values(LANGUAGE_MAPPINGS)))];
 const rootDir = path.join(__dirname, '..');
-const pagesDir = path.join(rootDir, 'src', 'pages');
-const partialsDir = path.join(rootDir, 'src', 'partials');
-const smsDir = path.join(rootDir, 'src', 'sms');
-const callDir = path.join(rootDir, 'src', 'call');
+const srcDir = path.join(rootDir, 'src');
+const distDir = path.join(rootDir, 'dist');
+const pagesDir = path.join(srcDir, 'pages');
+const partialsDir = path.join(srcDir, 'partials');
+const smsDir = path.join(srcDir, 'sms');
+const callDir = path.join(srcDir, 'call');
 
 function getDirectories(directory) {
   let result = [];
@@ -72,6 +74,18 @@ function renameLocaleDirectory(directory, filename) {
   }
 }
 
+function copyMediaDirectories(directories) {
+  for ([directory, filename] of directories) {
+    const media = directory.split(path.sep).slice(-1)[0];
+    for ([directory_, filename_] of getDirectories(path.join(directory, filename))) {
+      const source = path.join(directory_, filename_);
+      let dest = source.replace(srcDir, distDir).replace(`${media}${path.sep}`, '');
+      dest = path.join(dest, media);
+      fs.copySync(source, dest);
+    }
+  }
+}
+
 const allDirs = getDirectories(pagesDir)
   .concat(getDirectories(partialsDir))
   .concat(getDirectories(smsDir))
@@ -96,3 +110,6 @@ for ([directory, filename] of allDirs) {
     }
   }
 }
+
+// Copy SMS/Calls into dist
+copyMediaDirectories(getDirectories(callDir).concat(getDirectories(smsDir)));
