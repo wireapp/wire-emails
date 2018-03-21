@@ -30,6 +30,8 @@ const IGNORE = [...new Set(Object.keys(LANGUAGE_MAPPINGS).concat(Object.values(L
 const rootDir = path.join(__dirname, '..');
 const pagesDir = path.join(rootDir, 'src', 'pages');
 const partialsDir = path.join(rootDir, 'src', 'partials');
+const smsDir = path.join(rootDir, 'src', 'sms');
+const callsDir = path.join(rootDir, 'src', 'calls');
 
 function getDirectories(directory) {
   let result = [];
@@ -70,7 +72,12 @@ function renameLocaleDirectory(directory, filename) {
   }
 }
 
-for ([directory, filename] of getDirectories(pagesDir).concat(getDirectories(partialsDir))) {
+const allDirs = getDirectories(pagesDir)
+  .concat(getDirectories(partialsDir))
+  .concat(getDirectories(smsDir))
+  .concat(getDirectories(callsDir));
+
+for ([directory, filename] of allDirs) {
   if (checkLocaleDirectory(directory, filename)) {
     renameLocaleDirectory(directory, filename);
 
