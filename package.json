@@ -4,7 +4,7 @@
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
-    "build": "gulp build --production && yarn text && yarn translate:process",
+    "build": "yarn translate:process && gulp build --production && yarn text",
     "deploy": "bin/deploy.sh",
     "media": "node bin/media.js",
     "precommit": "lint-staged",
