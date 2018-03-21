@@ -15,3 +15,15 @@ files:
     translation: '/partials/%locale%/**/%original_file_name%'
     type: 'html'
     update_option: 'update_as_unapproved'
+
+  -
+    source: '/call/en/**/*.txt'
+    translation: '/call/%locale%/**/%original_file_name%'
+    type: 'txt'
+    update_option: 'update_as_unapproved'
+
+  -
+    source: '/sms/en/**/*.txt'
+    translation: '/sms/%locale%/**/%original_file_name%'
+    type: 'txt'
+    update_option: 'update_as_unapproved'
