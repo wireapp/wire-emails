@@ -1,6 +1,6 @@
 BESTÄTIGE DEINE E-MAIL-ADRESSE
-${email} wurde als deine neue e-Mail-Adresse auf Wire eingetragen. Klick auf den
-folgenden Button um deine E-Mail-Adresse zu bestätigen.
+${email} was registered as your new email address on Wire. Click the button
+below to verify your address.
 
 Überprüfe [${url}]Falls du nicht auf den Button klicken kannst, kopiere den Link
 und füge ihn in deinem Browser ein:

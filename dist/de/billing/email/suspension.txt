@@ -1,5 +1,5 @@
 PANINI ERROR
-src/pages/de/billing/suspension.html
+src/pages/de/billing/email/suspension.html
 
 No layout named "Abrechnung" exists.
 
