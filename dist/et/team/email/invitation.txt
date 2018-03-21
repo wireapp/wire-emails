@@ -1,17 +1,18 @@
-TIIMI KUTSE
-${inviter} has invited you to join a team on Wire. Click the button below to
-accept the invitation.
+PANINI ERROR
+src/pages/et/team/email/invitation.html
 
-Vasta kutsele [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 15:
+    subject: Kutse: Liitu tiimiga Wire töösuhtlusk ... 
+                  ^
 
-${url}
-
-If you have any questions, please contact us
-[https://support.wire.com/hc/en-us/requests/new].
-
-
---------------------------------------------------------------------------------
-
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+STACK TRACE:
+generateError (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+throwError (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+readBlockMapping (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:1000:9)
+composeNode (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:1332:12)
+readDocument (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:1492:3)
+loadDocuments (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+Object.load (/home/travis/build/wireapp/wire-emails/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+parse (/home/travis/build/wireapp/wire-emails/node_modules/front-matter/index.js:40:27)
+extractor (/home/travis/build/wireapp/wire-emails/node_modules/front-matter/index.js:23:12)
+Panini.parse (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:132:12)
