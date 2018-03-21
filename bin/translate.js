@@ -75,6 +75,18 @@ function renameLocaleDirectory(directory, filename) {
   }
 }
 
+function copyMediaDirectories(directories) {
+  for ([directory, filename] of directories) {
+    const media = directory.split(path.sep).slice(-1)[0];
+    for ([directory_, filename_] of getDirectories(path.join(directory, filename))) {
+      const source = path.join(directory_, filename_);
+      let dest = source.replace(srcDir, distDir).replace(`${media}${path.sep}`, '');
+      dest = path.join(dest, media);
+      fs.copySync(source, dest);
+    }
+  }
+}
+
 const allDirs = getDirectories(pagesDir)
   .concat(getDirectories(partialsDir))
   .concat(getDirectories(smsDir))
@@ -99,3 +111,5 @@ for ([directory, filename] of allDirs) {
     }
   }
 }
+
+copyMediaDirectories(getDirectories(callDir).concat(getDirectories(smsDir)));
