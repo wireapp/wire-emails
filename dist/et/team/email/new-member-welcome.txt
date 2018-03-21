@@ -2,10 +2,11 @@ TERE TULEMAST ${TEAM_NAME} TIIMI.
 Kasutasid meiliaadressi ${email}, et Wire's tiimiga ${team_name} liituda.
 
 Wire ühendab endas maksimaalse turvalisuse, mugavad suhtlusfunktsioonid ning
-lihtsa kasutajaliidese. Works on all popular platforms.
+lihtsa kasutajaliidese. See töötab nii arvutis (Windows, macOS, Linux, otse
+veebibrauseris) kui ka telefonis (Android ja iOS).
 
-Download Wire [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Laadi Wire arvutisse ja telefoni [${url}]If you can’t click the button, copy and
+paste this link to your browser:
 
 ${url}
 
