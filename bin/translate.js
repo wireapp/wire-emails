@@ -24,6 +24,7 @@ const replace = require('replace-in-file');
 const LANGUAGE_MAPPINGS = {
   en: 'en',
   'de-DE': 'de',
+  'et-EE': 'et',
 };
 
 const IGNORE = [...new Set(Object.keys(LANGUAGE_MAPPINGS).concat(Object.values(LANGUAGE_MAPPINGS)))];
