@@ -3,19 +3,19 @@ Your account for the ${teamName} team has been suspended.
 
 Reason: ${reason}.
 
-${caption} [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+${caption} [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
+aadress veebibrauserisse:
 
 ${url}
 
 If you don’t reactivate your account, conversation history for the team and all
 its members will be deleted.
 
-If you have any questions, please contact us
-[https://support.wire.com/hc/en-us/requests/new].
+Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
+.
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.

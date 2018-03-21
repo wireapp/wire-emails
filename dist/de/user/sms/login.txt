@@ -1,3 +1,0 @@
-Dein Login-Code für Wire lautet ${code}.
-
-Öffne ${url}, um dich anzumelden.

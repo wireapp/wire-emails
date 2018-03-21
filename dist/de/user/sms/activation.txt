@@ -1,3 +1,0 @@
-Dein Wire Code ist ${code}.
-
-Öffne ${url}, um deine Nummer zu überprüfen.
