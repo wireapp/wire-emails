@@ -4,8 +4,9 @@
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
-    "build": "gulp build --production && yarn text",
+    "build": "gulp build --production && yarn text && yarn media",
     "deploy": "bin/deploy.sh",
+    "media": "node bin/media.js",
     "precommit": "lint-staged",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md}\"",
     "start": "gulp",
