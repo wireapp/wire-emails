@@ -1,6 +1,7 @@
 LÖSCHE DEIN KONTO
-We’ve received a request to delete your Wire account. Click the button below
-within 10 minutes to delete all your conversations, content and connections.
+Wir haben eine Anfrage zur Löschung deines Wire-Benutzerkontos erhalten. Klicke
+innerhalb der nächsten 10 Minuten auf den nachstehenden Link, um alle deine
+Unterhaltungen, Nachrichten und Kontakte zu löschen.
 
 Konto löschen [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
 Link und füge ihn in deinem Browser ein:

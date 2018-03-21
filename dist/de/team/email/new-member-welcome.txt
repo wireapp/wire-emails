@@ -1,11 +1,12 @@
-WELCOME TO ${TEAM_NAME}.
-You have just joined a team called ${team_name} on Wire with ${email}.
+WILLKOMMEN ZU ${TEAM_NAME}.
+Du bist soeben mit ${email} einem Team namens ${team_name} auf Wire beigetreten.
 
-Wire combines strong encryption, a rich feature set and ease-of-use in one app
-like never before. Works on all popular platforms.
+Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
+einfacher Bedienung in einer einzigen App. Unterstützt alle gängigen
+Plattformen.
 
-Download Wire [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Wire herunterladen [${url}]If you can’t click the button, copy and paste this
+link to your browser:
 
 ${url}
 

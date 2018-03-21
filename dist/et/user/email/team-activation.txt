@@ -1,5 +1,6 @@
-YOUR NEW ACCOUNT ON WIRE
-A new Wire team was created with ${email}. Please verify your email.
+SINU UUS WIRE KONTO
+Meiliaadressiga ${email} loodi äsja Wire rakenduses uus tiimikonto. Palun
+kinnita oma meiliaadress.
 
 Kinnita [${url}]If you can’t click the button, copy and paste this link to your
 browser:

@@ -1,6 +1,6 @@
 KINNITA OMA E-POSTI AADRESS
-${email} was used to register on Wire. Enter this code to verify your email and
-create your account.
+Meiliaadressi ${email} kasutati Wire konto loomiseks. Konto loomiseks sisestage
+see kood brauseriaknas.
 
 ${code}
 

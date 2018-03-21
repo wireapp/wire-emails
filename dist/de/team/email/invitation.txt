@@ -1,6 +1,6 @@
 TEAM EINLADUNG
-${inviter} has invited you to join a team on Wire. Click the button below to
-accept the invitation.
+${inviter} hat dich auf Wire zu einem Team eingeladen. Klicke auf den
+nachstehenden Button um die Einladung zu akzeptieren.
 
 Einladung akzeptieren [${url}]Falls du nicht auf den Button klicken kannst,
 kopiere den Link und füge ihn in deinem Browser ein:

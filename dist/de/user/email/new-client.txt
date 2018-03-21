@@ -1,13 +1,14 @@
-NEW DEVICE
-Your Wire account was used on:
+NEUES GERÄT
+Ein neues Gerät wurde zu deinem Wire-Benutzerkonto hinzugefügt:
 
 ${date}
 
 ${model}
 
-You may have installed Wire on a new device or installed it again on an existing
-one. If that was not the case, go to Wire Settings, remove the device and reset
-your password [https://account.wire.com/forgot/].
+Du hast Wire vermutlich auf einem neuen Gerät installiert oder dich auf einem
+bestehenden Gerät erneut eingeloggt. Falls dies nicht der Fall ist, gehe in
+deine Wire Einstellungen, entferne das Gerät und setze dein Passwort zurück
+[https://account.wire.com/forgot/].
 
 Wenn Du Fragen hast, bitte kontaktiere uns
 [https://support.wire.com/hc/de/requests/new].

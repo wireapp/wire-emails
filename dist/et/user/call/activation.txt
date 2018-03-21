@@ -1,1 +1,1 @@
-Hello, your Wire verification code is: ${code}. Once again, your code is: ${code}
+Hei, sinu Wire kinnituskood on: ${code}. Veelkord, kood on: ${code}

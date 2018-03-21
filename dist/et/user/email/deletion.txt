@@ -1,6 +1,6 @@
 KUSTUTA KONTO
-We’ve received a request to delete your Wire account. Click the button below
-within 10 minutes to delete all your conversations, content and connections.
+Saime päringu su Wire konto kustutada. Kogu kontoga seotud info kustutamise
+kinnitamiseks kliki kümne minuti jooksul alloleval lingil.
 
 Kustuta konto [${url}]If you can’t click the button, copy and paste this link to
 your browser:

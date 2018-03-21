@@ -1,6 +1,6 @@
 KINNITA OMA E-POSTI AADRESS
-${email} was registered as your new email address on Wire. Click the button
-below to verify your address.
+${email} on Wire'is nüüd registreeritud kui sinu uus meiliaadress. Aadressi
+kinnitamiseks kliki alloleval lingil.
 
 Kinnita [${url}]If you can’t click the button, copy and paste this link to your
 browser:

@@ -1,6 +1,6 @@
 BESTÄTIGE DEINE E-MAIL-ADRESSE
-${email} was used to register on Wire. Enter this code to verify your email and
-create your account.
+${email} wurde verwendet um ein Benutzerkonto auf Wire zu erstellen. Gib diesen
+Code ein, um deine E-Mail-Adresse zu verifizieren und dein Konto zu erstellen.
 
 ${code}
 

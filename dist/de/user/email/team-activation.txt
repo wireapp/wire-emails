@@ -1,5 +1,6 @@
-YOUR NEW ACCOUNT ON WIRE
-A new Wire team was created with ${email}. Please verify your email.
+DEIN NEUES WIRE-BENUTZERKONTO
+Ein neues Wire Team wurde mit ${email} erstellt. Bitte verifiziere deine
+E-Mail-Adresse.
 
 Überprüfe [${url}]If you can’t click the button, copy and paste this link to
 your browser:

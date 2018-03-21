@@ -1,3 +1,3 @@
-Your Wire login code is ${code}.
+Dein Login-Code für Wire lautet ${code}.
 
-Open ${url} to log in.
+Öffne ${url}, um dich anzumelden.
