@@ -19,6 +19,7 @@
 
 const fs = require('fs-extra');
 const path = require('path');
+const replace = require('replace-in-file');
 
 const LANGUAGE_MAPPINGS = {
   en: 'en',
@@ -72,5 +73,19 @@ function renameLocaleDirectory(directory, filename) {
 for ([directory, filename] of getDirectories(pagesDir).concat(getDirectories(partialsDir))) {
   if (checkLocaleDirectory(directory, filename)) {
     renameLocaleDirectory(directory, filename);
+
+    // Rename partials locale automatically
+    if (filename !== 'en') {
+      const options = {
+        files: `${path.join(directory, filename)}${path.sep}**${path.sep}*.html`,
+        from: /\{\{> en\//g,
+        to: `{{> ${filename}/`,
+      };
+      try {
+        const changes = replace.sync(options);
+      } catch (error) {
+        console.error('Error while replacing partial locale paths:', error);
+      }
+    }
   }
 }
