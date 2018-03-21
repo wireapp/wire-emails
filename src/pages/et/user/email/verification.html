@@ -1,0 +1,17 @@
+---
+subject: Wire konto kinnituskood on ${code}
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Kinnita oma e-posti aadress</h1>
+      <p><strong>${email}</strong> was used to register on Wire. Enter this code to verify your email and create your account.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
