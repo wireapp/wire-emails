@@ -33,6 +33,8 @@ const srcDir = path.join(rootDir, 'src');
 const distDir = path.join(rootDir, 'dist');
 const pagesDir = path.join(srcDir, 'pages');
 const partialsDir = path.join(srcDir, 'partials');
+const smsDir = path.join(srcDir, 'sms');
+const callDir = path.join(srcDir, 'call');
 
 function getDirectories(directory) {
   let result = [];
