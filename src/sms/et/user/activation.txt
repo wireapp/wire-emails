@@ -1,3 +1,3 @@
-Your Wire code is ${code}.
+Sinu Wire kood on ${code}
 
-Open ${url} to verify your number.
+Toksa ${url} et number kinnitada.

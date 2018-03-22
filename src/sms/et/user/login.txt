@@ -1,3 +1,3 @@
-Your Wire login code is ${code}.
+Sinu Wire sisselogimiskood on ${code}
 
-Open ${url} to log in.
+Sisselogimiseks ava aadress ${url}
