@@ -1,5 +1,5 @@
 YOUR TEAM HAS BEEN SUSPENDED
-Your account for the ${teamName} team has been suspended.
+Your account for the ${team_name} team has been suspended.
 
 Reason: ${reason}.
 

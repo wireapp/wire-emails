@@ -1,4 +1,4 @@
-WILLKOMMEN ZU ${TEAM_NAME}.
+WILLKOMMEN ZU ${team_name}.
 Du bist soeben mit ${email} einem Team namens ${team_name} auf Wire beigetreten.
 
 Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und

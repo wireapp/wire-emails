@@ -1,4 +1,4 @@
-TERE TULEMAST ${TEAM_NAME} TIIMI.
+TERE TULEMAST ${team_name} TIIMI.
 Kasutasid meiliaadressi ${email}, et Wire's tiimiga ${team_name} liituda.
 
 Wire ühendab endas maksimaalse turvalisuse, mugavad suhtlusfunktsioonid ning
