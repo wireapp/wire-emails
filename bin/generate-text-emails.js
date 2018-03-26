@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const glob = require('glob');
 const htmlToText = require('html-to-text');
 const path = require('path');
+const replace = require('replace-in-file');
 
 const rootDirectory = path.join(__dirname, '..', 'dist');
 
@@ -29,6 +30,19 @@ function getTextFromHtml(filePath) {
   });
 }
 
+function fixBrokenVariables() {
+  const options = {
+    files: `${rootDirectory}${path.sep}**${path.sep}*.txt`,
+    from: /\$\{[A-Z_]+\}/g,
+    to: match => match.toLowerCase(),
+  };
+  try {
+    const changes = replace.sync(options);
+  } catch (error) {
+    console.error('Error while replacing partial locale paths:', error);
+  }
+}
+
 (async () => {
   const files = await getFiles(`${rootDirectory}/*/**/*.html`);
 
@@ -52,6 +66,9 @@ function getTextFromHtml(filePath) {
   try {
     await Promise.all(promises);
     console.log('Text emails and subjects have been created.');
+    setTimeout(() => {
+      fixBrokenVariables();
+    }, 50);
   } catch (error) {
     console.log('Something went wrong.', error);
     process.exit(1);
