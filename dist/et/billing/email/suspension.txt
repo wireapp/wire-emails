@@ -1,5 +1,5 @@
 SINU TIIMI KONTO ON KÜLMUTATUD
-Tiimi konto nimega ${teamName} on nüüd külmutatud.
+Your account for the ${team_name} team has been suspended.
 
 Põhjus: ${reason}.
 
