@@ -33,7 +33,7 @@ function getTextFromHtml(filePath) {
 function fixBrokenVariables() {
   const options = {
     files: `${rootDirectory}${path.sep}**${path.sep}*.txt`,
-    from: /\$\{[A-Z_]+\}/g,
+    from: /\$\{[a-zA-Z_]+\}/g,
     to: match => match.toLowerCase(),
   };
   try {
