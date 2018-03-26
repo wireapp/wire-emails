@@ -1,5 +1,5 @@
 DAS TEAM WURDE GESPERRT
-Dein Konto für das ${teamName} Team wurde suspendiert.
+Dein Konto für das ${team_name} Team wurde suspendiert.
 
 Grund: ${reason}.
 
