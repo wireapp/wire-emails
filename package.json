@@ -1,6 +1,6 @@
 {
   "name": "wire-emails",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "license": "GPL-3.0",
   "private": true,
   "scripts": {

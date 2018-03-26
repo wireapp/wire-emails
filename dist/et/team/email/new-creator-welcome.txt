@@ -1,0 +1,24 @@
+YOUR NEW TEAM.
+You have just created a team called ${team_name} on Wire with ${email}.
+
+Your 30–day free trial starts today.
+
+Wire ühendab endas maksimaalse turvalisuse, mugavad suhtlusfunktsioonid ning
+lihtsa kasutajaliidese. See töötab nii arvutis (Windows, macOS, Linux, otse
+veebibrauseris) kui ka telefonis (Android ja iOS).
+
+Invite your teammates [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri
+allolev aadress veebibrauserisse:
+
+${url}
+
+Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
+.
+
+Tiimi ID: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.
