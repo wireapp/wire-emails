@@ -1,0 +1,21 @@
+Hello ${invitee},
+
+${inviter} wants to connect on Wire.
+
+Vasta kutsele [${url}]Wire is an app for calling, messaging, and sharing pics,
+music, videos and more in personal and group conversations. Learn more.
+[https://wire.com]
+
+Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev aadress
+veebibrauserisse:
+
+${url}
+
+Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
+.
+
+
+--------------------------------------------------------------------------------
+
+Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
+© WIRE SWISS GmbH. Kõik õigused kaitstud.
