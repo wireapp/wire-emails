@@ -1,13 +1,11 @@
 Sveiki,
 
-Džiaugiamės, galėdami jums pranešti, kad nuo šiol esate patvirtintas Wire
-paslaugų teikėjas.
+We are happy to inform you that you are now an approved Wire Service Provider.
 
 Prašome neatsakinėti į šį laišką.
 
-Jeigu naudojant šį el. pašto adresą neregistravote Wire paslaugų teikėjo
-paskyros, tuomet susisiekite su mumis [https://support.wire.com/hc/requests/new]
-.
+If you didn’t register for a Wire Service Provider account using this e-mail
+address, please contact us [https://support.wire.com/hc/requests/new].
 
 
 --------------------------------------------------------------------------------
