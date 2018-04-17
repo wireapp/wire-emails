@@ -1,0 +1,21 @@
+---
+layout: billing
+subject: "Team Suspension"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Jūsų komanda yra laikinai pristabdyta</h1>
+      <p>Your account for the <strong>${team_name}</strong> team has been suspended.</p>
+      <p>Reason: ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> lt/link-button}}
+      <p class="small">If you don’t reactivate your account, conversation history for the team and all its members will be deleted.</p>
+      {{> lt/questions}}
+    </columns>
+  </row>
+</container>
+{{> lt/footer}}

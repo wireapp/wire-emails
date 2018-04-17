@@ -1,0 +1,30 @@
+PATVIRTINKITE SAVO EL. PAŠTĄ
+Jūsų el. pašto adresas ${email} buvo panaudotas tam, kad būtų užsiregistruotas
+kaip Wire paslaugų teikėjas.
+
+Norint užbaigti registraciją, reikia, kad jūs patvirtintumėte savo el. pašto
+adresą, spusteldami žemiau esantį mygtuką.
+
+Turėkite omenyje, kad sėkmingai patvirtinus savo el. paštą, jūsų Wire paslaugų
+teikėjo paskyrą vis dar privalo patvirtinti mūsų personalas, o tai, dažniausiai,
+atliekama 24 valandų bėgyje. Apie patvirtinimą būsite informuoti atskiru el.
+laišku.
+
+Patvirtinti [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
+įdėkite šią nuorodą į savo naršyklę:
+
+${url}
+
+Jeigu naudojant šį el. pašto adresą neregistravote Wire paslaugų teikėjo
+paskyros, tuomet galite saugiai nepaisyti šio pranešimo. Jeigu norite pranešti
+apie netinkamą jūsų el pašto adreso naudojimą, tuomet susisiekite su mumis.
+[https://support.wire.com/hc/requests/new]
+
+Prašome neatsakinėti į šį laišką.
+
+
+--------------------------------------------------------------------------------
+
+Privatumas [https://wire.com/legal/] · Pranešti apie piktnaudžiavimą
+[misuse@wire.com]
+© WIRE SWISS GmbH. VISOS TEISĖS SAUGOMOS.
