@@ -25,18 +25,18 @@ The instructions below assume you're on a Mac with [Homebrew](http://brew.sh) in
 
 ### Installation
 
-1. Install the [yarn](https://yarnpkg.com) JavaScript package manager via Homebrew:
+1.  Install the [yarn](https://yarnpkg.com) JavaScript package manager via Homebrew:
 
-   ```sh
-   brew install yarn
-   ```
+    ```sh
+    brew install yarn
+    ```
 
-2. Clone this repository and run `yarn` from the root directory of your clone to install the necessary dependencies:
+2.  Clone this repository and run `yarn` from the root directory of your clone to install the necessary dependencies:
 
-   ```sh
-   yarn add global foundation-cli
-   yarn
-   ```
+    ```sh
+    yarn global add foundation-cli
+    yarn
+    ```
 
 ### Start the local preview
 
