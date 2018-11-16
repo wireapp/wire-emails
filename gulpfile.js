@@ -97,18 +97,32 @@ function inliner(css) {
   var mqCss = siphon(css);
 
   var pipe = lazypipe()
-    .pipe($.inlineCss, {
-      applyStyleTags: true,
-      removeStyleTags: true,
-      preserveMediaQueries: true,
-      removeLinkTags: true,
-    })
-    .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
-    .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
-    .pipe($.htmlmin, {
-      collapseWhitespace: true,
-      minifyCSS: true,
-    });
+    .pipe(
+      $.inlineCss,
+      {
+        applyStyleTags: true,
+        removeStyleTags: true,
+        preserveMediaQueries: true,
+        removeLinkTags: true,
+      },
+    )
+    .pipe(
+      $.replace,
+      '<!-- <style> -->',
+      `<style>${mqCss}</style>`,
+    )
+    .pipe(
+      $.replace,
+      '<link rel="stylesheet" type="text/css" href="css/app.css">',
+      '',
+    )
+    .pipe(
+      $.htmlmin,
+      {
+        collapseWhitespace: true,
+        minifyCSS: true,
+      },
+    );
 
   return pipe();
 }
