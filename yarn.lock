@@ -1109,9 +1109,9 @@ block-stream@*, block-stream@0.0.9:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+bluebird@^3.5.2:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
 bluebird@~1.2.4:
   version "1.2.4"
@@ -1956,9 +1956,9 @@ css-parse@^2.0.0:
   dependencies:
     css "^2.0.0"
 
-css-rules@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/css-rules/-/css-rules-1.0.3.tgz#b44193c073a8695accce1b1ae911de193b065e9c"
+css-rules@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/css-rules/-/css-rules-1.0.4.tgz#f210a0509a1d9e14c5d73365e37c7d04478ec754"
   dependencies:
     cssom "^0.3.2"
 
@@ -2027,7 +2027,7 @@ csso@^3.5.0:
   dependencies:
     css-tree "1.0.0-alpha.27"
 
-cssom@0.3.x, "cssom@>= 0.3.0 < 0.4.0", "cssom@>= 0.3.2 < 0.4.0", cssom@^0.3.0, cssom@^0.3.2:
+cssom@0.3.2, cssom@0.3.x, "cssom@>= 0.3.0 < 0.4.0", "cssom@>= 0.3.2 < 0.4.0", cssom@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.2.tgz#b8036170c79f07a90ff2f16e22284027a243848b"
 
@@ -2854,6 +2854,10 @@ extend@^3.0.0, extend@^3.0.1, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
+extend@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+
 extend@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-1.2.1.tgz#a0f5fd6cfc83a5fe49ef698d60ec8a624dd4576c"
@@ -2877,14 +2881,14 @@ extglob@^2.0.2, extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extract-css@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/extract-css/-/extract-css-1.1.1.tgz#35c9186335a40cd783fb6dd67380ce80a29f94d1"
+extract-css@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/extract-css/-/extract-css-1.2.2.tgz#3eb5b832666904998435d53ca87bcbd2e9312dfb"
   dependencies:
     batch "^0.6.1"
-    href-content "^1.0.2"
-    list-stylesheets "^1.2.1"
-    style-data "^1.2.1"
+    href-content "^1.0.4"
+    list-stylesheets "^1.2.2"
+    style-data "^1.3.2"
 
 extract-opts@^3.3.1:
   version "3.3.1"
@@ -3766,11 +3770,11 @@ gulp-imagemin@4.1.0:
     imagemin-optipng "^5.2.1"
     imagemin-svgo "^6.0.0"
 
-gulp-inline-css@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/gulp-inline-css/-/gulp-inline-css-3.2.0.tgz#950d432cb8f53f00b62f271dcd5183d1cfc221f9"
+gulp-inline-css@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/gulp-inline-css/-/gulp-inline-css-3.3.1.tgz#cf0ca02acad214273096cbfd025b596f25cf9a80"
   dependencies:
-    inline-css "^2.3.1"
+    inline-css "^2.4.1"
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
@@ -4224,9 +4228,9 @@ hosted-git-info@~2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.1.5.tgz#0ba81d90da2e25ab34a332e6ec77936e1598118b"
 
-href-content@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/href-content/-/href-content-1.0.3.tgz#be3236d6223511c78de18aefd9c2cd4e8d534f87"
+href-content@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/href-content/-/href-content-1.0.4.tgz#c3fd05a22082ca18045dc4a1c3f06916af091f9e"
   dependencies:
     remote-content "^1.0.1"
 
@@ -4501,19 +4505,19 @@ inky@1.3.7:
     through2 "^2.0.0"
     vinyl-fs "^2.3.0"
 
-inline-css@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/inline-css/-/inline-css-2.3.1.tgz#ce1afc749deb6d7e08f3f8e5a5d11c3f31e93ece"
+inline-css@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/inline-css/-/inline-css-2.4.1.tgz#7dda404704900468332808652427061abda5ac07"
   dependencies:
-    bluebird "^3.5.1"
+    bluebird "^3.5.2"
     cheerio "^0.22.0"
-    css-rules "^1.0.3"
-    extend "^3.0.1"
-    extract-css "^1.1.1"
+    css-rules "^1.0.4"
+    extend "^3.0.2"
+    extract-css "^1.2.2"
     flatten "^1.0.2"
     object.pick "^1.3.0"
     slick "^1.12.2"
-    specificity "^0.3.2"
+    specificity "^0.4.1"
 
 inquirer@^0.8.3:
   version "0.8.5"
@@ -5500,13 +5504,14 @@ lint-staged@7.0.0:
     staged-git-files "1.1.0"
     stringify-object "^3.2.2"
 
-list-stylesheets@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/list-stylesheets/-/list-stylesheets-1.2.1.tgz#797f36c5a454f3113691973def42e4f0cc66dfeb"
+list-stylesheets@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/list-stylesheets/-/list-stylesheets-1.2.2.tgz#6c85372a70a35279d77b846699cd0e99c91fd53b"
   dependencies:
     cheerio "^0.22.0"
     extend "^3.0.1"
     object.pick "^1.3.0"
+    vinyl "^2.2.0"
 
 listr-silent-renderer@^1.1.1:
   version "1.1.1"
@@ -6087,11 +6092,11 @@ mdn-data@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.0.tgz#a7056319da95a2d0881267d7263075042eb061e2"
 
-mediaquery-text@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/mediaquery-text/-/mediaquery-text-1.0.5.tgz#374782e5cc118714e344c359a5ef2721050ae862"
+mediaquery-text@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/mediaquery-text/-/mediaquery-text-1.0.6.tgz#e8e643718966f832b8285244cafc636c2d1185e2"
   dependencies:
-    cssom "^0.3.0"
+    cssom "0.3.2"
 
 mem@^1.1.0:
   version "1.1.0"
@@ -8563,9 +8568,9 @@ spdx-license-ids@^1.0.2, spdx-license-ids@~1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
 
-specificity@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/specificity/-/specificity-0.3.2.tgz#99e6511eceef0f8d9b57924937aac2cb13d13c42"
+specificity@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/specificity/-/specificity-0.4.1.tgz#aab5e645012db08ba182e151165738d00887b019"
 
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
@@ -8832,13 +8837,13 @@ striptags@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/striptags/-/striptags-2.2.1.tgz#4c450b708d41b8bf39cf24c49ff234fc6aabfd32"
 
-style-data@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/style-data/-/style-data-1.2.1.tgz#1f7279c8f40c2133bedf0bbb338df99742965d09"
+style-data@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/style-data/-/style-data-1.3.2.tgz#3f2b35bcb067ea1a0f8305ebe6555a0ecafd4992"
   dependencies:
     cheerio "^0.22.0"
     extend "^3.0.1"
-    mediaquery-text "^1.0.5"
+    mediaquery-text "^1.0.6"
     object.pick "^1.3.0"
 
 sum-up@^1.0.1:
@@ -9719,6 +9724,17 @@ vinyl@^1.0.0, vinyl@^1.1.1:
 vinyl@^2.0.0, vinyl@^2.0.1, vinyl@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vinyl/-/vinyl-2.1.0.tgz#021f9c2cf951d6b939943c89eb5ee5add4fd924c"
+  dependencies:
+    clone "^2.1.1"
+    clone-buffer "^1.0.0"
+    clone-stats "^1.0.0"
+    cloneable-readable "^1.0.0"
+    remove-trailing-separator "^1.0.1"
+    replace-ext "^1.0.0"
+
+vinyl@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vinyl/-/vinyl-2.2.0.tgz#d85b07da96e458d25b2ffe19fece9f2caa13ed86"
   dependencies:
     clone "^2.1.1"
     clone-buffer "^1.0.0"
