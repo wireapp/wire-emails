@@ -1015,9 +1015,9 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-beepbeep@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/beepbeep/-/beepbeep-1.2.1.tgz#f379d0315f20bfd79ceec6c1dc69e98ea0cfa2ca"
+beepbeep@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/beepbeep/-/beepbeep-1.2.2.tgz#6d77b8a07f3b11fa4f388c62e70ae607a0923f89"
 
 beeper@^1.0.0:
   version "1.1.1"
