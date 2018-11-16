@@ -1,6 +1,6 @@
 KINNITA OMA E-POSTI AADRESS
-${email} meiliaadressi kasutatu Wire konto loomiseks.
-Kliki allolevat nuppu, et oma meiliaadress kinnitada.
+${email} meiliaadressi kasutati Wire konto loomiseks.
+Klõpsa allolevat nuppu, et oma meiliaadress kinnitada.
 
 Kinnita [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
 aadress veebibrauserisse:
