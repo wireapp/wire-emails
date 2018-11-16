@@ -4,26 +4,22 @@ base_path: src
 preserve_hierarchy: true
 
 files:
-  -
-    source: '/pages/en/**/*.html'
+  - source: '/pages/en/**/*.html'
     translation: '/pages/%locale%/**/%original_file_name%'
     type: 'html'
     update_option: 'update_as_unapproved'
 
-  -
-    source: '/partials/en/**/*.html'
+  - source: '/partials/en/**/*.html'
     translation: '/partials/%locale%/**/%original_file_name%'
     type: 'html'
     update_option: 'update_as_unapproved'
 
-  -
-    source: '/call/en/**/*.txt'
+  - source: '/call/en/**/*.txt'
     translation: '/call/%locale%/**/%original_file_name%'
     type: 'txt'
     update_option: 'update_as_unapproved'
 
-  -
-    source: '/sms/en/**/*.txt'
+  - source: '/sms/en/**/*.txt'
     translation: '/sms/%locale%/**/%original_file_name%'
     type: 'txt'
     update_option: 'update_as_unapproved'

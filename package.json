@@ -7,7 +7,7 @@
     "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
     "deploy": "bin/deploy.sh",
     "media": "node bin/media.js",
-    "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md}\"",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
     "start": "gulp",
     "test": "yarn build",
     "text": "node bin/generate-text-emails.js",
@@ -61,7 +61,7 @@
     "yargs": "12.0.2"
   },
   "lint-staged": {
-    "*.{js,scss,md}": [
+    "*.{js,scss,md,yml,yaml}": [
       "prettier --write",
       "git add"
     ]

@@ -10,8 +10,8 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 
 ## For Designers
 
-* Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en) and commit your changes to `master`.
-* After 2-3 minutes, Otto will re-build the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder.
+- Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en) and commit your changes to `master`.
+- After 2-3 minutes, Otto will re-build the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder.
 
 If the files are not updated Otto-matically with the `Otto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
