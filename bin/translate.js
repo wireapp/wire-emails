@@ -23,6 +23,7 @@ const replace = require('replace-in-file');
 
 const LANGUAGE_MAPPINGS = {
   en: 'en',
+  fr: 'fr',
   'de-DE': 'de',
   'et-EE': 'et',
   'lt-LT': 'lt',
