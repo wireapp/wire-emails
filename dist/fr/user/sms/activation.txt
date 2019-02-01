@@ -1,0 +1,3 @@
+Votre code ${brand} est ${code}.
+
+Ouvrez ${url} pour vérifier votre numéro.

@@ -1,0 +1,36 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+DEMANDE D'APPROBATION
+Un nouveau ${brand_service} s'est inscrit et attend son approbation. Veuillez
+vérifier les informations fournies ci-dessous.
+
+Nom : ${name}
+
+E-mail : ${email}
+
+Site web : ${url}
+
+Description: ${description}
+
+Si la demande semble authentique, vous pouvez approuver le fournisseur en
+cliquant sur le bouton ci-dessous. Une fois approuvé, le fournisseur pourra se
+connecter et commencer à enregistrer les services que les utilisateurs de
+${brand} pourront ajouter à leurs conversations.
+
+Si la demande semble douteuse, veuillez contacter le fournisseur pour obtenir
+des éclaircissements avant de continuer.
+
+Approuver [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez et collez
+ce lien dans votre navigateur :
+
+${url}
+
+Merci de ne pas répondre à ce message.
+
+
+--------------------------------------------------------------------------------
+
+Confidentialité [https://wire.com/legal/] · Signaler un abus [misuse@wire.com]
+© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.

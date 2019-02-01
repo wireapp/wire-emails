@@ -1,0 +1,21 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+INVITATION D'ÉQUIPE
+${inviter} vous a invité à rejoindre une équipe sur ${brand}. Cliquez sur le
+bouton ci-dessous pour confirmer cette invitation.
+
+Accepter l'invitation [${url}]Si vous ne pouvez pas cliquer sur le bouton,
+copiez et collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous avez des questions, merci de nous contacter
+[https://support.wire.com/hc/en-us/requests/new].
+
+
+--------------------------------------------------------------------------------
+
+Confidentialité [https://wire.com/legal/] · Signaler un abus [misuse@wire.com]
+© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.
