@@ -1,0 +1,18 @@
+---
+subject: "Vous êtes invité à rejoindre votre équipe sur ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Invitation d'équipe</h1>
+      <p><strong>${inviter}</strong> vous a invité à rejoindre une équipe sur ${brand}. Cliquez sur le bouton ci-dessous pour confirmer cette invitation.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Accepter l'invitation</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

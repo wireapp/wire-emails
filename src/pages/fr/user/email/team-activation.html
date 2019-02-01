@@ -1,0 +1,18 @@
+---
+subject: "Compte ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Votre nouveau compte ${brand}</h1>
+      <p>Une nouvelle équipé a été créée sur ${brand} avec <strong>${email}</strong>. Veuillez vérifier votre adresse email s’il vous plaît.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Vérifier</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

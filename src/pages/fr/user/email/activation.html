@@ -1,0 +1,18 @@
+---
+subject: "Votre Compte ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Vérification de votre adresse email</h1>
+      <p><strong>${email}</strong> a été utilisé pour s'enregistrer sur ${brand}.<br>Cliquez sur le bouton ci-dessous pour vérifier votre adresse.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Vérifier</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

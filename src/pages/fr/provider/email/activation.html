@@ -1,0 +1,21 @@
+---
+subject: "Votre Compte ${brand_service}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Vérification de votre adresse email</h1>
+      <p>Votre adresse e-mail ${email} a été utilisée pour une inscription en tant que ${brand_service}.</p>
+      <p>Pour terminer l’inscription, vous devez vérifier votre adresse e-mail en cliquant sur le bouton ci-dessous.</p>
+      <p>Veuillez noter qu'après la vérification de votre e-mail, votre compte ${brand_service} est toujours soumis à l'approbation de notre équipe, ce qui prend généralement moins de 24 heures. Vous serez informé(e) de l’approbation par un autre e-mail.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Vérifier</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      {{> fr/ignore}}
+      {{> fr/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

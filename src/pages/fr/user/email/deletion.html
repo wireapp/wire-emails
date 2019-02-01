@@ -1,0 +1,19 @@
+---
+subject: "Supprimer votre compte ?"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Supprimer votre compte</h1>
+      <p>Nous avons reçu une demande de suppression de votre compte ${brand}. Cliquez sur le lien ci-dessous dans les 10 minutes pour supprimer toutes vos conversations, contenus et connexions.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius alert">Supprimer le compte</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      <p class="small">Si vous n'êtes pas à l'origine de cette demande, <a href="https://account.wire.com/forgot/">réinitialisez votre mot de passe</a>.</p>
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}
