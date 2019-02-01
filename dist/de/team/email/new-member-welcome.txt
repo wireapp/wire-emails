@@ -1,11 +1,14 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
 WILLKOMMEN ZU ${team_name}.
-Du bist soeben mit ${email} einem Team namens ${team_name} auf Wire beigetreten.
+You have just joined a team called ${team_name} on ${brand} with ${email}.
 
-Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
-einfacher Bedienung in einer einzigen App. Unterstützt alle gängigen
-Plattformen.
+${brand} combines strong encryption, a rich feature set and ease-of-use in one
+app like never before. Unterstützt alle gängigen Plattformen.
 
-Wire herunterladen [${url}]Falls du nicht auf den Button klicken kannst, kopiere
+Download ${brand} [${url}]Falls du nicht auf den Button klicken kannst, kopiere
 den Link und füge ihn in deinem Browser ein:
 
 ${url}

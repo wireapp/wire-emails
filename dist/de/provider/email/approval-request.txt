@@ -1,6 +1,10 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
 ANFRAGE GENEHMIGEN
-Ein neuer Wire Service-Provider hat sich registriert und erwartet deine
-Genehmigung. Bitte überprüfe die folgenden Informationen.
+A new ${brand_service} has registered and is awaiting approval. Bitte überprüfe
+die folgenden Informationen.
 
 Name: ${name}
 
@@ -11,9 +15,9 @@ Website: ${url}
 Beschreibung: ${description}
 
 Wenn die Anfrage echt scheint, kannst du den Service-Provider genehmigen, indem
-du auf den unteren Button klickst. Sobald genehmigt, kann der Service-Provider
-sich anmelden und anfangen Dienste zu registrieren, die Wire Nutzer zu ihren
-Unterhaltungen hinzufügen werden können.
+du auf den unteren Button klickst. Once approved, the provider will be able to
+sign in and start registering services that ${brand} users can add to their
+conversations.
 
 Falls die Anfrage zweifelhaft scheint, kontaktiere bitte den Service-Provider
 für Klarstellung bevor du fortfährst.

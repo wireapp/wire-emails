@@ -1,1 +1,1 @@
-Учетная запись Wire
+${brand} Account

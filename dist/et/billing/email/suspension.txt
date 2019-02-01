@@ -1,3 +1,7 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
 SINU TIIMI KONTO ON KÜLMUTATUD
 Tiimi konto nimega ${team_name} on nüüd külmutatud.
 

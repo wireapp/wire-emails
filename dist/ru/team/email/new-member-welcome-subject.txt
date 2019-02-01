@@ -1,1 +1,1 @@
-Вы присоединились к команде в Wire
+You joined a team on ${brand}

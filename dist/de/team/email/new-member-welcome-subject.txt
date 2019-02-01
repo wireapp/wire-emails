@@ -1,1 +1,1 @@
-Du bist einem Team auf Wire beigetreten
+You joined a team on ${brand}

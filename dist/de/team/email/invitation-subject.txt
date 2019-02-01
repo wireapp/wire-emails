@@ -1,1 +1,1 @@
-Du wurdest eingeladen einem Team auf Wire beizutreten
+You have been invited to join a team on ${brand}

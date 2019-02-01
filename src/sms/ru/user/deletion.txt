@@ -1,2 +1,2 @@
-Коснитесь для удаления вашего Wire-аккаунта.
-${url} 
+Tap to delete your ${brand} account.
+${url}

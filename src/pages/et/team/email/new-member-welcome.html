@@ -1,16 +1,16 @@
 ---
-subject: "You joined a team on Wire"
+subject: "You joined a team on ${brand}"
 ---
 
 <container>
   <row>
     <columns small="12">
       <h1>Tere tulemast <strong>${team_name}</strong> tiimi.</h1>
-      <p>Kasutasid meiliaadressi <strong>${email}</strong>, et Wire's tiimiga <strong>${team_name}</strong> liituda.</p>
+      <p>You have just joined a team called <strong>${team_name}</strong> on ${brand} with <strong>${email}</strong>.</p>
       <spacer size="24"></spacer>
-      <p>Wire ühendab endas maksimaalse turvalisuse, mugavad suhtlusfunktsioonid ning lihtsa kasutajaliidese. See töötab nii arvutis (Windows, macOS, Linux, otse veebibrauseris) kui ka telefonis (Android ja iOS).</p>
+      <p>${brand} combines strong encryption, a rich feature set and ease-of-use in one app like never before. See töötab nii arvutis (Windows, macOS, Linux, otse veebibrauseris) kui ka telefonis (Android ja iOS).</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Laadi Wire arvutisse ja telefoni</button></center>
+      <center><button href="${url}" class="radius">Download ${brand}</button></center>
       <spacer size="24"></spacer>
       {{> et/link-button}}
       {{> et/questions}}

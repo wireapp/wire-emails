@@ -1,1 +1,1 @@
-Вы были приглашены в команду в Wire
+You have been invited to join a team on ${brand}

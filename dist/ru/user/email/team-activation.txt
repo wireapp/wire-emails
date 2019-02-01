@@ -1,6 +1,9 @@
-ВАША НОВАЯ УЧЕТНАЯ ЗАПИСЬ WIRE
-В Wire была создана новая команда с использованием email адреса ${email}.
-Подтвердите ваш email адрес.
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+YOUR NEW ACCOUNT ON ${brand}
+A new ${brand} team was created with ${email}. Подтвердите ваш email адрес.
 
 Подтвердить [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте
 эту ссылку в свой браузер:

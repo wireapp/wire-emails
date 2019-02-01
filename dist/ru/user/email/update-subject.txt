@@ -1,1 +1,1 @@
-Ваш новый email адрес в Wire
+Your new email address on ${brand}

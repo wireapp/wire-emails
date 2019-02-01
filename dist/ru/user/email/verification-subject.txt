@@ -1,1 +1,1 @@
-Код подтверждения в Wire: ${code}
+${brand} verification code is ${code}

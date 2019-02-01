@@ -1,22 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
 ПОДТВЕРДИТЕ ВАШ EMAIL
-Ваш email адрес ${email} был использован для регистрации в качестве Wire service
-provider.
+Your email address ${email} was used to register as a ${brand_service}.
 
 Чтобы завершить регистрацию, необходимо подтвердить ваш email адрес, нажав на
 кнопку ниже.
 
-Пожалуйста, учтите, что после удачного подтверждения вашего email, ваша учетная
-запись Wire service provider все еще нуждается в подтверждении со стороны нашей
-команды, которое обычно происходит в течение 24 часов. Вы будете
-проинформированы о подтверждении отдельным письмом.
+Please note that upon successful verification of your e-mail, your
+${brand_service} account is still subject to approval through our staff, which
+usually happens within 24 hours. Вы будете проинформированы о подтверждении
+отдельным письмом.
 
 Подтвердить [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте
 эту ссылку в свой браузер:
 
 ${url}
 
-Если вы не регистрировали учетную запись Wire Service Provider, используя этот
-email адрес, проигнорируйте это сообщение. Если вы хотите сообщить о
+If you didn’t register for a ${brand} service provider account using this e-mail
+address, you can safely ignore this message. Если вы хотите сообщить о
 злоупотреблении вашим email адресом, пожалуйста свяжитесь с нами
 [https://support.wire.com/hc/requests/new].
 

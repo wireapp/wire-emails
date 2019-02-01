@@ -1,1 +1,1 @@
-Anfrage genehmigen: Wire Service-Provider
+Approval Request: ${brand_service}

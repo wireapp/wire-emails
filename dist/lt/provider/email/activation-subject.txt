@@ -1,1 +1,1 @@
-Jūsų Wire paslaugų teikėjo paskyra
+Your ${brand_service} Account

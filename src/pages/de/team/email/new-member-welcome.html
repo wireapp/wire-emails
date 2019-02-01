@@ -1,16 +1,16 @@
 ---
-subject: "Du bist einem Team auf Wire beigetreten"
+subject: "You joined a team on ${brand}"
 ---
 
 <container>
   <row>
     <columns small="12">
       <h1>Willkommen zu <strong>${team_name}</strong>.</h1>
-      <p>Du bist soeben mit <strong>${email}</strong> einem Team namens <strong>${team_name}</strong> auf Wire beigetreten.</p>
+      <p>You have just joined a team called <strong>${team_name}</strong> on ${brand} with <strong>${email}</strong>.</p>
       <spacer size="24"></spacer>
-      <p>Wire vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und einfacher Bedienung in einer einzigen App. Unterstützt alle gängigen Plattformen.</p>
+      <p>${brand} combines strong encryption, a rich feature set and ease-of-use in one app like never before. Unterstützt alle gängigen Plattformen.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Wire herunterladen</button></center>
+      <center><button href="${url}" class="radius">Download ${brand}</button></center>
       <spacer size="24"></spacer>
       {{> de/link-button}}
       {{> de/questions}}
