@@ -1,0 +1,2 @@
+Cliquez pour supprimer votre compte ${brand}.
+${url}

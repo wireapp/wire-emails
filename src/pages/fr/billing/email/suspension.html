@@ -1,0 +1,21 @@
+---
+layout: billing
+subject: "Suspension de votre Équipe"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Votre équipe a été suspendue</h1>
+      <p>Votre compte pour l’équipe <strong>${team_name}</strong> a été suspendu.</p>
+      <p>Raison : ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}}
+      <p class="small">Si vous ne réactivez pas votre compte, l'historique des conversations pour l'équipe et tous ses membres sera supprimé.</p>
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

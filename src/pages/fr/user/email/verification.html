@@ -1,0 +1,17 @@
+---
+subject: "Votre code de vérification ${brand} est ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Vérification de votre adresse email</h1>
+      <p>L'adresse <strong>${email}</strong> a été utilisée pour créer un compte sur ${brand}. Entrez ce code afin de vérifier votre adresse email et créer votre compte.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}
