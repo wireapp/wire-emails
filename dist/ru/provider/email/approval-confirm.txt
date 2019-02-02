@@ -4,12 +4,13 @@ ${brand_label_url} [${brand_url}]
 
 Привет,
 
-We are happy to inform you that you are now an approved ${brand_service}.
+Мы рады вам сообщить, что ваша учётная запись ${brand_service} была
+подтверждена.
 
 Пожалуйста, не отвечайте на это сообщение.
 
-If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [https://support.wire.com/hc/requests/new].
+Если вы не регистрировали учётную запись ${brand_service}, используя этот email
+адрес, пожалуйста, свяжитесь с нами [https://support.wire.com/hc/requests/new].
 
 
 --------------------------------------------------------------------------------

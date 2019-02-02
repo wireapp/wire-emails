@@ -1,1 +1,1 @@
-You have been invited to join a team on ${brand}
+Вы были приглашены в команду в ${brand}

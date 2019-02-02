@@ -3,15 +3,16 @@
 ${brand_label_url} [${brand_url}]
 
 НОВОЕ УСТРОЙСТВО
-Your ${brand} account was used on:
+Ваша учетная запись ${brand} использовалась на:
 
 ${date}
 
 ${model}
 
-You may have installed ${brand} on a new device or installed it again on an
-existing one. If that was not the case, go to ${brand} Settings, remove the
-device and reset your password [https://account.wire.com/forgot/].
+Возможно, вы установили ${brand} на новом устройстве или переустановили его на
+одном из уже используемых ранее. Если это не так, перейдите в настройки
+${brand}, удалите это устройство из списка и сбросьте ваш пароль
+[https://account.wire.com/forgot/].
 
 Если у вас есть вопросы, пожалуйста, свяжитесь с нами
 [https://support.wire.com/hc/en-us/requests/new].

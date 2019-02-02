@@ -23,5 +23,6 @@ Identifiant d'équipe : ${team_id}
 
 --------------------------------------------------------------------------------
 
-Confidentialité [https://wire.com/legal/] · Signaler un abus [misuse@wire.com]
+Politique de confidentialité [https://wire.com/legal/] · Signaler un abus
+[misuse@wire.com]
 © WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.

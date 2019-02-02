@@ -3,8 +3,8 @@
 ${brand_label_url} [${brand_url}]
 
 ПОДТВЕРДИТЕ ВАШ EMAIL
-${email} was used to register on ${brand}.
-Click the button to verify your address.
+${email} был использован для регистрации в ${brand}.
+Нажмите на кнопку для подтверждения вашего email адреса.
 
 Подтвердить [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте
 эту ссылку в свой браузер:

@@ -1,1 +1,1 @@
-Approval Request: ${brand_service}
+Запрос на подтверждение: ${brand_service}
