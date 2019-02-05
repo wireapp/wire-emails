@@ -1,21 +1,4 @@
 {
-  "name": "wire-emails",
-  "version": "1.0.49",
-  "license": "GPL-3.0",
-  "private": true,
-  "scripts": {
-    "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
-    "deploy": "bin/deploy.sh",
-    "media": "node bin/media.js",
-    "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
-    "start": "gulp",
-    "test": "yarn build",
-    "text": "node bin/generate-text-emails.js",
-    "translate": "yarn translate:upload && yarn translate:download",
-    "translate:download": "crowdin download && yarn translate:process",
-    "translate:process": "node bin/translate.js",
-    "translate:upload": "crowdin upload sources"
-  },
   "dependencies": {
     "foundation-cli": "2.2.5",
     "foundation-emails": "2.2.1",
@@ -60,15 +43,32 @@
     "siphon-media-query": "1.0.0",
     "yargs": "12.0.5"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "GPL-3.0",
   "lint-staged": {
     "*.{js,scss,md,yml,yaml}": [
       "prettier --write",
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  "name": "wire-emails",
+  "private": true,
+  "scripts": {
+    "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
+    "deploy": "bin/deploy.sh",
+    "media": "node bin/media.js",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
+    "start": "gulp",
+    "test": "yarn build",
+    "text": "node bin/generate-text-emails.js",
+    "translate": "yarn translate:upload && yarn translate:download",
+    "translate:download": "crowdin download && yarn translate:process",
+    "translate:process": "node bin/translate.js",
+    "translate:upload": "crowdin upload sources"
+  },
+  "version": "1.0.49"
 }
