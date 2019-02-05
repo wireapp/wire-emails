@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 TEAM EINLADUNG
-${inviter} has invited you to join a team on ${brand}. Klicke auf den
+${inviter} hat dich auf ${brand} zu einem Team eingeladen. Klicke auf den
 nachstehenden Button um die Einladung zu akzeptieren.
 
 Einladung akzeptieren [${url}]Falls du nicht auf den Button klicken kannst,

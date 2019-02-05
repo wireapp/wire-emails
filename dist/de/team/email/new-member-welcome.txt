@@ -3,13 +3,15 @@
 ${brand_label_url} [${brand_url}]
 
 WILLKOMMEN ZU ${team_name}.
-You have just joined a team called ${team_name} on ${brand} with ${email}.
+Du bist soeben mit ${email} einem Team namens ${team_name} auf ${brand}
+beigetreten.
 
-${brand} combines strong encryption, a rich feature set and ease-of-use in one
-app like never before. Unterstützt alle gängigen Plattformen.
+${brand} vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
+einfacher Bedienung in einer einzigen App. Unterstützt alle gängigen
+Plattformen.
 
-Download ${brand} [${url}]Falls du nicht auf den Button klicken kannst, kopiere
-den Link und füge ihn in deinem Browser ein:
+${brand} herunterladen [${url}]Falls du nicht auf den Button klicken kannst,
+kopiere den Link und füge ihn in deinem Browser ein:
 
 ${url}
 

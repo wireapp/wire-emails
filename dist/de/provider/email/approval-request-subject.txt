@@ -1,1 +1,1 @@
-Approval Request: ${brand_service}
+Anfrage genehmigen: ${brand_service}
