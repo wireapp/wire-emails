@@ -12,15 +12,12 @@ et collez ce lien dans votre navigateur :
 
 ${url}
 
-Si vous n'êtes pas à l'origine de cette demande, réinitialisez votre mot de
-passe [https://account.wire.com/forgot/].
+If you didn’t request this, reset your password [${forgot}].
 
-Si vous avez des questions, merci de nous contacter
-[https://support.wire.com/hc/en-us/requests/new].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Politique de confidentialité [https://wire.com/legal/] · Signaler un abus
-[misuse@wire.com]
-© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

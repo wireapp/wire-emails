@@ -32,6 +32,5 @@ Merci de ne pas répondre à ce message.
 
 --------------------------------------------------------------------------------
 
-Politique de confidentialité [https://wire.com/legal/] · Signaler un abus
-[misuse@wire.com]
-© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

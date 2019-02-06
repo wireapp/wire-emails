@@ -15,13 +15,12 @@ kopiere den Link und füge ihn in deinem Browser ein:
 
 ${url}
 
-Wenn Du Fragen hast, bitte kontaktiere uns
-[https://support.wire.com/hc/de/requests/new].
+If you have any questions, please contact us [${support}].
 
 Team ID: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Datenschutz [https://wire.com/legal/] · Missbrauch melden [misuse@wire.com]
-© WIRE SWISS GmbH. ALLE RECHTE VORBEHALTEN.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

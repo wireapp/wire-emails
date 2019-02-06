@@ -14,13 +14,12 @@ allolev aadress veebibrauserisse:
 
 ${url}
 
-Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
-.
+If you have any questions, please contact us [${support}].
 
 Tiimi ID: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
-© WIRE SWISS GmbH. Kõik õigused kaitstud.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

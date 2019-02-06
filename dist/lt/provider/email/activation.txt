@@ -19,15 +19,13 @@ Patvirtinti [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
 ${url}
 
 If you didn’t register for a ${brand} service provider account using this e-mail
-address, you can safely ignore this message. Jeigu norite pranešti apie
-netinkamą jūsų el pašto adreso naudojimą, tuomet susisiekite su mumis.
-[https://support.wire.com/hc/requests/new]
+address, you can safely ignore this message. If you want to report abuse of your
+e-mail address, please contact us. [${support}]
 
 Prašome neatsakinėti į šį laišką.
 
 
 --------------------------------------------------------------------------------
 
-Privatumas [https://wire.com/legal/] · Pranešti apie piktnaudžiavimą
-[misuse@wire.com]
-© WIRE SWISS GmbH. VISOS TEISĖS SAUGOMOS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

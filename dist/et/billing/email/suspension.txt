@@ -15,11 +15,10 @@ ${url}
 Kui sa kontot taas aktiivseks ei muuda, siis kustutame peatselt tiimi vestluste
 ajaloo ja tiimiliikmete kontod.
 
-Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
-.
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
-© WIRE SWISS GmbH. Kõik õigused kaitstud.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

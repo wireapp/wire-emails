@@ -31,6 +31,5 @@ Prašome neatsakinėti į šį laišką.
 
 --------------------------------------------------------------------------------
 
-Privatumas [https://wire.com/legal/] · Pranešti apie piktnaudžiavimą
-[misuse@wire.com]
-© WIRE SWISS GmbH. VISOS TEISĖS SAUGOMOS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

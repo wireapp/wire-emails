@@ -15,12 +15,10 @@ ${url}
 Если вы повторно не активируете свою учетную запись, история разговоров команды
 и всех ее участников будет удалена.
 
-Если у вас есть вопросы, пожалуйста, свяжитесь с нами
-[https://support.wire.com/hc/en-us/requests/new].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
-[misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

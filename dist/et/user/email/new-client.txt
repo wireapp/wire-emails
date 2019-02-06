@@ -11,13 +11,12 @@ ${model}
 
 You may have installed ${brand} on a new device or installed it again on an
 existing one. If that was not the case, go to ${brand} Settings, remove the
-device and reset your password [https://account.wire.com/forgot/].
+device and reset your password [${forgot}].
 
-Küsimuste korral võtke ühendust [https://support.wire.com/hc/en-us/requests/new]
-.
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
-© WIRE SWISS GmbH. Kõik õigused kaitstud.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

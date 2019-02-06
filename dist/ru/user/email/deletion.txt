@@ -11,15 +11,12 @@ ${brand_label_url} [${brand_url}]
 
 ${url}
 
-Если вы не запрашивали удаления вашего аккаунта, то сбросьте ваш пароль
-[https://account.wire.com/forgot/].
+If you didn’t request this, reset your password [${forgot}].
 
-Если у вас есть вопросы, пожалуйста, свяжитесь с нами
-[https://support.wire.com/hc/en-us/requests/new].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Конфиденциальность [https://wire.com/legal/] · Сообщить о злоупотреблении
-[misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

@@ -19,14 +19,13 @@ und füge ihn in deinem Browser ein:
 ${url}
 
 Solltest du dich nicht für eine ${brand} Service-Provider-Konto mit dieser
-E-Mail-Adresse registriert haben, kannst du diese Meldung ignorieren. Falls du
-einen Missbrauch deiner E-Mail-Adresse melden möchtest kontaktiere uns bitte.
-[https://support.wire.com/hc/de/requests/new]
+E-Mail-Adresse registriert haben, kannst du diese Meldung ignorieren. If you
+want to report abuse of your e-mail address, please contact us. [${support}]
 
 Bitte antworte nicht auf diese E-Mail.
 
 
 --------------------------------------------------------------------------------
 
-Datenschutz [https://wire.com/legal/] · Missbrauch melden [misuse@wire.com]
-© WIRE SWISS GmbH. ALLE RECHTE VORBEHALTEN.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

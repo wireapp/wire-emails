@@ -20,15 +20,13 @@ ce lien dans votre navigateur :
 ${url}
 
 Si vous ne vous êtes pas inscrit(e) pour un compte de fournisseur de service
-${brand} en utilisant cette adresse e-mail, vous pouvez ignorer ce message. Pour
-nous signaler un usage abusif de votre adresse email, merci de nous contacter.
-[https://support.wire.com/hc/requests/new]
+${brand} en utilisant cette adresse e-mail, vous pouvez ignorer ce message. If
+you want to report abuse of your e-mail address, please contact us. [${support}]
 
 Merci de ne pas répondre à ce message.
 
 
 --------------------------------------------------------------------------------
 
-Politique de confidentialité [https://wire.com/legal/] · Signaler un abus
-[misuse@wire.com]
-© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

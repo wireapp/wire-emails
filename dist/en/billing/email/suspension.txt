@@ -15,11 +15,10 @@ ${url}
 If you don’t reactivate your account, conversation history for the team and all
 its members will be deleted.
 
-If you have any questions, please contact us
-[https://support.wire.com/hc/en-us/requests/new].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

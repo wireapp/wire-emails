@@ -31,5 +31,5 @@ Palun ära sellele kirjale vasta.
 
 --------------------------------------------------------------------------------
 
-Privaatsus [https://wire.com/legal/] · Klienditugi [misuse@wire.com]
-© WIRE SWISS GmbH. Kõik õigused kaitstud.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

@@ -9,12 +9,11 @@ ${brand_service} approuvé.
 
 Merci de ne pas répondre à ce message.
 
-Si vous n'avez pas souscrit de compte ${brand_service} avec cette adresse email,
-merci de nous contacter [https://support.wire.com/hc/requests/new].
+If you didn’t register for a ${brand_service} account using this e-mail address,
+please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Politique de confidentialité [https://wire.com/legal/] · Signaler un abus
-[misuse@wire.com]
-© WIRE SWISS GmbH. TOUS DROITS RÉSERVÉS.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

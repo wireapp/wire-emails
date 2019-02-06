@@ -32,5 +32,5 @@ Bitte antworte nicht auf diese E-Mail.
 
 --------------------------------------------------------------------------------
 
-Datenschutz [https://wire.com/legal/] · Missbrauch melden [misuse@wire.com]
-© WIRE SWISS GmbH. ALLE RECHTE VORBEHALTEN.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

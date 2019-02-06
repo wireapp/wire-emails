@@ -9,10 +9,10 @@ We are happy to inform you that you are now an approved ${brand_service}.
 Please don’t reply to this message.
 
 If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [https://support.wire.com/hc/requests/new].
+please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

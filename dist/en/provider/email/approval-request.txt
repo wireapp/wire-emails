@@ -31,5 +31,5 @@ Please don’t reply to this message.
 
 --------------------------------------------------------------------------------
 
-Privacy [https://wire.com/legal/] · Report Misuse [misuse@wire.com]
-© WIRE SWISS GmbH. ALL RIGHTS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.
