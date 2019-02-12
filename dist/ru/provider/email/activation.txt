@@ -20,13 +20,13 @@ ${brand_service}.
 ${url}
 
 Если вы не регистрировали учетную запись ${brand} Service Provider, используя
-этот email адрес, проигнорируйте это сообщение. If you want to report abuse of
-your e-mail address, please contact us. [${support}]
+этот email адрес, проигнорируйте это сообщение. Если вы хотите сообщить о
+злоупотреблении вашим email адресом, пожалуйста, свяжитесь с нами [${support}]
 
 Пожалуйста, не отвечайте на это сообщение.
 
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Конфиденциальность [${legal}] · Сообщить о злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА ЗАЩИЩЕНЫ.

@@ -9,11 +9,11 @@ ${brand_label_url} [${brand_url}]
 
 Пожалуйста, не отвечайте на это сообщение.
 
-If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [${support}].
+Если вы не регистрировали учетную запись ${brand_service}, используя этот адрес
+email, пожалуйста, свяжитесь с нами [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Конфиденциальность [${legal}] · Сообщить о злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
