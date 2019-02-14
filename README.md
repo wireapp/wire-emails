@@ -4,7 +4,7 @@
 
 Templates for sending emails, based on [Foundation for Emails](https://foundation.zurb.com/emails.html).
 
-Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails/dist/) for the latest ✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) ✨
+Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails/dist/) for the latest ✨ [**Live Preview**](https://wireapp.github.io/wire-emails/dist/) 💫
 
 Help translate our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
