@@ -15,10 +15,10 @@ ${url}
 Bei nicht-Aktivieren des Kontos, wird der Gesprächsverlauf für das Team und
 seine Mitglieder gelöscht.
 
-If you have any questions, please contact us [${support}].
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
 
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Datenschutz [${legal}] · Missbrauch melden [${misuse}]
+${copyright}. Alle Rechte vorbehalten.
