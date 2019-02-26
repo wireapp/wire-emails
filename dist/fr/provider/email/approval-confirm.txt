@@ -9,11 +9,11 @@ ${brand_service} approuvé.
 
 Merci de ne pas répondre à ce message.
 
-If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [${support}].
+Si vous n'avez pas souscrit de compte ${brand_service} avec cette adresse email,
+merci de nous contacter [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Confidentialité [${legal}] · Report Misuse [${misuse}]
+${copyright}. TOUTES DROITS RESERVED.

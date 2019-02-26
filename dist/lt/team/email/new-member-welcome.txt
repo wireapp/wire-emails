@@ -20,5 +20,5 @@ Komandos ID: ${team_id}
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumas [${legal}] · Pranešti apie piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

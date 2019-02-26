@@ -15,10 +15,10 @@ ${url}
 Si vous ne réactivez pas votre compte, l'historique des conversations pour
 l'équipe et tous ses membres sera supprimé.
 
-If you have any questions, please contact us [${support}].
+Si vous avez des questions, veuillez contactez-nous [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Confidentialité [${legal}] · Report Misuse [${misuse}]
+${copyright}. TOUTES DROITS RESERVED.
