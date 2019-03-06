@@ -41,7 +41,7 @@
     "replace-in-file": "3.4.3",
     "rimraf": "2.6.3",
     "siphon-media-query": "1.0.0",
-    "yargs": "13.2.1"
+    "yargs": "13.2.2"
   },
   "husky": {
     "hooks": {
