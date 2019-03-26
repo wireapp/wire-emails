@@ -1,1 +1,0 @@
-${brand} verification code is ${code}
