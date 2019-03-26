@@ -1,0 +1,20 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+BESTÄTIGE DEINE E-MAIL-ADRESSE
+${email} wurde verwendet um ein Konto auf ${brand} zu erstellen.
+Klicke den folgenden Button um die E-Mail-Adresse zu bestätigen.
+
+Überprüfe [${url}]Falls du nicht auf den Button klicken kannst, kopiere den Link
+und füge ihn in deinem Browser ein:
+
+${url}
+
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+
+
+--------------------------------------------------------------------------------
+
+Datenschutz [${legal}] · Missbrauch melden [${misuse}]
+${copyright}. Alle Rechte vorbehalten.

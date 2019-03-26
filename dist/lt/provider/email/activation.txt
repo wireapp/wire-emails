@@ -1,0 +1,31 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+PATVIRTINKITE SAVO EL. PAŠTĄ
+Your email address ${email} was used to register as a ${brand_service}.
+
+Norint užbaigti registraciją, reikia, kad jūs patvirtintumėte savo el. pašto
+adresą, spusteldami žemiau esantį mygtuką.
+
+Please note that upon successful verification of your e-mail, your
+${brand_service} account is still subject to approval through our staff, which
+usually happens within 24 hours. Apie patvirtinimą būsite informuoti atskiru el.
+laišku.
+
+Patvirtinti [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
+įdėkite šią nuorodą į savo naršyklę:
+
+${url}
+
+If you didn’t register for a ${brand} service provider account using this e-mail
+address, you can safely ignore this message. If you want to report abuse of your
+e-mail address, please contact us. [${support}]
+
+Prašome neatsakinėti į šį laišką.
+
+
+--------------------------------------------------------------------------------
+
+Privatumas [${legal}] · Pranešti apie piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.
