@@ -20,7 +20,7 @@
     "gulp-html-src": "1.0.0",
     "gulp-htmlmin": "5.0.1",
     "gulp-if": "2.0.2",
-    "gulp-imagemin": "5.0.3",
+    "gulp-imagemin": "6.0.0",
     "gulp-inline-css": "3.3.2",
     "gulp-litmus": "0.0.7",
     "gulp-load-plugins": "1.6.0",
