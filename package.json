@@ -38,7 +38,7 @@
     "merge-stream": "2.0.0",
     "panini": "https://github.com/zurb/panini.git#v2.0",
     "prettier": "1.18.2",
-    "replace-in-file": "4.1.0",
+    "replace-in-file": "4.1.1",
     "rimraf": "2.6.3",
     "siphon-media-query": "1.0.0",
     "yargs": "13.2.4"
