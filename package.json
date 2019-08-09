@@ -22,7 +22,7 @@
     "gulp-if": "3.0.0",
     "gulp-imagemin": "6.0.0",
     "gulp-inline-css": "3.3.2",
-    "gulp-load-plugins": "2.0.0",
+    "gulp-load-plugins": "2.0.1",
     "gulp-mail": "0.3.0",
     "gulp-rename": "1.4.0",
     "gulp-replace": "1.0.0",
