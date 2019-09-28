@@ -30,7 +30,7 @@
     "gulp-sourcemaps": "2.6.5",
     "gulp-uncss": "1.0.6",
     "gulp-zip": "5.0.0",
-    "husky": "3.0.6",
+    "husky": "3.0.7",
     "inky": "1.3.7",
     "lazypipe": "1.0.2",
     "lint-staged": "9.4.0",
