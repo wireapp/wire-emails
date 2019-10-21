@@ -13,7 +13,7 @@ ir įdėkite šią nuorodą į savo naršyklę:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 Komandos ID: ${team_id}
 

@@ -15,7 +15,7 @@ ${url}
 If you don’t reactivate your account, conversation history for the team and all
 its members will be deleted.
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 
 --------------------------------------------------------------------------------
