@@ -377,6 +377,10 @@ array-find-index@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
 
+array-flatten@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
+
 array-initial@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/array-initial/-/array-initial-1.1.0.tgz#2fa74b26739371c3947bd7a7adc73be334b3d795"
@@ -1114,9 +1118,9 @@ block-stream@*, block-stream@0.0.9:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
+bluebird@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz#df70e302b471d7473489acf26a93d63b53f874de"
 
 bluebird@~3.1.5:
   version "3.1.5"
@@ -1892,11 +1896,11 @@ css-parse@^2.0.0:
   dependencies:
     css "^2.0.0"
 
-css-rules@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/css-rules/-/css-rules-1.0.4.tgz#f210a0509a1d9e14c5d73365e37c7d04478ec754"
+css-rules@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/css-rules/-/css-rules-1.0.5.tgz#c2843dd5dc2769ab17993aa06a3d32ce0ab8a314"
   dependencies:
-    cssom "^0.3.2"
+    cssom "^0.4.1"
 
 css-select-base-adapter@^0.1.1:
   version "0.1.1"
@@ -1963,9 +1967,13 @@ cssom@0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.2.tgz#b8036170c79f07a90ff2f16e22284027a243848b"
 
-cssom@0.3.x, "cssom@>= 0.3.0 < 0.4.0", cssom@^0.3.2:
+cssom@0.3.x, "cssom@>= 0.3.0 < 0.4.0":
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
+
+cssom@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.4.1.tgz#b24111d236b6dbd00cdfacb5ab67a20473381fe3"
 
 "cssstyle@>= 0.2.29 < 0.3.0":
   version "0.2.37"
@@ -2800,13 +2808,13 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extract-css@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/extract-css/-/extract-css-1.2.3.tgz#661eaeb81f67ec2a5a7b7012ac59723d2dbbb60e"
+extract-css@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/extract-css/-/extract-css-1.2.4.tgz#0b0b4b38542890d8fa83ee5437e07f79f0061388"
   dependencies:
     batch "^0.6.1"
     href-content "^1.0.5"
-    list-stylesheets "^1.2.2"
+    list-stylesheets "^1.2.3"
     style-data "^1.3.2"
 
 extract-opts@^3.3.1:
@@ -3061,10 +3069,6 @@ first-chunk-stream@^1.0.0:
 flagged-respawn@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/flagged-respawn/-/flagged-respawn-1.0.1.tgz#e7de6f1279ddd9ca9aac8a5971d618606b3aab41"
-
-flatten@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
 flexiconfig@^2.0.0:
   version "2.0.0"
@@ -3813,11 +3817,11 @@ gulp-imagemin@6.1.1:
     imagemin-optipng "^7.0.0"
     imagemin-svgo "^7.0.0"
 
-gulp-inline-css@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/gulp-inline-css/-/gulp-inline-css-3.3.2.tgz#831dc4a83be9f232368850d83dab6d0b2f088140"
+gulp-inline-css@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/gulp-inline-css/-/gulp-inline-css-3.4.0.tgz#2b04c85329328c1e127574885e96efda8e6aecc8"
   dependencies:
-    inline-css "^2.4.2"
+    inline-css "^2.5.0"
     plugin-error "^1.0.1"
     through2 "^3.0.1"
 
@@ -4513,16 +4517,16 @@ inky@1.3.7:
     through2 "^2.0.0"
     vinyl-fs "^2.3.0"
 
-inline-css@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/inline-css/-/inline-css-2.4.2.tgz#4990c68992508f0af52614f91e0f839fe80b06dc"
+inline-css@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/inline-css/-/inline-css-2.5.0.tgz#a69f2a2a207fe341bedf748a9dc95afdeeee0e0f"
   dependencies:
-    bluebird "^3.5.5"
+    array-flatten "^2.1.2"
+    bluebird "^3.7.1"
     cheerio "^0.22.0"
-    css-rules "^1.0.4"
+    css-rules "^1.0.5"
     extend "^3.0.2"
-    extract-css "^1.2.3"
-    flatten "^1.0.2"
+    extract-css "^1.2.4"
     object.pick "^1.3.0"
     slick "^1.12.2"
     specificity "^0.4.1"
@@ -5298,14 +5302,13 @@ lint-staged@9.4.2:
     string-argv "^0.3.0"
     stringify-object "^3.3.0"
 
-list-stylesheets@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/list-stylesheets/-/list-stylesheets-1.2.2.tgz#6c85372a70a35279d77b846699cd0e99c91fd53b"
+list-stylesheets@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/list-stylesheets/-/list-stylesheets-1.2.3.tgz#5044d7c250c1f212c218e9442a0063bd3470e332"
   dependencies:
     cheerio "^0.22.0"
-    extend "^3.0.1"
+    extend "^3.0.2"
     object.pick "^1.3.0"
-    vinyl "^2.2.0"
 
 listr-silent-renderer@^1.1.1:
   version "1.1.1"
