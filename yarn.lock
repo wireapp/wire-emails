@@ -202,9 +202,9 @@ ansi-colors@^1.0.1, ansi-colors@^1.1.0:
   dependencies:
     ansi-wrap "^0.1.0"
 
-ansi-colors@^3.2.3:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
+ansi-colors@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
 
 ansi-escapes@^3.0.0:
   version "3.2.0"
@@ -3725,11 +3725,11 @@ graceful-fs@~4.1.6:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gulp-awspublish@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.0.0.tgz#7d61c25d993ebc053ea58c7345ff544b8ac3756c"
+gulp-awspublish@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.0.1.tgz#feafff684cfd4eb59546aeb35c4c97d7e92e7a18"
   dependencies:
-    ansi-colors "^3.2.3"
+    ansi-colors "^4.1.1"
     aws-sdk "^2.389.0"
     clone "^2.1.2"
     fancy-log "^1.3.3"
@@ -3737,8 +3737,8 @@ gulp-awspublish@4.0.0:
     pad-component "^0.0.1"
     pascal-case "^2.0.0"
     plugin-error "^1.0.1"
-    pumpify "^1.3.5"
-    through2 "3.0.0"
+    pumpify "^2.0.1"
+    through2 "^3.0.1"
     vinyl "^2.2.0"
     xml-nodes "^0.1.5"
     xml-objects "^1.0.1"
@@ -7232,6 +7232,14 @@ pumpify@^1.3.5:
     inherits "^2.0.3"
     pump "^2.0.0"
 
+pumpify@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/pumpify/-/pumpify-2.0.1.tgz#abfc7b5a621307c728b551decbbefb51f0e4aa1e"
+  dependencies:
+    duplexify "^4.1.1"
+    inherits "^2.0.3"
+    pump "^3.0.0"
+
 punycode@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
@@ -8816,13 +8824,6 @@ through2@2.X, through2@^2.0.0, through2@^2.0.3, through2@~2.0.0:
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
   dependencies:
     readable-stream "~2.3.6"
-    xtend "~4.0.1"
-
-through2@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.0.tgz#468b461df9cd9fcc170f22ebf6852e467e578ff2"
-  dependencies:
-    readable-stream "2 || 3"
     xtend "~4.0.1"
 
 through2@^0.6.0, through2@^0.6.1:
