@@ -40,7 +40,7 @@
     "replace-in-file": "4.2.0",
     "rimraf": "3.0.0",
     "siphon-media-query": "1.0.0",
-    "yargs": "15.0.1"
+    "yargs": "15.0.2"
   },
   "husky": {
     "hooks": {
