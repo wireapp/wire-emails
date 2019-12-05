@@ -3890,9 +3890,9 @@ gulp-match@^1.1.0:
   dependencies:
     minimatch "^3.0.3"
 
-gulp-rename@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.4.0.tgz#de1c718e7c4095ae861f7296ef4f3248648240bd"
+gulp-rename@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-2.0.0.tgz#9bbc3962b0c0f52fc67cd5eaff6c223ec5b9cf6c"
 
 gulp-replace@1.0.0:
   version "1.0.0"
