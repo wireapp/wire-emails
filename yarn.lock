@@ -3751,14 +3751,15 @@ graceful-fs@~4.1.6:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gulp-awspublish@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.1.0.tgz#8ccc6320411f9b20703947f47b2eb987d7b38683"
+gulp-awspublish@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.1.1.tgz#acc2e534b60dd96d3ac7d62513aab97cd2c49a39"
   dependencies:
     ansi-colors "^4.1.1"
     aws-sdk "^2.389.0"
     clone "^2.1.2"
     fancy-log "^1.3.3"
+    lodash.chunk "^4.2.0"
     mime-types "^2.1.21"
     pad-component "^0.0.1"
     pascal-case "^2.0.0"
@@ -5483,6 +5484,10 @@ lodash.assignin@^4.0.9:
 lodash.bind@^4.1.4:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/lodash.bind/-/lodash.bind-4.2.1.tgz#7ae3017e939622ac31b7d7d7dcb1b34db1690d35"
+
+lodash.chunk@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
 
 lodash.clonedeep@^4.3.2:
   version "4.5.0"
