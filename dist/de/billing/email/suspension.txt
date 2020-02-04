@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+DAS TEAM WURDE GESPERRT
+Dein Konto für das ${team_name} Team wurde suspendiert.
+
+Grund: ${reason}.
+
+${caption} [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
+Link und füge ihn in deinem Browser ein:
+
+${url}
+
+Bei nicht-Aktivieren des Kontos, wird der Gesprächsverlauf für das Team und
+seine Mitglieder gelöscht.
+
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+
+
+--------------------------------------------------------------------------------
+
+Datenschutz [${legal}] · Missbrauch melden [${misuse}]
+${copyright}. Alle Rechte vorbehalten.

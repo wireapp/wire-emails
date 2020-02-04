@@ -1,0 +1,20 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+TEAM EINLADUNG
+${inviter} hat dich auf ${brand} zu einem Team eingeladen. Klicke auf den
+nachstehenden Button um die Einladung zu akzeptieren.
+
+Einladung akzeptieren [${url}]Falls du nicht auf den Button klicken kannst,
+kopiere den Link und füge ihn in deinem Browser ein:
+
+${url}
+
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+
+
+--------------------------------------------------------------------------------
+
+Datenschutz [${legal}] · Missbrauch melden [${misuse}]
+${copyright}. Alle Rechte vorbehalten.
