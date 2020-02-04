@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+WELCOME TO ${team_name}.
+You have just joined a team called ${team_name} on ${brand} with ${email}.
+
+${brand} combines strong encryption, a rich feature set and ease-of-use in one
+app like never before. Works on all popular platforms.
+
+Download ${brand} [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite
+ir įdėkite šią nuorodą į savo naršyklę:
+
+${url}
+
+Jei turite klausimų, susisiekite su mumis [${support}].
+
+Komandos ID: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Privatumas [${legal}] · Pranešti apie piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+SINU TIIMI KONTO ON KÜLMUTATUD
+Tiimi konto nimega ${team_name} on nüüd külmutatud.
+
+Põhjus: ${reason}.
+
+${caption} [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
+aadress veebibrauserisse:
+
+${url}
+
+Kui sa kontot taas aktiivseks ei muuda, siis kustutame peatselt tiimi vestluste
+ajaloo ja tiimiliikmete kontod.
+
+If you have any questions, please contact us [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

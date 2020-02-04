@@ -14,9 +14,9 @@ function getFiles(pattern) {
   });
 }
 
-async function getSubjectFromHtml(filePath) {
-  const text = await fs.readFile(filePath, 'utf8');
-  return text.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+function getSubjectFromHtml(filePath) {
+  const text = fs.readFileSync(filePath, 'utf8');
+  return text.match(/<title[^>]*>([^<]*)<\/title>/)[1];
 }
 
 function getTextFromHtml(filePath) {
@@ -53,7 +53,7 @@ function fixBrokenVariables() {
         textPath: path.join(parsedPath.dir, `${parsedPath.name}.txt`),
         text: await getTextFromHtml(filePath),
         subjectPath: path.join(parsedPath.dir, `${parsedPath.name}-subject.txt`),
-        subject: await getSubjectFromHtml(filePath),
+        subject: getSubjectFromHtml(filePath),
       };
     }),
   );
