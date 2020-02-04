@@ -20,15 +20,15 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 - Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en).
 - To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials/en`](https://github.com/wireapp/wire-emails/tree/master/src/partials/en) folder.
 - Commit your changes to `master`.
-- Continue in Section "Otto builds" below.
+- Continue in [Section "Otto builds"](./README.md#otto-builds) below.
 
 
 ## For Copywriters
 
-- Find the things you want to edit in the same places as designers (see above).
+- Find the things you want to edit in the same places as designers (see [above](./README.md#for-designers)).
 - Commit your changes to a branch and create a pull request.
-- Otto will now automatically upload your English changes to [crowdin](https://crowdin.com/project/wire-launch).
-- Continue in Section "For Translators" below.
+- Otto will now automatically upload your English changes to the [Crowdin project](https://crowdin.com/project/wire-launch).
+- Continue in [Section "For Translators"](./README.md#for-translators) below.
 
 
 ## For Translators
@@ -36,7 +36,7 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 - All translations are located in the [Crowdin project](https://crowdin.com/project/wire-launch).
 - When the original (English) email copy is changed via the GitHub UI or in a local clone and submitted via a pull request, the modified source text is uploaded to Crowdin for translation.  Translators use the [Crowdin UI](https://crowdin.com/project/wire-launch) to update the localized text strings.
 - When the translators are done, merge the pull request to `master`.
-- Continue in Section "Otto builds" below.
+- Continue in [Section "Otto builds"](./README.md#otto-builds) below.
 
 If you changed Crowdin content without any changes on github (eg., to fix a translation error), you can try to re-run the travis job that is otherwise triggered automatically on every change on `master`.
 
