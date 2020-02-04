@@ -20,14 +20,11 @@ function getSubjectFromHtml(filePath) {
 }
 
 function getTextFromHtml(filePath) {
-  return new Promise((resolve, reject) => {
-    htmlToText.fromFile(filePath, undefined, (error, text) => {
-      // Remove the header related stuff
-      text = text.replace('[https://wire.com/p/img/email/logo-email-black.png]\n\n', '');
-      text = text.replace('wire.com [https://wire.com]\n\n', '');
-      error ? reject(error) : resolve(text);
-    });
-  });
+  let text = fs.readFileSync(filePath, 'utf8');
+  text = htmlToText.fromString(text);
+  text = text.replace('[https://wire.com/p/img/email/logo-email-black.png]\n\n', '');
+  text = text.replace('wire.com [https://wire.com]\n\n', '');
+  return text;
 }
 
 function fixBrokenVariables() {
@@ -46,17 +43,15 @@ function fixBrokenVariables() {
 (async () => {
   const files = await getFiles(`${rootDirectory}/*/**/*.html`);
 
-  const payloads = await Promise.all(
-    files.map(async filePath => {
-      const parsedPath = path.parse(filePath);
-      return {
-        textPath: path.join(parsedPath.dir, `${parsedPath.name}.txt`),
-        text: await getTextFromHtml(filePath),
-        subjectPath: path.join(parsedPath.dir, `${parsedPath.name}-subject.txt`),
-        subject: getSubjectFromHtml(filePath),
-      };
-    }),
-  );
+  const payloads = files.map(filePath => {
+    const parsedPath = path.parse(filePath);
+    return {
+      textPath: path.join(parsedPath.dir, `${parsedPath.name}.txt`),
+      text: getTextFromHtml(filePath),
+      subjectPath: path.join(parsedPath.dir, `${parsedPath.name}-subject.txt`),
+      subject: getSubjectFromHtml(filePath),
+    };
+  });
 
   const promises = payloads.map(payload => {
     fs.writeFile(payload.textPath, payload.text);
