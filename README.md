@@ -9,6 +9,12 @@ Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails
 Help translate our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
 
+## IMPORTANT NOTES
+
+- Only ever update stuff under `/src/`.  Other changes may get overwritten.
+- Only translate languages supported here: https://github.com/wireapp/wire-emails/blob/master/bin/translate.js#L24-L31
+
+
 ## For Designers
 
 - Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en).
