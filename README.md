@@ -8,14 +8,15 @@ Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails
 
 Help translate our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
-## For Designers
+## For Designers and Copywriters
 
-- Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en) and commit your changes to `master`.
+- Find and edit the template in [`src/pages/en`](https://github.com/wireapp/wire-emails/tree/master/src/pages/en).
+- To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials/en`](https://github.com/wireapp/wire-emails/tree/master/src/partials/en) folder.
+- commit your changes to `master`.
 - After 2-3 minutes, Otto will re-build the files in the [`dist`](https://github.com/wireapp/wire-emails/tree/master/dist) folder.
 
 If the files are not updated Otto-matically with the `Otto build` commit message, check the [commit list](https://github.com/wireapp/wire-emails/commits/master) for possible errors.
 
-To update shared text modules like headers, footers or signatures, edit the corresponding files in the [`src/partials/en`](https://github.com/wireapp/wire-emails/tree/master/src/partials/en) folder.
 
 ## For Engineers
 
@@ -56,7 +57,7 @@ If not, make sure the local preview server is running or check the console for e
 
 Run `yarn build` to inline your CSS into your HTML along with the rest of the build process.
 
-### Translations
+## For Translators
 
 All translations are located in the [Crowdin project](https://crowdin.com/project/wire-launch).
 
