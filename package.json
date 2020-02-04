@@ -50,8 +50,7 @@
   "license": "GPL-3.0",
   "lint-staged": {
     "*.{js,scss,md,yml,yaml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "name": "wire-emails",
