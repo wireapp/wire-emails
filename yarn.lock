@@ -3842,10 +3842,10 @@ gulp-load-plugins@2.0.2:
     micromatch "^4.0.2"
     resolve "^1.14.1"
 
-gulp-mail@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/gulp-mail/-/gulp-mail-0.4.0.tgz#60c3010938aa27bdee4e3190e0cb281b1695f9e3"
-  integrity sha512-I1TZ26h7q3ZOi6RvcbwYASav2Gzdh3XpAFqADgRwd8gMJJv5ASMiFAo9Cs9WSw4dTK7e4Su8fMpixgwMROXxig==
+gulp-mail@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/gulp-mail/-/gulp-mail-0.4.1.tgz#d4b64b30f805f71e51f78acac1da513f6d5a92f5"
+  integrity sha512-0Icxn7X5VqjgJm+yjIo0niaYzYNV2LctmTP43cZp6HLs/30n/lul1yXl5D1oSzV3y8NAuHRhTPyvirIWj2sbYQ==
   dependencies:
     ansi-colors "^1.1.0"
     fancy-log "^1.3.2"
