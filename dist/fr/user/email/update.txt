@@ -12,7 +12,7 @@ ce lien dans votre navigateur :
 
 ${url}
 
-Si vous avez des questions, veuillez contactez-nous [${support}].
+Si vous avez des questions, veuillez nous contacter [${support}].
 
 
 --------------------------------------------------------------------------------

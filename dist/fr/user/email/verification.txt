@@ -8,7 +8,7 @@ code afin de vérifier votre adresse email et créer votre compte.
 
 ${code}
 
-Si vous avez des questions, veuillez contactez-nous [${support}].
+Si vous avez des questions, veuillez nous contacter [${support}].
 
 
 --------------------------------------------------------------------------------
