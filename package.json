@@ -36,7 +36,7 @@
     "lint-staged": "10.1.6",
     "merge-stream": "2.0.0",
     "panini": "https://github.com/zurb/panini.git#v2.0",
-    "prettier": "2.0.4",
+    "prettier": "2.0.5",
     "replace-in-file": "5.0.2",
     "rimraf": "3.0.2",
     "siphon-media-query": "1.0.0",
