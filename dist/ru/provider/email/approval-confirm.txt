@@ -15,5 +15,5 @@ email, пожалуйста, свяжитесь с нами [${support}].
 
 --------------------------------------------------------------------------------
 
-Конфиденциальность [${legal}] · Сообщить о злоупотреблении [${misuse}]
-${copyright}. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.
