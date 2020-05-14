@@ -18,5 +18,5 @@ Si vous avez des questions, veuillez nous contacter [${support}].
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+Privacy [${legal}] · Report Misuse [${misuse}]
 ${copyright}. ALL RIGHTS RESERVED.
