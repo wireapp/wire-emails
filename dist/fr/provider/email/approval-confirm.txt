@@ -15,5 +15,5 @@ merci de nous contacter [${support}].
 
 --------------------------------------------------------------------------------
 
-Confidentialité [${legal}] · Report Misuse [${misuse}]
-${copyright}. TOUTES DROITS RESERVED.
+Privacy [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

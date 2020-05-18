@@ -43,7 +43,7 @@ If you changed Crowdin content without any changes on github (eg., to fix a tran
 
 ## Otto builds
 
-When you commit to `master`, Otto will tell Travis to generate [the new email templates](https://github.com/wireapp/wire-emails/tree/master/dist) and add an `Otto build` message to the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Otto build` will indicate an error as seen in the sreenshot below:
+When you commit to `master`, Otto will tell Travis to generate [the new email templates](https://github.com/wireapp/wire-emails/tree/master/dist) and add an `Otto build` message to the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Otto build` will indicate an error as seen in the screenshot below:
 
 <img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/129995/36435445-ff5e85a6-1661-11e8-9e22-b1d2420e78f1.png">
 
