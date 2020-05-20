@@ -13,6 +13,6 @@ Si vous avez des questions, veuillez nous contacter [${support}].
 
 --------------------------------------------------------------------------------
 
-Confidentialité et conditions d'utilisation [${legal}] · Report Misuse
-[${misuse}]
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
 ${copyright}. TOUS DROITS RÉSERVÉS.

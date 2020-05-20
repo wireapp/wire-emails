@@ -28,5 +28,6 @@ ${url}
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Политика конфиденциальности и условия использования [${legal}] · Сообщить о
+злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА РЕЗЕРВЕННЫ.

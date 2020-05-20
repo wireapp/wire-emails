@@ -22,6 +22,6 @@ Identifiant d'équipe : ${team_id}
 
 --------------------------------------------------------------------------------
 
-Confidentialité et conditions d'utilisation [${legal}] · Report Misuse
-[${misuse}]
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
 ${copyright}. TOUS DROITS RÉSERVÉS.
