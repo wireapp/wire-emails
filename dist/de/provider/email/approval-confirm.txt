@@ -15,5 +15,6 @@ registriert hast, bitte kontaktiere uns [${support}].
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
+[${misuse}]
+${copyright}. ALLE RECHTE VORBEHALTEN.

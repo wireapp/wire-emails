@@ -32,5 +32,6 @@ Merci de ne pas répondre à ce message.
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Confidentialité et conditions d'utilisation [${legal}] · Report Misuse
+[${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
