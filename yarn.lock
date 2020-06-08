@@ -3771,9 +3771,10 @@ graceful-fs@~4.1.6:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gulp-awspublish@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.1.1.tgz#acc2e534b60dd96d3ac7d62513aab97cd2c49a39"
+gulp-awspublish@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/gulp-awspublish/-/gulp-awspublish-4.1.2.tgz#af469d1c976280cf3ab4f27b32c66d92e5a5d51c"
+  integrity sha512-MOgg7D+lGEm578ZfuVMPBxvOTdln8D969fjMWA4JKH3XXXFHjk3dQ7zWnZsIvPkQw0LYBzzT/EiYx2nfEc8Vyw==
   dependencies:
     ansi-colors "^4.1.1"
     aws-sdk "^2.389.0"
