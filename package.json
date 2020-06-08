@@ -15,7 +15,7 @@
     "browser-sync": "2.26.7",
     "colors": "1.4.0",
     "gulp": "4.0.2",
-    "gulp-awspublish": "4.1.1",
+    "gulp-awspublish": "4.1.2",
     "gulp-cli": "2.3.0",
     "gulp-html-src": "1.0.0",
     "gulp-htmlmin": "5.0.1",
