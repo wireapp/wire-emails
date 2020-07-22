@@ -6270,10 +6270,10 @@ paint-by-number@1.0.0:
   dependencies:
     chalk "^1.0.0"
 
-"panini@https://github.com/zurb/panini.git#v1.7.0":
+panini@^1.7.0:
   version "1.7.0"
-  uid "7dee6efde38810494ccae1d9dd966930ba82b72c"
-  resolved "https://github.com/zurb/panini.git#7dee6efde38810494ccae1d9dd966930ba82b72c"
+  resolved "https://registry.yarnpkg.com/panini/-/panini-1.7.0.tgz#ae0d84bc38c89aa1042425db3218d99a6ce30a03"
+  integrity sha512-3BO+aEGhZA+KH5iT16IPdFLwkhr4ayVqodqk38h5s5VmJuk3/N7RUD+cQa4OU028Hm8tAyCu4t8PJRKSzBFxJw==
   dependencies:
     deepmerge "^1.5.2"
     front-matter "^2.0.5"
