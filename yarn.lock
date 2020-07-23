@@ -6270,10 +6270,10 @@ paint-by-number@1.0.0:
   dependencies:
     chalk "^1.0.0"
 
-panini@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/panini/-/panini-1.7.0.tgz#ae0d84bc38c89aa1042425db3218d99a6ce30a03"
-  integrity sha512-3BO+aEGhZA+KH5iT16IPdFLwkhr4ayVqodqk38h5s5VmJuk3/N7RUD+cQa4OU028Hm8tAyCu4t8PJRKSzBFxJw==
+panini@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/panini/-/panini-1.7.1.tgz#1fb7c5ff24e64aec70f313606118e7cda5bfe1cf"
+  integrity sha512-iAzKEN69Tt/9nhA46SeTJWHEUOISQB0RoCf2h5Ts1jXZ2bz9UCi6o9EIPuZKR3QZQkTzxk5zqPtNbeEJMcruUg==
   dependencies:
     deepmerge "^1.5.2"
     front-matter "^2.0.5"
