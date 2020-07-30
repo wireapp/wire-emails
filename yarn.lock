@@ -4246,10 +4246,10 @@ init-package-json@~1.9.4:
     validate-npm-package-license "^3.0.1"
     validate-npm-package-name "^3.0.0"
 
-inky@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/inky/-/inky-1.4.1.tgz#699deaef3fd76e68fd2069025a6a7ed37e4ee299"
-  integrity sha512-BRcj11XRpjX3/m9UL7eUK3/3fXlwYvw8UwIkyPrEu7t6b8T3zDqNWb0/lPBEtoMEsrjBJTzNlrP12PTUz67s7g==
+inky@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/inky/-/inky-1.4.2.tgz#3718806d85a44972844b232dbdc49d7f1505c9ff"
+  integrity sha512-Z+oAo6t1IWBqBRN/V1eRhW0LWzmQaQXLRVVABQUKNJKSgTMP4nlPsTVJlwZxwBwrPTR1PEDhJHS/qJpzW5ihdw==
   dependencies:
     cheerio "^0.20.0"
     foundation-emails "^2.2.0"
