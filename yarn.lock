@@ -3029,9 +3029,10 @@ formidable@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
 
-foundation-cli@2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/foundation-cli/-/foundation-cli-2.2.5.tgz#7d09efe4e7378754e886fc193fa19fccbc55bb8a"
+foundation-cli@2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/foundation-cli/-/foundation-cli-2.2.6.tgz#8a1fc8c27b02c9ca67fb34559d64cfc3ad140b26"
+  integrity sha512-lW/qFb2WRHxiTTHepSoTGmt3P37AWvv49njR6aGb2w8x8mmiI0r/N2wA114vhJDBBn32Y9auqLFqqLP27OPPTQ==
   dependencies:
     async "^2.3.0"
     bower "^1.6.8"

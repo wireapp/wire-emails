@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "foundation-cli": "2.2.5",
+    "foundation-cli": "2.2.6",
     "foundation-emails": "2.3.1",
     "fs-extra": "9.0.1",
     "glob": "7.1.6",
