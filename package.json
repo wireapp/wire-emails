@@ -36,7 +36,7 @@
     "lint-staged": "10.2.13",
     "merge-stream": "2.0.0",
     "panini": "^1.7.1",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "replace-in-file": "6.1.0",
     "rimraf": "3.0.2",
     "siphon-media-query": "1.0.0",
