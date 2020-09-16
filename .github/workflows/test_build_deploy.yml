@@ -10,6 +10,10 @@ jobs:
   test_build_deploy:
     runs-on: ubuntu-latest
 
+    env:
+      CROWDIN_PROJECT_ID: 202775
+      CROWDIN_CONFIG_PATH: './crowdin.yaml'
+
     steps:
       - name: Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.5.0
@@ -45,12 +49,30 @@ jobs:
       - name: Test
         run: yarn test
 
-      - name: Download translations
-        # if: env.BRANCH_NAME == 'master'
+      - name: Upload translations
+        if: github.event_name == 'pull_request'
         uses: crowdin/github-action@1.0.9
         env:
           GITHUB_TOKEN: ${{github.token}}
-          CROWDIN_PROJECT_ID: 202775
+          CROWDIN_PROJECT_ID: ${{env.CROWDIN_PROJECT_ID}}
+          INPUT_DEBUG_MODE: false
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+          skip_untranslated_files: true
+          push_translations: false
+          create_pull_request: false
+          token: ${{secrets.WEB_CROWDIN_TOKEN}}
+          config: ${{env.CROWDIN_CONFIG_PATH}}
+          dryrun_action: true
+
+      - name: Download translations
+        if: env.BRANCH_NAME == 'master'
+        uses: crowdin/github-action@1.0.9
+        env:
+          GITHUB_TOKEN: ${{github.token}}
+          CROWDIN_PROJECT_ID: ${{env.CROWDIN_PROJECT_ID}}
           INPUT_DEBUG_MODE: false
         with:
           upload_sources: false
@@ -60,14 +82,14 @@ jobs:
           push_translations: false
           create_pull_request: false
           token: ${{secrets.WEB_CROWDIN_TOKEN}}
-          config: './crowdin.yaml'
+          config: ${{env.CROWDIN_CONFIG_PATH}}
 
       - name: Build
-        # if: env.BRANCH_NAME == 'master'
+        if: env.BRANCH_NAME == 'master'
         run: sudo yarn build && git status
 
       - name: Commit
-        # if: env.BRANCH_NAME == 'master'
+        if: env.BRANCH_NAME == 'master'
         run: |
           git config --global user.email webapp+travis@wire.com
           git config --global user.name "Wire Travis CI"
