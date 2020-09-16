@@ -77,7 +77,7 @@ jobs:
           upload_sources: false
           upload_translations: false
           download_translations: true
-          skip_untranslated_files: true
+          skip_untranslated_files: false
           push_translations: false
           create_pull_request: false
           token: ${{secrets.WEB_CROWDIN_TOKEN}}
