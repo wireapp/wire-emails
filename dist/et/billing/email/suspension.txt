@@ -1,24 +1,16 @@
-[${brand_logo}]
+PANINI ERROR
+src/pages/et/billing/email/suspension.html
 
-${brand_label_url} [${brand_url}]
+The partial et/questions could not be found
 
-SINU TIIMI KONTO ON KÜLMUTATUD
-Tiimi konto nimega ${team_name} on nüüd külmutatud.
-
-Põhjus: ${reason}.
-
-${caption} [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
-aadress veebibrauserisse:
-
-${url}
-
-Kui sa kontot taas aktiivseks ei muuda, siis kustutame peatselt tiimi vestluste
-ajaloo ja tiimiliikmete kontod.
-
-If you have any questions, please contact us [${support}].
-
-
---------------------------------------------------------------------------------
-
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+STACK TRACE:
+Object.invokePartial (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
+Object.invokePartialWrapper [as invokePartial] (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
+Object.eval [as main] (eval at createFunctionContext (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:37:28)
+main (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
+ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
+ret (/home/travis/build/wireapp/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
+HandlebarsEngine.render (/home/travis/build/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
+pages.map.page (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:152:40)
+Array.map (<anonymous>)
+Panini.build (/home/travis/build/wireapp/wire-emails/node_modules/panini/lib/render.js:146:23)
