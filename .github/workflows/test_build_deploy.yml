@@ -64,7 +64,7 @@ jobs:
 
       - name: Build
         # if: env.BRANCH_NAME == 'master'
-        run: yarn build && git status
+        run: sudo yarn build && git status
 
       - name: Commit
         # if: env.BRANCH_NAME == 'master'
