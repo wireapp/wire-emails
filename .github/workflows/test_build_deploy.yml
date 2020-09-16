@@ -62,9 +62,13 @@ jobs:
           token: ${{secrets.WEB_CROWDIN_TOKEN}}
           config: './crowdin.yaml'
 
-      - name: Build & commit
+      - name: Build
         # if: env.BRANCH_NAME == 'master'
-        run: yarn build && git commit -am 'Otto build'
+        run: yarn build && git status
+
+      - name: Commit
+        # if: env.BRANCH_NAME == 'master'
+        run: git commit -am 'Otto build'
 
       - name: Deploy
         if: env.BRANCH_NAME == 'master'
