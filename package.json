@@ -30,17 +30,17 @@
     "gulp-sourcemaps": "2.6.5",
     "gulp-uncss": "1.0.6",
     "gulp-zip": "5.0.2",
-    "husky": "4.2.5",
+    "husky": "4.3.0",
     "inky": "1.4.2",
     "lazypipe": "1.0.2",
-    "lint-staged": "10.2.13",
+    "lint-staged": "10.3.0",
     "merge-stream": "2.0.0",
-    "panini": "^1.7.1",
-    "prettier": "2.1.0",
+    "panini": "2.0.0-alpha.2",
+    "prettier": "2.1.1",
     "replace-in-file": "6.1.0",
     "rimraf": "3.0.2",
     "siphon-media-query": "1.0.0",
-    "yargs": "15.4.1"
+    "yargs": "16.0.3"
   },
   "husky": {
     "hooks": {
@@ -53,20 +53,25 @@
       "prettier --write"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wireapp/wire-emails"
+  },
   "name": "wire-emails",
   "private": true,
   "scripts": {
     "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
-    "deploy": "bin/deploy.sh",
+    "text": "node bin/generate-text-emails.js",
     "media": "node bin/media.js",
+    "deploy": "npm version patch",
+    "postversion": "git push && git push --tags",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
     "start": "gulp",
     "test": "yarn build",
-    "text": "node bin/generate-text-emails.js",
     "translate": "yarn translate:upload && yarn translate:download",
     "translate:download": "crowdin download && yarn translate:process",
     "translate:process": "node bin/translate.js",
     "translate:upload": "crowdin upload sources"
   },
-  "version": "1.0.77"
+  "version": "1.0.78"
 }
