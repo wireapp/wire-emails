@@ -68,7 +68,10 @@ jobs:
 
       - name: Commit
         # if: env.BRANCH_NAME == 'master'
-        run: git commit -am 'Otto build'
+        run: |
+          git config --global user.email webapp+travis@wire.com
+          git config --global user.name "Wire Travis CI"
+          git commit -am 'Otto build'
 
       - name: Deploy
         if: env.BRANCH_NAME == 'master'
