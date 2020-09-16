@@ -1,5 +1,5 @@
-api_key_env: CROWDIN_API_KEY
 project_identifier: wire-launch
+project_id: 202775
 base_path: src
 preserve_hierarchy: true
 
