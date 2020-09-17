@@ -6,12 +6,12 @@ DEIN NEUES ${brand}-BENUTZERKONTO
 Ein neues ${brand} Team wurde mit ${email} erstellt. Bitte verifiziere deine
 E-Mail-Adresse.
 
-Bestätigen [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
-Link und füge ihn in deinem Browser ein:
+Bestätigen [${url}]If you can’t click the button, copy and paste this link to
+your browser:
 
 ${url}
 
-Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

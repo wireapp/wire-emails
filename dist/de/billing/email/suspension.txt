@@ -20,6 +20,5 @@ Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
 
 --------------------------------------------------------------------------------
 
-Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
-[${misuse}]
-${copyright}. ALLE RECHTE VORBEHALTEN.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

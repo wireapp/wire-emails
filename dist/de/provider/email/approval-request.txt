@@ -22,16 +22,15 @@ Unterhaltungen hinzufügen können.
 Falls die Anfrage zweifelhaft scheint, wenden Sie sich bitte an den Anbieter zur
 Klärung, bevor Sie fortfahren.
 
-Genehmigen [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
-Link und füge ihn in deinem Browser ein:
+Genehmigen [${url}]If you can’t click the button, copy and paste this link to
+your browser:
 
 ${url}
 
-Bitte antworte nicht auf diese E-Mail.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------
 
-Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
-[${misuse}]
-${copyright}. ALLE RECHTE VORBEHALTEN.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.
