@@ -6,15 +6,16 @@ INVITATION D'ÉQUIPE
 ${inviter} vous a invité à rejoindre une équipe sur ${brand}. Cliquez sur le
 bouton ci-dessous pour confirmer cette invitation.
 
-Accepter l'invitation [${url}]If you can’t click the button, copy and paste this
-link to your browser:
+Accepter l'invitation [${url}]Si vous ne pouvez pas cliquer sur le bouton,
+copiez et collez ce lien dans votre navigateur :
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Si vous avez des questions, veuillez nous contacter [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

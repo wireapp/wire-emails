@@ -13,10 +13,11 @@ Tikriausiai įdiegėte „${brand}“ naujame įrenginyje arba įdiegėte iš na
 esančiame įrenginyje. Jei to nedarėte, eikit į „${brand}“ nustatymus,
 pašalinkite įrenginį ir pakeiskite savo slaptažodį [${forgot}].
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

@@ -7,18 +7,20 @@ ${brand_label_url} [${brand_url}]
 
 Причина: ${reason}.
 
-${caption} [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+${caption} [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте эту
+ссылку в свой браузер:
 
 ${url}
 
 Если вы повторно не активируете свою учетную запись, история разговоров команды
 и всех ее участников будет удалена.
 
-If you have any questions, please contact us [${support}].
+Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
+[${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Политика конфиденциальности и условия использования [${legal}] · Сообщить о
+злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА РЕЗЕРВЕННЫ.

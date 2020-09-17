@@ -6,7 +6,7 @@ Sveiki,
 
 We are happy to inform you that you are now an approved ${brand_service}.
 
-Please don’t reply to this message.
+Prašome neatsakinėti į šį laišką.
 
 If you didn’t register for a ${brand_service} account using this e-mail address,
 please contact us [${support}].
@@ -14,5 +14,6 @@ please contact us [${support}].
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

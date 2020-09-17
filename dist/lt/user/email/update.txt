@@ -6,15 +6,16 @@ PATVIRTINKITE SAVO EL. PAŠTĄ
 ${email} buvo užregistruotas kaip naujas „${brand}“ el. pašto adresas. Norėdami
 patvirtinti savo adresą, spustelėkite mygtuką žemiau.
 
-Patvirtinti [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Patvirtinti [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
+įdėkite šią nuorodą į savo naršyklę:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

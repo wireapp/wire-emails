@@ -10,17 +10,18 @@ ${brand} combine un chiffrement fort, un riche ensemble de fonctionnalités et
 une facilité d’utilisation dans une seule application comme jamais vu
 auparavant. Fonctionne sur toutes les plateformes populaires.
 
-Télécharger ${brand} [${url}]If you can’t click the button, copy and paste this
-link to your browser:
+Télécharger ${brand} [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez
+et collez ce lien dans votre navigateur :
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Si vous avez des questions, veuillez nous contacter [${support}].
 
-Team ID: ${team_id}
+Identifiant d'équipe : ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
