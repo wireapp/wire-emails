@@ -6,15 +6,17 @@ ${brand_label_url} [${brand_url}]
 В ${brand} была создана новая команда с использованием email адреса ${email}.
 Подтвердите ваш email адрес.
 
-Подтвердить [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Подтвердить [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте
+эту ссылку в свой браузер:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
+[${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Политика конфиденциальности и условия использования [${legal}] · Сообщить о
+злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА РЕЗЕРВЕННЫ.

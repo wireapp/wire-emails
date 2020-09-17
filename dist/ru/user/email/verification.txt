@@ -8,10 +8,12 @@ ${email} был использован для регистрации в ${brand}
 
 ${code}
 
-If you have any questions, please contact us [${support}].
+Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
+[${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Политика конфиденциальности и условия использования [${legal}] · Сообщить о
+злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА РЕЗЕРВЕННЫ.

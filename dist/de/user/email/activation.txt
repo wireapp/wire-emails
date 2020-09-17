@@ -6,15 +6,16 @@ BESTÄTIGEN SIE IHRE E-MAIL-ADRESSE
 ${email} wurde verwendet, um ein Konto auf ${brand} zu erstellen.
 Klicken Sie auf den folgenden Button, um Ihre E-Mail-Adresse zu bestätigen.
 
-Bestätigen [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Bestätigen [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
+Link und füge ihn in deinem Browser ein:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
+[${misuse}]
+${copyright}. ALLE RECHTE VORBEHALTEN.

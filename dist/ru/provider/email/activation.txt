@@ -14,19 +14,20 @@ ${brand_service}.
 команды, которое обычно происходит в течение 24 часов. Вы будете
 проинформированы о подтверждении отдельным письмом.
 
-Подтвердить [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Подтвердить [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте
+эту ссылку в свой браузер:
 
 ${url}
 
-If you didn’t register for a ${brand} service provider account using this e-mail
-address, you can safely ignore this message. If you want to report abuse of your
-e-mail address, please contact us. [${support}]
+Если вы не регистрировали учетную запись ${brand} Service Provider, используя
+этот email адрес, проигнорируйте это сообщение. Если вы хотите сообщить о
+злоупотреблении вашим email адресом, пожалуйста, свяжитесь с нами [${support}]
 
-Please don’t reply to this message.
+Пожалуйста, не отвечайте на это сообщение.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Политика конфиденциальности и условия использования [${legal}] · Сообщить о
+злоупотреблении [${misuse}]
+${copyright}. ВСЕ ПРАВА РЕЗЕРВЕННЫ.

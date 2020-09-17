@@ -6,7 +6,7 @@ Tere,
 
 We are happy to inform you that you are now an approved ${brand_service}.
 
-Please don’t reply to this message.
+Palun ära sellele kirjale vasta.
 
 If you didn’t register for a ${brand_service} account using this e-mail address,
 please contact us [${support}].
