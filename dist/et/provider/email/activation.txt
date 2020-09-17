@@ -13,8 +13,8 @@ ${brand_service} account is still subject to approval through our staff, which
 usually happens within 24 hours. You will be informed of the approval via a
 separate e-mail.
 
-Kinnita [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
-aadress veebibrauserisse:
+Kinnita [${url}]If you can’t click the button, copy and paste this link to your
+browser:
 
 ${url}
 
@@ -22,7 +22,7 @@ If you didn’t register for a ${brand} service provider account using this e-ma
 address, you can safely ignore this message. If you want to report abuse of your
 e-mail address, please contact us. [${support}]
 
-Palun ära sellele kirjale vasta.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------

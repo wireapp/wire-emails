@@ -21,16 +21,15 @@ registering services that ${brand} users can add to their conversations.
 If the request seems dubious, please contact the provider for clarifications
 before proceeding.
 
-Approve [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir įdėkite
-šią nuorodą į savo naršyklę:
+Approve [${url}]If you can’t click the button, copy and paste this link to your
+browser:
 
 ${url}
 
-Prašome neatsakinėti į šį laišką.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------
 
-Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
-piktnaudžiavimą [${misuse}]
-${copyright}. VISOS TEISĖS SAUGOMOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

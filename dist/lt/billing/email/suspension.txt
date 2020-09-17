@@ -7,19 +7,18 @@ Your account for the ${team_name} team has been suspended.
 
 Reason: ${reason}.
 
-${caption} [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
-įdėkite šią nuorodą į savo naršyklę:
+${caption} [${url}]If you can’t click the button, copy and paste this link to
+your browser:
 
 ${url}
 
 If you don’t reactivate your account, conversation history for the team and all
 its members will be deleted.
 
-Jei turite klausimų, susisiekite su mumis [${support}].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
-piktnaudžiavimą [${misuse}]
-${copyright}. VISOS TEISĖS SAUGOMOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

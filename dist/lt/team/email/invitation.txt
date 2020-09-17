@@ -6,16 +6,15 @@ TEAM INVITATION
 ${inviter} has invited you to join a team on ${brand}. Click the button below to
 accept the invitation.
 
-Accept invitation [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite
-ir įdėkite šią nuorodą į savo naršyklę:
+Accept invitation [${url}]If you can’t click the button, copy and paste this
+link to your browser:
 
 ${url}
 
-Jei turite klausimų, susisiekite su mumis [${support}].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
-piktnaudžiavimą [${misuse}]
-${copyright}. VISOS TEISĖS SAUGOMOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

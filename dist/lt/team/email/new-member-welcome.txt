@@ -8,18 +8,17 @@ You have just joined a team called ${team_name} on ${brand} with ${email}.
 ${brand} combines strong encryption, a rich feature set and ease-of-use in one
 app like never before. Works on all popular platforms.
 
-Download ${brand} [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite
-ir įdėkite šią nuorodą į savo naršyklę:
+Download ${brand} [${url}]If you can’t click the button, copy and paste this
+link to your browser:
 
 ${url}
 
-Jei turite klausimų, susisiekite su mumis [${support}].
+If you have any questions, please contact us [${support}].
 
-Komandos ID: ${team_id}
+Team ID: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
-piktnaudžiavimą [${misuse}]
-${copyright}. VISOS TEISĖS SAUGOMOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

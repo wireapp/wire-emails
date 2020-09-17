@@ -6,8 +6,8 @@ TIIMI KUTSE
 ${inviter} has invited you to join a team on ${brand}. Kutse aktsepteerimiseks
 klikkige alloleval nupul.
 
-Vasta kutsele [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
-aadress veebibrauserisse:
+Vasta kutsele [${url}]If you can’t click the button, copy and paste this link to
+your browser:
 
 ${url}
 
