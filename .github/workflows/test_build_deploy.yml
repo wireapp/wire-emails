@@ -94,7 +94,7 @@ jobs:
           git config --global user.name "Wire Travis CI"
           git add .
           git status
-          git commit -am 'Otto build'
+          git diff-index --quiet HEAD || git commit -am 'Otto build'
 
       - name: Deploy
         if: env.BRANCH_NAME == 'master'
