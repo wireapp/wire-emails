@@ -85,7 +85,7 @@ jobs:
 
       - name: Build
         if: env.BRANCH_NAME == 'master'
-        run: sudo yarn build && git status
+        run: sudo yarn build
 
       - name: Commit
         if: env.BRANCH_NAME == 'master'
@@ -93,6 +93,7 @@ jobs:
           git config --global user.email webapp+travis@wire.com
           git config --global user.name "Wire Travis CI"
           git add .
+          git status
           git commit -am 'Otto build'
 
       - name: Deploy
