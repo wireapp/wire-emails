@@ -85,10 +85,10 @@ jobs:
 
       - name: Build
         if: env.BRANCH_NAME == 'master'
+        # We need to execute `yarn translate:process` with sudo in order to delete and modify files
         run: |
           sudo yarn translate:process
-          git status
-          sudo yarn build
+          yarn build
 
       - name: Commit
         if: env.BRANCH_NAME == 'master'
