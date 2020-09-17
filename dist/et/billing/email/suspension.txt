@@ -7,8 +7,8 @@ Tiimi konto nimega ${team_name} on nüüd külmutatud.
 
 Põhjus: ${reason}.
 
-${caption} [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+${caption} [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
+aadress veebibrauserisse:
 
 ${url}
 

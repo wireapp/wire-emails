@@ -10,17 +10,18 @@ ${brand} vereint sichere Verschlüsselung mit reichhaltigem Funktionsumfang und
 einfacher Bedienung in einer einzigen App. Unterstützt alle gängigen
 Plattformen.
 
-${brand} herunterladen [${url}]If you can’t click the button, copy and paste
-this link to your browser:
+${brand} herunterladen [${url}]Falls du nicht auf den Button klicken kannst,
+kopiere den Link und füge ihn in deinem Browser ein:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
 
 Team ID: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
+[${misuse}]
+${copyright}. ALLE RECHTE VORBEHALTEN.

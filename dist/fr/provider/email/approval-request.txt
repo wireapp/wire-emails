@@ -22,15 +22,16 @@ ${brand} pourront ajouter à leurs conversations.
 Si la demande semble douteuse, veuillez contacter le fournisseur pour obtenir
 des éclaircissements avant de continuer.
 
-Approuver [${url}]If you can’t click the button, copy and paste this link to
-your browser:
+Approuver [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez et collez
+ce lien dans votre navigateur :
 
 ${url}
 
-Please don’t reply to this message.
+Merci de ne pas répondre à ce message.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
