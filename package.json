@@ -53,16 +53,21 @@
       "prettier --write"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wireapp/wire-emails"
+  },
   "name": "wire-emails",
   "private": true,
   "scripts": {
     "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
-    "deploy": "bin/deploy.sh",
+    "text": "node bin/generate-text-emails.js",
     "media": "node bin/media.js",
+    "deploy": "npm version patch",
+    "postversion": "git push && git push --tags",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
     "start": "gulp",
     "test": "yarn build",
-    "text": "node bin/generate-text-emails.js",
     "translate": "yarn translate:upload && yarn translate:download",
     "translate:download": "crowdin download && yarn translate:process",
     "translate:process": "node bin/translate.js",
