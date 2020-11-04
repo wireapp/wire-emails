@@ -2,7 +2,8 @@
 
 ${brand_label_url} [${brand_url}]
 
-subject: "${brand}-Bestätigungscode: ${code}"BESTÄTIGEN SIE IHRE E-MAIL-ADRESSE
+subject: "${code} ist Ihr ${brand}-Bestätigungscode"BESTÄTIGEN SIE IHRE
+E-MAIL-ADRESSE
 ${email} wurde verwendet, um ein Benutzerkonto auf ${brand} zu erstellen. Geben
 Sie diesen Code ein, um Ihre E-Mail-Adresse zu bestätigen und Ihr Benutzerkonto
 zu erstellen.
