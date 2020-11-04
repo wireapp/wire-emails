@@ -1,1 +1,1 @@
-${brand} kinnituskood
+${brand} verification code: ${code}

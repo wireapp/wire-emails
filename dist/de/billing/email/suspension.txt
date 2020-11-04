@@ -7,15 +7,15 @@ Dein Konto für das ${team_name} Team wurde suspendiert.
 
 Grund: ${reason}.
 
-${caption} [${url}]Falls du nicht auf den Button klicken kannst, kopiere den
-Link und füge ihn in deinem Browser ein:
+${caption} [${url}]Falls Sie nicht auf den Button klicken können, kopieren Sie
+diesen Link und fügen Sie ihn in Ihren Browser ein:
 
 ${url}
 
 Bei nicht-Aktivieren des Kontos, wird der Gesprächsverlauf für das Team und
 seine Mitglieder gelöscht.
 
-Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+Wenn Sie Fragen haben, dann kontaktieren Sie uns [${support}] bitte.
 
 
 --------------------------------------------------------------------------------

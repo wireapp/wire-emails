@@ -6,12 +6,12 @@ EINLADUNG ZUM TEAM
 ${inviter} hat Sie auf ${brand} zu einem Team eingeladen. Klicken Sie bitte auf
 den unteren Button, um die Einladung anzunehmen.
 
-Einladung annehmen [${url}]Falls du nicht auf den Button klicken kannst, kopiere
-den Link und füge ihn in deinem Browser ein:
+Einladung annehmen [${url}]Falls Sie nicht auf den Button klicken können,
+kopieren Sie diesen Link und fügen Sie ihn in Ihren Browser ein:
 
 ${url}
 
-Wenn du Fragen hast, dann kontaktiere uns [${support}] bitte.
+Wenn Sie Fragen haben, dann kontaktieren Sie uns [${support}] bitte.
 
 
 --------------------------------------------------------------------------------
