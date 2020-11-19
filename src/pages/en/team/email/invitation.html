@@ -6,12 +6,17 @@ subject: "You have been invited to join a team on ${brand}"
   <row>
     <columns small="12">
       <h1>Team invitation</h1>
-      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}. Click the button below to accept the invitation.</p>
+      <p><strong>${inviter}</strong> has invited you to join the team ${team_name} on ${brand}. Click the button below to accept the invitation.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Accept invitation</button></center>
+      <center><button href="${url}" class="radius">JOIN TEAM</button></center>
       <spacer size="24"></spacer>
       {{> en/link-button}}
       {{> en/questions}}
+      <p><strong>What is Wire?</strong></p>
+      <p>Wire is the most secure collaboration platform. Work with your team and external partners wherever you are through messages, video conferencing and file sharing – always secured with end-to-end-encryption.
+         <a href="https://wire.com/">Learn more</a>
+        <br>
+      <center>Wire.com | Created by © WIRE SWISS GmbH.</center>
     </columns>
   </row>
 </container>
