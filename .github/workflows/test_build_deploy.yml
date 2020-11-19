@@ -25,9 +25,9 @@ jobs:
 
       - name: Set BRANCH_NAME, TAG & COMMIT_MESSAGE environment variables
         run: |
-          echo "name=BRANCH_NAME::$(git branch --show-current)" >> $GITHUB_ENV
-          echo "name=TAG::$(git tag --points-at ${{github.sha}})" >> $GITHUB_ENV
-          echo "name=COMMIT_MESSAGE::$(git log --format=%B -n 1 ${{github.event.after}})" >> $GITHUB_ENV
+          echo "BRANCH_NAME=$(git branch --show-current)" >> $GITHUB_ENV
+          echo "TAG=$(git tag --points-at ${{github.sha}})" >> $GITHUB_ENV
+          echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 ${{github.event.after}} | head -n 1)" >> $GITHUB_ENV
 
       - name: Print environment variables
         env:
