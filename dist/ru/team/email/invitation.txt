@@ -3,16 +3,21 @@
 ${brand_label_url} [${brand_url}]
 
 ПРИГЛАШЕНИЕ В КОМАНДУ
-${inviter} пригласил вас присоединиться к команде в ${brand}. Для принятия
-приглашения нажмите на кнопку ниже.
+${inviter} has invited you to join the team ${team_name} on ${brand}. Для
+принятия приглашения нажмите на кнопку ниже.
 
-Принять приглашение [${url}]Если вы не можете нажать на кнопку, скопируйте и
-вставьте эту ссылку в свой браузер:
+Join team [${url}]Если вы не можете нажать на кнопку, скопируйте и вставьте эту
+ссылку в свой браузер:
 
 ${url}
 
 Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
 [${support}].
+
+What is Wire?
+Wire is the most secure collaboration platform. Work with your team and external
+partners wherever you are through messages, video conferencing and file sharing
+– always secured with end-to-end-encryption. Learn more [https://wire.com/].
 
 
 --------------------------------------------------------------------------------
