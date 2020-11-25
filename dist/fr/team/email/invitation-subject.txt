@@ -1,1 +1,1 @@
-Vous êtes invité à rejoindre votre équipe sur ${brand}
+Vous êtes invité à rejoindre une équipe sur ${brand}
