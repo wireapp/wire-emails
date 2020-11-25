@@ -12,8 +12,8 @@ ce lien dans votre navigateur :
 
 ${url}
 
-Si vous ne réactivez pas votre compte, l'historique des conversations pour
-l'équipe et tous ses membres sera supprimé.
+Si vous ne réactivez pas votre compte, l'historique des conversations de
+l'équipe et de tous ses membres sera supprimé.
 
 Si vous avez des questions, veuillez nous contacter [${support}].
 
