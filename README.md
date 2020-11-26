@@ -86,3 +86,28 @@ If not, make sure the local preview server is running or check the console for e
 ### Build
 
 Run `yarn build` to inline your CSS into your HTML along with the rest of the build process.
+
+### Import changes to [wire-server](https://github.com/wireapp/wire-server)
+
+Find the tag you want to update to from
+[here](https://github.com/wireapp/wire-emails/tags), or from the repo
+in a shell:
+
+```
+cd ~/src/wire-emails
+export TAG=$(git tag  -l --sort v:refname | tail -1)
+```
+
+The update the tag in wire-server, run a script to pull the updates, and commit everything to a branch:
+
+```
+cd ~/src/wire-server
+git checkout develop && git checkout -b email-templates-$TAG
+echo $TAG > ./services/brig/deb/opt/brig/template-version
+./services/brig/deb/opt/brig/bin/fetch.py
+git commit -m "Update email templates to $TAG."
+```
+
+Now make a PR like you always do.
+
+There are two issues for automating this process a little further: https://github.com/zinfra/backend-issues/issues/720, https://github.com/zinfra/backend-issues/issues/1130, but both are labelled [P4](https://github.com/zinfra/backend-wiki/wiki/Bug-Tracking#backend-issues-priorities) at the time of writing this.
