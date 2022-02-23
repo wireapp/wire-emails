@@ -1,0 +1,17 @@
+---
+subject: "${code} is your ${brand} verification code"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Verify ${action}</h1>
+      <p><strong>${email}</strong> was used to ${action}. Enter this code to verify your email and ${action}.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
