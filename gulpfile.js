@@ -12,6 +12,7 @@ const path = require('path');
 const merge = require('merge-stream');
 const beep = require('beepbeep');
 const colors = require('colors');
+plugins().sass = require('gulp-dart-sass');
 
 const $ = plugins();
 
@@ -36,9 +37,7 @@ function clean(done) {
 // Compile layouts, pages, and partials into flat HTML files
 // Then parse using Inky templates
 function pages() {
-  const stream = panini('src')
-    .pipe(inky())
-    .pipe(gulp.dest('dist'));
+  const stream = panini('src').pipe(inky()).pipe(gulp.dest('dist'));
   paniniInstance = stream._panini;
   return stream;
 }
@@ -97,32 +96,18 @@ function inliner(css) {
   var mqCss = siphon(css);
 
   var pipe = lazypipe()
-    .pipe(
-      $.inlineCss,
-      {
-        applyStyleTags: true,
-        removeStyleTags: true,
-        preserveMediaQueries: true,
-        removeLinkTags: true,
-      },
-    )
-    .pipe(
-      $.replace,
-      '<!-- <style> -->',
-      `<style>${mqCss}</style>`,
-    )
-    .pipe(
-      $.replace,
-      '<link rel="stylesheet" type="text/css" href="css/app.css">',
-      '',
-    )
-    .pipe(
-      $.htmlmin,
-      {
-        collapseWhitespace: true,
-        minifyCSS: true,
-      },
-    );
+    .pipe($.inlineCss, {
+      applyStyleTags: true,
+      removeStyleTags: true,
+      preserveMediaQueries: true,
+      removeLinkTags: true,
+    })
+    .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
+    .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
+    .pipe($.htmlmin, {
+      collapseWhitespace: true,
+      minifyCSS: true,
+    });
 
   return pipe();
 }
