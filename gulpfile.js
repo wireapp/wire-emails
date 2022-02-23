@@ -12,7 +12,7 @@ const path = require('path');
 const merge = require('merge-stream');
 const beep = require('beepbeep');
 const colors = require('colors');
-plugins().sass = require('gulp-dart-sass');
+const gulpSass = require('gulp-dart-sass');
 
 const $ = plugins();
 
@@ -48,9 +48,9 @@ function sass() {
     .src('src/assets/scss/app.scss')
     .pipe($.if(!PRODUCTION, $.sourcemaps.init()))
     .pipe(
-      $.sass({
+      gulpSass({
         includePaths: ['node_modules/foundation-emails/scss'],
-      }).on('error', $.sass.logError),
+      }).on('error', gulpSass.logError),
     )
     .pipe(
       $.if(

@@ -50,11 +50,7 @@ jobs:
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
           nvm install 12
           nvm use 12
-          npm install -g npm --target_arch=x64
-          npm cache clean --force
-          rm -rf /node_modules
-          npm install node-sass --save-dev --force
-          yarn --frozen-lockfile
+          yarn
 
       - name: Test
         run: yarn test
