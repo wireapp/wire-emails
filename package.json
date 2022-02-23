@@ -5,8 +5,7 @@
     "fs-extra": "9.0.1",
     "glob": "7.1.6",
     "global": "4.4.0",
-    "html-to-text": "5.1.1",
-    "yarn": "^1.22.17"
+    "html-to-text": "5.1.1"
   },
   "devDependencies": {
     "babel-core": "6.26.3",

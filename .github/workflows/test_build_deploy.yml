@@ -44,10 +44,19 @@ jobs:
         uses: c-hive/gha-yarn-cache@v1
 
       - name: Install JS dependencies
-        run: yarn --frozen-lockfile
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          nvm install 14
+          nvm use 14
+          yarn --frozen-lockfile
 
       - name: Test
-        run: yarn test
+        run: |
+          npm uninstall --save-dev node-sass
+          npm install --save-dev node-sass
+          yarn test
 
       - name: Upload translations
         if: github.event_name == 'pull_request'
