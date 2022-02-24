@@ -12,7 +12,7 @@ jobs:
 
     env:
       CROWDIN_PROJECT_ID: 202775
-      CROWDIN_CONFIG_PATH: './crowdin.yaml'
+      CROWDIN_CONFIG_PATH: 'crowdin.yaml'
 
     steps:
       - name: Cancel Previous Runs
@@ -45,9 +45,6 @@ jobs:
 
       - name: Install JS dependencies
         run: |
-          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-          export NVM_DIR="$HOME/.nvm"
-          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
           nvm install 12
           nvm use 12
           yarn
