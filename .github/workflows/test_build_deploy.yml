@@ -12,7 +12,7 @@ jobs:
 
     env:
       CROWDIN_PROJECT_ID: 202775
-      CROWDIN_CONFIG_PATH: './crowdin.yaml'
+      CROWDIN_CONFIG_PATH: 'crowdin.yaml'
 
     steps:
       - name: Cancel Previous Runs
