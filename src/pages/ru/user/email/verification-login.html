@@ -1,0 +1,17 @@
+---
+тема: "ваш код подтверждения ${brand} - ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Подтвердить вход</h1>
+      <p><strong>${email}</strong> был использован для входа в ${brand}. Введите этот код для подтверждения электронной почты и авторизации в вашем аккаунте.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> ru/questions}}
+    </columns>
+  </row>
+</container>
+{{> ru/footer}}
