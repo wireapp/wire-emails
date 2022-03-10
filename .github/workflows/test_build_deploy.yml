@@ -44,18 +44,25 @@ jobs:
         uses: c-hive/gha-yarn-cache@v1
 
       - name: Install JS dependencies
-        run: yarn --frozen-lockfile
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          nvm install 12
+          nvm use 12
+          yarn
 
       - name: Test
         run: yarn test
 
       - name: Upload translations
         if: github.event_name == 'pull_request'
-        uses: crowdin/github-action@1.0.9
+        uses: crowdin/github-action@1.3.3
         env:
-          GITHUB_TOKEN: ${{github.token}}
+          GITHUB_TOKEN: ${{github.OTTO_THE_BOT_GH_TOKEN}}
+          GITHUB_ACTOR: otto-the-bot
           CROWDIN_PROJECT_ID: ${{env.CROWDIN_PROJECT_ID}}
-          INPUT_DEBUG_MODE: false
+          INPUT_DEBUG_MODE: true
         with:
           upload_sources: true
           upload_translations: false
@@ -68,11 +75,12 @@ jobs:
 
       - name: Download translations
         if: env.BRANCH_NAME == 'master'
-        uses: crowdin/github-action@1.0.9
+        uses: crowdin/github-action@1.3.3
         env:
-          GITHUB_TOKEN: ${{github.token}}
+          GITHUB_TOKEN: ${{github.OTTO_THE_BOT_GH_TOKEN}}
+          GITHUB_ACTOR: otto-the-bot
           CROWDIN_PROJECT_ID: ${{env.CROWDIN_PROJECT_ID}}
-          INPUT_DEBUG_MODE: false
+          INPUT_DEBUG_MODE: true
         with:
           upload_sources: false
           upload_translations: false
