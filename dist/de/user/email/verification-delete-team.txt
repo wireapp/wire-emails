@@ -2,9 +2,9 @@
 
 ${brand_label_url} [${brand_url}]
 
-VERIFY TEAM DELETION
-${email} was used to delete your ${brand} team. Enter this code to verify your
-email and delete the team.
+BESTÄTIGEN SIE DIE KÜNDIGUNG
+${email} wurde verwendet, um Ihr ${brand}-Team zu löschen. Geben Sie diesen Code
+ein, um Ihre E-Mail-Adresse zu bestätigen und das Team zu löschen.
 
 ${code}
 
