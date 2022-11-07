@@ -4172,10 +4172,10 @@ foundation-cli@2.3.2:
     update-notifier "^5.1.0"
     which "^2.0.2"
 
-foundation-emails@2.3.1, foundation-emails@^2.2.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/foundation-emails/-/foundation-emails-2.3.1.tgz#80d77707d825966cbbe8111ddb4c790976555ff9"
-  integrity sha512-omqS9jEaM4mehUMPDGnp9BmzZ+vWBpkt/cgvTHCNu1w5JWtvaBQop+Ds7c6Gmt77hUIvmo78Oi5N4u2x7K0Utw==
+foundation-emails@2.4.0, foundation-emails@^2.2.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/foundation-emails/-/foundation-emails-2.4.0.tgz#5020b44c6a1ee366ad53dd9ba29368d351aef8dd"
+  integrity sha512-aLma02P+OafCQtcEkZzVAhX1E3LiB4RYCxUu73BRma+YMrq2QOBUr6K8Cw37taL0jehQn4T8yfuWBQ8xv3Mvug==
 
 fragment-cache@^0.2.1:
   version "0.2.1"
