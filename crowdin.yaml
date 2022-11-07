@@ -2,7 +2,7 @@ project_identifier: wire-launch
 project_id: 202775
 base_path: src
 preserve_hierarchy: true
-api_token_env: WEB_CROWDIN_TOKEN
+api_token: WEB_CROWDIN_TOKEN
 
 files:
   - source: '/pages/en/**/*.html'
