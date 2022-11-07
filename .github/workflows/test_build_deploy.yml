@@ -10,6 +10,9 @@ jobs:
   test_build_deploy:
     runs-on: ubuntu-latest
 
+    strategy:
+      max-parallel: 1
+
     env:
       CROWDIN_PROJECT_ID: 202775
       CROWDIN_CONFIG_PATH: 'crowdin.yaml'
@@ -56,7 +59,7 @@ jobs:
         run: yarn test
 
       - name: Upload translations
-        if: github.event_name == 'pull_request' && (github.actor != 'dependabot[bot]' || github.actor != 'otto-the-bot')
+        if: github.event_name == 'pull_request' && (github.actor != 'dependabot[bot]' && github.actor != 'otto-the-bot')
         uses: crowdin/github-action@1.5.0
         env:
           GITHUB_TOKEN: ${{github.OTTO_THE_BOT_GH_TOKEN}}
