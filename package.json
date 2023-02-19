@@ -33,7 +33,7 @@
     "husky": "8.0.1",
     "inky": "1.4.2",
     "lazypipe": "1.0.2",
-    "lint-staged": "13.0.3",
+    "lint-staged": "13.1.2",
     "merge-stream": "2.0.0",
     "panini": "2.0.0-alpha.2",
     "prettier": "2.1.1",
