@@ -1,1 +1,0 @@
-Ihre neue E-Mail-Adresse auf ${brand}
