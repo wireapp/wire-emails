@@ -1,1 +1,0 @@
-Sie sind einem Team auf ${brand} beigetreten

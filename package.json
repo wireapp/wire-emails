@@ -42,11 +42,6 @@
     "siphon-media-query": "1.0.0",
     "yargs": "17.6.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "license": "GPL-3.0",
   "lint-staged": {
     "*.{js,scss,md,yml,yaml}": [
@@ -71,7 +66,8 @@
     "translate": "yarn translate:upload && yarn translate:download",
     "translate:download": "crowdin download && yarn translate:process",
     "translate:process": "node bin/translate.js",
-    "translate:upload": "crowdin upload sources"
+    "translate:upload": "crowdin upload sources",
+    "prepare": "husky install"
   },
   "version": "1.0.99"
 }

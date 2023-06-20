@@ -59,7 +59,7 @@ jobs:
         uses: crowdin/github-action@v1.7.0
         env:
           CROWDIN_PROJECT_ID: 202775
-          CROWDIN_CONFIG_PATH: 'crowdin.yaml'
+          CROWDIN_CONFIG_PATH: 'crowdin.yml'
           GITHUB_TOKEN: ${{github.OTTO_THE_BOT_GH_TOKEN}}
           GITHUB_ACTOR: otto-the-bot
           INPUT_DEBUG_MODE: true
