@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+INVITATION À REJOINDRE UNE ÉQUIPE
+${inviter} vous a invité à rejoindre l'équipe ${team_name} sur ${brand}. Cliquez
+sur le bouton ci-dessous pour confirmer cette invitation.
+
+Rejoindre l'équipe [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez
+et collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+Qu'est-ce que Wire ?
+Wire est la plateforme de collaboration la plus sécurisée. Collaborez avec votre
+équipe et vos partenaires externes où que vous soyez en utilisant des messages,
+vidéo conférences et partage de fichiers – toujours sécurisés avec un
+chiffrement de bout en bout. En savoir plus [https://wire.com/].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

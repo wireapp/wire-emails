@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+JŪSŲ KOMANDA YRA LAIKINAI PRISTABDYTA
+Your account for the ${team_name} team has been suspended.
+
+Reason: ${reason}.
+
+${caption} [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
+įdėkite šią nuorodą į savo naršyklę:
+
+${url}
+
+If you don’t reactivate your account, conversation history for the team and all
+its members will be deleted.
+
+Jei turite klausimų, susisiekite su mumis [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

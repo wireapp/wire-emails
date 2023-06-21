@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+BIENVENUE CHEZ ${team_name}.
+Vous venez de rejoindre une équipe appelée ${team_name} sur ${brand} avec 
+${email}.
+
+${brand} combine un chiffrement fort, un riche ensemble de fonctionnalités et
+une facilité d’utilisation dans une seule application comme jamais vu
+auparavant. Fonctionne sur toutes les plateformes populaires.
+
+Télécharger ${brand} [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez
+et collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+Identifiant d'équipe : ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

@@ -1,0 +1,34 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+VÉRIFICATION DE VOTRE ADRESSE EMAIL
+Votre adresse e-mail ${email} a été utilisée pour une inscription en tant que
+${brand_service}.
+
+Pour terminer l’inscription, vous devez vérifier votre adresse e-mail en
+cliquant sur le bouton ci-dessous.
+
+Veuillez noter qu'après la vérification de votre e-mail, votre compte
+${brand_service} est toujours soumis à l'approbation de notre équipe, ce qui
+prend généralement moins de 24 heures. Vous serez informé(e) de l’approbation
+par un autre e-mail.
+
+Vérifier [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez et collez
+ce lien dans votre navigateur :
+
+${url}
+
+Si vous ne vous êtes pas inscrit(e) pour un compte de fournisseur de service
+${brand} en utilisant cette adresse e-mail, vous pouvez ignorer ce message. Pour
+nous signaler un usage abusif de votre adresse email, merci de nous contacter.
+[${support}]
+
+Merci de ne pas répondre à ce message.
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

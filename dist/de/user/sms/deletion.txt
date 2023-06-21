@@ -1,0 +1,2 @@
+Tippen Sie hier, um Ihr ${brand}-Benutzerkonto zu löschen.
+${url}

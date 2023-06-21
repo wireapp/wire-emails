@@ -1,0 +1,3 @@
+Jūsų ${brand} prisijungimo kodas yra ${code}.
+
+Atverkite ${url} norėdami prisijungti.

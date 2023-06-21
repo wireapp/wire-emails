@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+SUPPRIMER VOTRE COMPTE
+Nous avons reçu une demande de suppression de votre compte ${brand}. Cliquez sur
+le lien ci-dessous dans les 10 minutes pour supprimer toutes vos conversations,
+contenus et connexions.
+
+Supprimer le compte [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez
+et collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous n'êtes pas à l'origine de cette demande, réinitialisez votre mot de
+passe [${forgot}].
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
