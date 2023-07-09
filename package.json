@@ -3,7 +3,7 @@
     "foundation-cli": "2.3.2",
     "foundation-emails": "2.4.0",
     "fs-extra": "10.1.0",
-    "glob": "7.1.6",
+    "glob": "10.3.3",
     "global": "4.4.0",
     "gulp-mail": "^0.4.2",
     "html-to-text": "5.1.1",
