@@ -1,0 +1,18 @@
+---
+subject: "あなたの ${brand} アカウント"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>メールアドレス認証</h1>
+      <p><strong>${email}</strong> は、${brand} への登録に使用されました。<br>ボタンをクリックしてメールアドレスの認証を行ってください。</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">認証</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

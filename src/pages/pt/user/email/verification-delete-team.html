@@ -1,0 +1,17 @@
+---
+subject: "Seu código de verificação do ${brand} é ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Verificar exclusão da equipe</h1>
+      <p><strong>${email}</strong> foi usado para excluir sua equipe do ${brand}. Insira este código para verificar seu e-mail e excluir a equipe.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

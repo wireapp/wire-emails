@@ -1,0 +1,21 @@
+---
+temat: "Twoje konto ${brand_service} "
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Potwierdź swój adres email</h1>
+      <p>Twój adres e-mail ${email} został użyty do rejestracji jako ${brand_service}.</p>
+      <p>Aby zakończyć rejestrację, konieczne jest zweryfikowanie adresu e-mail, klikając na poniższy przycisk.</p>
+      <p>Pamiętaj, że po pomyślnej weryfikacji adresu e-mail, Twoje konto ${brand_service} nadal podlega zatwierdzeniu przez nasz personel, co zwykle dzieje się w ciągu 24 godzin. Zostaniesz poinformowany o zatwierdzeniu za pomocą osobnego adresu e-mail.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Zweryfikuj</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/ignore}}
+      {{> en/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

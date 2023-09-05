@@ -1,0 +1,18 @@
+---
+konu: "${brand} üzerindeki yeni e-posta adresiniz"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>E-postanızı doğrulayın</h1>
+      <p><strong>${email}</strong>, ${brand}'daki yeni e-posta adresiniz olarak kaydedildi. Adresinizi doğrulamak için aşağıdaki düğmeye tıklayın.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Doğrula</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

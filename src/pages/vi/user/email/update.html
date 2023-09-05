@@ -1,0 +1,18 @@
+---
+subject: "Địa chỉ eamil mới trên ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh địa chỉ emal của bạn</h1>
+      <p><strong>${email}</strong> đã được đăng ký như là địa chỉ email mới của bạn trên ${brand}. Nhấp vào nút phía bên dưới để xác minh địa chỉ email của bạn.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Xác minh</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

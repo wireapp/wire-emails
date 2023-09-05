@@ -1,0 +1,19 @@
+---
+subject: "Xoá tài khoản?"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xoá tài khoản của bạn</h1>
+      <p>Chúng tôi nhận được một yêu cầu xoá tài khoản ${brand} của bạn. Nhấp vào nút phía bên dưới trong vòng 10 phút để xoá toàn bộ cuộc hội thoại, nội dung và mọi kết nối của bạn.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius alert">Xoá tài khoản</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      <p class="small">Nếu bạn không thực hiện yêu cầu này, <a href="${forgot}">thay đổi mật khẩu của bạn ngay</a>.</p>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

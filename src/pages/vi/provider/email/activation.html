@@ -1,0 +1,19 @@
+subject: "Tài khoản ${brand_service} của bạn"
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh địa chỉ emal của bạn</h1>
+      <p>Địa chỉ email ${email} của bạn đã được sử dụng để đăng ký ${brand_service}.</p>
+      <p>Để hoàn thiện quá trình đăng ký, bạn cần phải xác minh đại chỉ email của bạn bằng cách nhấp vào nút ở phía bên dưới.</p>
+      <p>Xin vui lòng chú ý rằng một khi đã xác minh thành công địa chỉ email của bạn, tài khoản ${brand_service} của bạn vẫn sẽ tiếp tục trải qua sự phê duyệt của nhân viên của chúng tôi, điều này sẽ diễn ra trong khoảng 24 giờ. Bạn sẽ nhận được thông báo chấp thuận thông qua email.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Xác minh</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/ignore}}
+      {{> en/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

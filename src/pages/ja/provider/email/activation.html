@@ -1,0 +1,21 @@
+---
+subject: "あなたの ${brand_service} アカウント"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>メールアドレス認証</h1>
+      <p>あなたのメール アドレス ${email} は、${brand_service} としての登録に使用されました。</p>
+      <p>登録を完了するには、下のボタンをクリックして、メールアドレスを認証する必要があります。</p>
+      <p>メールアドレスの認証が成功しても、 ${brand_service} アカウントは、通常24時間以内に行われるスタッフによる承認の対象となります。 承認結果は別途メールで通知されます。</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">認証</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/ignore}}
+      {{> en/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

@@ -1,0 +1,25 @@
+---
+subject: "Bạn được mời tham gia nhóm trên ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Lời mời tham gia nhóm</h1>
+      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}. Nhấp vào nút phía bên dưới để chấp nhận lời mời.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Join team</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+      <p class="small">
+        <strong>What is Wire?</strong>
+        <br />
+        Wire is the most secure collaboration platform. Work with your team and external partners wherever you are
+        through messages, video conferencing and file sharing – always secured with end-to-end-encryption.
+        <a href="https://wire.com/">Learn more</a>.
+      </p>
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

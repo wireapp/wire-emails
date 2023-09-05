@@ -1,0 +1,18 @@
+---
+konu: "${brand} Hesabınız"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>E-postanızı doğrulayın</h1>
+      <p>${brand}} a kaydolmak için <strong>${email}</strong> kullanıldı.<br> Adresinizi doğrulamak için düğmeyi tıklayın.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Doğrula</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

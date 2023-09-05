@@ -1,0 +1,17 @@
+---
+Konu: "Yeni cihaz"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Yeni cihaz</h1>
+      <p>${brand} hesabınız şunun üzerinde kullanıldı:</p>
+      <p class="text-muted">${date}</p>
+      <p><strong>${model}</strong></p>
+      <p>${brand} cihazını yeni bir cihaza kurmuş veya tekrar mevcut bir cihaza kurmuş olabilirsiniz. Öyle değilse, ${brand} Ayarlar bölümüne gidin, cihazı kaldırın ve <a href="${forgot}"> şifrenizi sıfırlayın</a>.</p>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

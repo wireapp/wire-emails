@@ -1,0 +1,21 @@
+---
+temat: "Dołączyłeś do zespołu ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Witamy w <strong>${team_name}</strong>.</h1>
+      <p>Właśnie dołączyłeś do zespołu o nazwie <strong>${team_name}</strong> na aplikacji ${brand} z <strong>${email}</strong>.</p>
+      <spacer size="24"></spacer>
+      <p>${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich popularnych platformach.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Pobierz ${brand}</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+      {{> en/team-id}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

@@ -1,0 +1,17 @@
+---
+subject: "Mã xác minh ${brand} của bạn là ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh về việc tạo SCIM token</h1>
+      <p><strong>${email}</strong> được sử dụng để tạo một mã SCIM token. Nhập đoạn mã này để xác minh email và tạo mã token.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

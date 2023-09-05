@@ -1,0 +1,17 @@
+---
+subject: "新しいデバイス"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>新しいデバイス</h1>
+      <p>あなたの ${brand} アカウントが使用されました:</p>
+      <p class="text-muted">${date}</p>
+      <p><strong>${model}</strong></p>
+      <p>新しいデバイスに ${brand} がインストールされたか、既存のデバイスに再インストールされました。 この操作をあなたが行っていない場合は、 ${brand} の設定に移動し、デバイスを削除し、<a href="${forgot}">パスワードをリセット</a>してください。</p>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

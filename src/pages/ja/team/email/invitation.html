@@ -1,0 +1,25 @@
+---
+subject: "あなたは ${brand} のチームに招待されました"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>チーム招待状</h1>
+      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}. 以下のボタンをクリックして、招待を受諾してください。</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">チームに参加</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+      <p class="small">
+        <strong>Wireとは</strong>
+        <br />
+        Wireは最も安全なコラボレーションプラットフォームです。 メッセージ、ビデオ会議、ファイル共有を通じて、
+        いつでもエンドツーエンドの暗号化で保護されている、チームや外部パートナーと協力しましょう。
+        <a href="https://wire.com/">詳細はこちら</a>.
+      </p>
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

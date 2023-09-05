@@ -1,0 +1,22 @@
+Konu: "Onay İsteği: ${brand_service}"
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Onay İsteği</h1>
+      <p>Yeni bir ${brand_service} kayıtlı ve onay bekliyor. Lütfen aşağıda belirtilen bilgileri inceleyiniz.</p>
+      <p><strong>İsim:</strong> ${name}</p>
+      <p><strong>E-posta:</strong> ${email}</p>
+      <p><strong>İnternet Sitesi:</strong> ${url}</p>
+      <p><strong>Açıklama:</strong> ${description}</p>
+      <p>Eğer istek gerçek gibi görünüyorsa sağlayıcı aşağıdaki butona tıklayarak onaylayabilirsiniz. Onaylandıktan sonra, sağlayıcı ${brand} kullanıcılarının konuşmalarına ekleyebileceği hizmetleri imzalayıp kayıt etmeye başlayabilecektir.</p>
+      <p>İstek şüpheli görünüyorsa, devam etmeden önce lütfen açıklamalar için sağlayıcıyla temasa geçin.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Onayla</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}

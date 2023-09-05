@@ -1,0 +1,18 @@
+---
+subject: "Tài khoản ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Tài khoản mới của bạn trên ${brand}</h1>
+      <p>Một nhóm ${brand} đã được tại với <strong>${email}</strong>. Vui lòng xác minh địa chỉ email của bạn.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Xác minh</button></center>
+      <spacer size="24"></spacer>
+      {{> en/link-button}}
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
