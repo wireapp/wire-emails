@@ -1,0 +1,1 @@
+Yêu cầu Chấp thuận: ${brand_service}

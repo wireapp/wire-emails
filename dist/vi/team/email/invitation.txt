@@ -1,0 +1,26 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+LỜI MỜI THAM GIA NHÓM
+${inviter} has invited you to join a team on ${brand}. Nhấp vào nút phía bên
+dưới để chấp nhận lời mời.
+
+Join team [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
+vào trình duyệt của bạn:
+
+${url}
+
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+
+What is Wire?
+Wire is the most secure collaboration platform. Work with your team and external
+partners wherever you are through messages, video conferencing and file sharing
+– always secured with end-to-end-encryption. Learn more [https://wire.com/].
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

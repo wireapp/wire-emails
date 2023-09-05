@@ -1,0 +1,1 @@
+Você foi convidado para se juntar a uma equipe em ${brand}

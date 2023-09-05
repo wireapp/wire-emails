@@ -1,0 +1,21 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+VERIFICA IL TUO INDIRIZZO E-MAIL
+${email} è stato registrato come tuo nuovo indirizzo email su ${brand}. Clicca
+il pulsante sotto per verificare il tuo indirizzo.
+
+Verifica [${url}]Se non puoi fare clic sul pulsante, copia e incolla questo link
+nel tuo browser:
+
+${url}
+
+Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

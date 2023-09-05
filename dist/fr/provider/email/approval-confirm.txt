@@ -1,0 +1,20 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+Bonjour,
+
+Nous sommes heureux de vous informer que vous êtes dorénavant un
+${brand_service} approuvé.
+
+Merci de ne pas répondre à ce message.
+
+Si vous n'avez pas souscrit de compte ${brand_service} avec cette adresse email,
+merci de nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

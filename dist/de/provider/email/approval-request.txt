@@ -1,0 +1,37 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+GENEHMIGUNGSANFRAGE
+Ein neuer ${brand_service} ist registriert und wartet auf die Genehmigung. Bitte
+lesen Sie die unten angegebenen Informationen.
+
+Name: ${name}
+
+E-Mail: ${email}
+
+Website: ${url}
+
+Beschreibung: ${description}
+
+Wenn die Anfrage echt scheint, können Sie den Anbieter genehmigen, indem Sie auf
+den unteren Button klicken. Sobald genehmigt, kann sich der Anbieter anmelden
+und mit der Registrierung von Diensten beginnen, die ${brand}-Nutzer ihren
+Unterhaltungen hinzufügen können.
+
+Falls die Anfrage zweifelhaft scheint, wenden Sie sich bitte an den Anbieter zur
+Klärung, bevor Sie fortfahren.
+
+Genehmigen [${url}]Falls Sie nicht auf den Button klicken können, kopieren Sie
+diesen Link und fügen Sie ihn in Ihren Browser ein:
+
+${url}
+
+Bitte antworten Sie nicht auf diese Nachricht.
+
+
+--------------------------------------------------------------------------------
+
+Datenschutzrichtlinien und Nutzungsbedingungen [${legal}] · Missbrauch melden
+[${misuse}]
+${copyright}. ALLE RECHTE VORBEHALTEN.

@@ -1,0 +1,16 @@
+PANINI ERROR
+src/pages/pl/billing/email/suspension.html
+
+No layout named "rozliczenia" exists.
+
+STACK TRACE:
+HandlebarsEngine.render (/Users/lebontim/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:86:17)
+/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:152:40
+Array.map (<anonymous>)
+Panini.build (/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:146:23)
+DestroyableTransform._flush (/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:45:11)
+DestroyableTransform.prefinish (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+DestroyableTransform.emit (node:events:527:28)
+DestroyableTransform.emit (node:domain:537:15)
+prefinish (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+finishMaybe (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:627:5)

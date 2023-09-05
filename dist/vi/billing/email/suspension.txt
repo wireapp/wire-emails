@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+NHÓM CỦA BẠN ĐÃ BỊ ĐÌNH CHỈ
+Tài khoản của bạn thuộc nhóm ${team_name} đã bị đình chỉ.
+
+Nguyên do: ${reason}.
+
+${caption} [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
+vào trình duyệt của bạn:
+
+${url}
+
+Nếu bạn không kích hoạt lại tại khoản của mình, lịch sử các cuộc hội thoại của
+nhóm và tất cả thành viên trong nhóm sẽ bị xoá.
+
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

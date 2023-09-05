@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+VOTRE ÉQUIPE A ÉTÉ SUSPENDUE
+Votre compte pour l’équipe ${team_name} a été suspendu.
+
+Raison : ${reason}.
+
+${caption} [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez et collez
+ce lien dans votre navigateur :
+
+${url}
+
+Si vous ne réactivez pas votre compte, l'historique des conversations de
+l'équipe et de tous ses membres sera supprimé.
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

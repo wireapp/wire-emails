@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+WITAMY W ${team_name}.
+Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
+${email}.
+
+${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej
+w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich
+popularnych platformach.
+
+Pobierz ${brand} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten
+link do swojej przeglądarki:
+
+${url}
+
+Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].
+
+ID zespołu: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.
