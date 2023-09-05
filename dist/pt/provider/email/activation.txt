@@ -1,0 +1,33 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+CONFIRME O SEU E-MAIL
+Seu endereço de e-mail ${email} foi usado para se registrar em ${brand_service}.
+
+Para completar o cadastro, é necessário que você verifique seu endereço de
+e-mail clicando no botão abaixo.
+
+Observe que, após a verificação bem-sucedida de seu e-mail, sua conta
+${brand_service} ainda está sujeita à aprovação de nossa equipe, o que
+geralmente ocorre em 24 horas. Você será informado da aprovação por um e-mail
+separado.
+
+Verificar [${url}]Se você não conseguir clicar no botão, copie e cole este link
+no seu navegador:
+
+${url}
+
+Se você não se inscreveu em uma conta de provedor de serviços do ${brand} usando
+esse endereço de e-mail, pode ignorar essa mensagem. Se você quiser relatar o
+abuso do seu endereço de e-mail, por favor, entre em contato conosco.
+[${support}]
+
+Por favor, não responda a esta mensagem.
+
+
+--------------------------------------------------------------------------------
+
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.

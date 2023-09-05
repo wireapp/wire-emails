@@ -1,0 +1,26 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+TAKIM DAVETI
+${inviter} has invited you to join a team on ${brand}. Daveti kabul etmek için
+aşağıdaki butonuna tıklayın.
+
+Join team [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
+tarayıcınıza yapıştırın:
+
+${url}
+
+Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
+[${support}].
+
+What is Wire?
+Wire is the most secure collaboration platform. Work with your team and external
+partners wherever you are through messages, video conferencing and file sharing
+– always secured with end-to-end-encryption. Learn more [https://wire.com/].
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

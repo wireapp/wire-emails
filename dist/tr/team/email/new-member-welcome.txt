@@ -1,0 +1,26 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+HOŞ GELDINIZ ${team_name}.
+${brand} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
+
+${brand} güçlü şifrelemeyi, zengin bir özellik seti ve daha önce hiç olmadığı
+gibi bir uygulamada kullanım kolaylığını birleştirir. Tüm popüler platformlarda
+çalışır.
+
+${brand} İndir [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
+tarayıcınıza yapıştırın:
+
+${url}
+
+Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
+[${support}].
+
+Takım Kimliği: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.
