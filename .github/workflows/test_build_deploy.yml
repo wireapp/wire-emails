@@ -40,7 +40,7 @@ jobs:
           echo -e "GITHUB_CONTEXT = ${GITHUB_CONTEXT}"
 
       - name: Yarn cache
-        uses: c-hive/gha-yarn-cache@v1
+        uses: c-hive/gha-yarn-cache@v2
 
       - name: Install JS dependencies
         run: |
