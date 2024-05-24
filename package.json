@@ -2,7 +2,7 @@
   "dependencies": {
     "foundation-cli": "2.3.2",
     "foundation-emails": "2.4.0",
-    "fs-extra": "10.1.0",
+    "fs-extra": "11.2.0",
     "glob": "7.2.3",
     "global": "4.4.0",
     "gulp-mail": "^0.4.2",
