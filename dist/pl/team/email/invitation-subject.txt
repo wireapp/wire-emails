@@ -1,1 +1,0 @@
-Zostałeś zaproszony do dołączenia do zespołu ${brand}
