@@ -1,0 +1,19 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+Merhaba,
+
+Size şimdi onaylanmış bir ${brand_service} olduğunuzu bildirmekten memnuniyet
+duyarız.
+
+Lütfen bu iletiyi yanıtlamayın.
+
+Bu e-posta adresini kullanarak ${brand_service} hesabına kaydolmadıysanız,
+lütfen bize ulaşın [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

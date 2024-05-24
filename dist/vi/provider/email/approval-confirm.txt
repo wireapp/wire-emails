@@ -1,0 +1,19 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+Xin chào,
+
+Chúng tôi rất vui vì thông báo cho bạn rằng ${brand_service} đã được thông qua.
+
+Vui lòng không trả lời tin nhắn này.
+
+Nếu bạn không tiến hành đăng ký tài khoản ${brand_service} sử dụng địa chỉ email
+này, vui lòng liên hệ chúng tôi [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

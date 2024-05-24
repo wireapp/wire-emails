@@ -1,0 +1,37 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+WNIOSEK O ZATWIERDZENIE
+Nowa ${brand_service} zarejestrowała się i oczekuje na zatwierdzenie. Proszę
+zapoznać się z poniższymi informacjami.
+
+Nazwa: ${name}
+
+E-mail: ${email}
+
+Strona internetowa: ${url}
+
+Opis: ${description}
+
+Jeśli żądanie wydaje się autentyczne, możesz zatwierdzić dostawcę klikając na
+poniższy przycisk. Po zatwierdzeniu dostawca będzie mógł zalogować się i
+rozpocząć rejestrację usług, które użytkownicy ${brand} mogą dodać do swoich
+rozmów.
+
+Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania
+wyjaśnień.
+
+Zatwierdź [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten link
+do swojej przeglądarki:
+
+${url}
+
+Proszę nie odpowiadać na tę wiadomość.
+
+
+--------------------------------------------------------------------------------
+
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

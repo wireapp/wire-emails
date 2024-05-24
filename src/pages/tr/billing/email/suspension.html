@@ -1,0 +1,21 @@
+---
+düzen: faturalandırma
+konu: "Takım Süspansiyonu"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Takımınız askıya alındı</h1>
+      <p><strong>${team_name}</strong> takımında bulunan hesabınız askıya alınmıştır.</p>
+      <p>Sebep: ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> tr/link-button}}
+      <p class="small">Eğer hesabınız yeniden aktifleştirmezseniz, takım sohbet geçmişiniz ve tüm üyeleriniz silinecektir.</p>
+      {{> tr/questions}}
+    </columns>
+  </row>
+</container>
+{{> tr/footer}}

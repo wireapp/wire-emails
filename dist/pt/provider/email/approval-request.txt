@@ -1,0 +1,36 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+PEDIDO DE APROVAÇÃO
+Um novo ${brand_service} foi registrado e está aguardando aprovação. Por favor,
+reveja as informações fornecidas abaixo.
+
+Nome: ${name}
+
+E-mail: ${email}
+
+Site: ${url}
+
+Descrição: ${description}
+
+Se a solicitação parecer genuína, você pode aprovar o fornecedor clicando no
+botão abaixo. Depois de aprovado, o provedor poderá entrar e começar a registrar
+serviços que os usuários de ${brand} podem adicionar às suas conversas.
+
+Se a solicitação parecer duvidosa, entre em contato com o provedor para obter
+esclarecimentos antes de continuar.
+
+Aprovar [${url}]Se você não conseguir clicar no botão, copie e cole este link no
+seu navegador:
+
+${url}
+
+Por favor, não responda a esta mensagem.
+
+
+--------------------------------------------------------------------------------
+
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.

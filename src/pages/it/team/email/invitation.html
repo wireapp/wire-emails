@@ -1,0 +1,25 @@
+---
+subject: "Sei stato invitato ad unirti ad un team su ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Invito del team</h1>
+      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}. Clicca il pulsante sotto per accettare l'invito.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Unisciti al team</button></center>
+      <spacer size="24"></spacer>
+      {{> it/link-button}}
+      {{> it/questions}}
+      <p class="small">
+        <strong>Cos'è Wire?</strong>
+        <br />
+        Wire è la più sicura piattaforma di collaborazione. Lavora con il tuo time e i partner esterni ovunque tu sia
+tramite messaggi, videoconferenze e condivisione di file; sempre protetti con crittografia end-to-end.
+        <a href="https://wire.com/">Scopri di più</a>.
+      </p>
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

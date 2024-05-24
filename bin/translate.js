@@ -28,6 +28,13 @@ const LANGUAGE_MAPPINGS = {
   'et-EE': 'et',
   'lt-LT': 'lt',
   'ru-RU': 'ru',
+  'pt-BR': 'pt',
+  'si-LK': 'si',
+  'ja-JP': 'ja',
+  'it-IT': 'it',
+  'tr-TR': 'tr',
+  'pl-PL': 'pl',
+  'vi-VN': 'vi',
 };
 
 const IGNORE = [...new Set(Object.keys(LANGUAGE_MAPPINGS).concat(Object.values(LANGUAGE_MAPPINGS)))];

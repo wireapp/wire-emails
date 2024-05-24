@@ -1,0 +1,19 @@
+---
+subject: "アカウントを削除しますか？"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>アカウントを削除</h1>
+      <p>あなたの ${brand} アカウントの削除リクエストを受け付けました。 あなたのすべての会話、コンテンツ、友人を削除するには10分以内に下記のリンクをクリックしてください。</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius alert">アカウント削除</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      <p class="small">あなたがこのリクエスト行っていない場合は、<a href="${forgot}">パスワードをリセット</a>してください。</p>
+      {{> ja/questions}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}

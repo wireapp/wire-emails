@@ -1,0 +1,18 @@
+---
+oggetto: "Il tuo account ${brand} "
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Verifica il tuo indirizzo e-mail</h1>
+      <p><strong>${email}</strong> è stato utilizzata per registrarsi su ${brand}.<br>Clicca il pulsante per verificare il tuo indirizzo.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Verifica</button></center>
+      <spacer size="24"></spacer>
+      {{> it/link-button}}
+      {{> it/questions}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

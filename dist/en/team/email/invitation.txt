@@ -3,8 +3,8 @@
 ${brand_label_url} [${brand_url}]
 
 TEAM INVITATION
-${inviter} has invited you to join the team ${team_name} on ${brand}. Click the
-button below to accept the invitation.
+${inviter} has invited you to join a team on ${brand}. Click the button below to
+accept the invitation.
 
 Join team [${url}]If you can’t click the button, copy and paste this link to
 your browser:

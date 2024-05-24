@@ -1,0 +1,17 @@
+---
+subject: "${code} is your ${brand} verification code"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>E-postanızı doğrulayın</h1>
+      <p>${brand} 'a kaydolmak için <strong>${email}</strong> kullanıldı. E-postanızı doğrulayıp hesap oluşturmak için kodu girin.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> tr/questions}}
+    </columns>
+  </row>
+</container>
+{{> tr/footer}}

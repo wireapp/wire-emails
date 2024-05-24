@@ -1,0 +1,36 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+Konu: "Onay İsteği: ${brand_service}"ONAY İSTEĞI
+Yeni bir ${brand_service} kayıtlı ve onay bekliyor. Lütfen aşağıda belirtilen
+bilgileri inceleyiniz.
+
+İsim: ${name}
+
+E-posta: ${email}
+
+İnternet Sitesi: ${url}
+
+Açıklama: ${description}
+
+Eğer istek gerçek gibi görünüyorsa sağlayıcı aşağıdaki butona tıklayarak
+onaylayabilirsiniz. Onaylandıktan sonra, sağlayıcı ${brand} kullanıcılarının
+konuşmalarına ekleyebileceği hizmetleri imzalayıp kayıt etmeye
+başlayabilecektir.
+
+İstek şüpheli görünüyorsa, devam etmeden önce lütfen açıklamalar için
+sağlayıcıyla temasa geçin.
+
+Onayla [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp tarayıcınıza
+yapıştırın:
+
+${url}
+
+Lütfen bu iletiyi yanıtlamayın.
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

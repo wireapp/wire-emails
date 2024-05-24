@@ -1,0 +1,18 @@
+---
+subject: "${brand} アカウント"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>あなたの新しい ${brand} アカウント</h1>
+      <p>新しい ${brand} チーム が、 <strong>${email}</strong> によって作成されました。 メールアドレスの認証をお願いします。</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">認証</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      {{> ja/questions}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}

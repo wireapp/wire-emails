@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+CHÀO MỪNG ĐÃ ĐẾN VỚI ${team_name}.
+Bạn đã vừa tham gia một nhóm được gọi là ${team_name} trên ${brand} bằng 
+${email}.
+
+${brand} kết hợp với mã hoá mạnh mẽ, đa tính năng được thiết lặp và dễ dàng sử
+dụng trên một ứng dụng chưa từng có trước đây. Làm việc trên tất cả các nền tảng
+phổ biến.
+
+Tải về ${brand} [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường
+dẫn này vào trình duyệt của bạn:
+
+${url}
+
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+
+ID Nhóm: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

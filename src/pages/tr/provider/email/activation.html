@@ -1,0 +1,21 @@
+---
+konu: "${brand_service} Hesabınız"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>E-postanızı doğrulayın</h1>
+      <p>E-posta adresiniz ${email} ${brand_service}'de kayıt için kullanıldı.</p>
+      <p>E-posta ile kayıt olma işlemini tamamlamak için, aşağıdaki butona tıklayarak hesabınızı doğrulayın.</p>
+      <p>Lütfen e-postanızı başarılı bir şekilde doğruladıktan sonra, ${brand_service} hesabınızın, genellikle 24 saat içinde gerçekleşen personelimiz tarafından onaylanmaya devam ettiğini lütfen unutmayın. Onay ile ilgili ayrı bir e-posta ile bilgilendirileceksiniz.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Doğrula</button></center>
+      <spacer size="24"></spacer>
+      {{> tr/link-button}}
+      {{> tr/ignore}}
+      {{> tr/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> tr/footer}}

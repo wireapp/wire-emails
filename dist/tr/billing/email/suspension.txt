@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+TAKIMINIZ ASKIYA ALINDI
+${team_name} takımında bulunan hesabınız askıya alınmıştır.
+
+Sebep: ${reason}.
+
+${caption} [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
+tarayıcınıza yapıştırın:
+
+${url}
+
+Eğer hesabınız yeniden aktifleştirmezseniz, takım sohbet geçmişiniz ve tüm
+üyeleriniz silinecektir.
+
+Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
+[${support}].
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

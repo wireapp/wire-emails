@@ -1,0 +1,21 @@
+---
+layout: rozliczenia
+subject: "Zawieszenie zespołu"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Twój zespół został zawieszony</h1>
+      <p>Twoje konto dla zespołu <strong>${team_name}</strong> zostało zawieszone.</p>
+      <p>Powód: ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> pl/link-button}}
+      <p class="small">Jeśli nie reaktywujesz swojego konta, historia rozmów dla zespołu i wszyscy jego członkowie zostaną usunięci.</p>
+      {{> pl/questions}}
+    </columns>
+  </row>
+</container>
+{{> pl/footer}}

@@ -1,0 +1,21 @@
+---
+subject: "Bạn đã tham gia nhóm trên ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Chào mừng đã đến với <strong>${team_name}</strong>.</h1>
+      <p>Bạn đã vừa tham gia một nhóm được gọi là <strong>${team_name}</strong> trên ${brand} bằng <strong>${email}</strong>.</p>
+      <spacer size="24"></spacer>
+      <p>${brand} kết hợp với mã hoá mạnh mẽ, đa tính năng được thiết lặp và dễ dàng sử dụng trên một ứng dụng chưa từng có trước đây. Làm việc trên tất cả các nền tảng phổ biến.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Tải về ${brand}</button></center>
+      <spacer size="24"></spacer>
+      {{> vi/link-button}}
+      {{> vi/questions}}
+      {{> vi/team-id}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

@@ -8,12 +8,10 @@ Visit [wireapp.github.io/wire-emails/dist](https://wireapp.github.io/wire-emails
 
 Help translate our emails via the [Crowdin project](https://crowdin.com/project/wire-launch).
 
-
 ## IMPORTANT NOTES
 
-- Only ever update stuff under `/src/`.  Other changes may get overwritten.
+- Only ever update stuff under `/src/`. Other changes may get overwritten.
 - Only translate languages supported here: https://github.com/wireapp/wire-emails/blob/master/bin/translate.js#L24-L31
-
 
 ## For Designers
 
@@ -22,7 +20,6 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 - Commit your changes to `master`.
 - Continue in [Section "Otto builds"](./README.md#otto-builds) below.
 
-
 ## For Copywriters
 
 - Find the things you want to edit in the same places as designers (see [above](./README.md#for-designers)).
@@ -30,23 +27,22 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 - Otto will now automatically upload your English changes to the [Crowdin project](https://crowdin.com/project/wire-launch).
 - Continue in [Section "For Translators"](./README.md#for-translators) below.
 
-
 ## For Translators
 
 - All translations are located in the [Crowdin project](https://crowdin.com/project/wire-launch).
-- When the original (English) email copy is changed via the GitHub UI or in a local clone and submitted via a pull request, the modified source text is uploaded to Crowdin for translation.  Translators use the [Crowdin UI](https://crowdin.com/project/wire-launch) to update the localized text strings.
+- When the original (English) email copy is changed via the GitHub UI or in a local clone and submitted via a pull request, the modified source text is uploaded to Crowdin for translation. Translators use the [Crowdin UI](https://crowdin.com/project/wire-launch) to update the localized text strings.
 - When the translators are done, merge the pull request to `master`.
+- The 'Subject' keyword in the translations should not be translated as it is used to split that section into an email subject. The text after the colon should be translated as normal. [Example at line 2](./src/pages/de/user/email/verification-login.html)
+- Additionally the 'Layout' keyword as well as the text after it should also not be translated as it refers to a source language file name [Example at line 2](./src/pages/pl/billing/email/suspension.html).
 - Continue in [Section "Otto builds"](./README.md#otto-builds) below.
 
 If you changed Crowdin content without any changes on github (eg., to fix a translation error), you can try to re-run the travis job that is otherwise triggered automatically on every change on `master`.
-
 
 ## Otto builds
 
 When you commit to `master`, Otto will tell Travis to generate [the new email templates](https://github.com/wireapp/wire-emails/tree/master/dist) and add an `Otto build` message to the [commits list](https://github.com/wireapp/wire-emails/commits/master). The absense of the `Otto build` will indicate an error as seen in the screenshot below:
 
 <img width="317" alt="Commit screenshot" src="https://user-images.githubusercontent.com/129995/36435445-ff5e85a6-1661-11e8-9e22-b1d2420e78f1.png">
-
 
 ## Advanced
 

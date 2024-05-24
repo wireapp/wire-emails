@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+ELIMINA IL TUO ACCOUNT
+Abbiamo ricevuto una richiesta per eliminare il tuo account ${brand}. Clicca sul
+pulsante qui sotto entro 10 minuti per eliminare tutte le conversazioni, i
+contenuti e le connessioni.
+
+Elimina account [${url}]Se non puoi fare clic sul pulsante, copia e incolla
+questo link nel tuo browser:
+
+${url}
+
+Se non lo hai richiesto, reimposta la password [${forgot}].
+
+Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

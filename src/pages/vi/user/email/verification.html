@@ -1,0 +1,17 @@
+---
+subject: "${code} là mã xác nhận ${brand} của bạn"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh địa chỉ emal của bạn</h1>
+      <p><strong>${email}</strong> đã được dùng để đăng ký ${brand}. Nhập mã này để xác minh địa chỉ email và tạo tài khoản của bạn.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> vi/questions}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

@@ -1,0 +1,19 @@
+---
+oggetto: "Eliminare account?"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Elimina il tuo account</h1>
+      <p>Abbiamo ricevuto una richiesta per eliminare il tuo account ${brand}. Clicca sul pulsante qui sotto entro 10 minuti per eliminare tutte le conversazioni, i contenuti e le connessioni.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius alert">Elimina account</button></center>
+      <spacer size="24"></spacer>
+      {{> it/link-button}}
+      <p class="small">Se non lo hai richiesto, <a href="${forgot}">reimposta la password</a>.</p>
+      {{> it/questions}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

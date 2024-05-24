@@ -1,0 +1,21 @@
+---
+subject: "Ti sei unito ad un team su ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Benvenuto a <strong>${team_name}</strong>.</h1>
+      <p>Ti sei appena unito ad un team chiamato <strong>${team_name}</strong> su ${brand} con <strong>${email}</strong>.</p>
+      <spacer size="24"></spacer>
+      <p>${brand} combina una forte crittografia, una ricca serie di funzionalità e facilità d'uso in un'app come mai prima. Funziona su tutte le piattaforme popolari.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Scarica ${brand}</button></center>
+      <spacer size="24"></spacer>
+      {{> it/link-button}}
+      {{> it/questions}}
+      {{> it/team-id}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

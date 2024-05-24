@@ -1,0 +1,18 @@
+---
+temat: "Twoje konto ${brand} "
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Potwierdź swój adres email</h1>
+      <p><strong>${email}</strong> został użyty do rejestracji ${brand}.<br>Kliknij przycisk, aby zweryfikować swój adres.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Zweryfikuj</button></center>
+      <spacer size="24"></spacer>
+      {{> pl/link-button}}
+      {{> pl/questions}}
+    </columns>
+  </row>
+</container>
+{{> pl/footer}}

@@ -1,0 +1,17 @@
+---
+subject: "Seu código de verificação do ${brand} é ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Verificar criação do token SCIM</h1>
+      <p><strong>${email}</strong> foi usado para gerar um token SCIM. Insira este código para verificar seu e-mail e criar o token.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> pt/questions}}
+    </columns>
+  </row>
+</container>
+{{> pt/footer}}
