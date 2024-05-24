@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 ZAPROSZENIE DO ZESPOŁU
-${inviter} has invited you to join a team on ${brand}. Kliknij poniższy
+${inviter} has invited you to join a team on ${BRAND}. Kliknij poniższy
 przycisk, aby zaakceptować zaproszenie.
 
 Dołącz do zespołu [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej

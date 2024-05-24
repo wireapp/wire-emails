@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 VERIFIQUE SEU E-MAIL
-${email} foi usado para se registrar no ${brand}.
+${email} foi usado para se registrar no ${BRAND}.
 Clique no botão para verificar seu e-mail.
 
 Verificar [${url}]Se você não conseguir clicar no botão, copie e cole este link

@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 TEAM INVITATION
-${inviter} has invited you to join a team on ${brand}. Click the button below to
+${inviter} has invited you to join a team on ${BRAND}. Click the button below to
 accept the invitation.
 
 Join team [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir

@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 NOVO DISPOSITIVO
-Sua conta ${brand} foi usada em:
+Sua conta ${BRAND} foi usada em:
 
 ${date}
 
 ${model}
 
-Você pode ter instalado o ${brand} em um dispositivo novo ou instalado novamente
-em um já existente. Se não foi esse o caso, vá nas Configurações de ${brand},
+Você pode ter instalado o ${BRAND} em um dispositivo novo ou instalado novamente
+em um já existente. Se não foi esse o caso, vá nas Configurações de ${BRAND},
 remova o dispositivo e redefina sua senha [${forgot}].
 
 Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].

@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 VERIFICAR LOGIN
-${email} foi usado para iniciar sessão em sua conta do ${brand}. Insira este
+${email} foi usado para iniciar sessão em sua conta do ${BRAND}. Insira este
 código para verificar seu e-mail e iniciar sessão.
 
 ${code}

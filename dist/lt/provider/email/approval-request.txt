@@ -16,7 +16,7 @@ Description: ${description}
 
 If the request seems genuine, you can approve the provider by clicking on the
 button below. Once approved, the provider will be able to sign in and start
-registering services that ${brand} users can add to their conversations.
+registering services that ${BRAND} users can add to their conversations.
 
 If the request seems dubious, please contact the provider for clarifications
 before proceeding.

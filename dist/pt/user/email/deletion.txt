@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 EXCLUIR SUA CONTA
-Nós recebemos uma solicitação para excluir sua conta ${brand}. Clique no botão
+Nós recebemos uma solicitação para excluir sua conta ${BRAND}. Clique no botão
 abaixo em até 10 minutos para excluir todas as suas conversas, conteúdo e
 conexões.
 

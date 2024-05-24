@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 HESABINI SIL
-${brand} hesabınızı silmek için bir istek aldık. Tüm konuşmalarınızı,
+${BRAND} hesabınızı silmek için bir istek aldık. Tüm konuşmalarınızı,
 içeriğinizi ve bağlantılarınızı silmek için 10 dakika içinde aşağıdaki düğmeyi
 tıklayın.
 

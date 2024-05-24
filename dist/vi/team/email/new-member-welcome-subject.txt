@@ -1,1 +1,1 @@
-Bạn đã tham gia nhóm trên ${brand}
+Bạn đã tham gia nhóm trên ${BRAND}

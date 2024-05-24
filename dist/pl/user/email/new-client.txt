@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 NOWE URZĄDZENIE
-Twoje konto ${brand} zostało użyte dnia:
+Twoje konto ${BRAND} zostało użyte dnia:
 
 ${date}
 
 ${model}
 
-Możesz zainstalować ${brand} na nowym urządzeniu lub zainstalować go ponownie na
-istniejącym. Jeśli tak nie było, przejdź do Ustawień ${brand}, usuń urządzenie i 
+Możesz zainstalować ${BRAND} na nowym urządzeniu lub zainstalować go ponownie na
+istniejącym. Jeśli tak nie było, przejdź do Ustawień ${BRAND}, usuń urządzenie i 
 zresetuj hasło [${forgot}].
 
 Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].

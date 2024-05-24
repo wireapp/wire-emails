@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
-${email} đã được dùng để đăng ký ${brand}.
+${email} đã được dùng để đăng ký ${BRAND}.
 Nhấp vào nút để xác minh địa chỉ của bạn.
 
 Xác minh [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này

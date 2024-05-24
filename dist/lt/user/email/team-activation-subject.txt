@@ -1,1 +1,1 @@
-„${brand}“ paskyra
+„${BRAND}“ paskyra

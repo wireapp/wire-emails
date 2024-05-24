@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 E-POSTANIZI DOĞRULAYIN
-${email}, ${brand}'daki yeni e-posta adresiniz olarak kaydedildi. Adresinizi
+${email}, ${BRAND}'daki yeni e-posta adresiniz olarak kaydedildi. Adresinizi
 doğrulamak için aşağıdaki düğmeye tıklayın.
 
 Doğrula [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp tarayıcınıza

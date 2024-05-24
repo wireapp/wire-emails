@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 CHÀO MỪNG ĐÃ ĐẾN VỚI ${team_name}.
-Bạn đã vừa tham gia một nhóm được gọi là ${team_name} trên ${brand} bằng 
+Bạn đã vừa tham gia một nhóm được gọi là ${team_name} trên ${BRAND} bằng 
 ${email}.
 
-${brand} kết hợp với mã hoá mạnh mẽ, đa tính năng được thiết lặp và dễ dàng sử
+${BRAND} kết hợp với mã hoá mạnh mẽ, đa tính năng được thiết lặp và dễ dàng sử
 dụng trên một ứng dụng chưa từng có trước đây. Làm việc trên tất cả các nền tảng
 phổ biến.
 
-Tải về ${brand} [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường
+Tải về ${BRAND} [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường
 dẫn này vào trình duyệt của bạn:
 
 ${url}

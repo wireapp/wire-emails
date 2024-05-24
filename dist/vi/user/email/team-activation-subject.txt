@@ -1,1 +1,1 @@
-Tài khoản ${brand}
+Tài khoản ${BRAND}

@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 LỜI MỜI THAM GIA NHÓM
-${inviter} has invited you to join a team on ${brand}. Nhấp vào nút phía bên
+${inviter} has invited you to join a team on ${BRAND}. Nhấp vào nút phía bên
 dưới để chấp nhận lời mời.
 
 Join team [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này

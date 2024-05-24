@@ -16,7 +16,7 @@ Opis: ${description}
 
 Jeśli żądanie wydaje się autentyczne, możesz zatwierdzić dostawcę klikając na
 poniższy przycisk. Po zatwierdzeniu dostawca będzie mógł zalogować się i
-rozpocząć rejestrację usług, które użytkownicy ${brand} mogą dodać do swoich
+rozpocząć rejestrację usług, które użytkownicy ${BRAND} mogą dodać do swoich
 rozmów.
 
 Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania

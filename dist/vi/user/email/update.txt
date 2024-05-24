@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
-${email} đã được đăng ký như là địa chỉ email mới của bạn trên ${brand}. Nhấp
+${email} đã được đăng ký như là địa chỉ email mới của bạn trên ${BRAND}. Nhấp
 vào nút phía bên dưới để xác minh địa chỉ email của bạn.
 
 Xác minh [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
