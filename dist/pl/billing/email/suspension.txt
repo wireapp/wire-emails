@@ -1,16 +1,25 @@
-PANINI ERROR
-src/pages/pl/billing/email/suspension.html
+[${brand_logo}]
 
-No layout named "rozliczenia" exists.
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-HandlebarsEngine.render (/Users/lebontim/wireapp/wire-emails/node_modules/panini/engines/handlebars.js:86:17)
-/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:146:23)
-DestroyableTransform._flush (/Users/lebontim/wireapp/wire-emails/node_modules/panini/lib/render.js:45:11)
-DestroyableTransform.prefinish (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_transform.js:138:10)
-DestroyableTransform.emit (node:events:518:28)
-DestroyableTransform.emit (node:domain:551:15)
-prefinish (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:619:14)
-finishMaybe (/Users/lebontim/wireapp/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:627:5)
+TWÓJ ZESPÓŁ ZOSTAŁ ZAWIESZONY
+Twoje konto dla zespołu ${team_name} zostało zawieszone.
+
+Powód: ${reason}.
+
+${caption} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten link
+do swojej przeglądarki:
+
+${url}
+
+Jeśli nie reaktywujesz swojego konta, historia rozmów dla zespołu i wszyscy jego
+członkowie zostaną usunięci.
+
+Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

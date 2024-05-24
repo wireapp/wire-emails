@@ -33,6 +33,7 @@ Help translate our emails via the [Crowdin project](https://crowdin.com/project/
 - When the original (English) email copy is changed via the GitHub UI or in a local clone and submitted via a pull request, the modified source text is uploaded to Crowdin for translation. Translators use the [Crowdin UI](https://crowdin.com/project/wire-launch) to update the localized text strings.
 - When the translators are done, merge the pull request to `master`.
 - The 'Subject' keyword in the translations should not be translated as it is used to split that section into an email subject. The text after the colon should be translated as normal. [Example at line 2](./src/pages/de/user/email/verification-login.html)
+- Additionally the 'Layout' keyword as well as the text after it should also not be translated as it refers to a source language file name [Example at line 2](./src/pages/pl/billing/email/suspension.html).
 - Continue in [Section "Otto builds"](./README.md#otto-builds) below.
 
 If you changed Crowdin content without any changes on github (eg., to fix a translation error), you can try to re-run the travis job that is otherwise triggered automatically on every change on `master`.
