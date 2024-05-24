@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-TWOJE NOWE KONTO NA ${brand}
+TWOJE NOWE KONTO NA ${BRAND}
 Nowy zespół ${brand} został utworzony z ${email}. Prosimy, zweryfikuj swój adres
 email.
 
