@@ -1,0 +1,32 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+POTWIERDŹ SWÓJ ADRES EMAIL
+Twój adres e-mail ${email} został użyty do rejestracji jako ${brand_service}.
+
+Aby zakończyć rejestrację, konieczne jest zweryfikowanie adresu e-mail, klikając
+na poniższy przycisk.
+
+Pamiętaj, że po pomyślnej weryfikacji adresu e-mail, Twoje konto
+${brand_service} nadal podlega zatwierdzeniu przez nasz personel, co zwykle
+dzieje się w ciągu 24 godzin. Zostaniesz poinformowany o zatwierdzeniu za pomocą
+osobnego adresu e-mail.
+
+Zweryfikuj [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten link
+do swojej przeglądarki:
+
+${url}
+
+Jeśli nie zarejestrowałeś się na konto dostawcy usług ${brand} używając tego
+adresu e-mail, możesz bezpiecznie zignorować tę wiadomość. Jeśli chcesz zgłosić
+nadużycie adresu e-mail, skontaktuj się z nami. [${support}]
+
+Proszę nie odpowiadać na tę wiadomość.
+
+
+--------------------------------------------------------------------------------
+
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

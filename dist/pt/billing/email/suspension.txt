@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+SUA EQUIPE FOI SUSPENSA
+Sua conta para a equipe ${team_name} foi suspensa.
+
+Motivo: ${reason}.
+
+${caption} [${url}]Se você não conseguir clicar no botão, copie e cole este link
+no seu navegador:
+
+${url}
+
+Se você não reativar sua conta, o histórico de conversas da equipe e de todos os
+seus membros será excluído.
+
+Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.

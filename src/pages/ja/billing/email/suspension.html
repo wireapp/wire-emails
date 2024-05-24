@@ -1,0 +1,21 @@
+---
+layout: 支払い
+subject: "チームアカウント一時停止"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>あなたのチームアカウントは停止されました。</h1>
+      <p>あなたのアカウント、<strong>${team_name}</strong> チームは停止されました。</p>
+      <p>理由: ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      <p class="small">もし再アクティベートしない場合は、チームの会話履歴とすべてのメンバーが削除されます。</p>
+      {{> ja/questions}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}

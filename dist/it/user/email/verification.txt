@@ -1,0 +1,18 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+VERIFICA LA TUA EMAIL
+${email} è stato usato per registrare su ${brand}. Inserisci questo codice per
+verificare la tua email e creare il tuo profilo.
+
+${code}
+
+Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

@@ -1,0 +1,17 @@
+---
+subject: "Mã xác minh ${brand} của bạn là ${code}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh việc xóa nhóm</h1>
+      <p><strong>${email}</strong> đã được sử dụng để xóa nhóm ${brand} của bạn. Nhập đoạn mã này để xác nhận email của bạn và xóa nhóm.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> vi/questions}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

@@ -1,0 +1,1 @@
+リクエスト承認: ${brand_service}

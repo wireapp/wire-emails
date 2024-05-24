@@ -1,0 +1,24 @@
+---
+subject: "${brand_service} අනුමැතිය ඉල්ලීම"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>අනුමැතිය ඉල්ලීම</h1>
+      <p>නව ${brand_service} ගිණුමක් ලියාපදිංචි කර තිබෙන අතර අනුමැතිය බලාපොරොත්තුවෙන් සිටියි. කරුණාකර පහත තොරතුරු සමාලෝචනය කරන්න.</p>
+      <p><strong>නම:</strong> ${name}</p>
+      <p><strong>වි-තැපෑල:</strong> ${email}</p>
+      <p><strong>වියමන අඩවිය:</strong> ${url}</p>
+      <p><strong>විස්තරය:</strong> ${description}</p>
+      <p>ඉල්ලීම අව්‍යාජ බව පෙනෙයි නම්, ඔබට පහත බොත්තම එබීමෙන් ප්‍රතිපාදක අනුමත කිරීමට හැකිය. අනුමත වූ පසු, ප්‍රතිපාදකයාට පිවිසීමට මෙන්ම ${brand} පරිශ්‍රීලකයින්ට ඔවුන්ගේ සංවාද වලට එකතු කිරීමට පිළිවන් සේවා ලියාපදිංචිය ඇරඹීමට ඉඩ ලැබෙනු ඇත.</p>
+      <p>ඉල්ලීම සැක සහිත නම්, කරුණාකර ඉදිරියට යාමට පෙර නිශ්චිතව දැනගැනීම සඳහා ප්‍රතිපාදකයා අමතන්න.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">අනුමත</button></center>
+      <spacer size="24"></spacer>
+      {{> si/link-button}}
+      {{> si/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> si/footer}}

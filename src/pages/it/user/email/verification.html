@@ -1,0 +1,17 @@
+---
+subject: "${code} è il tuo codice di verifica di ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Verifica la tua email</h1>
+      <p><strong>${email}</strong> è stato usato per registrare su ${brand}. Inserisci questo codice per verificare la tua email e creare il tuo profilo.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> it/questions}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

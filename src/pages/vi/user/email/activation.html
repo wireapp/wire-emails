@@ -1,0 +1,18 @@
+---
+subject: "Tài khoản ${brand} của bạn"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Xác minh địa chỉ emal của bạn</h1>
+      <p><strong>${email}</strong> đã được dùng để đăng ký ${brand}. <br>Nhấp vào nút để xác minh địa chỉ của bạn.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Xác minh</button></center>
+      <spacer size="24"></spacer>
+      {{> vi/link-button}}
+      {{> vi/questions}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

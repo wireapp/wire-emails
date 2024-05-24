@@ -1,0 +1,18 @@
+---
+subject: "Profilo di ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Il tuo nuovo profilo su ${brand}</h1>
+      <p>Un nuovo team di ${brand} è stato creato con <strong>${email}</strong>. Sei pregato di verificare la tua email.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Verifica</button></center>
+      <spacer size="24"></spacer>
+      {{> it/link-button}}
+      {{> it/questions}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

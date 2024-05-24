@@ -80,7 +80,6 @@ img {
 
 center {
   width: 100%;
-  min-width: 480px;
 }
 
 table {
@@ -94,13 +93,13 @@ td, th {
   -moz-hyphens: auto;
   hyphens: auto;
   border-collapse: collapse !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 table, tr, td, th {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   vertical-align: top;
   text-align: left;
 }
@@ -171,13 +170,13 @@ th.large-6.last {
   padding-right: 8px;
 }
 
-.collapse > tbody > tr > th.large-6 {
+.collapse > tbody > tr > th.large-6:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
   width: 240px;
 }
-.collapse th.large-6.first,
-.collapse th.large-6.last {
+.collapse > tbody > tr th.large-6.first,
+.collapse > tbody > tr th.large-6.last {
   width: 244px;
 }
 
@@ -193,10 +192,6 @@ th.large-12.first {
 
 th.large-12.last {
   padding-right: 8px;
-}
-
-th.large-12 center {
-  min-width: 456px;
 }
 
 th.expander {
@@ -218,6 +213,7 @@ table.float-center {
 body,
 table.body,
 h1,
+h2,
 h5,
 p,
 td,
@@ -225,10 +221,7 @@ th {
   color: #42474a;
   font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
   font-weight: 300;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
   Margin: 0;
   text-align: left;
@@ -236,6 +229,7 @@ th {
 }
 
 h1,
+h2,
 h5 {
   color: inherit;
   word-wrap: normal;
@@ -247,6 +241,10 @@ h5 {
 
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 h5 {
@@ -266,6 +264,15 @@ p {
   margin-bottom: 24px;
   Margin-bottom: 24px;
 }
+p a {
+  margin: default;
+  Margin: default;
+}
+
+.small {
+  font-size: 80%;
+  color: #adafb0;
+}
 
 a {
   color: #2391d3;
@@ -284,6 +291,12 @@ a:active {
 }
 a:visited {
   color: #2391d3;
+}
+
+pre {
+  background: #e9edf0;
+  margin: 30px 0;
+  Margin: 30px 0;
 }
 table.button {
   width: auto;
@@ -311,6 +324,10 @@ table.button table td a {
 table.button.radius table td {
   border-radius: 4px;
   border: none;
+}
+
+table.button:not(.expand):not(.expanded) table {
+  width: auto;
 }
 
 table.button:hover table tr td a,
@@ -370,7 +387,7 @@ table.button.alert:hover table a {
     padding-right: 8px !important;
   }
 
-  table.body .collapse .columns {
+  table.body .collapse > tbody > tr > .columns {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -435,6 +452,10 @@ table.button {
 }
 table.button table td {
   text-align: center;
+}
+
+table.container {
+  width: 50%;
 }
 
 .index h5 {

@@ -1,0 +1,18 @@
+---
+subject: "${brand} での新しいメールアドレス"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>メールアドレス認証</h1>
+      <p><strong>${email}</strong> は、 ${brand} で新しいメールアドレスとして登録されました。 新しいメールアドレスを認証するために下のボタンをクリックしてください。</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">認証</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      {{> ja/questions}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}

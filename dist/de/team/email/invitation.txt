@@ -3,8 +3,8 @@
 ${brand_label_url} [${brand_url}]
 
 EINLADUNG ZUM TEAM
-${inviter} hat Sie eingeladen, dem Team ${team_name} auf ${brand} beizutreten.
-Klicken Sie bitte auf den unteren Button, um die Einladung anzunehmen.
+${inviter} hat Sie auf ${brand} zu einem Team eingeladen. Klicken Sie bitte auf
+den unteren Button, um die Einladung anzunehmen.
 
 Team beitreten [${url}]Falls Sie nicht auf den Button klicken können, kopieren
 Sie diesen Link und fügen Sie ihn in Ihren Browser ein:

@@ -1,0 +1,32 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+subject: "Tài khoản ${brand_service} của bạn"XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
+Địa chỉ email ${email} của bạn đã được sử dụng để đăng ký ${brand_service}.
+
+Để hoàn thiện quá trình đăng ký, bạn cần phải xác minh đại chỉ email của bạn
+bằng cách nhấp vào nút ở phía bên dưới.
+
+Xin vui lòng chú ý rằng một khi đã xác minh thành công địa chỉ email của bạn,
+tài khoản ${brand_service} của bạn vẫn sẽ tiếp tục trải qua sự phê duyệt của
+nhân viên của chúng tôi, điều này sẽ diễn ra trong khoảng 24 giờ. Bạn sẽ nhận
+được thông báo chấp thuận thông qua email.
+
+Xác minh [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
+vào trình duyệt của bạn:
+
+${url}
+
+Nếu bạn không đăng ký tài khoản nhà cung cấp dịch vụ cho ${brand} bằng địa chỉ
+email nàu, bạn có thể an toàn bằng cách bỏ qua tin nhắn này. Nếu bạn muốn báo
+cáo lạm dụng địa chỉ email của bạn, vui lòng liên hệ với chúng tôi. [${support}]
+
+Vui lòng không trả lời tin nhắn này.
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

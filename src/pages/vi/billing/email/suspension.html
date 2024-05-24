@@ -1,0 +1,21 @@
+---
+layout: billing
+subject: "Đình chỉ Nhóm"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Nhóm của bạn đã bị đình chỉ</h1>
+      <p>Tài khoản của bạn thuộc nhóm <strong>${team_name}</strong> đã bị đình chỉ.</p>
+      <p>Nguyên do: ${reason}.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${caption}</button></center>
+      <spacer size="24"></spacer>
+      {{> vi/link-button}}
+      <p class="small">Nếu bạn không kích hoạt lại tại khoản của mình, lịch sử các cuộc hội thoại của nhóm và tất cả thành viên trong nhóm sẽ bị xoá.</p>
+      {{> vi/questions}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

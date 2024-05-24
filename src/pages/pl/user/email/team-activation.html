@@ -1,0 +1,18 @@
+---
+temat: "Konto ${brand} "
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Twoje nowe konto na ${brand}</h1>
+      <p>Nowy zespół ${brand} został utworzony z <strong>${email}</strong>. Prosimy, zweryfikuj swój adres email.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Zweryfikuj</button></center>
+      <spacer size="24"></spacer>
+      {{> pl/link-button}}
+      {{> pl/questions}}
+    </columns>
+  </row>
+</container>
+{{> pl/footer}}

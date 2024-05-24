@@ -1,0 +1,26 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+BENVENUTO A ${team_name}.
+Ti sei appena unito ad un team chiamato ${team_name} su ${brand} con ${email}.
+
+${brand} combina una forte crittografia, una ricca serie di funzionalità e
+facilità d'uso in un'app come mai prima. Funziona su tutte le piattaforme
+popolari.
+
+Scarica ${brand} [${url}]Se non puoi fare clic sul pulsante, copia e incolla
+questo link nel tuo browser:
+
+${url}
+
+Se hai domande, per favore contattaci [${support}].
+
+ID Team: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.
