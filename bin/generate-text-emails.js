@@ -28,7 +28,9 @@ function fixBrokenVariables() {
     files: `${rootDirectory}${path.sep}**${path.sep}*.txt`,
     from: /\$\{[a-zA-Z_]+\}/g,
     to: match => {
-      if (match.toLowerCase() === 'brand') return 'BRAND';
+      if (match.toLowerCase().endsWith('{brand}')) {
+        return match.toUpperCase();
+      }
       return match.toLowerCase();
     },
   };
