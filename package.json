@@ -41,7 +41,7 @@
     "replace-in-file": "6.1.0",
     "rimraf": "3.0.2",
     "siphon-media-query": "1.0.0",
-    "yargs": "17.6.2"
+    "yargs": "17.7.2"
   },
   "license": "GPL-3.0",
   "lint-staged": {
@@ -70,5 +70,5 @@
     "translate:upload": "crowdin upload sources",
     "prepare": "husky install"
   },
-  "version": "1.0.104"
+  "version": "1.0.105"
 }
