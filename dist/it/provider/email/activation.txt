@@ -1,0 +1,34 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+VERIFICA IL TUO INDIRIZZO E-MAIL
+Il tuo indirizzo email ${email} è stato usato per registrarsi come un
+${brand_service}.
+
+Per completare la registrazione, è necessario che tu verifichi il tuo indirizzo
+e-mail cliccando sul pulsante sotto.
+
+Sei pregato di notare che dopo aver verificato correttamente la tua email, il
+tuo profilo di ${brand_service} è ancora soggetto ad approvazione dal nostro
+staff, il che si verifica di solito entro 24 ore. Sarai informato
+dell'approvazione tramite un'email separata.
+
+Verifica [${url}]Se non puoi fare clic sul pulsante, copia e incolla questo link
+nel tuo browser:
+
+${url}
+
+Se non ti registri per un profilo del fornitore di servizi di ${brand} usando
+questo indirizzo email, puoi ignorare tranquillamente questo messaggio. Se vuoi
+segnalare l'abuso del tuo indirizzo email, sei pregato di contattarci.
+[${support}]
+
+Si prega di non rispondere a questo messaggio.
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

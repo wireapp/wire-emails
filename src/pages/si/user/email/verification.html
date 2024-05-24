@@ -1,0 +1,17 @@
+---
+subject: "ඔබගේ ${brand} සත්‍යාපන කේතය ${code} වේ"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>ඔබගේ වි-තැපෑල සත්‍යාපනය කරන්න</h1>
+      <p>${brand} හි ලියාපදිංචියට <strong>${email}</strong> භාවිතා කර ඇත. ඔබගේ වි-තැපෑල සත්‍යාපනයට හා ගිණුම සෑදීමට මෙම කේතය ඇතුල් කරන්න.</p>
+      <spacer size="16"></spacer>
+      <p class="code">${code}</p>
+      <spacer size="16"></spacer>
+      {{> si/questions}}
+    </columns>
+  </row>
+</container>
+{{> si/footer}}

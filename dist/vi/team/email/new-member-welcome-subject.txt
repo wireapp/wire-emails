@@ -1,0 +1,1 @@
+Bạn đã tham gia nhóm trên ${brand}

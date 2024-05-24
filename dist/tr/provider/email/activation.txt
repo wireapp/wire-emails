@@ -1,0 +1,31 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+E-POSTANIZI DOĞRULAYIN
+E-posta adresiniz ${email} ${brand_service}'de kayıt için kullanıldı.
+
+E-posta ile kayıt olma işlemini tamamlamak için, aşağıdaki butona tıklayarak
+hesabınızı doğrulayın.
+
+Lütfen e-postanızı başarılı bir şekilde doğruladıktan sonra, ${brand_service}
+hesabınızın, genellikle 24 saat içinde gerçekleşen personelimiz tarafından
+onaylanmaya devam ettiğini lütfen unutmayın. Onay ile ilgili ayrı bir e-posta
+ile bilgilendirileceksiniz.
+
+Doğrula [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp tarayıcınıza
+yapıştırın:
+
+${url}
+
+Bu e-posta adresini kullanarak ${brand} bir servis sağlayıcı hesabına
+kaydolmadıysanız, bu iletiyi güvenle yok sayabilirsiniz. E-posta adresinizin
+kötüye kullanımını bildirmek isterseniz, lütfen bize ulaşın. [${support}]
+
+Lütfen bu iletiyi yanıtlamayın.
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

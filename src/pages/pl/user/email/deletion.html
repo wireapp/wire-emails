@@ -1,0 +1,19 @@
+---
+temat: "Usunąć konto?"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Usuń swoje konto</h1>
+      <p>Otrzymaliśmy prośbę o usunięcie konta ${brand}. Kliknij przycisk poniżej w ciągu 10 minut, aby usunąć wszystkie konwersacje, treści i połączenia.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius alert">Usuń konto</button></center>
+      <spacer size="24"></spacer>
+      {{> pl/link-button}}
+      <p class="small">Jeśli nie poprosiłeś o to, <a href="${forgot}">zresetuj swoje hasło</a>.</p>
+      {{> pl/questions}}
+    </columns>
+  </row>
+</container>
+{{> pl/footer}}

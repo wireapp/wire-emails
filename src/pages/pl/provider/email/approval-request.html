@@ -1,0 +1,24 @@
+---
+temat: "Prośba o zatwierdzenie: ${brand_service}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Wniosek o zatwierdzenie</h1>
+      <p>Nowa ${brand_service} zarejestrowała się i oczekuje na zatwierdzenie. Proszę zapoznać się z poniższymi informacjami.</p>
+      <p><strong>Nazwa:</strong> ${name}</p>
+      <p><strong>E-mail:</strong> ${email}</p>
+      <p><strong>Strona internetowa:</strong> ${url}</p>
+      <p><strong>Opis:</strong> ${description}</p>
+      <p>Jeśli żądanie wydaje się autentyczne, możesz zatwierdzić dostawcę klikając na poniższy przycisk. Po zatwierdzeniu dostawca będzie mógł zalogować się i rozpocząć rejestrację usług, które użytkownicy ${brand} mogą dodać do swoich rozmów.</p>
+      <p>Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania wyjaśnień.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Zatwierdź</button></center>
+      <spacer size="24"></spacer>
+      {{> pl/link-button}}
+      {{> pl/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> pl/footer}}

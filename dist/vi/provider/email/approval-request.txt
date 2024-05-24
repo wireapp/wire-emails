@@ -1,0 +1,37 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+YÊU CẦU CHẤP THUẬN
+Một yêu cầu chấp thuận mới cho ${brand_service} đã được đăng ký và đang đợi chấp
+thuận. Xin vui lòng xem trước thông tin được cung cấp phía bên dưới.
+
+Tên: ${name}
+
+Email: ${email}
+
+Trang web: ${url}
+
+Mô tả: ${description}
+
+Nếu thông tin yêu cầu là chính chủ, bạn có thể chấp thuận nhà cung cấp bằng cách
+nhấp vào nút phía bên dưới. Một khi đã được chấp thuận, nhà cung cấp sẽ có thể
+đăng nhập và bắt đầu đăng ký các dịch vụ mà người dùng ${brand} có thể thêm vào
+các cuộc hội thoại của họ.
+
+Nếu thông tin yêu cầu có vẻ như đáng ngờ, xin vui lòng liên hệ nhà cung cấp dịch
+vụ để làm rõ thông tin trước khi tiến hành.
+
+Chấp thuận [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
+vào trình duyệt của bạn:
+
+${url}
+
+Vui lòng không trả lời tin nhắn này.
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

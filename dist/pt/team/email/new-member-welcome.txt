@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+BEM-VINDO A ${TEAM_NAME}.
+Você acabou de entrar em uma equipe chamada ${team_name} em ${brand} com 
+${email}.
+
+${brand} combina criptografia forte, um rico conjunto de recursos e facilidade
+de uso em um aplicativo como nunca antes. Funciona em todas as plataformas
+populares.
+
+Baixar ${brand} [${url}]Se você não conseguir clicar no botão, copie e cole este
+link no seu navegador:
+
+${url}
+
+Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
+
+ID da Equipe: ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.

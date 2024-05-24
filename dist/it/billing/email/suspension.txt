@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+IL TUO TEAM È STATO SOSPESO
+Il tuo profilo per il team ${team_name} è stato sospeso.
+
+Motivo: ${reason}.
+
+${caption} [${url}]Se non puoi fare clic sul pulsante, copia e incolla questo
+link nel tuo browser:
+
+${url}
+
+Se non riattivi il tuo profilo, la cronologia delle conversazioni per il team e
+tutti i suoi membri saranno eliminati.
+
+Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

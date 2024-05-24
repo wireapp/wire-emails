@@ -1,0 +1,24 @@
+---
+subject: "Yêu cầu Chấp thuận: ${brand_service}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Yêu cầu chấp thuận</h1>
+      <p>Một yêu cầu chấp thuận mới cho ${brand_service} đã được đăng ký và đang đợi chấp thuận. Xin vui lòng xem trước thông tin được cung cấp phía bên dưới.</p>
+      <p><strong>Tên:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Trang web:</strong> ${url}</p>
+      <p><strong>Mô tả:</strong> ${description}</p>
+      <p>Nếu thông tin yêu cầu là chính chủ, bạn có thể chấp thuận nhà cung cấp bằng cách nhấp vào nút phía bên dưới. Một khi đã được chấp thuận, nhà cung cấp sẽ có thể đăng nhập và bắt đầu đăng ký các dịch vụ mà người dùng ${brand} có thể thêm vào các cuộc hội thoại của họ.</p>
+      <p>Nếu thông tin yêu cầu có vẻ như đáng ngờ, xin vui lòng liên hệ nhà cung cấp dịch vụ để làm rõ thông tin trước khi tiến hành.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Chấp thuận</button></center>
+      <spacer size="24"></spacer>
+      {{> vi/link-button}}
+      {{> vi/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> vi/footer}}

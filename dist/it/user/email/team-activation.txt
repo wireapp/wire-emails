@@ -1,0 +1,21 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+IL TUO NUOVO PROFILO SU ${brand}
+Un nuovo team di ${brand} è stato creato con ${email}. Sei pregato di verificare
+la tua email.
+
+Verifica [${url}]Se non puoi fare clic sul pulsante, copia e incolla questo link
+nel tuo browser:
+
+${url}
+
+Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

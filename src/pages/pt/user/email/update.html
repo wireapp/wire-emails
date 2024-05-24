@@ -1,0 +1,18 @@
+---
+subject: "Seu novo endereço de email no ${brand}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Confirme o seu e-mail</h1>
+      <p><strong>${email}</strong> foi registrado como seu novo endereço de e-mail no ${brand}. Clique no botão para confirmar seu endereço de e-mail.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Verificar</button></center>
+      <spacer size="24"></spacer>
+      {{> pt/link-button}}
+      {{> pt/questions}}
+    </columns>
+  </row>
+</container>
+{{> pt/footer}}

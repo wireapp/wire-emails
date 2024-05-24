@@ -1,0 +1,24 @@
+---
+subject: "リクエスト承認: ${brand_service}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>リクエスト承認</h1>
+      <p>新しい ${brand_service} が登録され、承認を待っています。 以下の情報をご確認下さい。</p>
+      <p><strong>名前:</strong> ${name}</p>
+      <p><strong>E-mail:</strong> ${email}</p>
+      <p><strong>ウェブサイト:</strong> ${url}</p>
+      <p><strong>説明:</strong> ${description}</p>
+      <p>リクエストが正式なものと思われる場合は、以下のボタンをクリックして承認することができます。 承認されると、プロバイダはサインインおよび 、${brand} が彼らの会話にユーザーを追加できる登録サービスを開始をすることができます。</p>
+      <p>リクエストが疑わしい場合は、続行する前に明確化の為、プロバイダにお問い合わせください。</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">承認</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      {{> ja/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}

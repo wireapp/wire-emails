@@ -1,0 +1,17 @@
+---
+oggetto: "Nuovo dispositivo"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Nuovo dispositivo</h1>
+      <p>Il tuo account ${brand} è stato utilizzato in data:</p>
+      <p class="text-muted">${date}</p>
+      <p><strong>${model}</strong></p>
+      <p>Potresti avere installato ${brand} su un nuovo dispositivo o averlo installato di nuovo su uno utilizzato precedentemente. Se questo non è il caso, vai nelle impostazioni di ${brand} rimuovi quel dispositivo e <a href="${forgot}">reimposta la tua password</a>.</p>
+      {{> it/questions}}
+    </columns>
+  </row>
+</container>
+{{> it/footer}}

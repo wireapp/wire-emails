@@ -1,0 +1,24 @@
+---
+subject: "Pedido de Aprovação: ${brand_service}"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Pedido de aprovação</h1>
+      <p>Um novo ${brand_service} foi registrado e está aguardando aprovação. Por favor, reveja as informações fornecidas abaixo.</p>
+      <p><strong>Nome:</strong> ${name}</p>
+      <p><strong>E-mail:</strong> ${email}</p>
+      <p><strong>Site:</strong> ${url}</p>
+      <p><strong>Descrição:</strong> ${description}</p>
+      <p>Se a solicitação parecer genuína, você pode aprovar o fornecedor clicando no botão abaixo. Depois de aprovado, o provedor poderá entrar e começar a registrar serviços que os usuários de ${brand} podem adicionar às suas conversas.</p>
+      <p>Se a solicitação parecer duvidosa, entre em contato com o provedor para obter esclarecimentos antes de continuar.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Aprovar</button></center>
+      <spacer size="24"></spacer>
+      {{> pt/link-button}}
+      {{> pt/do-not-reply}}
+    </columns>
+  </row>
+</container>
+{{> pt/footer}}

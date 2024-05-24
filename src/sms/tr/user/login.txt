@@ -1,0 +1,3 @@
+${brand}} giriş kodunuz ${code}.
+
+Giriş yapmak için: ${url}.

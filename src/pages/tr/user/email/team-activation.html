@@ -1,0 +1,18 @@
+---
+konu: "${brand} Hesap"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>${brand}'da yeni hesabınız</h1>
+      <p><strong>${email}</strong> ile yeni bir ${brand} takımı oluşturuldu. Lütfen e-postanızı doğrulayın.</p>
+      <spacer size="24"></spacer>
+      <center><button class="radius" href="${url}">Doğrula</button></center>
+      <spacer size="24"></spacer>
+      {{> tr/link-button}}
+      {{> tr/questions}}
+    </columns>
+  </row>
+</container>
+{{> tr/footer}}
