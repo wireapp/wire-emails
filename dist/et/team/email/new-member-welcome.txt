@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-TERE TULEMAST ${team_name} TIIMI.
+TERE TULEMAST ${TEAM_NAME} TIIMI.
 You have just joined a team called ${team_name} on ${brand} with ${email}.
 
 ${brand} combines strong encryption, a rich feature set and ease-of-use in one

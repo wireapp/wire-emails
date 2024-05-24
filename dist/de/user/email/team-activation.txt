@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-IHR NEUES ${brand}-BENUTZERKONTO
+IHR NEUES ${BRAND}-BENUTZERKONTO
 Ein neues ${brand} Team wurde mit ${email} erstellt. Bitte bestätigen Sie Ihre
 E-Mail-Adresse.
 

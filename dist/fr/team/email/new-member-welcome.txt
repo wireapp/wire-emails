@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-BIENVENUE CHEZ ${team_name}.
+BIENVENUE CHEZ ${TEAM_NAME}.
 Vous venez de rejoindre une équipe appelée ${team_name} sur ${brand} avec 
 ${email}.
 

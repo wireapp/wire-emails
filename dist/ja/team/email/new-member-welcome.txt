@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-ようこそ、${team_name} へ
+ようこそ、${TEAM_NAME} へ
 あなたはたった今、${brand} 上の ${team_name} チームに、${email} として参加しました。
 
 ${brand} は強力な暗号化機能、豊富な機能セット、使い勝手の良さを、かつてないような1つのアプリで実現します。
