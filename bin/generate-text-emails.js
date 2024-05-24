@@ -27,7 +27,10 @@ function fixBrokenVariables() {
   const options = {
     files: `${rootDirectory}${path.sep}**${path.sep}*.txt`,
     from: /\$\{[a-zA-Z_]+\}/g,
-    to: match => match.toLowerCase(),
+    to: match => {
+      if (match.toLowerCase() === 'brand') return 'BRAND';
+      return match.toLowerCase();
+    },
   };
   try {
     const changes = replace.sync(options);
