@@ -10885,9 +10885,9 @@ tr46@~0.0.1:
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
 tree-kit@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/tree-kit/-/tree-kit-0.7.4.tgz#d6c9dba3e06188952282f196657f6bbbb454a39a"
-  integrity sha512-Of3tPmVs3b6BhzyUJ7t0olisf47kYr9qAm0XaUpURMjdBn6TwiVaaMuTFoKkkvPGojd9trKAHlrGGcGKcdR1DA==
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/tree-kit/-/tree-kit-0.7.5.tgz#573ffe1ddcf1545ade67ec24f7478e6299fb608f"
+  integrity sha512-CmyY7d0OYE5W6UCmvij+SaocG7z+q4roF+Oj7BtU8B+KlpdiRZRMUwNyqfmWYcpYgsOcY1/dfIx/VsLmbAOLGg==
 
 treeverse@^1.0.4:
   version "1.0.4"
