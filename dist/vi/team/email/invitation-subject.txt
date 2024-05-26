@@ -1,1 +1,1 @@
-Bạn được mời tham gia nhóm trên ${BRAND}
+Bạn được mời tham gia nhóm trên ${brand}

@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 POTWIERDŹ SWÓJ ADRES EMAIL
-${email} został użyty do rejestracji ${BRAND}. Wprowadź ten kod, aby
+${email} został użyty do rejestracji ${brand}. Wprowadź ten kod, aby
 zweryfikować swój adres e-mail i utworzyć konto.
 
 ${code}

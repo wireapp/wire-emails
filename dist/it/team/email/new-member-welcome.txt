@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-BENVENUTO A ${TEAM_NAME}.
+BENVENUTO A ${team_name}.
 Ti sei appena unito ad un team chiamato ${team_name} su ${brand} con ${email}.
 
 ${brand} combina una forte crittografia, una ricca serie di funzionalità e

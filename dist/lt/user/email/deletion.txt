@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 IŠTRINTI JŪSŲ PASKYRĄ
-Mes gavome užklausą ištrinti jūsų ${BRAND} paskyrą. Norėdami ištrinti visus savo
+Mes gavome užklausą ištrinti jūsų ${brand} paskyrą. Norėdami ištrinti visus savo
 pokalbius, visą turinį ir ryšius, 10 minučių bėgyje spustelėkite žemiau esantį
 mygtuką.
 

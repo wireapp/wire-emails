@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 YENI CIHAZ
-${BRAND} hesabınız şunun üzerinde kullanıldı:
+${brand} hesabınız şunun üzerinde kullanıldı:
 
 ${date}
 
 ${model}
 
-${BRAND} cihazını yeni bir cihaza kurmuş veya tekrar mevcut bir cihaza kurmuş
-olabilirsiniz. Öyle değilse, ${BRAND} Ayarlar bölümüne gidin, cihazı kaldırın ve 
+${brand} cihazını yeni bir cihaza kurmuş veya tekrar mevcut bir cihaza kurmuş
+olabilirsiniz. Öyle değilse, ${brand} Ayarlar bölümüne gidin, cihazı kaldırın ve 
 şifrenizi sıfırlayın [${forgot}].
 
 Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın

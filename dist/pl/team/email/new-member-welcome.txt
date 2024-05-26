@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 WITAMY W ${team_name}.
-Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${BRAND} z 
+Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
 ${email}.
 
-${BRAND} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej
+${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej
 w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich
 popularnych platformach.
 
-Pobierz ${BRAND} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten
+Pobierz ${brand} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten
 link do swojej przeglądarki:
 
 ${url}

@@ -3,13 +3,13 @@
 ${brand_label_url} [${brand_url}]
 
 HOŞ GELDINIZ ${team_name}.
-${BRAND} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
+${brand} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
 
-${BRAND} güçlü şifrelemeyi, zengin bir özellik seti ve daha önce hiç olmadığı
+${brand} güçlü şifrelemeyi, zengin bir özellik seti ve daha önce hiç olmadığı
 gibi bir uygulamada kullanım kolaylığını birleştirir. Tüm popüler platformlarda
 çalışır.
 
-${BRAND} İndir [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
+${brand} İndir [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
 tarayıcınıza yapıştırın:
 
 ${url}

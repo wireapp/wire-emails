@@ -1,1 +1,1 @@
-Você se juntou a uma equipe em ${BRAND}
+Você se juntou a uma equipe em ${brand}

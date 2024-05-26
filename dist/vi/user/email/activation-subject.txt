@@ -1,1 +1,1 @@
-Tài khoản ${BRAND} của bạn
+Tài khoản ${brand} của bạn

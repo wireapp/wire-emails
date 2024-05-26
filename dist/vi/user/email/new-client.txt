@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 THIẾT BỊ MỚI
-Tài khoản ${BRAND} của bạn đã được sử dụng vào:
+Tài khoản ${brand} của bạn đã được sử dụng vào:
 
 ${date}
 
 ${model}
 
-Bạn có thể cài đặt ${BRAND} trên một thiết bị mới hoặc cài đặt lại trên một
-thiết bị đã tồn tại. Nếu không phải các trường hợp đó, đi đến Cài đặt ${BRAND},
+Bạn có thể cài đặt ${brand} trên một thiết bị mới hoặc cài đặt lại trên một
+thiết bị đã tồn tại. Nếu không phải các trường hợp đó, đi đến Cài đặt ${brand},
 gỡ bỏ thiết bị và thay đổi mật khẩu của bạn [${forgot}].
 
 Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].

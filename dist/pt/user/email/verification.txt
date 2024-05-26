@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 VERIFIQUE SEU E-MAIL
-${email} foi usado para se registrar no ${BRAND}. Digite este código para
+${email} foi usado para se registrar no ${brand}. Digite este código para
 verificar seu e-mail e criar sua conta.
 
 ${code}

@@ -15,7 +15,7 @@ E-posta: ${email}
 Açıklama: ${description}
 
 Eğer istek gerçek gibi görünüyorsa sağlayıcı aşağıdaki butona tıklayarak
-onaylayabilirsiniz. Onaylandıktan sonra, sağlayıcı ${BRAND} kullanıcılarının
+onaylayabilirsiniz. Onaylandıktan sonra, sağlayıcı ${brand} kullanıcılarının
 konuşmalarına ekleyebileceği hizmetleri imzalayıp kayıt etmeye
 başlayabilecektir.
 

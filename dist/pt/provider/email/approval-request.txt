@@ -16,7 +16,7 @@ Descrição: ${description}
 
 Se a solicitação parecer genuína, você pode aprovar o fornecedor clicando no
 botão abaixo. Depois de aprovado, o provedor poderá entrar e começar a registrar
-serviços que os usuários de ${BRAND} podem adicionar às suas conversas.
+serviços que os usuários de ${brand} podem adicionar às suas conversas.
 
 Se a solicitação parecer duvidosa, entre em contato com o provedor para obter
 esclarecimentos antes de continuar.

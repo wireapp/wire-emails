@@ -3,14 +3,14 @@
 ${brand_label_url} [${brand_url}]
 
 NAUJAS ĮRENGINYS
-Jūsų „${BRAND}“ paskyra buvo naudota:
+Jūsų „${brand}“ paskyra buvo naudota:
 
 ${date}
 
 ${model}
 
-Tikriausiai įdiegėte „${BRAND}“ naujame įrenginyje arba įdiegėte iš naujo
-esančiame įrenginyje. Jei to nedarėte, eikit į „${BRAND}“ nustatymus,
+Tikriausiai įdiegėte „${brand}“ naujame įrenginyje arba įdiegėte iš naujo
+esančiame įrenginyje. Jei to nedarėte, eikit į „${brand}“ nustatymus,
 pašalinkite įrenginį ir pakeiskite savo slaptažodį [${forgot}].
 
 Jei turite klausimų, susisiekite su mumis [${support}].

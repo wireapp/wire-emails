@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 VERIFICAR EXCLUSÃO DA EQUIPE
-${email} foi usado para excluir sua equipe do ${BRAND}. Insira este código para
+${email} foi usado para excluir sua equipe do ${brand}. Insira este código para
 verificar seu e-mail e excluir a equipe.
 
 ${code}

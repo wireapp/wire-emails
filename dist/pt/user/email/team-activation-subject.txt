@@ -1,1 +1,1 @@
-Conta ${BRAND}
+Conta ${brand}
