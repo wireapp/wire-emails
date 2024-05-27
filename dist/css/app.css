@@ -357,15 +357,12 @@ table.button.alert:hover table a {
     width: auto;
     height: auto;
   }
-
   table.body center {
     min-width: 0 !important;
   }
-
   table.body .container {
     width: 95% !important;
   }
-
   table.body .columns {
     height: auto !important;
     -moz-box-sizing: border-box;
@@ -374,17 +371,14 @@ table.button.alert:hover table a {
     padding-left: 8px !important;
     padding-right: 8px !important;
   }
-
   table.body .collapse > tbody > tr > .columns {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
   th.small-6 {
     display: inline-block !important;
     width: 50% !important;
   }
-
   th.small-12 {
     display: inline-block !important;
     width: 100% !important;
