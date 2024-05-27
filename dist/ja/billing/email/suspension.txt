@@ -1,22 +1,16 @@
-[${brand_logo}]
+PANINI ERROR
+src/pages/ja/billing/email/suspension.html
 
-${brand_label_url} [${brand_url}]
+No layout named "支払い" exists.
 
-あなたのチームアカウントは停止されました。
-あなたのアカウント、${team_name} チームは停止されました。
-
-理由: ${reason}.
-
-${caption} [${url}]ボタンをクリックできない場合は、以下のリンクをブラウザにコピー＆ペーストして下さい。
-
-${url}
-
-もし再アクティベートしない場合は、チームの会話履歴とすべてのメンバーが削除されます。
-
-ご不明な点がございましたら、 こちら [${support}] から私たちにご連絡ください。
-
-
---------------------------------------------------------------------------------
-
-プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+STACK TRACE:
+HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:86:17)
+/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
+Array.map (<anonymous>)
+Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+DestroyableTransform._flush (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:45:11)
+DestroyableTransform.prefinish (/home/runner/work/wire-emails/wire-emails/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+DestroyableTransform.emit (node:events:517:28)
+DestroyableTransform.emit (node:domain:552:15)
+prefinish (/home/runner/work/wire-emails/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+finishMaybe (/home/runner/work/wire-emails/wire-emails/node_modules/readable-stream/lib/_stream_writable.js:627:5)
