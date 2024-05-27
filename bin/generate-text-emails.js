@@ -1,5 +1,5 @@
 const fs = require('fs-extra');
-const {glob} = require('glob');
+const glob = require('glob');
 const htmlToText = require('html-to-text');
 const path = require('path');
 const replace = require('replace-in-file');
@@ -7,7 +7,11 @@ const replace = require('replace-in-file');
 const rootDirectory = path.join(__dirname, '..', 'dist');
 
 function getFiles(pattern) {
-  return glob(pattern);
+  return new Promise((resolve, reject) => {
+    glob(pattern, (error, files) => {
+      return error ? reject(error) : resolve(files);
+    });
+  });
 }
 
 function getSubjectFromHtml(filePath) {
