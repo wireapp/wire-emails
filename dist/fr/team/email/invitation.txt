@@ -3,8 +3,8 @@
 ${brand_label_url} [${brand_url}]
 
 INVITATION À REJOINDRE UNE ÉQUIPE
-${inviter} has invited you to join a team on ${brand}. Cliquez sur le bouton
-ci-dessous pour confirmer cette invitation.
+${inviter} vous a invité à rejoindre une équipe sur ${brand}. Cliquez sur le
+bouton ci-dessous pour confirmer cette invitation.
 
 Rejoindre l'équipe [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez
 et collez ce lien dans votre navigateur :
