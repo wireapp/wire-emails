@@ -56,7 +56,7 @@ jobs:
 
       - name: Upload translations
         if: github.event_name == 'pull_request' && (github.actor != 'dependabot[bot]' && github.actor != 'otto-the-bot')
-        uses: crowdin/github-action@v1.12.0
+        uses: crowdin/github-action@v2.1.1
         env:
           CROWDIN_PROJECT_ID: 202775
           CROWDIN_CONFIG_PATH: 'crowdin.yml'
@@ -75,7 +75,7 @@ jobs:
 
       - name: Download translations
         if: env.BRANCH_NAME == 'master'
-        uses: crowdin/github-action@v1.12.0
+        uses: crowdin/github-action@v2.1.1
         env:
           GITHUB_TOKEN: ${{github.OTTO_THE_BOT_GH_TOKEN}}
           GITHUB_ACTOR: otto-the-bot
