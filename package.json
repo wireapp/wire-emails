@@ -14,7 +14,7 @@
     "babel-preset-es2015": "6.24.1",
     "babel-register": "6.26.0",
     "beepbeep": "1.3.0",
-    "browser-sync": "2.27.10",
+    "browser-sync": "3.0.2",
     "colors": "1.4.0",
     "gulp": "4.0.2",
     "gulp-awspublish": "4.1.2",
