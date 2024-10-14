@@ -9,8 +9,8 @@ ${brand} combina una forte crittografia, una ricca serie di funzionalità e
 facilità d'uso in un'app come mai prima. Funziona su tutte le piattaforme
 popolari.
 
-Scarica ${brand} [${url}]Se non puoi fare clic sul pulsante, copia e incolla
-questo link nel tuo browser:
+Scarica ${brand} [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

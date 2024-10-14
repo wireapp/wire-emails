@@ -7,8 +7,8 @@ ${team_name} takımında bulunan hesabınız askıya alınmıştır.
 
 Sebep: ${reason}.
 
-${caption} [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
-tarayıcınıza yapıştırın:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

@@ -7,7 +7,8 @@ ${brand_label_url} [${brand_url}]
 
 理由: ${reason}.
 
-${caption} [${url}]ボタンをクリックできない場合は、以下のリンクをブラウザにコピー＆ペーストして下さい。
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

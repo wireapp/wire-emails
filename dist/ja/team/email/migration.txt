@@ -1,0 +1,29 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+チーム招待状
+${inviter} has invited you to join a team on ${brand}.
+
+By joining Wire migrates your personal account into a team account.
+
+Select the button below to proceed with the invitation.
+
+チームに参加 [${url}]If you can’t select the button, copy and paste this link to your
+browser:
+
+${url}
+
+Report abusive invitation link [${support}]
+
+ご不明な点がございましたら、 こちら [${support}] から私たちにご連絡ください。
+
+Wireとは
+Wireは最も安全なコラボレーションプラットフォームです。 メッセージ、ビデオ会議、ファイル共有を通じて、
+いつでもエンドツーエンドの暗号化で保護されている、チームや外部パートナーと協力しましょう。 詳細はこちら [https://wire.com/].
+
+
+--------------------------------------------------------------------------------
+
+プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

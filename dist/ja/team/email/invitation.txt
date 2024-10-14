@@ -3,10 +3,11 @@
 ${brand_label_url} [${brand_url}]
 
 チーム招待状
-${inviter} has invited you to join a team on ${brand}.
-以下のボタンをクリックして、招待を受諾してください。
+${inviter} has invited you to join a team on ${brand}. Select the button below
+to accept the invitation.
 
-チームに参加 [${url}]ボタンをクリックできない場合は、以下のリンクをブラウザにコピー＆ペーストして下さい。
+チームに参加 [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 

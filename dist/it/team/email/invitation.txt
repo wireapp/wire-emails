@@ -3,11 +3,11 @@
 ${brand_label_url} [${brand_url}]
 
 INVITO DEL TEAM
-${inviter} has invited you to join a team on ${brand}. Clicca il pulsante sotto
-per accettare l'invito.
+${inviter} has invited you to join a team on ${brand}. Select the button below
+to accept the invitation.
 
-Unisciti al team [${url}]Se non puoi fare clic sul pulsante, copia e incolla
-questo link nel tuo browser:
+Unisciti al team [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

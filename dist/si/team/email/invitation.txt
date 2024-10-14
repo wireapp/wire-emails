@@ -3,11 +3,11 @@
 ${brand_label_url} [${brand_url}]
 
 කණ්ඩායමට ආරාධනයයි
-${inviter} ඔබට ${brand} කණ්ඩායමකට එක් වීමට ආරාධනා කර ඇත. ආරාධනය පිළිගැනීමට පහත
-බොත්තම ඔබන්න.
+${inviter} ඔබට ${brand} කණ්ඩායමකට එක් වීමට ආරාධනා කර ඇත. Select the button below
+to accept the invitation.
 
-කණ්ඩායමට එක්වන්න [${url}]බොත්තම එබීමට නොහැකි නම් මෙම සබැඳිය පිටපත් කර ඔබගේ
-අතිරික්සුවෙහි අලවන්න:
+කණ්ඩායමට එක්වන්න [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

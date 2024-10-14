@@ -3,11 +3,11 @@
 ${brand_label_url} [${brand_url}]
 
 TIIMI KUTSE
-${inviter} has invited you to join a team on ${brand}. Kutse aktsepteerimiseks
-klikkige alloleval nupul.
+${inviter} has invited you to join a team on ${brand}. Select the button below
+to accept the invitation.
 
-Join team [${url}]Kui sul pole võimalik nuppu klikkida, siis kopeeri allolev
-aadress veebibrauserisse:
+Join team [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

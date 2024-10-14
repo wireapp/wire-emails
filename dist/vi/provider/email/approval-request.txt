@@ -22,8 +22,8 @@ các cuộc hội thoại của họ.
 Nếu thông tin yêu cầu có vẻ như đáng ngờ, xin vui lòng liên hệ nhà cung cấp dịch
 vụ để làm rõ thông tin trước khi tiến hành.
 
-Chấp thuận [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
-vào trình duyệt của bạn:
+Chấp thuận [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

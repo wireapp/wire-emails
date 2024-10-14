@@ -1,0 +1,32 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+INVITO DEL TEAM
+${inviter} has invited you to join a team on ${brand}.
+
+By joining Wire migrates your personal account into a team account.
+
+Select the button below to proceed with the invitation.
+
+Unisciti al team [${url}]If you can’t select the button, copy and paste this
+link to your browser:
+
+${url}
+
+Report abusive invitation link [${support}]
+
+Se hai domande, per favore contattaci [${support}].
+
+Cos'è Wire?
+Wire è la più sicura piattaforma di collaborazione. Lavora con il tuo time e i
+partner esterni ovunque tu sia tramite messaggi, videoconferenze e condivisione
+di file; sempre protetti con crittografia end-to-end. Scopri di più
+[https://wire.com/].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

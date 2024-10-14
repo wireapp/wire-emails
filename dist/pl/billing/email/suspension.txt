@@ -7,8 +7,8 @@ Twoje konto dla zespołu ${team_name} zostało zawieszone.
 
 Powód: ${reason}.
 
-${caption} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten link
-do swojej przeglądarki:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

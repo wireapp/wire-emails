@@ -18,7 +18,8 @@ E-mail: ${email}
 
 リクエストが疑わしい場合は、続行する前に明確化の為、プロバイダにお問い合わせください。
 
-承認 [${url}]ボタンをクリックできない場合は、以下のリンクをブラウザにコピー＆ペーストして下さい。
+承認 [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 

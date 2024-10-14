@@ -7,7 +7,7 @@ Your account for the ${team_name} team has been suspended.
 
 Reason: ${reason}.
 
-${caption} [${url}]If you can’t click the button, copy and paste this link to
+${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

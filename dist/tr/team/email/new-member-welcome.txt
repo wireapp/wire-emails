@@ -2,15 +2,15 @@
 
 ${brand_label_url} [${brand_url}]
 
-HOŞ GELDINIZ ${TEAM_NAME}.
+HOŞ GELDINIZ ${team_name}.
 ${brand} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
 
 ${brand} güçlü şifrelemeyi, zengin bir özellik seti ve daha önce hiç olmadığı
 gibi bir uygulamada kullanım kolaylığını birleştirir. Tüm popüler platformlarda
 çalışır.
 
-${brand} İndir [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp
-tarayıcınıza yapıştırın:
+${brand} İndir [${url}]If you can’t select the button, copy and paste this link
+to your browser:
 
 ${url}
 

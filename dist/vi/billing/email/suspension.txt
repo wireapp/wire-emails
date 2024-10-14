@@ -7,8 +7,8 @@ Tài khoản của bạn thuộc nhóm ${team_name} đã bị đình chỉ.
 
 Nguyên do: ${reason}.
 
-${caption} [${url}]Nếu bạn không thể nhấp vào nút, sao chép và gán đường dẫn này
-vào trình duyệt của bạn:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

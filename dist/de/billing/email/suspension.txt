@@ -7,8 +7,8 @@ Dein Konto für das ${team_name} Team wurde suspendiert.
 
 Grund: ${reason}.
 
-${caption} [${url}]Falls Sie nicht auf den Button klicken können, kopieren Sie
-diesen Link und fügen Sie ihn in Ihren Browser ein:
+${caption} [${url}]Wenn Sie die Schaltfläche nicht auswählen können, kopieren
+Sie diesen Link und fügen Sie ihn in Ihren Browser ein:
 
 ${url}
 

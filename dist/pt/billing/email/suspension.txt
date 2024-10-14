@@ -7,8 +7,8 @@ Sua conta para a equipe ${team_name} foi suspensa.
 
 Motivo: ${reason}.
 
-${caption} [${url}]Se você não conseguir clicar no botão, copie e cole este link
-no seu navegador:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

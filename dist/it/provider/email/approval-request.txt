@@ -22,8 +22,8 @@ proprie conversazioni.
 Se la richiesta sembra dubbia, sei pregato di contattare il provider per
 chiarimenti prima di procedere.
 
-Approva [${url}]Se non puoi fare clic sul pulsante, copia e incolla questo link
-nel tuo browser:
+Approva [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 

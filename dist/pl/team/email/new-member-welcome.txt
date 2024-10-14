@@ -10,8 +10,8 @@ ${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łat
 w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich
 popularnych platformach.
 
-Pobierz ${brand} [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten
-link do swojej przeglądarki:
+Pobierz ${brand} [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

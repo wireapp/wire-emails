@@ -22,8 +22,8 @@ rozmów.
 Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania
 wyjaśnień.
 
-Zatwierdź [${url}]Jeśli nie możesz kliknąć przycisku, skopiuj i wklej ten link
-do swojej przeglądarki:
+Zatwierdź [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

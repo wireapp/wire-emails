@@ -3,11 +3,11 @@
 ${brand_label_url} [${brand_url}]
 
 CONVITE PARA EQUIPE
-${inviter} has invited you to join a team on ${brand}. Clique no botão abaixo
-para aceitar o convite.
+${inviter} has invited you to join a team on ${brand}. Select the button below
+to accept the invitation.
 
-Juntar-se à equipe [${url}]Se você não conseguir clicar no botão, copie e cole
-este link no seu navegador:
+Juntar-se à equipe [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

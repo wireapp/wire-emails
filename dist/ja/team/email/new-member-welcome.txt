@@ -8,7 +8,8 @@ ${brand_label_url} [${brand_url}]
 ${brand} は強力な暗号化機能、豊富な機能セット、使い勝手の良さを、かつてないような1つのアプリで実現します。
 また、すべての主要なプラットフォーム上で動作します。
 
-${brand} をダウンロード [${url}]ボタンをクリックできない場合は、以下のリンクをブラウザにコピー＆ペーストして下さい。
+${brand} をダウンロード [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 

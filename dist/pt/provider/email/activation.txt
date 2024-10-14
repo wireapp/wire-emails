@@ -13,8 +13,8 @@ ${brand_service} ainda está sujeita à aprovação de nossa equipe, o que
 geralmente ocorre em 24 horas. Você será informado da aprovação por um e-mail
 separado.
 
-Verificar [${url}]Se você não conseguir clicar no botão, copie e cole este link
-no seu navegador:
+Verificar [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

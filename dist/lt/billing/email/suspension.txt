@@ -7,8 +7,8 @@ Your account for the ${team_name} team has been suspended.
 
 Reason: ${reason}.
 
-${caption} [${url}]Jeigu negalite spustelėti ant mygtuko, nukopijuokite ir
-įdėkite šią nuorodą į savo naršyklę:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

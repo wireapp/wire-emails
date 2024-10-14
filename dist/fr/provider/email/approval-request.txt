@@ -22,8 +22,8 @@ ${brand} pourront ajouter à leurs conversations.
 Si la demande semble douteuse, veuillez contacter le fournisseur pour obtenir
 des éclaircissements avant de continuer.
 
-Approuver [${url}]Si vous ne pouvez pas cliquer sur le bouton, copiez et collez
-ce lien dans votre navigateur :
+Approuver [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 

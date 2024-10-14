@@ -13,8 +13,8 @@ hesabınızın, genellikle 24 saat içinde gerçekleşen personelimiz tarafında
 onaylanmaya devam ettiğini lütfen unutmayın. Onay ile ilgili ayrı bir e-posta
 ile bilgilendirileceksiniz.
 
-Doğrula [${url}]Düğmeyi tıklayamıyorsanız, bu bağlantıyı kopyalayıp tarayıcınıza
-yapıştırın:
+Doğrula [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 
