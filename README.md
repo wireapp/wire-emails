@@ -101,6 +101,8 @@ cd ~/src/wire-server
 git checkout develop && git checkout -b email-templates-$TAG
 echo $TAG > ./services/brig/deb/opt/brig/template-version
 ./services/brig/deb/opt/brig/bin/fetch.py
+echo "Updated email templates to $TAG" > changelog.d/5-internal/email-templates-$TAG
+git add .
 git commit -m "Update email templates to $TAG."
 ```
 
