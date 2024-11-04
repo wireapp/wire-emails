@@ -2,15 +2,22 @@
 
 ${brand_label_url} [${brand_url}]
 
-ඔබගේ නව ${brand} ගිණුම
-${email} සමඟ නව ${brand} කණ්ඩායමක් සාදා ඇත. ඔබගේ වි-තැපෑල සත්‍යාපනය කරන්න.
+CONGRATULATIONS ${name}.
+We transferred your personal account ${email} into a team account, including all
+your conversations and history. You are now the owner of the team (${team_name}
+).
 
-සත්‍යාපනය [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+Invite other people to join your team and adjust settings in your team
+management dashboard.
+
+OPEN TEAM MANAGEMENT [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 
 ඔබට කිසියම් ප්‍රශ්නයක් ඇත්නම් කරුණාකර අප අමතන්න [${support}].
+
+කණ්ඩායමේ හැඳු:
 
 
 --------------------------------------------------------------------------------

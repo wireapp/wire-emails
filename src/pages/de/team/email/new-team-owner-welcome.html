@@ -1,0 +1,22 @@
+---
+subject: "Sie sind einem Team auf ${brand} beigetreten"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Herzlichen Glückwunsch <strong>${name}</strong>.</h1>
+      <p>
+        Wir haben Ihr privates Benutzerkonto <strong>${email}</strong> in ein Team-Konto übertragen, einschließlich all Ihrer
+        Unterhaltungen und Ihres Gesprächsverlaufs. Sie sind jetzt Besitzer des Teams (<strong>${team_name}</strong>).
+      </p>
+      <spacer size="24"></spacer>
+      <p>Laden Sie andere Personen ein, Ihrem Team beizutreten, und passen Sie die Einstellungen im Team-Management an.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">TEAM-MANAGEMENT ÖFFNEN</button></center>
+      <spacer size="24"></spacer>
+      {{> de/link-button}} {{> de/questions}} {{> de/team-id}}
+    </columns>
+  </row>
+</container>
+{{> de/footer}}

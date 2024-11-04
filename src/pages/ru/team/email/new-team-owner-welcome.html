@@ -1,0 +1,22 @@
+---
+subject: 'Вы присоединились к команде в ${brand}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Поздравляем <strong>${name}</strong>.</h1>
+      <p>
+        Мы перенесли ваш персональный аккаунт <strong>${email)</strong> в аккаунт команды, включая все ваши
+        беседы и историю. Теперь вы владелец команды (<strong>${team_name}</strong>).
+      </p>
+      <spacer size="24"></spacer>
+      <p>Приглашайте других людей в свою команду и настраивайте параметры на панели управления.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">ОТКРЫТЬ УПРАВЛЕНИЕ КОМАНДОЙ</button></center>
+      <spacer size="24"></spacer>
+      {{> ru/link-button}} {{> ru/questions}} {{> ru/team-id}}
+    </columns>
+  </row>
+</container>
+{{> ru/footer}}

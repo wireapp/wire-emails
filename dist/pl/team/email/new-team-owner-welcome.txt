@@ -2,15 +2,15 @@
 
 ${brand_label_url} [${brand_url}]
 
-WITAMY W ${team_name}.
-Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
-${email}.
+CONGRATULATIONS ${name}.
+We transferred your personal account ${email} into a team account, including all
+your conversations and history. You are now the owner of the team (${team_name}
+).
 
-${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej
-w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich
-popularnych platformach.
+Invite other people to join your team and adjust settings in your team
+management dashboard.
 
-Pobierz ${brand} [${url}]If you can’t select the button, copy and paste this
+OPEN TEAM MANAGEMENT [${url}]If you can’t select the button, copy and paste this
 link to your browser:
 
 ${url}

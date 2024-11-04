@@ -1,0 +1,22 @@
+---
+subject: 'You joined a team on ${brand}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Congratulations <strong>${name}</strong>.</h1>
+      <p>
+        We transferred your personal account <strong>${email}</strong> into a team account, including all your
+        conversations and history. You are now the owner of the team (<strong>${team_name}</strong>).
+      </p>
+      <spacer size="24"></spacer>
+      <p>Invite other people to join your team and adjust settings in your team management dashboard.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">OPEN TEAM MANAGEMENT</button></center>
+      <spacer size="24"></spacer>
+      {{> tr/link-button}} {{> tr/questions}} {{> tr/team-id}}
+    </columns>
+  </row>
+</container>
+{{> tr/footer}}
