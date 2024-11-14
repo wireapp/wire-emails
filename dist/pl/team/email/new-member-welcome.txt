@@ -6,12 +6,10 @@ WITAMY W ${team_name}.
 Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
 ${email}.
 
-${brand} to połączenie silnego szyfrowania, bogatego zestawu funkcji oraz łatwej
-w obsłudze aplikacji niespotykanej nigdy wcześniej. Działa na wszystkich
-popularnych platformach.
+Enjoy seamless, secure teamwork with ${brand}!
 
-Pobierz ${brand} [${url}]If you can’t select the button, copy and paste this
-link to your browser:
+Open ${brand} [${url}]If you can’t select the button, copy and paste this link
+to your browser:
 
 ${url}
 

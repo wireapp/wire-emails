@@ -5,11 +5,9 @@ ${brand_label_url} [${brand_url}]
 ${team_name} වෙත සාදරයෙන් පිළිගනිමු.
 ඔබ දැන් ${brand} හි ${team_name} නම් කණ්ඩායමකට ${email} හරහා එක් වී ඇත.
 
-${brand} පෙර නොවූ විරූ ලෙස එක් යෙදුමක් තුළ ශක්තිමත් සංකේතනයක්, පොහොසත් විශේෂාංග
-කට්ටලයක් සහ භාවිතයට පහසුව මනාව සංයෝග කරයි. සියළුම ජනප්‍රිය වේදිකා සඳහා ද සහාය
-දක්වයි.
+Enjoy seamless, secure teamwork with ${brand}!
 
-${brand} බාගන්න [${url}]If you can’t select the button, copy and paste this link
+Open ${brand} [${url}]If you can’t select the button, copy and paste this link
 to your browser:
 
 ${url}

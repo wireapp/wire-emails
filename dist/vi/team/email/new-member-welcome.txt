@@ -6,11 +6,9 @@ CHÀO MỪNG ĐÃ ĐẾN VỚI ${team_name}.
 Bạn đã vừa tham gia một nhóm được gọi là ${team_name} trên ${brand} bằng 
 ${email}.
 
-${brand} kết hợp với mã hoá mạnh mẽ, đa tính năng được thiết lặp và dễ dàng sử
-dụng trên một ứng dụng chưa từng có trước đây. Làm việc trên tất cả các nền tảng
-phổ biến.
+Enjoy seamless, secure teamwork with ${brand}!
 
-Tải về ${brand} [${url}]If you can’t select the button, copy and paste this link
+Open ${brand} [${url}]If you can’t select the button, copy and paste this link
 to your browser:
 
 ${url}
