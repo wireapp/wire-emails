@@ -1,0 +1,21 @@
+---
+subject: "Sie sind einem Team auf ${brand} beigetreten"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Willkommen bei <strong>${team_name}</strong>.</h1>
+      <p>Sie sind soeben mit <strong>${email}</strong> einem Team namens <strong>${team_name}</strong> auf ${brand} beigetreten.</p>
+      <spacer size="24"></spacer>
+      <p>Genießen Sie die nahtlose und sichere Teamarbeit mit ${brand}!</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">${brand} öffnen</button></center>
+      <spacer size="24"></spacer>
+      {{> de/link-button}}
+      {{> de/questions}}
+      {{> de/team-id}}
+    </columns>
+  </row>
+</container>
+{{> de/footer}}

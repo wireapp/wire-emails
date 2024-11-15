@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-VOTRE NOUVEAU COMPTE ${brand}
+VOTRE NOUVEAU COMPTE ${BRAND}
 Une nouvelle équipé a été créée sur ${brand} avec ${email}. Veuillez vérifier
 votre adresse email s’il vous plaît.
 

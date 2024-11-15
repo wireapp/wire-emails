@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-HOŞ GELDINIZ ${team_name}.
+HOŞ GELDINIZ ${TEAM_NAME}.
 ${brand} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
 
 Enjoy seamless, secure teamwork with ${brand}!

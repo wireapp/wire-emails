@@ -6,10 +6,10 @@ WILLKOMMEN BEI ${team_name}.
 Sie sind soeben mit ${email} einem Team namens ${team_name} auf ${brand}
 beigetreten.
 
-Enjoy seamless, secure teamwork with ${brand}!
+Genießen Sie die nahtlose und sichere Teamarbeit mit ${brand}!
 
-Open ${brand} [${url}]Wenn Sie die Schaltfläche nicht auswählen können, kopieren
-Sie diesen Link und fügen Sie ihn in Ihren Browser ein:
+${brand} öffnen [${url}]Wenn Sie die Schaltfläche nicht auswählen können,
+kopieren Sie diesen Link und fügen Sie ihn in Ihren Browser ein:
 
 ${url}
 

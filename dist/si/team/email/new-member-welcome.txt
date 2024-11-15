@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-${team_name} වෙත සාදරයෙන් පිළිගනිමු.
+${TEAM_NAME} වෙත සාදරයෙන් පිළිගනිමු.
 ඔබ දැන් ${brand} හි ${team_name} නම් කණ්ඩායමකට ${email} හරහා එක් වී ඇත.
 
 Enjoy seamless, secure teamwork with ${brand}!

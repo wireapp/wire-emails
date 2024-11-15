@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-${brand}'DA YENI HESABINIZ
+${BRAND}'DA YENI HESABINIZ
 ${email} ile yeni bir ${brand} takımı oluşturuldu. Lütfen e-postanızı
 doğrulayın.
 

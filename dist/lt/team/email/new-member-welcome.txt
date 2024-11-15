@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-WELCOME TO ${team_name}.
+WELCOME TO ${TEAM_NAME}.
 You have just joined a team called ${team_name} on ${brand} with ${email}.
 
 Enjoy seamless, secure teamwork with ${brand}!

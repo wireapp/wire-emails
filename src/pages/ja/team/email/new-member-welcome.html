@@ -1,0 +1,21 @@
+---
+subject: "あなたは、${brand} のチームに参加しました"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>ようこそ、<strong>${team_name}</strong> へ</h1>
+      <p>あなたはたった今、${brand} 上の <strong>${team_name}</strong> チームに、<strong>${email}</strong> として参加しました。</p>
+      <spacer size="24"></spacer>
+      <p>Enjoy seamless, secure teamwork with ${brand}!</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">Open ${brand}</button></center>
+      <spacer size="24"></spacer>
+      {{> ja/link-button}}
+      {{> ja/questions}}
+      {{> ja/team-id}}
+    </columns>
+  </row>
+</container>
+{{> ja/footer}}
