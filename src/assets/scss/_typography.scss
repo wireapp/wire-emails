@@ -4,8 +4,13 @@ h1 {
   color: $dark-gray;
 }
 
+h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
 table.button table td a {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .small {
@@ -20,4 +25,24 @@ ul {
 
 .text-muted {
   color: $medium-gray;
+}
+
+.text-medium {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 0px;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.x-small {
+  color: #676b71;
+  font-size: 12px;
+  a {
+    color: #676b71;
+    text-decoration: underline;
+  }
 }

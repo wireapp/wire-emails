@@ -15,7 +15,7 @@
 // 1. Global
 // ---------
 
-$blue: #2391d3;
+$blue: #0667c8;
 $gray: #bac8d1;
 $green: #00c800;
 $orange: #ff8900;
@@ -62,7 +62,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $dark-gray;
-$body-font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
+$body-font-family: -apple-system, BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
 $global-font-weight: 300;
 $header-color: inherit;
 $global-line-height: 1.6;
@@ -76,10 +76,10 @@ $h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 32px;
+$header-margin-bottom: 16px;
 $paragraph-margin-bottom: 24px;
 $small-font-size: 80%;
-$small-font-color: $medium-gray;
+$small-font-color: #676b71;
 $small-line-height: $global-line-height * 0.85;
 $small-paragraph-margin-bottom: 16px;
 $lead-font-size: $global-font-size * 1.25;
@@ -123,7 +123,7 @@ $button-font-weight: 500;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
 $button-border: 2px solid $button-background;
-$button-radius: $global-radius;
+$button-radius: 16px;
 $button-rounded: $global-rounded;
 
 // 6. Callout

@@ -8,7 +8,9 @@ on:
 
 jobs:
   test_build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    env:
+      NODE_OPTIONS: --openssl-legacy-provider
 
     strategy:
       max-parallel: 1
@@ -39,16 +41,23 @@ jobs:
           echo -e "GITHUB_REF = ${GITHUB_REF}"
           echo -e "GITHUB_CONTEXT = ${GITHUB_CONTEXT}"
 
-      - name: Yarn cache
-        uses: c-hive/gha-yarn-cache@v1
+      - name: Cache Yarn dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/yarn
+            node_modules
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install JS dependencies
         run: |
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
           export NVM_DIR="$HOME/.nvm"
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-          nvm install 16
-          nvm use 16
+          nvm install 18
+          nvm use 18
           yarn
 
       - name: Test
