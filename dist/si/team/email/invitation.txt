@@ -2,26 +2,18 @@
 
 ${brand_label_url} [${brand_url}]
 
-කණ්ඩායමට ආරාධනයයි
-${inviter} ඔබට ${brand} කණ්ඩායමකට එක් වීමට ආරාධනා කර ඇත. Select the button below
-to accept the invitation.
+TEAM INVITATION
+${inviter} has invited you to join the team “${teamname}” on Wire.
 
-කණ්ඩායමට එක්වන්න [${url}]If you can’t select the button, copy and paste this
-link to your browser:
+Join Team [${url}]Or open this link in your browser:
+${url} [${url}]
 
-${url}
+What is Wire?Wire is the most secure collaboration platform. Work with your team
+and external partners wherever you are through messages, video conferencing and
+file sharing – always secured with end-to-end-encryption.
+Learn more [https://wire.com/].
 
-ඔබට කිසියම් ප්‍රශ්නයක් ඇත්නම් කරුණාකර අප අමතන්න [${support}].
+Any questions? Contact us [${support}]
 
-වයර් යනු කුමක්ද?
-වයර් යනු වඩාත් ආරක්‍ෂිත සහයෝගිත්‍ව වේදිකාවකි. පණිවිඩ, දෘශ්‍ය සම්මන්ත්‍රණ සහ ගොනු
-හුවමාරු වැනි පහසුකම් අත්විඳිමින් ඔබ කොතැනක සිටියත් ඔබගේ කණ්ඩායම මෙන්ම බාහිර
-හවුල්කරුවන් සමඟ වැඩ කරන්න – සෑම විටම අන්ත සංකේතනයෙන් සුරක්‍ෂිතයි. තව දැනගන්න
-[https://wire.com/].
-
-
---------------------------------------------------------------------------------
-
-රහස්‍යතා ප්‍රතිපත්තිය සහ භාවිත නියම [${legal}] · අවභාවිතය වාර්තා කරන්න
-[${misuse}]
-${copyright}. සියළුම හිමිකම් ඇවිරිණි.
+Privacy Policy and Terms of Use [${legal}]· Report misuse [${misuse}]
+${copyright}. All rights reserved.

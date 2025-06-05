@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-JŪSŲ NAUJA „${BRAND}“ PASKYRA
+JŪSŲ NAUJA „${brand}“ PASKYRA
 Naudojant ${email}, buvo sukurta nauja „${brand}“ komanda. Patvirtinkite savo
 el. paštą.
 

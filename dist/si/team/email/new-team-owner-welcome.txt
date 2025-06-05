@@ -2,16 +2,15 @@
 
 ${brand_label_url} [${brand_url}]
 
-CONGRATULATIONS ${NAME}.
-We transferred your personal account ${email} into a team account, including all
-your conversations and history. You are now the owner of the team (${team_name}
-).
+සුභ පැතුම් ${name}.
+සියලු සංවාද සහ ඉතිහාසය ඇතුළුව අපි ඔබගේ ${email} පෞද්ගලික ගිණුම කණ්ඩායම් ගිණුමකට
+මාරු කළා. දැන් ඔබ කණ්ඩායමේ හිමිකරු වේ. (${team_name}).
 
-Invite other people to join your team and adjust settings in your team
-management dashboard.
+ඔබගේ කණ්ඩායමට එක්වන ලෙස අනෙක් පුද්ගලයින්ට ආරාධනා කරන්න. ඔබගේ කණ්ඩායමේ කළමනාකරණ
+උපකරණ පුවරුවේ සැකසුම් සීරුමාරු කරන්න.
 
-OPEN TEAM MANAGEMENT [${url}]If you can’t select the button, copy and paste this
-link to your browser:
+කණ්ඩායම් කළමනාකරණය අරින්න [${url}]බොත්තම එබීමට නොහැකි නම් මෙම සබැඳිය පිටපත් කර
+ඔබගේ අතිරික්සුවේ අලවන්න:
 
 ${url}
 

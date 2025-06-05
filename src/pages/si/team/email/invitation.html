@@ -5,20 +5,21 @@ subject: "${brand} කණ්ඩායමකට එක්වීමට ආරා�
 <container>
   <row>
     <columns small="12">
-      <h1>කණ්ඩායමට ආරාධනයයි</h1>
-      <p><strong>${inviter}</strong> ඔබට ${brand} කණ්ඩායමකට එක් වීමට ආරාධනා කර ඇත. Select the button below to accept the invitation.</p>
-      <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">කණ්ඩායමට එක්වන්න</button></center>
-      <spacer size="24"></spacer>
-      {{> si/link-button}}
-      {{> si/questions}}
-      <p class="small">
-        <strong>වයර් යනු කුමක්ද?</strong>
-        <br />
-        වයර් යනු වඩාත් ආරක්‍ෂිත සහයෝගිත්‍ව වේදිකාවකි. පණිවිඩ, දෘශ්‍ය සම්මන්ත්‍රණ සහ ගොනු හුවමාරු වැනි පහසුකම් අත්විඳිමින් ඔබ කොතැනක සිටියත් ඔබගේ කණ්ඩායම මෙන්ම බාහිර හවුල්කරුවන් සමඟ වැඩ කරන්න – සෑම විටම අන්ත සංකේතනයෙන් සුරක්‍ෂිතයි.
-        <a href="https://wire.com/">තව දැනගන්න</a>.
-      </p>
+      <h4>Team invitation</h4>
+      <p class="text-center">${inviter} has invited you to join the team “<strong>${teamName}</strong>” on Wire.</p>
+      <center><button href="${url}" class="expanded radius">Join Team</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          Or open this link in your browser:
+          <br />
+          <a href=" ${url}">${url}</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> si/what-is-wire}}
     </columns>
   </row>
+  {{> si/any-questions}}
 </container>
-{{> si/footer}}
+{{> si/footer-new}}

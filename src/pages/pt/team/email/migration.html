@@ -1,20 +1,20 @@
 ---
-subject: 'You have been invited to join a team on ${brand}'
+assunto: 'Você foi convidado para participar de uma equipe em ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Convite para equipe</h1>
-      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}.</p>
-      <p>By joining Wire migrates your personal account into a team account.</p>
-      <p>Select the button below to proceed with the invitation.</p>
+      <h1>Team invitation</h1>
+      <p><strong>${inviter}</strong> convidou você para se juntar a uma equipe em ${brand}.</p>
+      <p>Ao se juntar ao Wire, sua conta pessoal migra para uma conta de equipe.</p>
+      <p>Clique no botão abaixo para aceitar o convite.</p>
       <spacer size="24"></spacer>
       <center><button href="${url}" class="radius">Juntar-se à equipe</button></center>
       <spacer size="24"></spacer>
-      {{> pt/link-button}} 
-      {{> pt/report-link}} 
-      {{> pt/questions}}
+      {{> pt_BR/link-button}} 
+      {{> pt_BR/report-link}} 
+      {{> pt_BR/questions}}
       <p class="small">
         <strong>O que é WIRE?</strong>
         <br />
@@ -25,4 +25,4 @@ subject: 'You have been invited to join a team on ${brand}'
     </columns>
   </row>
 </container>
-{{> pt/footer}}
+{{> pt_BR/footer}}

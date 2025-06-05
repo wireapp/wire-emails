@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-TÀI KHOẢN MỚI CỦA BẠN TRÊN ${BRAND}
+TÀI KHOẢN MỚI CỦA BẠN TRÊN ${brand}
 Một nhóm ${brand} đã được tại với ${email}. Vui lòng xác minh địa chỉ email của
 bạn.
 

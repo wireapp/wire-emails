@@ -2,26 +2,18 @@
 
 ${brand_label_url} [${brand_url}]
 
-INVITATION À REJOINDRE UNE ÉQUIPE
-${inviter} vous a invité à rejoindre une équipe sur ${brand}. Select the button
-below to accept the invitation.
+TEAM INVITATION
+${inviter} has invited you to join the team “${teamname}” on Wire.
 
-Rejoindre l'équipe [${url}]If you can’t select the button, copy and paste this
-link to your browser:
+Join Team [${url}]Or open this link in your browser:
+${url} [${url}]
 
-${url}
+What is Wire?Wire is the most secure collaboration platform. Work with your team
+and external partners wherever you are through messages, video conferencing and
+file sharing – always secured with end-to-end-encryption.
+Learn more [https://wire.com/].
 
-Si vous avez des questions, veuillez nous contacter [${support}].
+Any questions? Contact us [${support}]
 
-Qu'est-ce que Wire ?
-Wire est la plateforme de collaboration la plus sécurisée. Collaborez avec votre
-équipe et vos partenaires externes où que vous soyez en utilisant des messages,
-vidéo conférences et partage de fichiers – toujours sécurisés avec un
-chiffrement de bout en bout. En savoir plus [https://wire.com/].
-
-
---------------------------------------------------------------------------------
-
-Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
-abus [${misuse}]
-${copyright}. TOUS DROITS RÉSERVÉS.
+Privacy Policy and Terms of Use [${legal}]· Report misuse [${misuse}]
+${copyright}. All rights reserved.

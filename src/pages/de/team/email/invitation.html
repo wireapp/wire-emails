@@ -1,25 +1,25 @@
 ---
-subject: "Sie wurden eingeladen, einem ${brand}-Team beizutreten"
+subject: 'Sie wurden eingeladen, einem Team auf ${brand} beizutreten'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Einladung zum Team</h1>
-      <p><strong>${inviter}</strong> hat Sie auf ${brand} zu einem Team eingeladen. Wählen Sie die folgende Schaltfläche, um die Einladung anzunehmen.</p>
-      <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Team beitreten</button></center>
-      <spacer size="24"></spacer>
-      {{> de/link-button}}
-      {{> de/questions}}
-      <p class="small">
-        <strong>Was ist Wire?</strong>
-        <br />
-        Wire ist die sicherste Plattform für Ihre Kommunikation. Wo auch immer Sie sind, arbeiten Sie mit Ihrem Team und externen Partnern zusammen –
-        mittels Nachrichten, Videokonferenzen und Dateiaustausch, alles mit Ende-zu-Ende-Verschlüsselung.
-        <a href="https://wire.com/">Mehr erfahren</a>.
-      </p>
+      <h4>Team invitation</h4>
+      <p class="text-center">${inviter} has invited you to join the team “<strong>${teamName}</strong>” on Wire.</p>
+      <center><button href="${url}" class="expanded radius">Join Team</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          Or open this link in your browser:
+          <br />
+          <a href=" ${url}">${url}</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> de/what-is-wire}}
     </columns>
   </row>
+  {{> de/any-questions}}
 </container>
-{{> de/footer}}
+{{> de/footer-new}}

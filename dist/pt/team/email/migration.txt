@@ -1,32 +1,16 @@
-[${brand_logo}]
+PANINI ERROR
+src/pages/pt/team/email/migration.html
 
-${brand_label_url} [${brand_url}]
+The partial pt_BR/link-button could not be found
 
-CONVITE PARA EQUIPE
-${inviter} has invited you to join a team on ${brand}.
-
-By joining Wire migrates your personal account into a team account.
-
-Select the button below to proceed with the invitation.
-
-Juntar-se à equipe [${url}]If you can’t select the button, copy and paste this
-link to your browser:
-
-${url}
-
-Report abusive invitation link [${support}]
-
-Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
-
-O que é WIRE?
-Wire é a plataforma de colaboração mais segura. Trabalhe com sua equipe e
-parceiros externos onde quer que esteja por meio de mensagens, videoconferência
-e compartilhamento de arquivos - sempre protegido com criptografia de ponta a
-ponta. Saiba mais [https://wire.com/].
-
-
---------------------------------------------------------------------------------
-
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.
+STACK TRACE:
+Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
+Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
+Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
+main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
+HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
+/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
+Array.map (<anonymous>)
+Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)

@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-ようこそ、${TEAM_NAME} へ
+ようこそ、${team_name} へ
 あなたはたった今、${brand} 上の ${team_name} チームに、${email} として参加しました。
 
 Enjoy seamless, secure teamwork with ${brand}!

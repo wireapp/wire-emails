@@ -144,6 +144,16 @@ th.columns {
   padding-left: 8px;
   padding-bottom: 16px;
 }
+th.columns .columns.first {
+  padding-left: 0 !important;
+}
+th.columns .columns.last {
+  padding-right: 0 !important;
+}
+th.columns .columns:not([class*=large-offset]) {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
 th.columns.last {
   padding-right: 8px;
@@ -154,6 +164,9 @@ th.columns table {
 }
 th.columns table.button {
   width: auto;
+}
+th.columns table.button.expanded {
+  width: 100%;
 }
 
 th.large-6 {
@@ -194,10 +207,19 @@ th.large-12.last {
   padding-right: 8px;
 }
 
+.body .columns th.large-12 {
+  width: 100%;
+}
+
+td.expander,
 th.expander {
   visibility: hidden;
   width: 0;
   padding: 0 !important;
+}
+
+p.text-center {
+  text-align: center;
 }
 p.text-right {
   text-align: right;
@@ -213,12 +235,14 @@ table.float-center {
 body,
 table.body,
 h1,
+h2,
+h4,
 h5,
 p,
 td,
 th {
   color: #42474a;
-  font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
   font-weight: 300;
   padding: 0;
   margin: 0;
@@ -228,17 +252,27 @@ th {
 }
 
 h1,
+h2,
+h4,
 h5 {
   color: inherit;
   word-wrap: normal;
-  font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
   font-weight: 300;
-  margin-bottom: 32px;
-  Margin-bottom: 32px;
+  margin-bottom: 16px;
+  Margin-bottom: 16px;
 }
 
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 h5 {
@@ -265,26 +299,32 @@ p a {
 
 .small {
   font-size: 80%;
-  color: #adafb0;
+  color: #676b71;
 }
 
 a {
-  color: #2391d3;
+  color: #0667c8;
   text-decoration: none;
-  font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
   font-weight: 300;
   padding: 0;
   text-align: left;
   line-height: 1.6;
 }
 a:hover {
-  color: #1d79b0;
+  color: #0553a0;
 }
 a:active {
-  color: #1d79b0;
+  color: #0553a0;
 }
 a:visited {
-  color: #2391d3;
+  color: #0667c8;
+}
+
+pre {
+  background: #e9edf0;
+  margin: 30px 0;
+  Margin: 30px 0;
 }
 table.button {
   width: auto;
@@ -294,11 +334,11 @@ table.button {
 table.button table td {
   text-align: left;
   color: #fff;
-  background: #2391d3;
-  border: 2px solid #2391d3;
+  background: #0667c8;
+  border: 2px solid #0667c8;
 }
 table.button table td a {
-  font-family: BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -apple-system, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -306,11 +346,11 @@ table.button table td a {
   text-align: left;
   display: inline-block;
   padding: 10px 24px;
-  border: 0 solid #2391d3;
-  border-radius: 4px;
+  border: 0 solid #0667c8;
+  border-radius: 16px;
 }
 table.button.radius table td {
-  border-radius: 4px;
+  border-radius: 16px;
   border: none;
 }
 
@@ -324,17 +364,33 @@ table.button table tr td a:visited {
   color: #fff;
 }
 
+table.button.expanded {
+  width: 100%;
+}
+table.button.expanded table {
+  width: 100%;
+}
+table.button.expanded table a {
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+table.button.expanded center {
+  min-width: 0;
+}
+
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #1c73a7;
+  background: #054e96;
   color: #fff;
 }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #1c73a7;
+  border: 0 solid #054e96;
 }
 
 table.button.alert table td {
@@ -383,6 +439,10 @@ table.button.alert:hover table a {
     display: inline-block !important;
     width: 100% !important;
   }
+  .columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
 }
 h1 {
   text-align: center;
@@ -390,8 +450,13 @@ h1 {
   color: #42474a;
 }
 
+h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
 table.button table td a {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .small {
@@ -402,6 +467,25 @@ table.button table td a {
 
 .text-muted {
   color: #adafb0;
+}
+
+.text-medium {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.text-medium a {
+  color: black;
+  text-decoration: underline;
+}
+
+.x-small {
+  color: #676b71;
+  font-size: 12px;
+}
+.x-small a {
+  color: #676b71;
+  text-decoration: underline;
 }
 
 body,
@@ -418,7 +502,7 @@ hr {
 }
 
 .code {
-  color: #2391d3;
+  color: #0667c8;
   text-align: center;
   font-size: 48px;
   font-weight: 200;
@@ -438,6 +522,12 @@ table.button table td {
 
 table.container {
   width: 50%;
+}
+
+.round-bordered-container {
+  border: 1px solid #dce0e3;
+  border-radius: 24px;
+  padding: 16px 16px 0 16px;
 }
 
 .index h5 {

@@ -2,25 +2,18 @@
 
 ${brand_label_url} [${brand_url}]
 
-LỜI MỜI THAM GIA NHÓM
-${inviter} has invited you to join a team on ${brand}. Select the button below
-to accept the invitation.
+TEAM INVITATION
+${inviter} has invited you to join the team “${teamname}” on Wire.
 
-Join team [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+Join Team [${url}]Or open this link in your browser:
+${url} [${url}]
 
-${url}
+What is Wire?Wire is the most secure collaboration platform. Work with your team
+and external partners wherever you are through messages, video conferencing and
+file sharing – always secured with end-to-end-encryption.
+Learn more [https://wire.com/].
 
-Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+Any questions? Contact us [${support}]
 
-What is Wire?
-Wire is the most secure collaboration platform. Work with your team and external
-partners wherever you are through messages, video conferencing and file sharing
-– always secured with end-to-end-encryption. Learn more [https://wire.com/].
-
-
---------------------------------------------------------------------------------
-
-Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
-[${misuse}]
-${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.
+Privacy Policy and Terms of Use [${legal}]· Report misuse [${misuse}]
+${copyright}. All rights reserved.

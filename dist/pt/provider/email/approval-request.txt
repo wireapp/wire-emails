@@ -21,8 +21,8 @@ serviços que os usuários de ${brand} podem adicionar às suas conversas.
 Se a solicitação parecer duvidosa, entre em contato com o provedor para obter
 esclarecimentos antes de continuar.
 
-Aprovar [${url}]If you can’t select the button, copy and paste this link to your
-browser:
+Aprovar [${url}]Se você não conseguir selecionar o botão, copie e cole este link
+no seu navegador:
 
 ${url}
 

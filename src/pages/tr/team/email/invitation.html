@@ -1,25 +1,25 @@
 ---
-subject: "${brand} üzerindeki bir takıma katılmaya davet edildiniz"
+subject: 'You have been invited to join a team on ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Takım daveti</h1>
-      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}. Select the button below to accept the invitation.</p>
-      <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Join team</button></center>
-      <spacer size="24"></spacer>
-      {{> tr/link-button}}
-      {{> tr/questions}}
-      <p class="small">
-        <strong>What is Wire?</strong>
-        <br />
-        Wire is the most secure collaboration platform. Work with your team and external partners wherever you are
-        through messages, video conferencing and file sharing – always secured with end-to-end-encryption.
-        <a href="https://wire.com/">Learn more</a>.
-      </p>
+      <h4>Team invitation</h4>
+      <p class="text-center">${inviter} has invited you to join the team “<strong>${teamName}</strong>” on Wire.</p>
+      <center><button href="${url}" class="expanded radius">Join Team</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          Or open this link in your browser:
+          <br />
+          <a href=" ${url}">${url}</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> tr/what-is-wire}}
     </columns>
   </row>
+  {{> tr/any-questions}}
 </container>
-{{> tr/footer}}
+{{> tr/footer-new}}

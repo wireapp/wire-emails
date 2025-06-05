@@ -1,1 +1,1 @@
-You joined a team on ${brand}
+ඔබ ${brand} කණ්ඩායමකට එක් වී ඇත

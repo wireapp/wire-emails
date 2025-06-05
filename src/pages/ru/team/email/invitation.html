@@ -1,25 +1,25 @@
 ---
-subject: "Вы были приглашены в команду в ${brand}"
+subject: 'Вас пригласили присоединиться к команде  ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Приглашение в команду</h1>
-      <p><strong>${inviter}</strong> пригласил(а) вас присоединиться к команде в ${brand}. Для принятия приглашения нажмите на кнопку ниже.</p>
-      <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Присоединиться к команде</button></center>
-      <spacer size="24"></spacer>
-      {{> ru/link-button}}
-      {{> ru/questions}}
-      <p class="small">
-        <strong>Что такое Wire?</strong>
-        <br />
-        Wire является самой безопасной платформой для совместной работы. Работайте со своей командой и внешними партнерами, где бы вы ни находились посредством
-        сообщений, видеоконференций и обмена файлами - всегда защищенными сквозным шифрованием.
-        <a href="https://wire.com/">Узнать больше</a>.
-      </p>
+      <h4>Приглашение в команду</h4>
+      <p class="text-center">${inviter} приглашает вас присоединиться к команде “<strong>${teamName}</strong>” в Wire.</p>
+      <center><button href="${url}" class="expanded radius">Присоединиться к команде</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          Или откройте эту ссылку в своем браузере:
+          <br />
+          <a href=" ${url}">${url}</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> ru/what-is-wire}}
     </columns>
   </row>
+  {{> ru/any-questions}}
 </container>
-{{> ru/footer}}
+{> ru/footer-new}}

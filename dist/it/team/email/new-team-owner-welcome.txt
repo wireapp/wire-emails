@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-CONGRATULATIONS ${NAME}.
+CONGRATULATIONS ${name}.
 We transferred your personal account ${email} into a team account, including all
 your conversations and history. You are now the owner of the team (${team_name}
 ).

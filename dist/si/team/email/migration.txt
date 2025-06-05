@@ -2,19 +2,19 @@
 
 ${brand_label_url} [${brand_url}]
 
-කණ්ඩායමට ආරාධනයයි
+TEAM INVITATION
 ${inviter} ඔබට ${brand} කණ්ඩායමකට එක් වීමට ආරාධනා කර ඇත.
 
 By joining Wire migrates your personal account into a team account.
 
-Select the button below to proceed with the invitation.
+ආරාධනාව සමඟ ඉදිරියට යාමට පහත බොත්තම ඔබන්න.
 
-කණ්ඩායමට එක්වන්න [${url}]If you can’t select the button, copy and paste this
-link to your browser:
+කණ්ඩායමට එක්වන්න [${url}]බොත්තම එබීමට නොහැකි නම් මෙම සබැඳිය පිටපත් කර ඔබගේ
+අතිරික්සුවේ අලවන්න:
 
 ${url}
 
-Report abusive invitation link [${support}]
+අනිසි ආරාධනා සබැඳිය වාර්තා කරන්න [${support}]
 
 ඔබට කිසියම් ප්‍රශ්නයක් ඇත්නම් කරුණාකර අප අමතන්න [${support}].
 

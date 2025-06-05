@@ -2,13 +2,13 @@
 
 ${brand_label_url} [${brand_url}]
 
-${TEAM_NAME} වෙත සාදරයෙන් පිළිගනිමු.
+${team_name} වෙත සාදරයෙන් පිළිගනිමු.
 ඔබ දැන් ${brand} හි ${team_name} නම් කණ්ඩායමකට ${email} හරහා එක් වී ඇත.
 
-Enjoy seamless, secure teamwork with ${brand}!
+${brand} සමඟ බාධාවකින් තොරව, ආරක්‍ෂිතව කණ්ඩායම් වැඩ කරන්න!
 
-Open ${brand} [${url}]If you can’t select the button, copy and paste this link
-to your browser:
+${brand} අරින්න [${url}]බොත්තම එබීමට නොහැකි නම් මෙම සබැඳිය පිටපත් කර ඔබගේ
+අතිරික්සුවේ අලවන්න:
 
 ${url}
 

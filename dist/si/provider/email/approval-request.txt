@@ -21,8 +21,8 @@ ${brand_label_url} [${brand_url}]
 ඉල්ලීම සැක සහිත නම්, කරුණාකර ඉදිරියට යාමට පෙර නිශ්චිතව දැනගැනීම සඳහා
 ප්‍රතිපාදකයා අමතන්න.
 
-අනුමත [${url}]If you can’t select the button, copy and paste this link to your
-browser:
+අනුමත [${url}]බොත්තම එබීමට නොහැකි නම් මෙම සබැඳිය පිටපත් කර ඔබගේ අතිරික්සුවේ
+අලවන්න:
 
 ${url}
 

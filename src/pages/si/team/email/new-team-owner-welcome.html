@@ -1,19 +1,18 @@
 ---
-subject: 'You joined a team on ${brand}'
+subject: "ඔබ ${brand} කණ්ඩායමකට එක් වී ඇත"
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Congratulations <strong>${name}</strong>.</h1>
+      <h1>සුභ පැතුම් <strong>${name}</strong>.</h1>
       <p>
-        We transferred your personal account <strong>${email}</strong> into a team account, including all your
-        conversations and history. You are now the owner of the team (<strong>${team_name}</strong>).
+        සියලු සංවාද සහ ඉතිහාසය ඇතුළුව අපි ඔබගේ <strong>${email}</strong> පෞද්ගලික ගිණුම කණ්ඩායම් ගිණුමකට මාරු කළා. දැන් ඔබ කණ්ඩායමේ හිමිකරු වේ. (<strong>${team_name}</strong>).
       </p>
       <spacer size="24"></spacer>
-      <p>Invite other people to join your team and adjust settings in your team management dashboard.</p>
+      <p>ඔබගේ කණ්ඩායමට එක්වන ලෙස අනෙක් පුද්ගලයින්ට ආරාධනා කරන්න. ඔබගේ කණ්ඩායමේ කළමනාකරණ උපකරණ පුවරුවේ සැකසුම් සීරුමාරු කරන්න.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">OPEN TEAM MANAGEMENT</button></center>
+      <center><button href="${url}" class="radius">කණ්ඩායම් කළමනාකරණය අරින්න</button></center>
       <spacer size="24"></spacer>
       {{> si/link-button}} {{> si/questions}} {{> si/team-id}}
     </columns>

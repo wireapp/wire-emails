@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-TIIMI KUTSE
+TEAM INVITATION
 ${inviter} has invited you to join a team on ${brand}.
 
 By joining Wire migrates your personal account into a team account.

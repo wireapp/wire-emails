@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-WITAMY W ${TEAM_NAME}.
+WITAMY W ${team_name}.
 Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
 ${email}.
 

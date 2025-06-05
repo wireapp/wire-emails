@@ -1,1 +1,1 @@
-Sei stato invitato ad unirti ad un team su ${brand}
+You have been invited to join a team on ${brand}
