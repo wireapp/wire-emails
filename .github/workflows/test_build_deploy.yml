@@ -8,7 +8,7 @@ on:
 
 jobs:
   test_build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     strategy:
       max-parallel: 1
@@ -47,6 +47,17 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
+      - name: OpenSSL fix for libproviders.so error
+        run: |
+          echo "openssl_conf = openssl_init" > openssl.cnf
+          echo "[openssl_init]" >> openssl.cnf
+          echo "providers = provider_sect" >> openssl.cnf
+          echo "[provider_sect]" >> openssl.cnf
+          echo "default = default_sect" >> openssl.cnf
+          echo "[default_sect]" >> openssl.cnf
+          echo "activate = 1" >> openssl.cnf
+          echo "OPENSSL_CONF=$(pwd)/openssl.cnf" >> $GITHUB_ENV
 
       - name: Install JS dependencies
         run: |
