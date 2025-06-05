@@ -23,7 +23,7 @@ const EMAIL = yargs.argv.to;
 let paniniInstance;
 
 // Build the "dist" folder by running all of the below tasks
-gulp.task('build', gulp.series(clean, pages, sass, inline));
+gulp.task('build', gulp.series(clean, pages, sass, fonts, inline));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default', gulp.series('build', server, watch));
@@ -71,6 +71,14 @@ function inline() {
     .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
     .pipe(gulp.dest('dist'));
 }
+
+// Copy .woff and .woff2 font files to dist/fonts
+function fonts() {
+  return gulp.src('src/assets/fonts/**/*.{woff,woff2}').pipe(gulp.dest('dist/fonts'));
+}
+
+// Add fonts task to build process
+gulp.task('build', gulp.series(clean, pages, sass, fonts, inline));
 
 // Start a server with LiveReload to preview the site in
 function server(done) {

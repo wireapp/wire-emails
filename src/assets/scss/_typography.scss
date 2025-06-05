@@ -1,11 +1,40 @@
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 300;
+  src: url('/fonts/sf-pro-text-light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 400;
+  src: url('/fonts/sf-pro-text-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 500;
+  src: url('/fonts/sf-pro-text-semibold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 600;
+  src: url('/fonts/sf-pro-text-bold.woff2') format('woff2');
+}
+
 h1 {
   text-align: center;
   font-weight: 300;
   color: $dark-gray;
 }
 
+h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
 table.button table td a {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .small {
@@ -20,4 +49,24 @@ ul {
 
 .text-muted {
   color: $medium-gray;
+}
+
+.text-medium {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 0px;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.x-small {
+  color: #676b71;
+  font-size: 12px;
+  a {
+    color: #676b71;
+    text-decoration: underline;
+  }
 }
