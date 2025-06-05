@@ -8,7 +8,7 @@ on:
 
 jobs:
   test_build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     strategy:
       max-parallel: 1
@@ -38,6 +38,15 @@ jobs:
           echo -e "GITHUB_SHA = ${GITHUB_SHA}"
           echo -e "GITHUB_REF = ${GITHUB_REF}"
           echo -e "GITHUB_CONTEXT = ${GITHUB_CONTEXT}"
+
+      - name: Cache Yarn dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install JS dependencies
         run: |
