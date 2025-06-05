@@ -8,7 +8,7 @@ on:
 
 jobs:
   test_build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       NODE_OPTIONS: --openssl-legacy-provider
 
