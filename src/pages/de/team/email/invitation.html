@@ -5,15 +5,18 @@ subject: 'Sie wurden eingeladen, einem Team auf ${brand} beizutreten'
 <container>
   <row>
     <columns small="12">
-      <h4>Team invitation</h4>
-      <p class="text-center">${inviter} has invited you to join the team “<strong>${teamName}</strong>” on Wire.</p>
-      <center><button href="${url}" class="expanded radius">Join Team</button></center>
+      <h4>Einladung zum Team</h4>
+      <p class="text-center">${inviter} hat Sie eingeladen, dem Team <strong>${teamName}</strong> auf Wire beizutreten.</p>
+      <center><button href="${url}" class="expanded radius">Team beitreten</button></center>
 
       <center>
         <p class="text-center x-small">
-          Or open this link in your browser:
+          Oder öffnen Sie diesen Link in Ihrem Browser:
           <br />
           <a href=" ${url}">${url}</a>
+        </p>
+        <p class="text-center x-small">
+          <a href="${support}">Missbräuchlichen Einladungslink melden</a>
         </p>
       </center>
       <spacer size="8"></spacer>
