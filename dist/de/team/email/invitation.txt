@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 EINLADUNG ZUM TEAM
-${inviter} has invited you to join a team on Wire.
+${inviter} hat Sie eingeladen, einem Team auf Wire beizutreten.
 
 Team beitreten [${url}]Oder öffnen Sie diesen Link in Ihrem Browser:
 ${url} [${url}]
