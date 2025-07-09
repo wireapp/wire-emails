@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 ПРИГЛАШЕНИЕ В КОМАНДУ
-${inviter} приглашает вас присоединиться к команде “${team_name}” в Wire.
+${inviter} has invited you to join a team on Wire.
 
 Присоединиться к команде [${url}]Или откройте эту ссылку в своем браузере:
 ${url} [${url}]
