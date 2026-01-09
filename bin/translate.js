@@ -43,8 +43,6 @@ const srcDir = path.join(rootDir, 'src');
 const distDir = path.join(rootDir, 'dist');
 const pagesDir = path.join(srcDir, 'pages');
 const partialsDir = path.join(srcDir, 'partials');
-const smsDir = path.join(srcDir, 'sms');
-const callDir = path.join(srcDir, 'call');
 
 function getDirectories(directory) {
   let result = [];
@@ -85,10 +83,7 @@ function renameLocaleDirectory(directory, filename) {
   }
 }
 
-const allDirs = getDirectories(pagesDir)
-  .concat(getDirectories(partialsDir))
-  .concat(getDirectories(smsDir))
-  .concat(getDirectories(callDir));
+const allDirs = getDirectories(pagesDir).concat(getDirectories(partialsDir));
 
 for ([directory, filename] of allDirs) {
   if (checkLocaleDirectory(directory, filename)) {
