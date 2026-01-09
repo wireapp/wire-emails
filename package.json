@@ -56,9 +56,8 @@
   "name": "wire-emails",
   "private": true,
   "scripts": {
-    "build": "yarn translate:process && gulp build --production && yarn text && yarn media",
+    "build": "yarn translate:process && gulp build --production && yarn text",
     "text": "node bin/generate-text-emails.js",
-    "media": "node bin/media.js",
     "deploy": "npm version patch",
     "postversion": "git push && git push --tags",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,scss,md,yml,yaml}\"",
