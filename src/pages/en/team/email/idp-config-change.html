@@ -2,30 +2,6 @@
 subject: "Your team's identity provider configuration has changed"
 ---
 
-<!-- TESTING: quick script to set team/user/support placeholders when previewing locally -->
-<script>
-  (function () {
-    var TEST_TEAM_ID = '572b13bc-0698-44af-8302-7e95868b04b3';
-    var TEST_USER_ID = '572b13bc-0698-44af-8302-7e95868b04b3';
-    var TEST_SUPPORT = 'https://example.com/support';
-    var TEST_IDP_ISSUER = 'app.wire.com/auth';
-    var TEST_IDP_ENDPOINT = 'app.wire.com/auth/somethingelse';
-    var TEST_IDP_ID = '572b13bc-0698-44af-8302-7e95868b04b3';
-    function replacePlaceholders() {
-      if (!document.body) return;
-      document.body.innerHTML = document.body.innerHTML
-        .replace(/\$\{teamId\}/g, TEST_TEAM_ID)
-        .replace(/\$\{userId\}/g, TEST_USER_ID)
-        .replace(/\$\{support\}/g, TEST_SUPPORT)
-        .replace(/\$\{idpIssuer\}/g, TEST_IDP_ISSUER)
-        .replace(/\$\{idpEndpoint\}/g, TEST_IDP_ENDPOINT)
-        .replace(/\$\{idpId\}/g, TEST_IDP_ID);
-    }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replacePlaceholders);
-    else replacePlaceholders();
-  })();
-</script>
-
 <container>
   <row>
     <columns small="12">
