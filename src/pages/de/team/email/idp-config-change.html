@@ -1,0 +1,36 @@
+---
+Betreff: "Die Konfiguration des Identity Providers Ihres Teams hat sich geändert"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Änderung in der Konfiguration Ihres Identity Providers</h4>
+      <p>Etwas hat sich in der IdP-Konfiguration für Ihr Team geändert.</p>
+      <p>
+        Team-ID:
+        <br />
+        ${teamId}
+      </p>
+      <p>
+        Benutzer-ID:
+        <br />
+        ${userId}
+      </p>
+      <hr />
+      <p><strong>Details:</strong></p>
+      <p>IdP Aussteller:<br />${issuer}</p>
+      <p>IdP-Endpunkt:<br />${idpEndpoint}</p>
+      <p>IdP ID:<br />${idpId}</p>
+      <hr />
+      <div id="certificates-details"></div>
+      <p>
+        <strong>
+          Wenn Sie diese Änderung nicht veranlasst haben, <a href="${support}">wenden Sie sich bitte an den Wire Support.</a>
+        </strong>
+      </p>
+      <spacer size="8"></spacer>
+    </columns>
+  </row>
+</container>
+{{> de/footer-new}}

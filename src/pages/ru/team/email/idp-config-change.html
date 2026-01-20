@@ -1,0 +1,36 @@
+---
+тема: "Конфигурация провайдера идентификационных данных вашей команды изменилась"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Изменение конфигурации вашего провайдера идентификационных данных</h4>
+      <p>Что-то изменилось в конфигурации IdP вашей команды.</p>
+      <p>
+        Team ID:
+        <br />
+        ${teamId}
+      </p>
+      <p>
+        User ID:
+        <br />
+        ${userId}
+      </p>
+      <hr />
+      <p><strong>Подробности:</strong></p>
+      <p>IdP Issuer:<br />${idpIssuer}</p>
+      <p>IdP Endpoint:<br />${idpEndpoint}</p>
+      <p>Idp ID:<br />${idpId}</p>
+      <hr />
+      <div id="certificates-details"></div>
+      <p>
+        <strong>
+          Если вы не инициировали это изменение, пожалуйста, <a href="${support}"> обратитесь в поддержку Wire.</a>
+        </strong>
+      </p>
+      <spacer size="8"></spacer>
+    </columns>
+  </row>
+</container>
+{> ru/footer-new}}

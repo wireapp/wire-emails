@@ -1,0 +1,36 @@
+---
+subject: "Your team's identity provider configuration has changed"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Change in your Identity Provider configuration</h4>
+      <p>Something has changed in the IdP configuration for your team.</p>
+      <p>
+        Team ID:
+        <br />
+        ${teamId}
+      </p>
+      <p>
+        User ID:
+        <br />
+        ${userId}
+      </p>
+      <hr />
+      <p><strong>Details:</strong></p>
+      <p>IdP Issuer:<br />${idpIssuer}</p>
+      <p>IdP Endpoint:<br />${idpEndpoint}</p>
+      <p>IdP ID:<br />${idpId}</p>
+      <hr />
+      <div id="certificates-details"></div>
+      <p>
+        <strong>
+          If you did not initiate this change, please <a href="${support}">reach out to the Wire support.</a>
+        </strong>
+      </p>
+      <spacer size="8"></spacer>
+    </columns>
+  </row>
+</container>
+{{> it/footer-new}}
