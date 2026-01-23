@@ -16,7 +16,11 @@ function getFiles(pattern) {
 
 function getSubjectFromHtml(filePath) {
   const text = fs.readFileSync(filePath, 'utf8');
-  return text.match(/<title[^>]*>([^<]*)<\/title>/)[1];
+  const subjectMatch = text.match(/<title[^>]*>([^<]*)<\/title>/);
+  if (!subjectMatch) {
+    return null;
+  }
+  return subjectMatch[1];
 }
 
 function getTextFromHtml(filePath) {
@@ -41,8 +45,7 @@ function fixBrokenVariables() {
 }
 
 (async () => {
-  const allFiles = await getFiles(`${rootDirectory}/**/*.html`);
-  const files = allFiles.filter(f => f.indexOf(path.join(rootDirectory, 'partials')) === -1);
+  const files = await getFiles(`${rootDirectory}/**/*.html`);
 
   const payloads = files.map(filePath => {
     const parsedPath = path.parse(filePath);
@@ -56,7 +59,9 @@ function fixBrokenVariables() {
 
   const promises = payloads.map(payload => {
     fs.writeFile(payload.textPath, payload.text);
-    fs.writeFile(payload.subjectPath, payload.subject);
+    if (payload.subject) {
+      fs.writeFile(payload.subjectPath, payload.subject);
+    }
   });
 
   try {
