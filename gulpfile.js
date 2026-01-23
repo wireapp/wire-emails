@@ -23,7 +23,7 @@ const EMAIL = yargs.argv.to;
 let paniniInstance;
 
 // Build the "dist" folder by running all of the below tasks
-gulp.task('build', gulp.series(clean, pages, sass, inline));
+gulp.task('build', gulp.series(clean, partials, pages, sass, inline));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default', gulp.series('build', server, watch));
@@ -40,6 +40,11 @@ function pages() {
   const stream = panini('src').pipe(inky()).pipe(gulp.dest('dist'));
   paniniInstance = stream._panini;
   return stream;
+}
+
+// Copy partials folder contents without formatting
+function partials() {
+  return gulp.src('src/partials/**/*').pipe(gulp.dest('dist/partials'));
 }
 
 // Compile Sass into CSS
@@ -84,7 +89,7 @@ function server(done) {
 function watch() {
   gulp
     .watch(['src/pages/**/*.html', 'src/layouts/**/*', 'src/partials/**/*'])
-    .on('all', gulp.series(pages, inline, browser.reload));
+    .on('all', gulp.series(partials, pages, inline, browser.reload));
   gulp
     .watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'])
     .on('all', gulp.series(sass, pages, inline, browser.reload));

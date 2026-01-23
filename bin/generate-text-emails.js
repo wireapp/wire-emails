@@ -41,7 +41,8 @@ function fixBrokenVariables() {
 }
 
 (async () => {
-  const files = await getFiles(`${rootDirectory}/*/**/*.html`);
+  const allFiles = await getFiles(`${rootDirectory}/**/*.html`);
+  const files = allFiles.filter(f => f.indexOf(path.join(rootDirectory, 'partials')) === -1);
 
   const payloads = files.map(filePath => {
     const parsedPath = path.parse(filePath);
