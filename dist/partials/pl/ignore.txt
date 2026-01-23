@@ -1,0 +1,3 @@
+Jeśli nie zarejestrowałeś się na konto dostawcy usług ${brand} używając tego
+adresu e-mail, możesz bezpiecznie zignorować tę wiadomość. Jeśli chcesz zgłosić
+nadużycie adresu e-mail, skontaktuj się z nami. [${support}]

@@ -1,0 +1,4 @@
+Se non ti registri per un profilo del fornitore di servizi di ${brand} usando
+questo indirizzo email, puoi ignorare tranquillamente questo messaggio. Se vuoi
+segnalare l'abuso del tuo indirizzo email, sei pregato di contattarci.
+[${support}]

@@ -1,0 +1,1 @@
+Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].
