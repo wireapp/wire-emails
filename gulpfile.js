@@ -42,9 +42,17 @@ function pages() {
   return stream;
 }
 
-// Copy partials folder contents without formatting
+// Copy localized partials folders (e.g. src/partials/en -> dist/en/partials)
 function partials() {
-  return gulp.src('src/partials/**/*').pipe(gulp.dest('dist/partials'));
+  const partialsDir = path.join('src', 'partials');
+
+  const items = fs.readdirSync(partialsDir);
+
+  const streams = items
+    .filter(name => fs.statSync(path.join(partialsDir, name)).isDirectory())
+    .map(lang => gulp.src(path.join(partialsDir, lang, '/**/*')).pipe(gulp.dest(path.join('dist', lang, 'partials'))));
+
+  return merge.apply(null, streams);
 }
 
 // Compile Sass into CSS
