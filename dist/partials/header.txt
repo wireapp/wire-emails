@@ -1,3 +1,0 @@
-[${brand_logo}]
-
-${brand_label_url} [${brand_url}]
