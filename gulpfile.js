@@ -66,7 +66,7 @@ function sass() {
       ),
     )
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('dist/templates/css'));
 }
 
 // Inline CSS and minify HTML
@@ -74,7 +74,7 @@ function inline() {
   return gulp
     .src('dist/**/*.html')
     .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist/templates'));
 }
 
 // Start a server with LiveReload to preview the site in
