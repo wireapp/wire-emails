@@ -37,7 +37,7 @@ function clean(done) {
 // Compile layouts, pages, and partials into flat HTML files
 // Then parse using Inky templates
 function pages() {
-  const stream = panini('src').pipe(inky()).pipe(gulp.dest('dist'));
+  const stream = panini('src').pipe(inky()).pipe(gulp.dest('dist/templates'));
   paniniInstance = stream._panini;
   return stream;
 }
