@@ -6,10 +6,10 @@ ${brand_label_url} [${brand_url}]
 Etwas hat sich in der IdP-Konfiguration für Ihr Team geändert.
 
 Team-ID:
-${teamid}
+${team_id}
 
 Benutzer-ID:
-${userid}
+${user_id}
 
 
 --------------------------------------------------------------------------------
@@ -17,10 +17,10 @@ ${userid}
 Details:
 
 IdP Aussteller:
-${issuer}
+${idp_issuer}
 
 IdP-Endpunkt:
-${idpendpoint}
+${idp_endpoint}
 
 IdP ID:
 ${idp_id}
@@ -28,7 +28,7 @@ ${idp_id}
 
 --------------------------------------------------------------------------------
 
-${certificatesdetails}Wenn Sie diese Änderung nicht veranlasst haben, wenden Sie sich bitte an den
+${certificates_details}Wenn Sie diese Änderung nicht veranlasst haben, wenden Sie sich bitte an den
 Wire Support. [${support}]
 
 Datenschutzerklärung und Nutzungsbedingungen [${legal}]· Missbrauch melden
