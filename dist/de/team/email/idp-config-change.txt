@@ -16,13 +16,13 @@ ${user_id}
 
 Details:
 
-IdP Aussteller:
+IdP-Aussteller:
 ${idp_issuer}
 
 IdP-Endpunkt:
 ${idp_endpoint}
 
-IdP ID:
+IdP-ID:
 ${idp_id}
 
 
