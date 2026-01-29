@@ -18,7 +18,7 @@
     "colors": "1.4.0",
     "gulp": "4.0.2",
     "gulp-awspublish": "4.1.2",
-    "gulp-cli": "2.3.0",
+    "gulp-cli": "3.0.0",
     "gulp-dart-sass": "^1.0.2",
     "gulp-html-src": "1.0.0",
     "gulp-htmlmin": "5.0.1",
