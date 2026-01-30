@@ -16,14 +16,20 @@ ${user_id}
 
 Details:
 
-IdP Issuer:
-${idp_issuer}
-
-IdP Endpoint:
-${idp_endpoint}
-
 IdP ID:
 ${idp_id}
+
+New IdP Issuer:
+${new_idp_issuer}
+
+New IdP Endpoint:
+${new_idp_endpoint}
+
+Old IdP Issuer:
+${old_idp_issuer}
+
+Old IdP Endpoint:
+${old_idp_endpoint}
 
 
 --------------------------------------------------------------------------------

@@ -16,14 +16,20 @@ ${user_id}
 
 Details:
 
-IdP-Aussteller:
-${idp_issuer}
+IdP-ID:
+${idp_id}
 
 IdP-Endpunkt:
 ${idp_endpoint}
 
-IdP-ID:
-${idp_id}
+Neuer IdP-Endpunkt:
+${new_idp_endpoint}
+
+Alter IdP-Aussteller:
+${old_idp_issuer}
+
+Alter IdP-Endpunkt:
+${old_idp_endpoint}
 
 
 --------------------------------------------------------------------------------

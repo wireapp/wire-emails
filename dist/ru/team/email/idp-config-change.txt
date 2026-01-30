@@ -16,14 +16,20 @@ ${userid}
 
 Подробности:
 
-IdP Issuer:
-${idpissuer}
+Idp ID:
+${idpid}
 
 IdP Endpoint:
 ${idpendpoint}
 
-Idp ID:
-${idpid}
+Новый IdP Endpoint:
+${new_idp_endpoint}
+
+Старый IdP Issuer:
+${old_idp_issuer}
+
+Старый IdP Endpoint:
+${old_idp_endpoint}
 
 
 --------------------------------------------------------------------------------
