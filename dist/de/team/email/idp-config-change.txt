@@ -19,8 +19,8 @@ Details:
 IdP-ID:
 ${idp_id}
 
-IdP-Endpunkt:
-${idp_endpoint}
+Neuer IdP-Aussteller:
+${new_idp_issuer}
 
 Neuer IdP-Endpunkt:
 ${new_idp_endpoint}
