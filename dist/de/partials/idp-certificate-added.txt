@@ -1,12 +1,12 @@
 Hinzugefügt:
 
-${algorithm} fingerprint:
+${algorithm} Fingerabdruck:
 ${fingerprint}
 
-Subject:
+Betreff:
 ${subject}
 
-Issuer:
+Aussteller:
 ${issuer}
 
 
