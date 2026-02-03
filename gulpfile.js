@@ -50,9 +50,16 @@ function partials() {
 
   const streams = items
     .filter(name => fs.statSync(path.join(partialsDir, name)).isDirectory())
-    .map(lang => gulp.src(path.join(partialsDir, lang, '/**/*')).pipe(gulp.dest(path.join('dist', lang, 'partials'))));
+    .map(lang => {
+      const fragDir = path.join(partialsDir, lang, 'fragments');
+      if (fs.existsSync(fragDir) && fs.statSync(fragDir).isDirectory()) {
+        return gulp.src(path.join(fragDir, '/**/*')).pipe(gulp.dest(path.join('dist', lang, 'partials')));
+      }
+      return null;
+    })
+    .filter(Boolean);
 
-  return merge.apply(null, streams);
+  return streams.length ? merge.apply(null, streams) : null;
 }
 
 // Compile Sass into CSS
