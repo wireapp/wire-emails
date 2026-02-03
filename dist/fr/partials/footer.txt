@@ -1,6 +1,0 @@
-
---------------------------------------------------------------------------------
-
-Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
-abus [${misuse}]
-${copyright}. TOUS DROITS RÉSERVÉS.

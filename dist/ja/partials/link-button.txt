@@ -1,3 +1,0 @@
-If you can’t select the button, copy and paste this link to your browser:
-
-${url}

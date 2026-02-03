@@ -1,3 +1,0 @@
-Datenschutzerklärung und Nutzungsbedingungen [${legal}]· Missbrauch melden
-[${misuse}]
-${copyright}. Alle Rechte vorbehalten.

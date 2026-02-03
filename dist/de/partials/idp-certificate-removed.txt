@@ -1,12 +1,12 @@
 Entfernt:
 
-${algorithm} Fingerabdruck:
+${algorithm} fingerprint:
 ${fingerprint}
 
-Betreff:
+Subject:
 ${subject}
 
-Aussteller:
+Issuer:
 ${issuer}
 
 

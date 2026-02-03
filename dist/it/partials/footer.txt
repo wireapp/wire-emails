@@ -1,6 +1,0 @@
-
---------------------------------------------------------------------------------
-
-Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
-[${misuse}]
-${copyright}. TUTTI I DIRITTI RISERVATI.

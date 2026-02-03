@@ -1,1 +1,0 @@
-Wenn Sie Fragen haben, dann kontaktieren Sie uns [${support}] bitte.

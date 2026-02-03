@@ -1,6 +1,0 @@
-
---------------------------------------------------------------------------------
-
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.

@@ -1,4 +1,0 @@
-Se você não conseguir selecionar o botão, copie e cole este link no seu
-navegador:
-
-${url}

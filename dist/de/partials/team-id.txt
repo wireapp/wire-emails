@@ -1,1 +1,0 @@
-Team ID: ${team_id}

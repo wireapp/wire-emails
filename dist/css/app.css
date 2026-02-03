@@ -492,6 +492,10 @@ table.button table td a {
   text-decoration: underline;
 }
 
+.mono {
+  font-family: monospace;
+}
+
 body,
 html,
 .body {

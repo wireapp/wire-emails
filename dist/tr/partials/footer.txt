@@ -1,5 +1,0 @@
-
---------------------------------------------------------------------------------
-
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.

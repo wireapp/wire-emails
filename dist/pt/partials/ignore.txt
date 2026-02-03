@@ -1,4 +1,0 @@
-Se você não se inscreveu em uma conta de provedor de serviços do ${brand} usando
-esse endereço de e-mail, pode ignorar essa mensagem. Se você quiser relatar o
-abuso do seu endereço de e-mail, por favor, entre em contato conosco.
-[${support}]

@@ -1,6 +1,6 @@
 Добавлен:
 
-${algorithm} отпечатка:
+${algorithm} отпечаток:
 ${fingerprint}
 
 Тема:

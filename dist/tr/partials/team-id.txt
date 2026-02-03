@@ -1,1 +1,0 @@
-Takım Kimliği: ${team_id}

@@ -1,3 +1,0 @@
-Bu e-posta adresini kullanarak ${brand} bir servis sağlayıcı hesabına
-kaydolmadıysanız, bu iletiyi güvenle yok sayabilirsiniz. E-posta adresinizin
-kötüye kullanımını bildirmek isterseniz, lütfen bize ulaşın. [${support}]

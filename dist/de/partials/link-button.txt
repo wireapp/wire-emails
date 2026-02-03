@@ -1,4 +1,0 @@
-Wenn Sie die Schaltfläche nicht auswählen können, kopieren Sie diesen Link und
-fügen Sie ihn in Ihren Browser ein:
-
-${url}
