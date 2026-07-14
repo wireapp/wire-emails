@@ -1,0 +1,22 @@
+---
+subject: 'App details were changed in your team'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Details changed for an app</h4>
+      <p>${actor} has changed the details of an app from your team.</p>
+      <p><strong>New name:</strong> ${new_app_name}<br>
+         <strong>Previous name:</strong> ${previous_app_name}<br>
+         <strong>Date:</strong> ${date}</p>
+      <p><strong>Team name:</strong> ${team_name}<br>
+         <strong>Team ID:</strong> ${team_id}</p>
+      <spacer size="16"></spacer>
+      <center><button href="${url}" class="radius">Open Team Management</button></center>
+      <spacer size="8"></spacer>
+      {{> en/questions}}
+    </columns>
+  </row>
+</container>
+{{> en/footer}}
