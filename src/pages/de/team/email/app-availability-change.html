@@ -1,0 +1,23 @@
+---
+Betreff: "Die Verfügbarkeit einer App Ihres Teams wurde geändert"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Änderung der Verfügbarkeit einer App</h4>
+      <p>${actor} hat die Details einer App Ihres Teams geändert.</p>
+      <p><strong>App-Name:</strong> ${app_name}<br>
+         <strong>Datum:</strong> ${date}</p>
+      <p><strong>Vorherige Verfügbarkeit:</strong> ${previous_availability}<br>
+         <strong>Neue Verfügbarkeit:</strong> ${new_availability}</p>
+      <p><strong>Team-Name:</strong> ${team_name}<br>
+         <strong>Team-ID:</strong> ${team_id}</p>
+      <div style="height: 16px;"></div>
+      <div style="text-align: center;"><button href="${url}" class="radius">Team-Management öffnen</button></div>
+      <div style="height: 8px;"></div>
+      {{> de/questions}}
+    </columns>
+  </row>
+</container>
+{{> de/footer}}

@@ -1,0 +1,22 @@
+---
+тема: 'В вашей команде были изменены сведения о приложении'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Изменены сведения о приложении</h4>
+      <p>${actor} изменил данные приложения, созданного вашей командой.</p>
+      <p><strong>Новое название:</strong> ${new_app_name}<br>
+         <strong>Предыдущее название:</strong> ${previous_app_name}<br>
+         <strong>Дата:</strong> ${date}</p>
+      <p><strong>Team name:</strong> ${team_name}<br>
+         <strong>Team ID:</strong> ${team_id}</p>
+      <div style="height: 16px;"></div>
+      <div style="text-align: center;"><button href="${url}" class="radius">Открыть управление командой</button></div>
+      <div style="height: 8px;"></div>
+      {{> ru/questions}}
+    </columns>
+  </row>
+</container>
+{{> ru/footer}}

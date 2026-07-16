@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+AVAILABILITY CHANGE FOR AN APP
+${actor} has changed the availability of an app from your team.
+
+App name: ${app_name}
+Date: ${date}
+
+Previous availability: ${previous_availability}
+New availability: ${new_availability}
+
+Team name: ${team_name}
+Team ID: ${team_id}
+
+Open Team Management [${url}]Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

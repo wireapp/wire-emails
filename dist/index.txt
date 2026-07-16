@@ -42,42 +42,52 @@ PROVIDER
     [en/provider/email/approval-request.txt]
 
 TEAM
- 1.  [en/team/email/invitation.html] [de/team/email/invitation.html] 
-    [et/team/email/invitation.html] [fr/team/email/invitation.html] 
-    [lt/team/email/invitation.html] [ru/team/email/invitation.html] 
-    [it/team/email/invitation.html] [ja/team/email/invitation.html] 
-    [pl/team/email/invitation.html] [pt/team/email/invitation.html] 
-    [si/team/email/invitation.html] [tr/team/email/invitation.html] 
-    [vi/team/email/invitation.html] Invitation [en/team/email/invitation.html] — 
-    txt [en/team/email/invitation.txt]
- 2.  [en/team/email/new-member-welcome.html] 
-    [de/team/email/new-member-welcome.html] 
-    [et/team/email/new-member-welcome.html] 
-    [fr/team/email/new-member-welcome.html] 
-    [lt/team/email/new-member-welcome.html] 
-    [ru/team/email/new-member-welcome.html] 
-    [it/team/email/new-member-welcome.html] 
-    [ja/team/email/new-member-welcome.html] 
-    [pl/team/email/new-member-welcome.html] 
-    [pt/team/email/new-member-welcome.html] 
-    [si/team/email/new-member-welcome.html] 
-    [tr/team/email/new-member-welcome.html] 
-    [vi/team/email/new-member-welcome.html] New member welcome
-    [en/team/email/new-member-welcome.html] — txt
-    [en/team/email/new-member-welcome.txt]
- 3.  [en/team/email/new-team-owner-welcome.html] New team owner welcome
-    [en/team/email/new-team-owner-welcome.html] — txt
-    [en/team/email/new-team-owner-welcome.txt]
- 4.  [en/team/email/idp-config-change.html] Identity Provider configuration
-    change [en/team/email/idp-config-change.html]
- 5.  [en/team/email/migration.html] [de/team/email/migration.html] 
-    [et/team/email/migration.html] [fr/team/email/migration.html] 
-    [lt/team/email/migration.html] [ru/team/email/migration.html] 
-    [it/team/email/migration.html] [ja/team/email/migration.html] 
-    [pl/team/email/migration.html] [pt/team/email/migration.html] 
-    [si/team/email/migration.html] [tr/team/email/migration.html] 
-    [vi/team/email/migration.html] Migration from private to team user
-    [en/team/email/migration.html] — txt [en/team/email/migration.html]
+ 1.   [en/team/email/invitation.html] [de/team/email/invitation.html] 
+     [et/team/email/invitation.html] [fr/team/email/invitation.html] 
+     [lt/team/email/invitation.html] [ru/team/email/invitation.html] 
+     [it/team/email/invitation.html] [ja/team/email/invitation.html] 
+     [pl/team/email/invitation.html] [pt/team/email/invitation.html] 
+     [si/team/email/invitation.html] [tr/team/email/invitation.html] 
+     [vi/team/email/invitation.html] Invitation [en/team/email/invitation.html] 
+     — txt [en/team/email/invitation.txt]
+ 2.   [en/team/email/new-member-welcome.html] 
+     [de/team/email/new-member-welcome.html] 
+     [et/team/email/new-member-welcome.html] 
+     [fr/team/email/new-member-welcome.html] 
+     [lt/team/email/new-member-welcome.html] 
+     [ru/team/email/new-member-welcome.html] 
+     [it/team/email/new-member-welcome.html] 
+     [ja/team/email/new-member-welcome.html] 
+     [pl/team/email/new-member-welcome.html] 
+     [pt/team/email/new-member-welcome.html] 
+     [si/team/email/new-member-welcome.html] 
+     [tr/team/email/new-member-welcome.html] 
+     [vi/team/email/new-member-welcome.html] New member welcome
+     [en/team/email/new-member-welcome.html] — txt
+     [en/team/email/new-member-welcome.txt]
+ 3.   [en/team/email/new-team-owner-welcome.html] New team owner welcome
+     [en/team/email/new-team-owner-welcome.html] — txt
+     [en/team/email/new-team-owner-welcome.txt]
+ 4.   [en/team/email/idp-config-change.html] Identity Provider configuration
+     change [en/team/email/idp-config-change.html]
+ 5.   [en/team/email/app-creation.html] App creation
+     [en/team/email/app-creation.html]
+ 6.   [en/team/email/app-deletion.html] App deletion
+     [en/team/email/app-deletion.html]
+ 7.   [en/team/email/app-availability-change.html] App availability change
+     [en/team/email/app-availability-change.html]
+ 8.   [en/team/email/app-metadata-change.html] App metadata change
+     [en/team/email/app-metadata-change.html]
+ 9.   [en/team/email/app-token-change.html] App token change
+     [en/team/email/app-token-change.html]
+ 10.  [en/team/email/migration.html] [de/team/email/migration.html] 
+     [et/team/email/migration.html] [fr/team/email/migration.html] 
+     [lt/team/email/migration.html] [ru/team/email/migration.html] 
+     [it/team/email/migration.html] [ja/team/email/migration.html] 
+     [pl/team/email/migration.html] [pt/team/email/migration.html] 
+     [si/team/email/migration.html] [tr/team/email/migration.html] 
+     [vi/team/email/migration.html] Migration from private to team user
+     [en/team/email/migration.html] — txt [en/team/email/migration.html]
 
 USER
  1.   [en/user/email/activation.html] [de/user/email/activation.html] 

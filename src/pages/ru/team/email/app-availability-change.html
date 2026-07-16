@@ -1,0 +1,23 @@
+---
+тема: 'В вашей команде изменилась доступность приложения'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Изменение доступности приложения</h4>
+      <p>${actor} изменил доступность приложения, созданного вашей командой.</p>
+      <p><strong>Название приложения:</strong> ${app_name}<br>
+         <strong>Дата:</strong> ${date}</p>
+      <p><strong>Предыдущая доступность:</strong> ${previous_availability}<br>
+         <strong>Новая доступность:</strong> ${new_availability}</p>
+      <p><strong>Team name:</strong> ${team_name}<br>
+         <strong>Team ID:</strong> ${team_id}</p>
+      <div style="height: 16px;"></div>
+      <div style="text-align: center;"><button href="${url}" class="radius">Открыть управление командой</button></div>
+      <div style="height: 8px;"></div>
+      {{> ru/questions}}
+    </columns>
+  </row>
+</container>
+{{> ru/footer}}

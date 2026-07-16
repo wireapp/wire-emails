@@ -1,0 +1,28 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+NEW APP CREATED
+${actor} has created an app in your team.
+
+App name: ${app_name}
+Date: ${date}
+
+Team name: ${team_name}
+Team ID: ${team_id}
+
+Permissions:
+
+
+ * 
+
+
+
+Open Team Management [${url}]Se hai domande, per favore contattaci [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

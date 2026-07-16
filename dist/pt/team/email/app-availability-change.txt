@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+AVAILABILITY CHANGE FOR AN APP
+${actor} has changed the availability of an app from your team.
+
+App name: ${app_name}
+Date: ${date}
+
+Previous availability: ${previous_availability}
+New availability: ${new_availability}
+
+Team name: ${team_name}
+Team ID: ${team_id}
+
+Open Team Management [${url}]Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.
