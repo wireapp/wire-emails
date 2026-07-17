@@ -71,5 +71,5 @@
     "translate:upload": "crowdin upload sources",
     "prepare": "husky install"
   },
-  "version": "1.0.151"
+  "version": "1.0.152"
 }
