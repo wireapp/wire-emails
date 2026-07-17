@@ -11,11 +11,10 @@ Date: ${date}
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
+Open Team Management [${url}]If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

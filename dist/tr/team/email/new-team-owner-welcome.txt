@@ -15,10 +15,9 @@ link to your browser:
 
 ${url}
 
-Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
-[${support}].
+If you have any questions, please contact us [${support}].
 
-Takım Kimliği: ${team_id}
+Team ID: ${team_id}
 
 
 --------------------------------------------------------------------------------

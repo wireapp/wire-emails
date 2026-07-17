@@ -2,8 +2,8 @@
 
 ${brand_label_url} [${brand_url}]
 
-BENVENUTO A ${team_name}.
-Ti sei appena unito ad un team chiamato ${team_name} su ${brand} con ${email}.
+WELCOME TO ${team_name}.
+You have just joined a team called ${team_name} on ${brand} with ${email}.
 
 Enjoy seamless, secure teamwork with ${brand}!
 

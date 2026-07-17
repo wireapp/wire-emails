@@ -1,9 +1,9 @@
-Добавлен:
+Added:
 
-${algorithm} отпечаток:
+${algorithm} fingerprint:
 ${fingerprint}
 
-Тема:
+Subject:
 ${subject}
 
 Issuer:

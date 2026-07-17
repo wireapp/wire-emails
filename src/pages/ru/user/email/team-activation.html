@@ -1,14 +1,14 @@
 ---
-subject: "Ваша учетная запись ${brand}"
+subject: "${brand} Account"
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Ваша новая учетная запись ${brand}</h1>
-      <p>В ${brand} была создана новая команда с использованием email адреса <strong>${email}</strong>. Подтвердите ваш email адрес.</p>
+      <h1>Your new account on ${brand}</h1>
+      <p>A new ${brand} team was created with <strong>${email}</strong>. Please verify your email.</p>
       <spacer size="24"></spacer>
-      <center><button class="radius" href="${url}">Подтвердить</button></center>
+      <center><button class="radius" href="${url}">Verify</button></center>
       <spacer size="24"></spacer>
       {{> ru/link-button}}
       {{> ru/questions}}

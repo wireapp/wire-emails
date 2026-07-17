@@ -2,39 +2,40 @@
 
 ${brand_label_url} [${brand_url}]
 
-ИЗМЕНЕНИЕ КОНФИГУРАЦИИ ВАШЕГО ПРОВАЙДЕРА ИДЕНТИФИКАЦИОННЫХ ДАННЫХ
-Что-то изменилось в конфигурации IdP вашей команды.
+CHANGE IN YOUR IDENTITY PROVIDER CONFIGURATION
+Something has changed in the IdP configuration for your team.
 
 Team ID:
-${teamid}
+${team_id}
 
 User ID:
-${userid}
+${user_id}
 
 
 --------------------------------------------------------------------------------
 
-Подробности:
+Details:
 
-Idp ID:
-${idpid}
+IdP ID:
+${idp_id}
 
-IdP Endpoint:
-${idpendpoint}
+New IdP Issuer:
+${new_idp_issuer}
 
-Новый IdP Endpoint:
+New IdP Endpoint:
 ${new_idp_endpoint}
 
-Старый IdP Issuer:
+Old IdP Issuer:
 ${old_idp_issuer}
 
-Старый IdP Endpoint:
+Old IdP Endpoint:
 ${old_idp_endpoint}
 
 
 --------------------------------------------------------------------------------
 
-${certificatesdetails}Если вы не инициировали это изменение, пожалуйста, обратитесь в поддержку Wire.
+${certificates_details}If you did not initiate this change, please reach out to the Wire support.
 [${support}]
 
-{> ru/footer-new}}
+Privacy Policy and Terms of Use [${legal}]· Report misuse [${misuse}]
+${copyright}. All rights reserved.

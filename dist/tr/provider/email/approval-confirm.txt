@@ -4,13 +4,12 @@ ${brand_label_url} [${brand_url}]
 
 Merhaba,
 
-Size şimdi onaylanmış bir ${brand_service} olduğunuzu bildirmekten memnuniyet
-duyarız.
+We are happy to inform you that you are now an approved ${brand_service}.
 
-Lütfen bu iletiyi yanıtlamayın.
+Please don’t reply to this message.
 
-Bu e-posta adresini kullanarak ${brand_service} hesabına kaydolmadıysanız,
-lütfen bize ulaşın [${support}].
+If you didn’t register for a ${brand_service} account using this e-mail address,
+please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

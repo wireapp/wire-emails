@@ -2,27 +2,27 @@
 
 ${brand_label_url} [${brand_url}]
 
-PEDIDO DE APROVAÇÃO
-Um novo ${brand_service} foi registrado e está aguardando aprovação. Por favor,
-reveja as informações fornecidas abaixo.
+APPROVAL REQUEST
+A new ${brand_service} has registered and is awaiting approval. Please review
+the information provided below.
 
-Nome: ${name}
+Name: ${name}
 
 E-mail: ${email}
 
-Site: ${url}
+Website: ${url}
 
-Descrição: ${description}
+Description: ${description}
 
-Se a solicitação parecer genuína, você pode aprovar o fornecedor clicando no
-botão abaixo. Depois de aprovado, o provedor poderá entrar e começar a registrar
-serviços que os usuários de ${brand} podem adicionar às suas conversas.
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that ${brand} users can add to their conversations.
 
-Se a solicitação parecer duvidosa, entre em contato com o provedor para obter
-esclarecimentos antes de continuar.
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
 
-Aprovar [${url}]Se você não conseguir selecionar o botão, copie e cole este link
-no seu navegador:
+Approve [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 
@@ -31,6 +31,5 @@ Por favor, não responda a esta mensagem.
 
 --------------------------------------------------------------------------------
 
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

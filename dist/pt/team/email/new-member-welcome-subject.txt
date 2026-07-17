@@ -1,1 +1,1 @@
-Você se juntou a uma equipe em ${brand}
+You joined a team on ${brand}

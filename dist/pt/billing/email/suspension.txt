@@ -3,23 +3,22 @@
 ${brand_label_url} [${brand_url}]
 
 SUA EQUIPE FOI SUSPENSA
-Sua conta para a equipe ${team_name} foi suspensa.
+Your account for the ${team_name} team has been suspended.
 
-Motivo: ${reason}.
+Reason: ${reason}.
 
-${caption} [${url}]Se você não conseguir selecionar o botão, copie e cole este
-link no seu navegador:
+${caption} [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 
-Se você não reativar sua conta, o histórico de conversas da equipe e de todos os
-seus membros será excluído.
+If you don’t reactivate your account, conversation history for the team and all
+its members will be deleted.
 
-Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

@@ -1,20 +1,20 @@
 ---
-subject: "Prośba o zatwierdzenie: ${brand_service}"
+subject: "Approval Request: ${brand_service}"
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Wniosek o zatwierdzenie</h1>
-      <p>Nowa ${brand_service} zarejestrowała się i oczekuje na zatwierdzenie. Proszę zapoznać się z poniższymi informacjami.</p>
-      <p><strong>Nazwa:</strong> ${name}</p>
+      <h1>Approval request</h1>
+      <p>A new ${brand_service} has registered and is awaiting approval. Please review the information provided below.</p>
+      <p><strong>Name:</strong> ${name}</p>
       <p><strong>E-mail:</strong> ${email}</p>
-      <p><strong>Strona internetowa:</strong> ${url}</p>
-      <p><strong>Opis:</strong> ${description}</p>
-      <p>Jeśli żądanie wydaje się autentyczne, możesz zatwierdzić dostawcę klikając na poniższy przycisk. Po zatwierdzeniu dostawca będzie mógł zalogować się i rozpocząć rejestrację usług, które użytkownicy ${brand} mogą dodać do swoich rozmów.</p>
-      <p>Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania wyjaśnień.</p>
+      <p><strong>Website:</strong> ${url}</p>
+      <p><strong>Description:</strong> ${description}</p>
+      <p>If the request seems genuine, you can approve the provider by clicking on the button below. Once approved, the provider will be able to sign in and start registering services that ${brand} users can add to their conversations.</p>
+      <p>If the request seems dubious, please contact the provider for clarifications before proceeding.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Zatwierdź</button></center>
+      <center><button href="${url}" class="radius">Approve</button></center>
       <spacer size="24"></spacer>
       {{> pl/link-button}}
       {{> pl/do-not-reply}}

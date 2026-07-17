@@ -2,27 +2,26 @@
 
 ${brand_label_url} [${brand_url}]
 
-RICHIESTA DI APPROVAZIONE
-Un nuovo ${brand_service} si è registrato ed è in attesa di approvazione. Sei
-pregato di rivedere le informazioni fornite sotto.
+APPROVAL REQUEST
+A new ${brand_service} has registered and is awaiting approval. Please review
+the information provided below.
 
-Nome: ${name}
+Name: ${name}
 
-Email: ${email}
+E-mail: ${email}
 
-Sito web: ${url}
+Website: ${url}
 
-Descrizione: ${description}
+Description: ${description}
 
-Se la richiesta sembra genuina, puoi approvare il provider cliccando sul
-pulsante sotto. Una volta approvato, il provider potrà accedere ed avviare i
-servizi di registrazione che gli utenti di ${brand} possono aggiungere alle
-proprie conversazioni.
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that ${brand} users can add to their conversations.
 
-Se la richiesta sembra dubbia, sei pregato di contattare il provider per
-chiarimenti prima di procedere.
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
 
-Approva [${url}]If you can’t select the button, copy and paste this link to your
+Approve [${url}]If you can’t select the button, copy and paste this link to your
 browser:
 
 ${url}

@@ -4,16 +4,15 @@ ${brand_label_url} [${brand_url}]
 
 Olá,
 
-Temos o prazer de informar que agora você é um ${brand_service} aprovado.
+We are happy to inform you that you are now an approved ${brand_service}.
 
 Por favor, não responda a esta mensagem.
 
-Se você não se cadastrou em uma conta ${brand_service} usando este endereço de
-e-mail, entre em contato conosco [${support}].
+If you didn’t register for a ${brand_service} account using this e-mail address,
+please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
-[${misuse}]
-${copyright}. TODOS OS DIREITOS RESERVADOS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

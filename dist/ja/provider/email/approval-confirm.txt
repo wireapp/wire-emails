@@ -4,15 +4,15 @@ ${brand_label_url} [${brand_url}]
 
 こんにちは
 
-我々は、あなたが ${brand_service} として承認されたことを喜んでお知らせいたします。
+We are happy to inform you that you are now an approved ${brand_service}.
 
-このメッセージには返信しないでください。
+Please don’t reply to this message.
 
-もしあなたがこのメールアドレスを使用して ${brand_service} アカウントに登録していない場合は、 こちら [${support}] 
-からお問い合わせください。
+If you didn’t register for a ${brand_service} account using this e-mail address,
+please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
 ${copyright}. ALL RIGHTS RESERVED.

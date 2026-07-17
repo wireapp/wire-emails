@@ -16,7 +16,7 @@ ${url}
 
 Report abusive invitation link [${support}]
 
-Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+If you have any questions, please contact us [${support}].
 
 What is Wire?
 Wire is the most secure collaboration platform. Work with your team and external
@@ -26,6 +26,5 @@ partners wherever you are through messages, video conferencing and file sharing
 
 --------------------------------------------------------------------------------
 
-Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
-[${misuse}]
-${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

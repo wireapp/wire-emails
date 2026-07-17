@@ -1,1 +1,1 @@
-Twoje konto ${brand_service}
+Your ${brand_service} Account

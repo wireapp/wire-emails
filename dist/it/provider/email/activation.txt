@@ -3,19 +3,18 @@
 ${brand_label_url} [${brand_url}]
 
 VERIFICA IL TUO INDIRIZZO E-MAIL
-Il tuo indirizzo email ${email} è stato usato per registrarsi come un
-${brand_service}.
+Your email address ${email} was used to register as a ${brand_service}.
 
-Per completare la registrazione, è necessario che tu verifichi il tuo indirizzo
-e-mail cliccando sul pulsante sotto.
+To complete the registration, it is necessary that you verify your e-mail
+address by clicking on the button below.
 
-Sei pregato di notare che dopo aver verificato correttamente la tua email, il
-tuo profilo di ${brand_service} è ancora soggetto ad approvazione dal nostro
-staff, il che si verifica di solito entro 24 ore. Sarai informato
-dell'approvazione tramite un'email separata.
+Please note that upon successful verification of your e-mail, your
+${brand_service} account is still subject to approval through our staff, which
+usually happens within 24 hours. You will be informed of the approval via a
+separate e-mail.
 
-Verifica [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+Verify [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 

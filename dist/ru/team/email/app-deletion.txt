@@ -2,17 +2,16 @@
 
 ${brand_label_url} [${brand_url}]
 
-ПРИЛОЖЕНИЕ УДАЛЕНО
-${actor} удалил приложение в вашей команде.
+APP DELETED
+${actor} has deleted an app in your team.
 
-Название приложения: ${app_name}
-Дата: ${date}
+App name: ${app_name}
+Date: ${date}
 
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Открыть управление командой [${url}]Если у вас возникли вопросы или нужна
-помощь, пожалуйста свяжитесь с нами [${support}].
+Open Team Management [${url}]If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

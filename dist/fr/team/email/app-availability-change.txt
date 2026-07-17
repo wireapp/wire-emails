@@ -19,6 +19,5 @@ Open Team Management [${url}]Si vous avez des questions, veuillez nous contacter
 
 --------------------------------------------------------------------------------
 
-Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
-abus [${misuse}]
-${copyright}. TOUS DROITS RÉSERVÉS.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

@@ -18,8 +18,7 @@ Permissions:
 
 
 
-Open Team Management [${url}]Herhangi bir sorunuz veya yardıma ihtiyacınız
-varsa, lütfen bize ulaşın [${support}].
+Open Team Management [${url}]If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

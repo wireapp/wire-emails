@@ -2,36 +2,34 @@
 
 ${brand_label_url} [${brand_url}]
 
-YÊU CẦU CHẤP THUẬN
-Một yêu cầu chấp thuận mới cho ${brand_service} đã được đăng ký và đang đợi chấp
-thuận. Xin vui lòng xem trước thông tin được cung cấp phía bên dưới.
+APPROVAL REQUEST
+A new ${brand_service} has registered and is awaiting approval. Please review
+the information provided below.
 
-Tên: ${name}
+Name: ${name}
 
-Email: ${email}
+E-mail: ${email}
 
-Trang web: ${url}
+Website: ${url}
 
-Mô tả: ${description}
+Description: ${description}
 
-Nếu thông tin yêu cầu là chính chủ, bạn có thể chấp thuận nhà cung cấp bằng cách
-nhấp vào nút phía bên dưới. Một khi đã được chấp thuận, nhà cung cấp sẽ có thể
-đăng nhập và bắt đầu đăng ký các dịch vụ mà người dùng ${brand} có thể thêm vào
-các cuộc hội thoại của họ.
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that ${brand} users can add to their conversations.
 
-Nếu thông tin yêu cầu có vẻ như đáng ngờ, xin vui lòng liên hệ nhà cung cấp dịch
-vụ để làm rõ thông tin trước khi tiến hành.
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
 
-Chấp thuận [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+Approve [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 
-Vui lòng không trả lời tin nhắn này.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------
 
-Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
-[${misuse}]
-${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

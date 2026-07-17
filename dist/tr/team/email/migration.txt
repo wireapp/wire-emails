@@ -16,8 +16,7 @@ ${url}
 
 Report abusive invitation link [${support}]
 
-Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
-[${support}].
+If you have any questions, please contact us [${support}].
 
 What is Wire?
 Wire is the most secure collaboration platform. Work with your team and external

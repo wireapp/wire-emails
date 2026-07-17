@@ -2,31 +2,34 @@
 
 ${brand_label_url} [${brand_url}]
 
-リクエスト承認
-新しい ${brand_service} が登録され、承認を待っています。 以下の情報をご確認下さい。
+APPROVAL REQUEST
+A new ${brand_service} has registered and is awaiting approval. Please review
+the information provided below.
 
-名前: ${name}
+Name: ${name}
 
 E-mail: ${email}
 
-ウェブサイト: ${url}
+Website: ${url}
 
-説明: ${description}
+Description: ${description}
 
-リクエストが正式なものと思われる場合は、以下のボタンをクリックして承認することができます。 承認されると、プロバイダはサインインおよび 、${brand}
-が彼らの会話にユーザーを追加できる登録サービスを開始をすることができます。
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that ${brand} users can add to their conversations.
 
-リクエストが疑わしい場合は、続行する前に明確化の為、プロバイダにお問い合わせください。
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
 
-承認 [${url}]If you can’t select the button, copy and paste this link to your
+Approve [${url}]If you can’t select the button, copy and paste this link to your
 browser:
 
 ${url}
 
-このメッセージには返信しないでください。
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------
 
-プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
 ${copyright}. ALL RIGHTS RESERVED.

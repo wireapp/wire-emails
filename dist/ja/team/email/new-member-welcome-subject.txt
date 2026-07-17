@@ -1,1 +1,1 @@
-あなたは、${brand} のチームに参加しました
+You joined a team on ${brand}

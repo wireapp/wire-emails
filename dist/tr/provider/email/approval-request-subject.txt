@@ -1,1 +1,1 @@
-Onay İsteği: ${brand_service}
+Approval Request: ${brand_service}

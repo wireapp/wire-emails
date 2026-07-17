@@ -2,18 +2,17 @@
 
 ${brand_label_url} [${brand_url}]
 
-ИЗМЕНЕНЫ СВЕДЕНИЯ О ПРИЛОЖЕНИИ
-${actor} изменил данные приложения, созданного вашей командой.
+DETAILS CHANGED FOR AN APP
+${actor} has changed the details of an app from your team.
 
-Новое название: ${new_app_name}
-Предыдущее название: ${previous_app_name}
-Дата: ${date}
+New name: ${new_app_name}
+Previous name: ${previous_app_name}
+Date: ${date}
 
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Открыть управление командой [${url}]Если у вас возникли вопросы или нужна
-помощь, пожалуйста свяжитесь с нами [${support}].
+Open Team Management [${url}]If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

@@ -2,32 +2,31 @@
 
 ${brand_label_url} [${brand_url}]
 
-ЗАПРОС НА ПОДТВЕРЖДЕНИЕ
-Был зарегистрирован новый ${brand_service}, который ожидает подтверждения.
-Пожалуйста, проверьте информацию, представленную ниже.
+APPROVAL REQUEST
+A new ${brand_service} has registered and is awaiting approval. Please review
+the information provided below.
 
-Имя: ${name}
+Name: ${name}
 
-Email: ${email}
+E-mail: ${email}
 
-Веб-сайт: ${url}
+Website: ${url}
 
-Описание: ${description}
+Description: ${description}
 
-Если информация указана верно, вы можете подтвердить провайдера, нажав на кнопку
-ниже. Когда заявка будет подтверждена, провайдер будет доступен для входа и
-регистрации сервисов, которые пользователи ${brand} смогут использовать в своих
-разговорах.
+If the request seems genuine, you can approve the provider by clicking on the
+button below. Once approved, the provider will be able to sign in and start
+registering services that ${brand} users can add to their conversations.
 
-Если запрос кажется сомнительным, пожалуйста, свяжитесь с провайдером для
-уточнений перед тем, как продолжить.
+If the request seems dubious, please contact the provider for clarifications
+before proceeding.
 
-Подтвердить [${url}]Если вам не удается нажать на кнопку, скопируйте и вставьте
-эту ссылку в свой браузер:
+Approve [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 
-Пожалуйста, не отвечайте на это сообщение.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------

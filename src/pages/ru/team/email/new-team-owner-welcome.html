@@ -1,19 +1,19 @@
 ---
-subject: 'Вы присоединились к команде в ${brand}'
+subject: 'You joined a team on ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h1>Поздравляем <strong>${name}</strong>.</h1>
+      <h1>Congratulations <strong>${name}</strong>.</h1>
       <p>
-        Мы перенесли ваш персональный аккаунт <strong>${email)</strong> в аккаунт команды, включая все ваши
-        беседы и историю. Теперь вы владелец команды (<strong>${team_name}</strong>).
+        We transferred your personal account <strong>${email}</strong> into a team account, including all your
+        conversations and history. You are now the owner of the team (<strong>${team_name}</strong>).
       </p>
       <spacer size="24"></spacer>
-      <p>Приглашайте других людей в свою команду и настраивайте параметры на панели управления.</p>
+      <p>Invite other people to join your team and adjust settings in your team management dashboard.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">ОТКРЫТЬ УПРАВЛЕНИЕ КОМАНДОЙ</button></center>
+      <center><button href="${url}" class="radius">OPEN TEAM MANAGEMENT</button></center>
       <spacer size="24"></spacer>
       {{> ru/link-button}} {{> ru/questions}} {{> ru/team-id}}
     </columns>

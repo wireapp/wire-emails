@@ -2,21 +2,20 @@
 
 ${brand_label_url} [${brand_url}]
 
-TAKIMINIZ ASKIYA ALINDI
-${team_name} takımında bulunan hesabınız askıya alınmıştır.
+YOUR TEAM HAS BEEN SUSPENDED
+Your account for the ${team_name} team has been suspended.
 
-Sebep: ${reason}.
+Reason: ${reason}.
 
 ${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}
 
-Eğer hesabınız yeniden aktifleştirmezseniz, takım sohbet geçmişiniz ve tüm
-üyeleriniz silinecektir.
+If you don’t reactivate your account, conversation history for the team and all
+its members will be deleted.
 
-Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, lütfen bize ulaşın
-[${support}].
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------

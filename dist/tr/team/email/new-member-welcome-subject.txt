@@ -1,1 +1,1 @@
-${brand} üzerindeki bir takıma katıldınız
+You joined a team on ${brand}

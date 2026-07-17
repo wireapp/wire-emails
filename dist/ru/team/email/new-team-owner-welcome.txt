@@ -2,22 +2,22 @@
 
 ${brand_label_url} [${brand_url}]
 
-ПОЗДРАВЛЯЕМ ${name}.
-Мы перенесли ваш персональный аккаунт ${email) в аккаунт команды, включая все
-ваши беседы и историю. Теперь вы владелец команды (${team_name}).
+CONGRATULATIONS ${name}.
+We transferred your personal account ${email} into a team account, including all
+your conversations and history. You are now the owner of the team (${team_name}
+).
 
-Приглашайте других людей в свою команду и настраивайте параметры на панели
-управления.
+Invite other people to join your team and adjust settings in your team
+management dashboard.
 
-ОТКРЫТЬ УПРАВЛЕНИЕ КОМАНДОЙ [${url}]Если вам не удается нажать на кнопку,
-скопируйте и вставьте эту ссылку в свой браузер:
+OPEN TEAM MANAGEMENT [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 
-Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
-[${support}].
+If you have any questions, please contact us [${support}].
 
-ID команды: ${team_id}
+Team ID: ${team_id}
 
 
 --------------------------------------------------------------------------------

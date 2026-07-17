@@ -2,28 +2,27 @@
 
 ${brand_label_url} [${brand_url}]
 
-ПОДТВЕРДИТЕ ВАШ EMAIL
-Ваш email адрес ${email} был использован для регистрации в качестве
-${brand_service}.
+VERIFY YOUR EMAIL
+Your email address ${email} was used to register as a ${brand_service}.
 
-Чтобы завершить регистрацию, необходимо подтвердить ваш email адрес, нажав на
-кнопку ниже.
+To complete the registration, it is necessary that you verify your e-mail
+address by clicking on the button below.
 
-Пожалуйста, учтите, что после удачного подтверждения вашего email, ваша учетная
-запись ${brand_service} все еще нуждается в подтверждении со стороны нашей
-команды, которое обычно происходит в течение 24 часов. Вы будете
-проинформированы о подтверждении отдельным письмом.
+Please note that upon successful verification of your e-mail, your
+${brand_service} account is still subject to approval through our staff, which
+usually happens within 24 hours. You will be informed of the approval via a
+separate e-mail.
 
-Подтвердить [${url}]Если вам не удается нажать на кнопку, скопируйте и вставьте
-эту ссылку в свой браузер:
+Verify [${url}]If you can’t select the button, copy and paste this link to your
+browser:
 
 ${url}
 
-Если вы не регистрировали учетную запись ${brand} Service Provider, используя
-этот email адрес, проигнорируйте это сообщение. Если вы хотите сообщить о
-злоупотреблении вашим email адресом, пожалуйста, свяжитесь с нами [${support}]
+If you didn’t register for a ${brand} service provider account using this e-mail
+address, you can safely ignore this message. If you want to report abuse of your
+e-mail address, please contact us. [${support}]
 
-Пожалуйста, не отвечайте на это сообщение.
+Please don’t reply to this message.
 
 
 --------------------------------------------------------------------------------

@@ -2,22 +2,23 @@
 
 ${brand_label_url} [${brand_url}]
 
-あなたのチームアカウントは停止されました。
-あなたのアカウント、${team_name} チームは停止されました。
+YOUR TEAM HAS BEEN SUSPENDED
+Your account for the ${team_name} team has been suspended.
 
-理由: ${reason}.
+Reason: ${reason}.
 
 ${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}
 
-もし再アクティベートしない場合は、チームの会話履歴とすべてのメンバーが削除されます。
+If you don’t reactivate your account, conversation history for the team and all
+its members will be deleted.
 
-ご不明な点がございましたら、 こちら [${support}] から私たちにご連絡ください。
+If you have any questions, please contact us [${support}].
 
 
 --------------------------------------------------------------------------------
 
-プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
 ${copyright}. ALL RIGHTS RESERVED.

@@ -1,1 +1,1 @@
-Вы присоединились к команде в ${brand}
+You joined a team on ${brand}
