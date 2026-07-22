@@ -2,16 +2,17 @@
 
 ${brand_label_url} [${brand_url}]
 
-UPDATED APP AUTHENTICATION TOKEN
-${actor} has updated the authentication token of an app from your team.
+ОБНОВЛЕН ТОКЕН АУТЕНТИФИКАЦИИ ПРИЛОЖЕНИЯ
+${actor} обновил токен аутентификации приложения вашей команды.
 
-App name: ${app_name}
-Date: ${date}
+Название приложения: ${app_name}
+Дата: ${date}
 
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]If you have any questions, please contact us [${support}].
+Открыть управление командой [${url}]Если у вас возникли вопросы или нужна
+помощь, пожалуйста свяжитесь с нами [${support}].
 
 
 --------------------------------------------------------------------------------

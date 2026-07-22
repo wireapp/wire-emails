@@ -16,7 +16,7 @@ ${url}
 
 Report abusive invitation link [${support}]
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 What is Wire?
 Wire is the most secure collaboration platform. Work with your team and external
@@ -26,5 +26,6 @@ partners wherever you are through messages, video conferencing and file sharing
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

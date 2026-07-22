@@ -4,15 +4,17 @@ ${brand_label_url} [${brand_url}]
 
 Witaj,
 
-We are happy to inform you that you are now an approved ${brand_service}.
+Z przyjemnością poinformujemy Cię, że jesteś teraz zatwierdzonym
+${brand_service}.
 
-Please don’t reply to this message.
+Proszę nie odpowiadać na tę wiadomość.
 
-If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [${support}].
+Jeśli nie zarejestrowałeś się na konto ${brand_service} używając tego adresu
+e-mail, prosimy skontaktuj się z nami [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

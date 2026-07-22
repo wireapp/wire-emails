@@ -2,20 +2,21 @@
 
 ${brand_label_url} [${brand_url}]
 
-YOUR TEAM HAS BEEN SUSPENDED
-Your account for the ${team_name} team has been suspended.
+ОБСЛУЖИВАНИЕ ВАШЕЙ КОМАНДЫ БЫЛО ПРИОСТАНОВЛЕНО
+Обслуживание вашей учетной записи в команде ${team_name} было приостановлено.
 
-Reason: ${reason}.
+Причина: ${reason}.
 
-${caption} [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+${caption} [${url}]Если вам не удается нажать на кнопку, скопируйте и вставьте
+эту ссылку в свой браузер:
 
 ${url}
 
-If you don’t reactivate your account, conversation history for the team and all
-its members will be deleted.
+Если вы повторно не активируете свою учетную запись, история разговоров команды
+и всех ее участников будет удалена.
 
-If you have any questions, please contact us [${support}].
+Если у вас возникли вопросы или нужна помощь, пожалуйста свяжитесь с нами
+[${support}].
 
 
 --------------------------------------------------------------------------------

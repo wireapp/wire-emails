@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 SINU TIIMI KONTO ON KÜLMUTATUD
-Your account for the ${team_name} team has been suspended.
+Tiimi konto nimega ${team_name} on nüüd külmutatud.
 
 Põhjus: ${reason}.
 

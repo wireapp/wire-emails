@@ -1,1 +1,1 @@
-Approval Request: ${brand_service}
+Prośba o zatwierdzenie: ${brand_service}

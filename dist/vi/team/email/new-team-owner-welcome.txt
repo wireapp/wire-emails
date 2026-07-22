@@ -15,12 +15,13 @@ link to your browser:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
-Team ID: ${team_id}
+ID Nhóm: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

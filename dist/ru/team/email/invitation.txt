@@ -2,20 +2,20 @@
 
 ${brand_label_url} [${brand_url}]
 
-TEAM INVITATION
-${inviter} has invited you to join a team on Wire.
+ПРИГЛАШЕНИЕ В КОМАНДУ
+${inviter} пригласил вас присоединиться к команде в Wire.
 
-Join Team [${url}]Or open this link in your browser:
+Присоединиться к команде [${url}]Или откройте эту ссылку в своем браузере:
 ${url} [${url}]
 
-Report abusive invitation link [${support}]
+Сообщить об оскорбительном приглашении [${support}]
 
-What is Wire?Wire is the most secure collaboration platform. Work with your team
-and external partners wherever you are through messages, video conferencing and
-file sharing – always secured with end-to-end-encryption.
-Learn more [https://wire.com/].
+Что такое Wire?Wire является самой защищенной платформой для совместной работы.
+Работайте со своей командой и внешними партнерами, где бы вы ни находились
+посредством сообщений, видеоконференций и обмена файлами - всегда защищенными
+сквозным шифрованием.
+Узнать больше [https://wire.com/].
 
-Any questions? Contact us [${support}]
+Остались вопросы? Свяжитесь с нами [${support}]
 
-Privacy Policy and Terms of Use [${legal}]· Report misuse [${misuse}]
-${copyright}. All rights reserved.
+{> ru/footer-new}}

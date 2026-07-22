@@ -2,8 +2,9 @@
 
 ${brand_label_url} [${brand_url}]
 
-WELCOME TO ${team_name}.
-You have just joined a team called ${team_name} on ${brand} with ${email}.
+CHÀO MỪNG ĐÃ ĐẾN VỚI ${team_name}.
+Bạn đã vừa tham gia một nhóm được gọi là ${team_name} trên ${brand} bằng 
+${email}.
 
 Enjoy seamless, secure teamwork with ${brand}!
 
@@ -12,12 +13,13 @@ to your browser:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
-Team ID: ${team_id}
+ID Nhóm: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

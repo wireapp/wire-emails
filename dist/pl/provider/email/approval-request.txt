@@ -2,34 +2,36 @@
 
 ${brand_label_url} [${brand_url}]
 
-APPROVAL REQUEST
-A new ${brand_service} has registered and is awaiting approval. Please review
-the information provided below.
+WNIOSEK O ZATWIERDZENIE
+Nowa ${brand_service} zarejestrowała się i oczekuje na zatwierdzenie. Proszę
+zapoznać się z poniższymi informacjami.
 
-Name: ${name}
+Nazwa: ${name}
 
 E-mail: ${email}
 
-Website: ${url}
+Strona internetowa: ${url}
 
-Description: ${description}
+Opis: ${description}
 
-If the request seems genuine, you can approve the provider by clicking on the
-button below. Once approved, the provider will be able to sign in and start
-registering services that ${brand} users can add to their conversations.
+Jeśli żądanie wydaje się autentyczne, możesz zatwierdzić dostawcę klikając na
+poniższy przycisk. Po zatwierdzeniu dostawca będzie mógł zalogować się i
+rozpocząć rejestrację usług, które użytkownicy ${brand} mogą dodać do swoich
+rozmów.
 
-If the request seems dubious, please contact the provider for clarifications
-before proceeding.
+Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania
+wyjaśnień.
 
-Approve [${url}]If you can’t select the button, copy and paste this link to your
-browser:
+Zatwierdź [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 
-Please don’t reply to this message.
+Proszę nie odpowiadać na tę wiadomość.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

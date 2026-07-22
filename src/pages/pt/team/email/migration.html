@@ -1,28 +1,28 @@
 ---
-subject: 'You have been invited to join a team on ${brand}'
+assunto: 'Você foi convidado para participar de uma equipe em ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
       <h1>Team invitation</h1>
-      <p><strong>${inviter}</strong> has invited you to join a team on ${brand}.</p>
-      <p>By joining Wire migrates your personal account into a team account.</p>
-      <p>Select the button below to proceed with the invitation.</p>
+      <p><strong>${inviter}</strong> convidou você para se juntar a uma equipe em ${brand}.</p>
+      <p>Ao se juntar ao Wire, sua conta pessoal migra para uma conta de equipe.</p>
+      <p>Clique no botão abaixo para aceitar o convite.</p>
       <spacer size="24"></spacer>
-      <center><button href="${url}" class="radius">Join team</button></center>
+      <center><button href="${url}" class="radius">Juntar-se à equipe</button></center>
       <spacer size="24"></spacer>
-      {{> pt/link-button}} 
-      {{> pt/report-link}} 
-      {{> pt/questions}}
+      {{> pt_BR/link-button}} 
+      {{> pt_BR/report-link}} 
+      {{> pt_BR/questions}}
       <p class="small">
-        <strong>What is Wire?</strong>
+        <strong>O que é WIRE?</strong>
         <br />
-        Wire is the most secure collaboration platform. Work with your team and external partners wherever you are
-        through messages, video conferencing and file sharing – always secured with end-to-end-encryption.
-        <a href="https://wire.com/">Learn more</a>.
+        Wire é a plataforma de colaboração mais segura. Trabalhe com sua equipe e parceiros externos onde quer que esteja
+        por meio de mensagens, videoconferência e compartilhamento de arquivos - sempre protegido com criptografia de ponta a ponta.
+        <a href="https://wire.com/">Saiba mais</a>.
       </p>
     </columns>
   </row>
 </container>
-{{> pt/footer}}
+{{> pt_BR/footer}}

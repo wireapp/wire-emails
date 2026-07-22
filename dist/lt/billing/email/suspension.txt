@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-YOUR TEAM HAS BEEN SUSPENDED
+JŪSŲ KOMANDA YRA LAIKINAI PRISTABDYTA
 Your account for the ${team_name} team has been suspended.
 
 Reason: ${reason}.
@@ -15,10 +15,11 @@ ${url}
 If you don’t reactivate your account, conversation history for the team and all
 its members will be deleted.
 
-If you have any questions, please contact us [${support}].
+Jei turite klausimų, susisiekite su mumis [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Privatumo politika ir naudojimosi sąlygos [${legal}] · Pranešti apie
+piktnaudžiavimą [${misuse}]
+${copyright}. VISOS TEISĖS SAUGOMOS.

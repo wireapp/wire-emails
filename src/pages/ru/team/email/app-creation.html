@@ -1,20 +1,20 @@
 ---
-subject: 'A new app was created in your team'
+тема: 'В вашей команде создано новое приложение'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h4>New app created</h4>
-      <p>${actor} has created an app in your team.</p>
-      <p><strong>App name:</strong> ${app_name}<br>
-         <strong>Date:</strong> ${date}</p>
+      <h4>Создано новое приложение</h4>
+      <p>${actor} создал приложение в вашей команде.</p>
+      <p><strong>Название приложения:</strong> ${app_name}<br>
+         <strong>Дата:</strong> ${date}</p>
       <p><strong>Team name:</strong> ${team_name}<br>
          <strong>Team ID:</strong> ${team_id}</p>
-      <p><strong>Permissions:</strong><br>
+      <p><strong>Права доступа:</strong><br>
          <ul>${permissions}</ul></p>
       <div style="height: 16px;"></div>
-      <div style="text-align: center;"><button href="${url}" class="radius">Open Team Management</button></div>
+      <div style="text-align: center;"><button href="${url}" class="radius">Открыть управление командой</button></div>
       <div style="height: 8px;"></div>
       {{> ru/questions}}
     </columns>

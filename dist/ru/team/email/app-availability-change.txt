@@ -2,19 +2,20 @@
 
 ${brand_label_url} [${brand_url}]
 
-AVAILABILITY CHANGE FOR AN APP
-${actor} has changed the availability of an app from your team.
+ИЗМЕНЕНИЕ ДОСТУПНОСТИ ПРИЛОЖЕНИЯ
+${actor} изменил доступность приложения, созданного вашей командой.
 
-App name: ${app_name}
-Date: ${date}
+Название приложения: ${app_name}
+Дата: ${date}
 
-Previous availability: ${previous_availability}
-New availability: ${new_availability}
+Предыдущая доступность: ${previous_availability}
+Новая доступность: ${new_availability}
 
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]If you have any questions, please contact us [${support}].
+Открыть управление командой [${url}]Если у вас возникли вопросы или нужна
+помощь, пожалуйста свяжитесь с нами [${support}].
 
 
 --------------------------------------------------------------------------------

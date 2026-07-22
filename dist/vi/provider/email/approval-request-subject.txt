@@ -1,1 +1,1 @@
-Approval Request: ${brand_service}
+Yêu cầu Chấp thuận: ${brand_service}

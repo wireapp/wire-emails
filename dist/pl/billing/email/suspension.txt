@@ -2,23 +2,24 @@
 
 ${brand_label_url} [${brand_url}]
 
-YOUR TEAM HAS BEEN SUSPENDED
-Your account for the ${team_name} team has been suspended.
+TWÓJ ZESPÓŁ ZOSTAŁ ZAWIESZONY
+Twoje konto dla zespołu ${team_name} zostało zawieszone.
 
-Reason: ${reason}.
+Powód: ${reason}.
 
 ${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}
 
-If you don’t reactivate your account, conversation history for the team and all
-its members will be deleted.
+Jeśli nie reaktywujesz swojego konta, historia rozmów dla zespołu i wszyscy jego
+członkowie zostaną usunięci.
 
-If you have any questions, please contact us [${support}].
+Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

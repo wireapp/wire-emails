@@ -1,1 +1,1 @@
-Your ${brand_service} Account
+Ваша учетная запись ${brand_service}

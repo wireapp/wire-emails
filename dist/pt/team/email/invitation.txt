@@ -8,7 +8,7 @@ ${inviter} has invited you to join a team on Wire.
 Join Team [${url}]Or open this link in your browser:
 ${url} [${url}]
 
-Report abusive invitation link [${support}]
+Comunicar link de convite abusivo [${support}]
 
 What is Wire?Wire is the most secure collaboration platform. Work with your team
 and external partners wherever you are through messages, video conferencing and

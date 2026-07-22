@@ -2,23 +2,24 @@
 
 ${brand_label_url} [${brand_url}]
 
-YOUR TEAM HAS BEEN SUSPENDED
-Your account for the ${team_name} team has been suspended.
+NHÓM CỦA BẠN ĐÃ BỊ ĐÌNH CHỈ
+Tài khoản của bạn thuộc nhóm ${team_name} đã bị đình chỉ.
 
-Reason: ${reason}.
+Nguyên do: ${reason}.
 
 ${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}
 
-If you don’t reactivate your account, conversation history for the team and all
-its members will be deleted.
+Nếu bạn không kích hoạt lại tại khoản của mình, lịch sử các cuộc hội thoại của
+nhóm và tất cả thành viên trong nhóm sẽ bị xoá.
 
-If you have any questions, please contact us [${support}].
+Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

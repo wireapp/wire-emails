@@ -2,8 +2,9 @@
 
 ${brand_label_url} [${brand_url}]
 
-WELCOME TO ${team_name}.
-You have just joined a team called ${team_name} on ${brand} with ${email}.
+WITAMY W ${team_name}.
+Właśnie dołączyłeś do zespołu o nazwie ${team_name} na aplikacji ${brand} z 
+${email}.
 
 Enjoy seamless, secure teamwork with ${brand}!
 
@@ -12,12 +13,13 @@ to your browser:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Jeśli masz jakieś pytania, prosimy skontaktuj się z nami [${support}].
 
-Team ID: ${team_id}
+ID zespołu: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

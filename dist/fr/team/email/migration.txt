@@ -3,7 +3,7 @@
 ${brand_label_url} [${brand_url}]
 
 TEAM INVITATION
-${inviter} has invited you to join a team on ${brand}.
+${inviter} vous a invité à rejoindre une équipe sur ${brand}.
 
 By joining Wire migrates your personal account into a team account.
 
@@ -27,5 +27,6 @@ chiffrement de bout en bout. En savoir plus [https://wire.com/].
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

@@ -1,30 +1,16 @@
-[${brand_logo}]
+PANINI ERROR
+src/pages/pt/team/email/migration.html
 
-${brand_label_url} [${brand_url}]
+The partial pt_BR/link-button could not be found
 
-TEAM INVITATION
-${inviter} has invited you to join a team on ${brand}.
-
-By joining Wire migrates your personal account into a team account.
-
-Select the button below to proceed with the invitation.
-
-Join team [${url}]If you can’t select the button, copy and paste this link to
-your browser:
-
-${url}
-
-Report abusive invitation link [${support}]
-
-If you have any questions, please contact us [${support}].
-
-What is Wire?
-Wire is the most secure collaboration platform. Work with your team and external
-partners wherever you are through messages, video conferencing and file sharing
-– always secured with end-to-end-encryption. Learn more [https://wire.com/].
-
-
---------------------------------------------------------------------------------
-
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+STACK TRACE:
+Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
+Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
+Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
+main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
+HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
+/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
+Array.map (<anonymous>)
+Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)

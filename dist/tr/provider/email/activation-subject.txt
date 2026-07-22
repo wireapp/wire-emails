@@ -1,1 +1,1 @@
-Your ${brand_service} Account
+${brand_service} Hesabınız

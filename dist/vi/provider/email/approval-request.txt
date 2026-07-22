@@ -2,34 +2,36 @@
 
 ${brand_label_url} [${brand_url}]
 
-APPROVAL REQUEST
-A new ${brand_service} has registered and is awaiting approval. Please review
-the information provided below.
+YÊU CẦU CHẤP THUẬN
+Một yêu cầu chấp thuận mới cho ${brand_service} đã được đăng ký và đang đợi chấp
+thuận. Xin vui lòng xem trước thông tin được cung cấp phía bên dưới.
 
-Name: ${name}
+Tên: ${name}
 
-E-mail: ${email}
+Email: ${email}
 
-Website: ${url}
+Trang web: ${url}
 
-Description: ${description}
+Mô tả: ${description}
 
-If the request seems genuine, you can approve the provider by clicking on the
-button below. Once approved, the provider will be able to sign in and start
-registering services that ${brand} users can add to their conversations.
+Nếu thông tin yêu cầu là chính chủ, bạn có thể chấp thuận nhà cung cấp bằng cách
+nhấp vào nút phía bên dưới. Một khi đã được chấp thuận, nhà cung cấp sẽ có thể
+đăng nhập và bắt đầu đăng ký các dịch vụ mà người dùng ${brand} có thể thêm vào
+các cuộc hội thoại của họ.
 
-If the request seems dubious, please contact the provider for clarifications
-before proceeding.
+Nếu thông tin yêu cầu có vẻ như đáng ngờ, xin vui lòng liên hệ nhà cung cấp dịch
+vụ để làm rõ thông tin trước khi tiến hành.
 
-Approve [${url}]If you can’t select the button, copy and paste this link to your
-browser:
+Chấp thuận [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 
-Please don’t reply to this message.
+Vui lòng không trả lời tin nhắn này.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

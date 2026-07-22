@@ -1,1 +1,1 @@
-You joined a team on ${brand}
+Bạn đã tham gia nhóm trên ${brand}

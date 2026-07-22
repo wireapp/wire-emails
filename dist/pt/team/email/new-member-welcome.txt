@@ -2,22 +2,24 @@
 
 ${brand_label_url} [${brand_url}]
 
-WELCOME TO ${team_name}.
-You have just joined a team called ${team_name} on ${brand} with ${email}.
+BEM-VINDO A ${team_name}.
+Você acabou de entrar em uma equipe chamada ${team_name} em ${brand} com 
+${email}.
 
-Enjoy seamless, secure teamwork with ${brand}!
+Desfrute de trabalho em equipe seguro com ${brand}!
 
-Open ${brand} [${url}]If you can’t select the button, copy and paste this link
-to your browser:
+Abrir ${brand} [${url}]Se você não conseguir selecionar o botão, copie e cole
+este link no seu navegador:
 
 ${url}
 
-If you have any questions, please contact us [${support}].
+Se você tiver alguma dúvida, por favor, entre em contato conosco [${support}].
 
 ID da Equipe: ${team_id}
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Política de privacidade e termos de uso [${legal}] · Reportar uso indevido
+[${misuse}]
+${copyright}. TODOS OS DIREITOS RESERVADOS.

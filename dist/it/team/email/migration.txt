@@ -9,8 +9,8 @@ By joining Wire migrates your personal account into a team account.
 
 Select the button below to proceed with the invitation.
 
-Join team [${url}]If you can’t select the button, copy and paste this link to
-your browser:
+Unisciti al team [${url}]If you can’t select the button, copy and paste this
+link to your browser:
 
 ${url}
 
@@ -18,10 +18,11 @@ Report abusive invitation link [${support}]
 
 Se hai domande, per favore contattaci [${support}].
 
-What is Wire?
-Wire is the most secure collaboration platform. Work with your team and external
-partners wherever you are through messages, video conferencing and file sharing
-– always secured with end-to-end-encryption. Learn more [https://wire.com/].
+Cos'è Wire?
+Wire è la più sicura piattaforma di collaborazione. Lavora con il tuo time e i
+partner esterni ovunque tu sia tramite messaggi, videoconferenze e condivisione
+di file; sempre protetti con crittografia end-to-end. Scopri di più
+[https://wire.com/].
 
 
 --------------------------------------------------------------------------------

@@ -12,10 +12,11 @@ Date: ${date}
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]If you have any questions, please contact us [${support}].
+Open Team Management [${url}]Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

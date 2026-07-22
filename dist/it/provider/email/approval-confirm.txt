@@ -4,12 +4,12 @@ ${brand_label_url} [${brand_url}]
 
 Ciao,
 
-We are happy to inform you that you are now an approved ${brand_service}.
+Siamo lieti di informarti che ora sei un ${brand_service} approvato.
 
 Si prega di non rispondere a questo messaggio.
 
-If you didn’t register for a ${brand_service} account using this e-mail address,
-please contact us [${support}].
+Se non ti sei registrato per un profilo di ${brand_service} usando questo
+indirizzo email, sei pregato di contattarci [${support}].
 
 
 --------------------------------------------------------------------------------

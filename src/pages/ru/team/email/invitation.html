@@ -1,22 +1,22 @@
 ---
-subject: 'You have been invited to join a team on ${brand}'
+subject: 'Вас пригласили присоединиться к команде  ${brand}'
 ---
 
 <container>
   <row>
     <columns small="12">
-      <h4>Team invitation</h4>
-      <p class="text-center">${inviter} has invited you to join a team on Wire.</p>
-      <center><button href="${url}" class="expanded radius">Join Team</button></center>
+      <h4>Приглашение в команду</h4>
+      <p class="text-center">${inviter} пригласил вас присоединиться к команде в Wire.</p>
+      <center><button href="${url}" class="expanded radius">Присоединиться к команде</button></center>
 
       <center>
         <p class="text-center x-small">
-          Or open this link in your browser:
+          Или откройте эту ссылку в своем браузере:
           <br />
           <a href=" ${url}">${url}</a>
         </p>
         <p class="text-center x-small">
-          <a href="${support}">Report abusive invitation link</a>
+          <a href="${support}">Сообщить об оскорбительном приглашении</a>
         </p>
       </center>
       <spacer size="8"></spacer>
@@ -25,4 +25,4 @@ subject: 'You have been invited to join a team on ${brand}'
   </row>
   {{> ru/any-questions}}
 </container>
-{{> ru/footer-new}}
+{> ru/footer-new}}

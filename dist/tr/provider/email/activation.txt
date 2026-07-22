@@ -2,27 +2,27 @@
 
 ${brand_label_url} [${brand_url}]
 
-VERIFY YOUR EMAIL
-Your email address ${email} was used to register as a ${brand_service}.
+E-POSTANIZI DOĞRULAYIN
+E-posta adresiniz ${email} ${brand_service}'de kayıt için kullanıldı.
 
-To complete the registration, it is necessary that you verify your e-mail
-address by clicking on the button below.
+E-posta ile kayıt olma işlemini tamamlamak için, aşağıdaki butona tıklayarak
+hesabınızı doğrulayın.
 
-Please note that upon successful verification of your e-mail, your
-${brand_service} account is still subject to approval through our staff, which
-usually happens within 24 hours. You will be informed of the approval via a
-separate e-mail.
+Lütfen e-postanızı başarılı bir şekilde doğruladıktan sonra, ${brand_service}
+hesabınızın, genellikle 24 saat içinde gerçekleşen personelimiz tarafından
+onaylanmaya devam ettiğini lütfen unutmayın. Onay ile ilgili ayrı bir e-posta
+ile bilgilendirileceksiniz.
 
-Verify [${url}]If you can’t select the button, copy and paste this link to your
+Doğrula [${url}]If you can’t select the button, copy and paste this link to your
 browser:
 
 ${url}
 
-If you didn’t register for a ${brand} service provider account using this e-mail
-address, you can safely ignore this message. If you want to report abuse of your
-e-mail address, please contact us. [${support}]
+Bu e-posta adresini kullanarak ${brand} bir servis sağlayıcı hesabına
+kaydolmadıysanız, bu iletiyi güvenle yok sayabilirsiniz. E-posta adresinizin
+kötüye kullanımını bildirmek isterseniz, lütfen bize ulaşın. [${support}]
 
-Please don’t reply to this message.
+Lütfen bu iletiyi yanıtlamayın.
 
 
 --------------------------------------------------------------------------------

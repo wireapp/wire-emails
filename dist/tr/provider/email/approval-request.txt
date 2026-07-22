@@ -2,31 +2,32 @@
 
 ${brand_label_url} [${brand_url}]
 
-APPROVAL REQUEST
-A new ${brand_service} has registered and is awaiting approval. Please review
-the information provided below.
+ONAY İSTEĞI
+Yeni bir ${brand_service} kayıtlı ve onay bekliyor. Lütfen aşağıda belirtilen
+bilgileri inceleyiniz.
 
-Name: ${name}
+İsim: ${name}
 
-E-mail: ${email}
+E-posta: ${email}
 
-Website: ${url}
+İnternet Sitesi: ${url}
 
-Description: ${description}
+Açıklama: ${description}
 
-If the request seems genuine, you can approve the provider by clicking on the
-button below. Once approved, the provider will be able to sign in and start
-registering services that ${brand} users can add to their conversations.
+Eğer istek gerçek gibi görünüyorsa sağlayıcı aşağıdaki butona tıklayarak
+onaylayabilirsiniz. Onaylandıktan sonra, sağlayıcı ${brand} kullanıcılarının
+konuşmalarına ekleyebileceği hizmetleri imzalayıp kayıt etmeye
+başlayabilecektir.
 
-If the request seems dubious, please contact the provider for clarifications
-before proceeding.
+İstek şüpheli görünüyorsa, devam etmeden önce lütfen açıklamalar için
+sağlayıcıyla temasa geçin.
 
-Approve [${url}]If you can’t select the button, copy and paste this link to your
+Onayla [${url}]If you can’t select the button, copy and paste this link to your
 browser:
 
 ${url}
 
-Please don’t reply to this message.
+Lütfen bu iletiyi yanıtlamayın.
 
 
 --------------------------------------------------------------------------------

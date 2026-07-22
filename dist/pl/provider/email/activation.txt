@@ -2,30 +2,31 @@
 
 ${brand_label_url} [${brand_url}]
 
-VERIFY YOUR EMAIL
-Your email address ${email} was used to register as a ${brand_service}.
+POTWIERDŹ SWÓJ ADRES EMAIL
+Twój adres e-mail ${email} został użyty do rejestracji jako ${brand_service}.
 
-To complete the registration, it is necessary that you verify your e-mail
-address by clicking on the button below.
+Aby zakończyć rejestrację, konieczne jest zweryfikowanie adresu e-mail, klikając
+na poniższy przycisk.
 
-Please note that upon successful verification of your e-mail, your
-${brand_service} account is still subject to approval through our staff, which
-usually happens within 24 hours. You will be informed of the approval via a
-separate e-mail.
+Pamiętaj, że po pomyślnej weryfikacji adresu e-mail, Twoje konto
+${brand_service} nadal podlega zatwierdzeniu przez nasz personel, co zwykle
+dzieje się w ciągu 24 godzin. Zostaniesz poinformowany o zatwierdzeniu za pomocą
+osobnego adresu e-mail.
 
-Verify [${url}]If you can’t select the button, copy and paste this link to your
-browser:
+Zweryfikuj [${url}]If you can’t select the button, copy and paste this link to
+your browser:
 
 ${url}
 
-If you didn’t register for a ${brand} service provider account using this e-mail
-address, you can safely ignore this message. If you want to report abuse of your
-e-mail address, please contact us. [${support}]
+Jeśli nie zarejestrowałeś się na konto dostawcy usług ${brand} używając tego
+adresu e-mail, możesz bezpiecznie zignorować tę wiadomość. Jeśli chcesz zgłosić
+nadużycie adresu e-mail, skontaktuj się z nami. [${support}]
 
-Please don’t reply to this message.
+Proszę nie odpowiadać na tę wiadomość.
 
 
 --------------------------------------------------------------------------------
 
-Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
-${copyright}. ALL RIGHTS RESERVED.
+Polityka prywatności i warunki użytkowania [${legal}] · Zgłoś niewłaściwe użycie
+[${misuse}]
+${copyright}. WSZELKIE PRAWA ZASTRZEŻONE.

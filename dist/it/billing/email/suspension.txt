@@ -2,18 +2,18 @@
 
 ${brand_label_url} [${brand_url}]
 
-YOUR TEAM HAS BEEN SUSPENDED
-Your account for the ${team_name} team has been suspended.
+IL TUO TEAM È STATO SOSPESO
+Il tuo profilo per il team ${team_name} è stato sospeso.
 
-Reason: ${reason}.
+Motivo: ${reason}.
 
 ${caption} [${url}]If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}
 
-If you don’t reactivate your account, conversation history for the team and all
-its members will be deleted.
+Se non riattivi il tuo profilo, la cronologia delle conversazioni per il team e
+tutti i suoi membri saranno eliminati.
 
 Se hai domande, per favore contattaci [${support}].
 
