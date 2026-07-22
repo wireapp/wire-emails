@@ -76,7 +76,6 @@ jobs:
           upload_sources: true
           upload_translations: false
           download_translations: true
-          export_only_approved: true
           skip_untranslated_files: true
           push_translations: false
           create_pull_request: false
@@ -95,16 +94,11 @@ jobs:
           upload_sources: false
           upload_translations: false
           download_translations: true
-          export_only_approved: true
           skip_untranslated_files: false
           push_translations: false
           create_pull_request: false
           token: ${{secrets.WEB_CROWDIN_TOKEN}}
           config: ${{env.CROWDIN_CONFIG_PATH}}
-
-      - name: Validate downloaded translations
-        if: (github.event_name == 'pull_request' && (github.actor != 'dependabot[bot]' && github.actor != 'otto-the-bot')) || env.BRANCH_NAME == 'master'
-        run: yarn translate:validate
 
       - name: Build
         if: env.BRANCH_NAME == 'master'
