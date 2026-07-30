@@ -11,8 +11,7 @@ Date: ${date}
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Permissions:
-${permissions}
+Permissions: ${permissions}
 
 Open Team Management [${url}]Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
