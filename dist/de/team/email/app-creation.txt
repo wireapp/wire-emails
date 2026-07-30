@@ -11,12 +11,8 @@ Datum: ${date}
 Team-Name: ${team_name}
 Team-ID: ${team_id}
 
-Berechtigungen:
-
-
- * 
-
-
+Permissions:
+${permissions}
 
 Team-Management öffnen [${url}]Wenn Sie Fragen haben, dann kontaktieren Sie uns [${support}] bitte.
 

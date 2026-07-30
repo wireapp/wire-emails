@@ -12,11 +12,7 @@ Team name: ${team_name}
 Team ID: ${team_id}
 
 Permissions:
-
-
- * 
-
-
+${permissions}
 
 Open Team Management [${url}]ඔබට කිසියම් ප්‍රශ්නයක් ඇත්නම් කරුණාකර අප අමතන්න [${support}].
 
