@@ -1,0 +1,27 @@
+---
+subject: 'Annullato: ${meeting_title}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4 class="text-left">${meeting_title}</h4>
+      <p>${host_name} (${host_email}) ha annullato il tuo invito a una riunione su Wire.</p>
+
+      <p>
+        <strong>Era programmata per</strong>
+        <br />
+        ${start_date}
+        <br />
+        ${start_time} – ${end_time} (${timezone_short})
+      </p>
+
+      <p>La riunione è stata rimossa dal tuo calendario.</p>
+
+      <spacer size="8"></spacer>
+      {{> it/what-is-wire}}
+    </columns>
+  </row>
+  {{> it/any-questions}}
+</container>
+{{> it/footer-new}}
