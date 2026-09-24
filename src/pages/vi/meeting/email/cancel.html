@@ -1,0 +1,27 @@
+---
+subject: 'Cancelled: ${meeting_title}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4 class="text-left">${meeting_title}</h4>
+      <p>${host_name} (${host_email}) cancelled a meeting on Wire.</p>
+
+      <p>
+        <strong>Was scheduled for</strong>
+        <br />
+        ${start_date}
+        <br />
+        ${start_time} – ${end_time} (${timezone_short})
+      </p>
+
+      <p>The meeting has been removed from your calendar.</p>
+
+      <spacer size="8"></spacer>
+      {{> vi/what-is-wire}}
+    </columns>
+  </row>
+  {{> vi/any-questions}}
+</container>
+{{> vi/footer-new}}

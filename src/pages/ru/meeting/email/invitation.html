@@ -1,0 +1,42 @@
+---
+subject: 'Invitation: ${meeting_title}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4 class="text-left">${meeting_title}</h4>
+      <p>${host_name} (${host_email}) has invited you to a meeting on Wire.</p>
+
+      <p>
+        <strong>When</strong>
+        <br />
+        ${start_date}
+        <br />
+        ${start_time} – ${end_time} (${timezone_short})
+        <br />
+        <a href="${ics_url}">Add to calendar</a>
+      </p>
+
+      <p>
+        <strong>How to join</strong>
+        <br />
+        At the time of the meeting, select Join meeting below. You can also paste this link into your browser:
+        <br />
+        <a href="${join_url}">${join_url}</a>
+      </p>
+
+      <center><button href="${join_url}" class="expanded radius">Join meeting</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          <a href="${support}">Report abusive invitation</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> ru/what-is-wire}}
+    </columns>
+  </row>
+  {{> ru/any-questions}}
+</container>
+{> ru/footer-new}}

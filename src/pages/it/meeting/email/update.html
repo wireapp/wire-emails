@@ -1,42 +1,42 @@
 ---
-subject: 'Aggiornato: ${meeting_title}'
+subject: 'Updated: ${meeting_title}'
 ---
 
 <container>
   <row>
     <columns small="12">
       <h4 class="text-left">${meeting_title}</h4>
-      <p>${host_name} (${host_email}) ha aggiornato una riunione su Wire.</p>
+      <p>${host_name} (${host_email}) updated a meeting on Wire.</p>
 
       <p>
-        <strong>Cosa è cambiato</strong>
+        <strong>What changed</strong>
         <br />
         ${change_summary}
       </p>
 
       <p>
-        <strong>Quando</strong>
+        <strong>When</strong>
         <br />
         ${start_date}
         <br />
         ${start_time} – ${end_time} (${timezone_short})
         <br />
-        <a href="${ics_url}">Aggiungi al calendario</a>
+        <a href="${ics_url}">Add to calendar</a>
       </p>
 
       <p>
-        <strong>Come partecipare</strong>
+        <strong>How to join</strong>
         <br />
-        Al momento della riunione, seleziona «Partecipa alla riunione» qui sotto. Puoi anche incollare questo link nel browser:
+        At the time of the meeting, select Join meeting below. You can also paste this link into your browser:
         <br />
         <a href="${join_url}">${join_url}</a>
       </p>
 
-      <center><button href="${join_url}" class="expanded radius">Partecipa alla riunione</button></center>
+      <center><button href="${join_url}" class="expanded radius">Join meeting</button></center>
 
       <center>
         <p class="text-center x-small">
-          <a href="${support}">Segnala un invito abusivo</a>
+          <a href="${support}">Report abusive invitation</a>
         </p>
       </center>
       <spacer size="8"></spacer>
