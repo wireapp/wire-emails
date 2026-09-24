@@ -221,6 +221,9 @@ th.expander {
 p.text-center {
   text-align: center;
 }
+h4.text-left {
+  text-align: left;
+}
 p.text-right {
   text-align: right;
 }

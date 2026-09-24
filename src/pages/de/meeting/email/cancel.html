@@ -1,0 +1,27 @@
+---
+subject: 'Abgesagt: ${meeting_title}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4 class="text-left">${meeting_title}</h4>
+      <p>${host_name} (${host_email}) hat Ihre Einladung zu einem Meeting auf Wire abgesagt.</p>
+
+      <p>
+        <strong>Ursprünglicher Termin</strong>
+        <br />
+        ${start_date}
+        <br />
+        ${start_time} – ${end_time} (${timezone_short})
+      </p>
+
+      <p>Das Meeting wurde aus Ihrem Kalender entfernt.</p>
+
+      <spacer size="8"></spacer>
+      {{> de/what-is-wire}}
+    </columns>
+  </row>
+  {{> de/any-questions}}
+</container>
+{{> de/footer-new}}
