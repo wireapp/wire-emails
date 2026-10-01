@@ -13,7 +13,7 @@ ${brand_service} account is still subject to approval through our staff, which
 usually happens within 24 hours. Apie patvirtinimą būsite informuoti atskiru el.
 laišku.
 
-Patvirtinti [${url}]If you can’t select the button, copy and paste this link to
+Patvirtinti [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

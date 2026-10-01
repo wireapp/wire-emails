@@ -7,7 +7,7 @@ ${brand} tarihinde ${email} ile ${team_name} adlı bir takıma katıldınız.
 
 Enjoy seamless, secure teamwork with ${brand}!
 
-Open ${brand} [${url}]If you can’t select the button, copy and paste this link
+Open ${brand} [${url}] If you can’t select the button, copy and paste this link
 to your browser:
 
 ${url}

@@ -22,7 +22,7 @@ başlayabilecektir.
 İstek şüpheli görünüyorsa, devam etmeden önce lütfen açıklamalar için
 sağlayıcıyla temasa geçin.
 
-Onayla [${url}]If you can’t select the button, copy and paste this link to your
+Onayla [${url}] If you can’t select the button, copy and paste this link to your
 browser:
 
 ${url}

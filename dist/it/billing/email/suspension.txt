@@ -7,7 +7,7 @@ Il tuo profilo per il team ${team_name} è stato sospeso.
 
 Motivo: ${reason}.
 
-${caption} [${url}]If you can’t select the button, copy and paste this link to
+${caption} [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

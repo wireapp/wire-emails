@@ -25,6 +25,11 @@ function getSubjectFromHtml(filePath) {
 
 function getTextFromHtml(filePath) {
   let text = fs.readFileSync(filePath, 'utf8');
+  // gulp-htmlmin (collapseWhitespace) removes whitespace-only text nodes between
+  // tags, and html-to-text ignores table structure, so text coming from
+  // adjacent table cells gets glued together (e.g. "What is Wire?Wire is ...").
+  // Restore a separator space after every cell close before conversion.
+  text = text.replace(/<\/(td|th)>/g, '$& ');
   text = htmlToText.fromString(text);
   text = text.replace('[https://wire.com/p/img/email/logo-email-black.png]\n\n', '');
   text = text.replace('wire.com [https://wire.com]\n\n', '');

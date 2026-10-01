@@ -13,7 +13,7 @@ ${brand_service} nadal podlega zatwierdzeniu przez nasz personel, co zwykle
 dzieje się w ciągu 24 godzin. Zostaniesz poinformowany o zatwierdzeniu za pomocą
 osobnego adresu e-mail.
 
-Zweryfikuj [${url}]If you can’t select the button, copy and paste this link to
+Zweryfikuj [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

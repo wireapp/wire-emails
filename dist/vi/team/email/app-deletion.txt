@@ -11,7 +11,7 @@ Date: ${date}
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
+Open Team Management [${url}] Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi [${support}].
 
 
 --------------------------------------------------------------------------------

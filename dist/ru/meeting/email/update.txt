@@ -18,9 +18,9 @@ At the time of the meeting, select Join meeting below. You can also paste this
 link into your browser:
 ${join_url} [${join_url}]
 
-Join meeting [${join_url}]Report abusive invitation [${support}]
+Join meeting [${join_url}] Report abusive invitation [${support}]
 
-Что такое Wire?Wire является самой защищенной платформой для совместной работы.
+Что такое Wire? Wire является самой защищенной платформой для совместной работы.
 Работайте со своей командой и внешними партнерами, где бы вы ни находились
 посредством сообщений, видеоконференций и обмена файлами - всегда защищенными
 сквозным шифрованием.

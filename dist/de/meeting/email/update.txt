@@ -18,9 +18,9 @@ Wenn das Meeting beginnt, wählen Sie Meeting beitreten. Sie können auch diesen
 Link in Ihrem Browser öffnen:
 ${join_url} [${join_url}]
 
-Meeting beitreten [${join_url}]Missbräuchliche Einladung melden [${support}]
+Meeting beitreten [${join_url}] Missbräuchliche Einladung melden [${support}]
 
-Was ist Wire?Wire ist die sicherste Plattform für Ihre Kommunikation. Wo auch
+Was ist Wire? Wire ist die sicherste Plattform für Ihre Kommunikation. Wo auch
 immer Sie sind, arbeiten Sie mit Ihrem Team und externen Partnern zusammen –
 mittels Nachrichten, Videokonferenzen und Dateifreigabe. Stets Ende-zu-Ende
 verschlüsselt.
