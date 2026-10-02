@@ -1,1 +1,0 @@
-Ti sei unito ad un team su ${brand}

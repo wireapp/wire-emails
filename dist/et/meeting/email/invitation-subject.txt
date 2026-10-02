@@ -1,1 +1,0 @@
-Invitation: ${meeting_title}
