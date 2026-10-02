@@ -14,7 +14,7 @@ tuo profilo di ${brand_service} è ancora soggetto ad approvazione dal nostro
 staff, il che si verifica di solito entro 24 ore. Sarai informato
 dell'approvazione tramite un'email separata.
 
-Verifica [${url}]If you can’t select the button, copy and paste this link to
+Verifica [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

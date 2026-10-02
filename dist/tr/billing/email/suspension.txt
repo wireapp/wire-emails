@@ -7,7 +7,7 @@ ${team_name} takımında bulunan hesabınız askıya alınmıştır.
 
 Sebep: ${reason}.
 
-${caption} [${url}]If you can’t select the button, copy and paste this link to
+${caption} [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

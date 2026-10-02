@@ -7,7 +7,7 @@ Ti sei appena unito ad un team chiamato ${team_name} su ${brand} con ${email}.
 
 Enjoy seamless, secure teamwork with ${brand}!
 
-Open ${brand} [${url}]If you can’t select the button, copy and paste this link
+Open ${brand} [${url}] If you can’t select the button, copy and paste this link
 to your browser:
 
 ${url}

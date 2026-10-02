@@ -22,7 +22,7 @@ ${brand} pourront ajouter à leurs conversations.
 Si la demande semble douteuse, veuillez contacter le fournisseur pour obtenir
 des éclaircissements avant de continuer.
 
-Approuver [${url}]If you can’t select the button, copy and paste this link to
+Approuver [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

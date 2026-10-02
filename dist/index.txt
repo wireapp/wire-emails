@@ -1,4 +1,4 @@
-WIRE EMAIL TEMPLATES PREVIEW
+ WIRE EMAIL TEMPLATES PREVIEW
 Click the links below to display the content of each message:
 
 PROVIDER

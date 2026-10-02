@@ -13,7 +13,7 @@ tài khoản ${brand_service} của bạn vẫn sẽ tiếp tục trải qua s�
 nhân viên của chúng tôi, điều này sẽ diễn ra trong khoảng 24 giờ. Bạn sẽ nhận
 được thông báo chấp thuận thông qua email.
 
-Xác minh [${url}]If you can’t select the button, copy and paste this link to
+Xác minh [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

@@ -14,7 +14,7 @@ ${brand_service} est toujours soumis à l'approbation de notre équipe, ce qui
 prend généralement moins de 24 heures. Vous serez informé(e) de l’approbation
 par un autre e-mail.
 
-Vérifier [${url}]If you can’t select the button, copy and paste this link to
+Vérifier [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

@@ -6,7 +6,7 @@ IL TUO NUOVO PROFILO SU ${brand}
 Un nuovo team di ${brand} è stato creato con ${email}. Sei pregato di verificare
 la tua email.
 
-Verifica [${url}]If you can’t select the button, copy and paste this link to
+Verifica [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

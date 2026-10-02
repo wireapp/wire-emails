@@ -7,7 +7,7 @@ Nous avons reçu une demande de suppression de votre compte ${brand}. Cliquez su
 le lien ci-dessous dans les 10 minutes pour supprimer toutes vos conversations,
 contenus et connexions.
 
-Supprimer le compte [${url}]If you can’t select the button, copy and paste this
+Supprimer le compte [${url}] If you can’t select the button, copy and paste this
 link to your browser:
 
 ${url}

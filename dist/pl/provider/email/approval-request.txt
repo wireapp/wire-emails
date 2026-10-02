@@ -22,7 +22,7 @@ rozmów.
 Jeśli wniosek wydaje się wątpliwy, skontaktuj się z dostawcą w celu uzyskania
 wyjaśnień.
 
-Zatwierdź [${url}]If you can’t select the button, copy and paste this link to
+Zatwierdź [${url}] If you can’t select the button, copy and paste this link to
 your browser:
 
 ${url}

@@ -8,7 +8,7 @@ ${email}.
 
 Desfrute de trabalho em equipe seguro com ${brand}!
 
-Abrir ${brand} [${url}]Se você não conseguir selecionar o botão, copie e cole
+Abrir ${brand} [${url}] Se você não conseguir selecionar o botão, copie e cole
 este link no seu navegador:
 
 ${url}

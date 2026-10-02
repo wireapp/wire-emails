@@ -13,7 +13,7 @@ Team ID: ${team_id}
 
 Permissions: ${permissions}
 
-Open Team Management [${url}]Herhangi bir sorunuz veya yardıma ihtiyacınız
+Open Team Management [${url}] Herhangi bir sorunuz veya yardıma ihtiyacınız
 varsa, lütfen bize ulaşın [${support}].
 
 

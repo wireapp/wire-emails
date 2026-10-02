@@ -12,7 +12,7 @@ Date: ${date}
 Team name: ${team_name}
 Team ID: ${team_id}
 
-Open Team Management [${url}]Se hai domande, per favore contattaci [${support}].
+Open Team Management [${url}] Se hai domande, per favore contattaci [${support}].
 
 
 --------------------------------------------------------------------------------
