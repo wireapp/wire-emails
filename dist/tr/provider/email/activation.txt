@@ -1,16 +1,31 @@
-PANINI ERROR
-src/pages/tr/provider/email/activation.html
+[${brand_logo}]
 
-The partial tr/link-button could not be found
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
-Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
-Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
-main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
-HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
-/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+E-POSTANIZI DOĞRULAYIN
+E-posta adresiniz ${email} ${brand_service}'de kayıt için kullanıldı.
+
+E-posta ile kayıt olma işlemini tamamlamak için, aşağıdaki butona tıklayarak
+hesabınızı doğrulayın.
+
+Lütfen e-postanızı başarılı bir şekilde doğruladıktan sonra, ${brand_service}
+hesabınızın, genellikle 24 saat içinde gerçekleşen personelimiz tarafından
+onaylanmaya devam ettiğini lütfen unutmayın. Onay ile ilgili ayrı bir e-posta
+ile bilgilendirileceksiniz.
+
+Doğrula [${url}] If you can’t select the button, copy and paste this link to
+your browser:
+
+${url}
+
+Bu e-posta adresini kullanarak ${brand} bir servis sağlayıcı hesabına
+kaydolmadıysanız, bu iletiyi güvenle yok sayabilirsiniz. E-posta adresinizin
+kötüye kullanımını bildirmek isterseniz, lütfen bize ulaşın. [${support}]
+
+Lütfen bu iletiyi yanıtlamayın.
+
+
+--------------------------------------------------------------------------------
+
+Privacy policy and terms of use [${legal}] · Report Misuse [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

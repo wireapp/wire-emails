@@ -1,1 +1,1 @@
-Panini Error
+Il tuo nuovo indirizzo email su ${brand}
