@@ -77,9 +77,14 @@ function renameLocaleDirectory(directory, filename) {
       return;
     }
     if (fs.existsSync(dest)) {
-      fs.removeSync(dest);
+      // Merge the download over the existing locale dir: translated files
+      // overwrite their repo-side counterpart (fs-extra copySync defaults to
+      // overwrite: true), files only present repo-side survive the build.
+      fs.copySync(source, dest);
+      fs.removeSync(source);
+    } else {
+      fs.moveSync(source, dest);
     }
-    fs.moveSync(source, dest);
   }
 }
 
@@ -98,6 +103,14 @@ for ([directory, filename] of allDirs) {
       };
       try {
         const changes = replace.sync(options);
+        // Crowdin's pt-BR translations spell the locale prefix "pr_BR"; normalize
+        // it so partial resolution doesn't depend on a Crowdin-side fix.
+        const prBr = {
+          ...options,
+          from: /\{\{\> pr_BR\//g,
+          to: '{{> pt/',
+        };
+        replace.sync(prBr);
       } catch (error) {
         console.error('Error while replacing partial locale paths:', error);
       }
