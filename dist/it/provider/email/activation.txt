@@ -1,16 +1,34 @@
-PANINI ERROR
-src/pages/it/provider/email/activation.html
+[${brand_logo}]
 
-The partial it/link-button could not be found
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
-Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
-Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
-main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
-HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
-/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+VERIFICA IL TUO INDIRIZZO E-MAIL
+Il tuo indirizzo email ${email} è stato usato per registrarsi come un
+${brand_service}.
+
+Per completare la registrazione, è necessario che tu verifichi il tuo indirizzo
+e-mail cliccando sul pulsante sotto.
+
+Sei pregato di notare che dopo aver verificato correttamente la tua email, il
+tuo profilo di ${brand_service} è ancora soggetto ad approvazione dal nostro
+staff, il che si verifica di solito entro 24 ore. Sarai informato
+dell'approvazione tramite un'email separata.
+
+Verifica [${url}] If you can’t select the button, copy and paste this link to
+your browser:
+
+${url}
+
+Se non ti registri per un profilo del fornitore di servizi di ${brand} usando
+questo indirizzo email, puoi ignorare tranquillamente questo messaggio. Se vuoi
+segnalare l'abuso del tuo indirizzo email, sei pregato di contattarci.
+[${support}]
+
+Si prega di non rispondere a questo messaggio.
+
+
+--------------------------------------------------------------------------------
+
+Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
+[${misuse}]
+${copyright}. TUTTI I DIRITTI RISERVATI.

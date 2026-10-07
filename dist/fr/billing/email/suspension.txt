@@ -1,16 +1,25 @@
-PANINI ERROR
-src/pages/fr/billing/email/suspension.html
+[${brand_logo}]
 
-The partial fr/link-button could not be found
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
-Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
-Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:35:28)
-main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
-HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
-/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+VOTRE ÉQUIPE A ÉTÉ SUSPENDUE
+Votre compte pour l’équipe ${team_name} a été suspendu.
+
+Raison : ${reason}.
+
+${caption} [${url}] If you can’t select the button, copy and paste this link to
+your browser:
+
+${url}
+
+Si vous ne réactivez pas votre compte, l'historique des conversations de
+l'équipe et de tous ses membres sera supprimé.
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
