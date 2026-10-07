@@ -1,1 +1,1 @@
-Onay İsteği: ${brand_service}
+Panini Error

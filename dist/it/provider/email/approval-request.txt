@@ -1,37 +1,16 @@
-[${brand_logo}]
+PANINI ERROR
+src/pages/it/provider/email/approval-request.html
 
-${brand_label_url} [${brand_url}]
+The partial it/link-button could not be found
 
-RICHIESTA DI APPROVAZIONE
-Un nuovo ${brand_service} si è registrato ed è in attesa di approvazione. Sei
-pregato di rivedere le informazioni fornite sotto.
-
-Nome: ${name}
-
-Email: ${email}
-
-Sito web: ${url}
-
-Descrizione: ${description}
-
-Se la richiesta sembra genuina, puoi approvare il provider cliccando sul
-pulsante sotto. Una volta approvato, il provider potrà accedere ed avviare i
-servizi di registrazione che gli utenti di ${brand} possono aggiungere alle
-proprie conversazioni.
-
-Se la richiesta sembra dubbia, sei pregato di contattare il provider per
-chiarimenti prima di procedere.
-
-Approva [${url}] If you can’t select the button, copy and paste this link to
-your browser:
-
-${url}
-
-Si prega di non rispondere a questo messaggio.
-
-
---------------------------------------------------------------------------------
-
-Politica della privacy e termini d'uso [${legal}] · Segnala Uso Scorretto
-[${misuse}]
-${copyright}. TUTTI I DIRITTI RISERVATI.
+STACK TRACE:
+Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
+Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
+Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
+main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
+ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
+HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
+/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
+Array.map (<anonymous>)
+Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
