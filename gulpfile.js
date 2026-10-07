@@ -13,6 +13,7 @@ const merge = require('merge-stream');
 const beep = require('beepbeep');
 const colors = require('colors');
 const gulpSass = require('gulp-dart-sass');
+const glob = require('glob');
 
 const $ = plugins();
 
@@ -23,7 +24,7 @@ const EMAIL = yargs.argv.to;
 let paniniInstance;
 
 // Build the "dist" folder by running all of the below tasks
-gulp.task('build', gulp.series(clean, partials, pages, sass, inline));
+gulp.task('build', gulp.series(clean, partials, pages, sass, inline, checkPanini));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default', gulp.series('build', server, watch));
@@ -90,6 +91,24 @@ function inline() {
     .src('dist/**/*.html')
     .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
     .pipe(gulp.dest('dist'));
+}
+
+// Fail the build if panini rendered any error pages (it swallows per-page
+// render exceptions and substitutes an error page instead of failing).
+function checkPanini(done) {
+  glob('dist/**/*.html', (err, files) => {
+    if (err) return done(err);
+    let broken;
+    try {
+      broken = files.filter(f => fs.readFileSync(f, 'utf8').includes('<!-- __PANINI_ERROR__ -->'));
+    } catch (e) {
+      return done(e);
+    }
+    if (broken.length) {
+      return done(new Error(`Panini rendered ${broken.length} error page(s):\n${broken.join('\n')}`));
+    }
+    done();
+  });
 }
 
 // Start a server with LiveReload to preview the site in
