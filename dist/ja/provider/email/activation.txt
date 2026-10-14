@@ -1,16 +1,28 @@
-PANINI ERROR
-src/pages/ja/provider/email/activation.html
+[${brand_logo}]
 
-The partial ja/link-button could not be found
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
-Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
-Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
-main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
-HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
-/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+メールアドレス認証
+あなたのメール アドレス ${email} は、${brand_service} としての登録に使用されました。
+
+登録を完了するには、下のボタンをクリックして、メールアドレスを認証する必要があります。
+
+メールアドレスの認証が成功しても、 ${brand_service}
+アカウントは、通常24時間以内に行われるスタッフによる承認の対象となります。承認結果は別途メールで通知されます。
+
+認証 [${url}] If you can’t select the button, copy and paste this link to your
+browser:
+
+${url}
+
+このメール アドレスを使用して、${brand}
+サービスプロバイダのアカウントを登録してない場合は、このメッセージを無視してかまいません。メールアドレスの不正使用を報告する場合は、私たちにご連絡
+[${support}]ください。
+
+このメッセージには返信しないでください。
+
+
+--------------------------------------------------------------------------------
+
+プライバシーポリシーと利用規約 [${legal}] · 不具合を報告する [${misuse}]
+${copyright}. ALL RIGHTS RESERVED.

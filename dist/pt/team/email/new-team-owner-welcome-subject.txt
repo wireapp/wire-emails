@@ -1,1 +1,1 @@
-Panini Error
+Você entrou em uma equipe em ${brand}

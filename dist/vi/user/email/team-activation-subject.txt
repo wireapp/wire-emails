@@ -1,1 +1,1 @@
-Panini Error
+Tài khoản ${brand}

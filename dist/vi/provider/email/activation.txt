@@ -1,16 +1,32 @@
-PANINI ERROR
-src/pages/vi/provider/email/activation.html
+[${brand_logo}]
 
-The partial vi/link-button could not be found
+${brand_label_url} [${brand_url}]
 
-STACK TRACE:
-Object.invokePartial (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:332:11)
-Object.invokePartialWrapper [as invokePartial] (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:84:39)
-Object.eval [as main] (eval at createFunctionContext (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:262:23), <anonymous>:17:28)
-main (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:208:32)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/runtime.js:212:12)
-ret (/home/runner/work/wire-emails/wire-emails/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:519:21)
-HandlebarsEngine.render (/home/runner/work/wire-emails/wire-emails/node_modules/panini/engines/handlebars.js:93:14)
-/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:152:40
-Array.map (<anonymous>)
-Panini.build (/home/runner/work/wire-emails/wire-emails/node_modules/panini/lib/render.js:146:23)
+subject: "Tài khoản ${brand_service} của bạn"XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
+Địa chỉ email ${email} của bạn đã được sử dụng để đăng ký ${brand_service}.
+
+Để hoàn thiện quá trình đăng ký, bạn cần phải xác minh đại chỉ email của bạn
+bằng cách nhấp vào nút ở phía bên dưới.
+
+Xin vui lòng chú ý rằng một khi đã xác minh thành công địa chỉ email của bạn,
+tài khoản ${brand_service} của bạn vẫn sẽ tiếp tục trải qua sự phê duyệt của
+nhân viên của chúng tôi, điều này sẽ diễn ra trong khoảng 24 giờ. Bạn sẽ nhận
+được thông báo chấp thuận thông qua email.
+
+Xác minh [${url}] If you can’t select the button, copy and paste this link to
+your browser:
+
+${url}
+
+Nếu bạn không đăng ký tài khoản nhà cung cấp dịch vụ cho ${brand} bằng địa chỉ
+email nàu, bạn có thể an toàn bằng cách bỏ qua tin nhắn này. Nếu bạn muốn báo
+cáo lạm dụng địa chỉ email của bạn, vui lòng liên hệ với chúng tôi. [${support}]
+
+Vui lòng không trả lời tin nhắn này.
+
+
+--------------------------------------------------------------------------------
+
+Chính sách riêng tư và điều khoản sử dụng [${legal}] · Báo cáo Lạm dụng
+[${misuse}]
+${copyright}. ĐÃ ĐƯỢC ĐĂNG KÝ BẢN QUYỀN.

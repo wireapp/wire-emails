@@ -1,0 +1,42 @@
+---
+subject: 'Invito: ${meeting_title}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4 class="text-left">${meeting_title}</h4>
+      <p>${host_name} (${host_email}) ti ha invitato a una riunione su Wire.</p>
+
+      <p>
+        <strong>Quando</strong>
+        <br />
+        ${start_date}
+        <br />
+        ${start_time} – ${end_time} (${timezone_short})
+        <br />
+        <a href="${ics_url}">Aggiungi al calendario</a>
+      </p>
+
+      <p>
+        <strong>Come partecipare</strong>
+        <br />
+        Al momento della riunione, seleziona «Partecipa alla riunione» qui sotto. Puoi anche incollare questo link nel browser:
+        <br />
+        <a href="${join_url}">${join_url}</a>
+      </p>
+
+      <center><button href="${join_url}" class="expanded radius">Partecipa alla riunione</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          <a href="${support}">Segnala un invito abusivo</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> it/what-is-wire}}
+    </columns>
+  </row>
+  {{> it/any-questions}}
+</container>
+{{> it/footer-new}}
