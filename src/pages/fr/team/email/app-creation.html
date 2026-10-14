@@ -1,0 +1,22 @@
+---
+subject: 'Une nouvelle application a été créée dans votre équipe'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Nouvelle application créée</h4>
+      <p>${actor} a créé une application dans votre équipe.</p>
+      <p><strong>Nom de l'application :</strong> ${app_name}<br>
+         <strong>Date :</strong> ${date}</p>
+      <p><strong>Nom de l'équipe :</strong> ${team_name}<br>
+         <strong>ID de l'équipe :</strong> ${team_id}</p>
+      <p><strong>Autorisations :</strong> ${permissions}</p>
+      <div style="height: 16px;"></div>
+      <div style="text-align: center;"><button href="${url}" class="radius">Ouvrir la gestion de l'équipe</button></div>
+      <div style="height: 8px;"></div>
+      {{> fr/questions}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

@@ -1,0 +1,22 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+MISE À JOUR DU JETON D'AUTHENTIFICATION D'UNE APPLICATION
+${actor} a mis à jour le jeton d'authentification d'une application de votre
+équipe.
+
+Nom de l'application : ${app_name}
+Date : ${date}
+
+Nom de l'équipe : ${team_name}
+ID de l'équipe : ${team_id}
+
+Ouvrir la gestion de l'équipe [${url}] Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

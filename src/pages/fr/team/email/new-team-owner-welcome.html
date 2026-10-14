@@ -1,0 +1,22 @@
+---
+subject: 'Vous avez rejoint une équipe sur ${brand}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h1>Félicitations <strong>${name}</strong>.</h1>
+      <p>
+        Nous avons transféré votre compte personnel <strong>${email}</strong> vers un compte d'équipe, y compris toutes vos
+        conversations et tout votre historique. Vous êtes désormais propriétaire de l'équipe (<strong>${team_name}</strong>).
+      </p>
+      <spacer size="24"></spacer>
+      <p>Invitez d'autres personnes à rejoindre votre équipe et ajustez les paramètres dans votre tableau de bord de gestion d'équipe.</p>
+      <spacer size="24"></spacer>
+      <center><button href="${url}" class="radius">OUVRIR LA GESTION DE L'ÉQUIPE</button></center>
+      <spacer size="24"></spacer>
+      {{> fr/link-button}} {{> fr/questions}} {{> fr/team-id}}
+    </columns>
+  </row>
+</container>
+{{> fr/footer}}

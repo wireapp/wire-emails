@@ -1,0 +1,13 @@
+Supprimé :
+
+Empreinte ${algorithm} :
+${fingerprint}
+
+Objet :
+${subject}
+
+Émetteur :
+${issuer}
+
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,25 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+BIENVENUE CHEZ ${team_name}.
+Vous venez de rejoindre une équipe appelée ${team_name} sur ${brand} avec 
+${email}.
+
+Profitez d'une collaboration fluide et sécurisée avec ${brand} !
+
+Ouvrir ${brand} [${url}] Si vous ne pouvez pas sélectionner le bouton,
+copiez-collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+Identifiant d'équipe : ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

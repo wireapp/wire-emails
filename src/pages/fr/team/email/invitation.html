@@ -1,0 +1,28 @@
+---
+subject: 'Vous avez été invité à rejoindre une équipe sur ${brand}'
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Invitation à une équipe</h4>
+      <p class="text-center">${inviter} vous a invité à rejoindre une équipe sur Wire.</p>
+      <center><button href="${url}" class="expanded radius">Rejoindre l'équipe</button></center>
+
+      <center>
+        <p class="text-center x-small">
+          Ou ouvrez ce lien dans votre navigateur :
+          <br />
+          <a href=" ${url}">${url}</a>
+        </p>
+        <p class="text-center x-small">
+          <a href="${support}">Signaler une invitation abusive</a>
+        </p>
+      </center>
+      <spacer size="8"></spacer>
+      {{> fr/what-is-wire}}
+    </columns>
+  </row>
+  {{> fr/any-questions}}
+</container>
+{{> fr/footer-new}}

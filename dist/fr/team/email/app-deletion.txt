@@ -1,0 +1,21 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+APPLICATION SUPPRIMÉE
+${actor} a supprimé une application dans votre équipe.
+
+Nom de l'application : ${app_name}
+Date : ${date}
+
+Nom de l'équipe : ${team_name}
+ID de l'équipe : ${team_id}
+
+Ouvrir la gestion de l'équipe [${url}] Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

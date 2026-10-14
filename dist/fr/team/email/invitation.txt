@@ -1,0 +1,23 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+INVITATION À UNE ÉQUIPE
+${inviter} vous a invité à rejoindre une équipe sur Wire.
+
+Rejoindre l'équipe [${url}] Ou ouvrez ce lien dans votre navigateur :
+${url} [${url}]
+
+Signaler une invitation abusive [${support}]
+
+Qu’est-ce que Wire ? Wire est la plateforme de collaboration la plus sécurisée.
+Travaillez avec votre équipe et vos partenaires externes où que vous soyez par
+messages, visioconférence et partage de fichiers – toujours sécurisé grâce au
+chiffrement de bout en bout.
+En savoir plus [https://wire.com/].
+
+Des questions ? Contactez-nous [${support}]
+
+Politique de confidentialité et conditions d’utilisation [${legal}]· Signaler un
+abus [${misuse}]
+${copyright}. Tous droits réservés.

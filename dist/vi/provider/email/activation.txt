@@ -2,7 +2,7 @@
 
 ${brand_label_url} [${brand_url}]
 
-subject: "Tài khoản ${brand_service} của bạn"XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
+XÁC MINH ĐỊA CHỈ EMAL CỦA BẠN
 Địa chỉ email ${email} của bạn đã được sử dụng để đăng ký ${brand_service}.
 
 Để hoàn thiện quá trình đăng ký, bạn cần phải xác minh đại chỉ email của bạn

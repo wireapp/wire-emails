@@ -1,0 +1,27 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+FÉLICITATIONS ${name}.
+Nous avons transféré votre compte personnel ${email} vers un compte d'équipe, y
+compris toutes vos conversations et tout votre historique. Vous êtes désormais
+propriétaire de l'équipe (${team_name}).
+
+Invitez d'autres personnes à rejoindre votre équipe et ajustez les paramètres
+dans votre tableau de bord de gestion d'équipe.
+
+OUVRIR LA GESTION DE L'ÉQUIPE [${url}] Si vous ne pouvez pas sélectionner le
+bouton, copiez-collez ce lien dans votre navigateur :
+
+${url}
+
+Si vous avez des questions, veuillez nous contacter [${support}].
+
+Identifiant d'équipe : ${team_id}
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

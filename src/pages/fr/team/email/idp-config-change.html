@@ -1,0 +1,38 @@
+---
+subject: "La configuration du fournisseur d'identité de votre équipe a été modifiée"
+---
+
+<container>
+  <row>
+    <columns small="12">
+      <h4>Modification de la configuration de votre fournisseur d'identité</h4>
+      <p>La configuration IdP de votre équipe a été modifiée.</p>
+      <p>
+        ID de l'équipe :
+        <br />
+        <span class="mono">${team_id}</span>
+      </p>
+      <p>
+        ID utilisateur :
+        <br />
+        <span class="mono">${user_id}</span>
+      </p>
+      <hr />
+      <p><strong>Détails :</strong></p>
+      <p>ID IdP :<br /><span class="mono">${idp_id}</span></p>
+      <p>Nouvel émetteur IdP :<br /><span class="mono">${new_idp_issuer}</span></p>
+      <p>Nouveau point de terminaison IdP :<br /><span class="mono">${new_idp_endpoint}</span></p>
+      <p>Ancien émetteur IdP :<br /><span class="mono">${old_idp_issuer}</span></p>
+      <p>Ancien point de terminaison IdP :<br /><span class="mono">${old_idp_endpoint}</span></p>
+      <hr />
+      ${certificates_details}
+      <p>
+        <strong>
+          Si vous n'êtes pas à l'origine de cette modification, veuillez <a href="${support}">contacter l'assistance Wire.</a>
+        </strong>
+      </p>
+      <spacer size="8"></spacer>
+    </columns>
+  </row>
+</container>
+{{> fr/footer-new}}

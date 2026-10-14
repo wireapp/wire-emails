@@ -1,0 +1,42 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+MODIFICATION DE LA CONFIGURATION DE VOTRE FOURNISSEUR D'IDENTITÉ
+La configuration IdP de votre équipe a été modifiée.
+
+ID de l'équipe :
+${team_id}
+
+ID utilisateur :
+${user_id}
+
+
+--------------------------------------------------------------------------------
+
+Détails :
+
+ID IdP :
+${idp_id}
+
+Nouvel émetteur IdP :
+${new_idp_issuer}
+
+Nouveau point de terminaison IdP :
+${new_idp_endpoint}
+
+Ancien émetteur IdP :
+${old_idp_issuer}
+
+Ancien point de terminaison IdP :
+${old_idp_endpoint}
+
+
+--------------------------------------------------------------------------------
+
+${certificates_details}Si vous n'êtes pas à l'origine de cette modification,
+veuillez contacter l'assistance Wire. [${support}]
+
+Politique de confidentialité et conditions d’utilisation [${legal}]· Signaler un
+abus [${misuse}]
+${copyright}. Tous droits réservés.

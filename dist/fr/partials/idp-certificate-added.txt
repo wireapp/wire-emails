@@ -1,0 +1,13 @@
+Ajouté :
+
+Empreinte ${algorithm} :
+${fingerprint}
+
+Objet :
+${subject}
+
+Émetteur :
+${issuer}
+
+
+--------------------------------------------------------------------------------

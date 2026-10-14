@@ -1,0 +1,22 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+DÉTAILS MODIFIÉS POUR UNE APPLICATION
+${actor} a modifié les détails d'une application de votre équipe.
+
+Nouveau nom : ${new_app_name}
+Nom précédent : ${previous_app_name}
+Date : ${date}
+
+Nom de l'équipe : ${team_name}
+ID de l'équipe : ${team_id}
+
+Ouvrir la gestion de l'équipe [${url}] Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.

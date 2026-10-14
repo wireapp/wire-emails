@@ -1,0 +1,24 @@
+[${brand_logo}]
+
+${brand_label_url} [${brand_url}]
+
+MODIFICATION DE LA DISPONIBILITÉ D'UNE APPLICATION
+${actor} a modifié la disponibilité d'une application de votre équipe.
+
+Nom de l'application : ${app_name}
+Date : ${date}
+
+Disponibilité précédente : ${previous_availability}
+Nouvelle disponibilité : ${new_availability}
+
+Nom de l'équipe : ${team_name}
+ID de l'équipe : ${team_id}
+
+Ouvrir la gestion de l'équipe [${url}] Si vous avez des questions, veuillez nous contacter [${support}].
+
+
+--------------------------------------------------------------------------------
+
+Règles de confidentialité et conditions d'utilisation [${legal}] · Signaler un
+abus [${misuse}]
+${copyright}. TOUS DROITS RÉSERVÉS.
