@@ -20,9 +20,9 @@ ${join_url} [${join_url}]
 
 Join meeting [${join_url}] Report abusive invitation [${support}]
 
-What is Wire? Wire is the most secure collaboration platform. Work with your
-team and external partners wherever you are through messages, video conferencing
-and file sharing – always secured with end-to-end-encryption.
+What is Wire? Secure messaging, video calls, and file sharing for organizations,
+end-to-end encrypted by default. Trusted by more than 1,800 organizations
+worldwide.
 Learn more [https://wire.com/].
 
 Any questions? Contact us [${support}]
