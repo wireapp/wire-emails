@@ -12,8 +12,7 @@ ${start_time} – ${end_time} (${timezone_short})
 The meeting has been removed from your calendar.
 
 What is Wire? Secure messaging, video calls, and file sharing for organizations,
-end-to-end encrypted by default. Trusted by more than 1,800 organizations
-worldwide.
+end-to-end encrypted by default.
 Learn more [https://wire.com/].
 
 Any questions? Contact us [${support}]
